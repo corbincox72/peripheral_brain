@@ -60,25 +60,26 @@ a {
   font-family: Helvetica, Arial, sans-serif;
 }
 p{
-  margin: 2% 10%;
+  margin: 1% 10%;
   text-align: justify;
 }
 h1{
   text-align: left;
   font-size: 4vh;
   padding-bottom: 1%;
-  margin: 2% 10%;
+  margin: 1% 10%;
   border-bottom: 1px solid black;
 }
 h2{
   text-align: left;
   font-weight: bold;
-  font-size: 2vh;
-  margin: 2% 10%;
+  font-size: 3vh;
+  margin: 1% 10%;
 }
 h3{
+  font-size: 2vh;
   text-align: left;
-  margin: 2% 10%;
+  margin: 1% 10%;
 }
 
 /* Navigation */
