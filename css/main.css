@@ -73,7 +73,7 @@ h1{
 h2{
   text-align: left;
   font-weight: bold;
-  font-size: 3vh;
+  font-size: 2.5vh;
   margin: 1% 10%;
 }
 h3{
@@ -130,4 +130,9 @@ h3{
 .footer-links > li{
   display: block;
   padding: 1vh 0 1vh;
+}
+
+/* Disease Pages */
+.disease-page h2~h2{
+  margin-top: 2%;
 }
