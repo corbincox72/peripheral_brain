@@ -1,7 +1,12 @@
 /* Global */
 body{
   background-color: #EEE2DC;
-  font-family: Helvetica Arial sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+}
+a {
+  color: #565656;
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 /* Navigation */
@@ -22,8 +27,11 @@ body{
     margin: 0px;
     padding: 1em;
     width: 160px;
-    height: 100px;
     background-color: #EDC7B7;
+}
+
+.nav-links > li{
+  padding: 5px;
 }
 
 .navlinks > li a {
@@ -36,4 +44,10 @@ body{
 .nav-links > li a:hover {
     background-color: #555;
     color: white;
+}
+
+
+/* Disease Link */
+.disease{
+  list-style-type: none
 }
