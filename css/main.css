@@ -1,0 +1,39 @@
+/* Global */
+body{
+  background-color: #EEE2DC;
+  font-family: Helvetica Arial sans-serif;
+}
+
+/* Navigation */
+.nav-links{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a{
+  display: block;
+  color: #123C69;
+  text-decoration: none
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0px;
+    padding: 1em;
+    width: 160px;
+    height: 100px;
+    background-color: #EDC7B7;
+}
+
+.navlinks > li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+.nav-links > li a:hover {
+    background-color: #555;
+    color: white;
+}
