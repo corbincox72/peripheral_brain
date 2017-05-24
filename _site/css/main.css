@@ -183,7 +183,7 @@ div.panel {
 button.accordion:after {
   content: ">";
   transform:rotate(90deg);
-    float: left;
+    float: right;
 }
 
 button.accordion.active:after {
