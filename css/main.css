@@ -68,19 +68,21 @@ h1{
   text-align: left;
   font-size: 4vh;
   padding-bottom: 1%;
-  margin: 1% 10%;
+  margin: 2% 10% 1%;
   border-bottom: 1px solid black;
 }
 h2{
   text-align: left;
   font-weight: bold;
   font-size: 2.5vh;
-  margin: 1% 10%;
+  margin: 2% 10% 1%;
 }
 h3{
   font-size: 2vh;
   text-align: left;
-  margin: 1% 10%;
+  margin: 2% 10% 1%;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 /* Navigation */
@@ -169,4 +171,27 @@ h3{
 .formulas{
   text-align: center;
   display: block;
+}
+
+/* Labs */
+table{
+  margin: 1% 10%;
+  text-align: justify;
+}
+tr:hover{
+  background: #8590aa;
+}
+th,
+td{
+  padding: 0.25em 1em;
+  border-bottom: 1px solid #000;
+}
+th{
+  font-weight: bold;
+}
+.chem7 tr:last-child{
+  border-top: 2px solid #000;
+}
+.chem7 tr > td{
+  border-bottom: none;
 }
