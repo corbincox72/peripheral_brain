@@ -132,6 +132,26 @@ h3{
   padding: 1vh 0 1vh;
 }
 
+/* Posts */
+.post{
+  margin-right: 12%;
+  margin-left: 12%;
+  display: block;
+  border-bottom: 1px solid black;
+}
+.post h1, .post h2, .post p{
+  margin: 2% 0;
+}
+
+.post-archive{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.post-archive h1, .post-archive h2, .post-archive p{
+  margin: 2% 0;
+}
+
+
 /* Disease Pages */
 .disease-page h1{
   margin-top: 3%;

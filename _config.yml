@@ -24,3 +24,6 @@ github_username:  corbincox72
 markdown: kramdown
 gems:
   - jekyll-feed
+
+include: ['_pages']
+excerpt_separator: <!--more-->

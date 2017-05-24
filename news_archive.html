@@ -1,12 +1,11 @@
 ---
 layout: default
-title: The Peripheral Brain
+title: News Archive
 ---
 
-<h1>News</h1>
-<ul class="post-list">
-{% for post in site.posts limit: 10 %}
-  <li class="post">
+<ul class="post-list post-list-archive">
+{% for post in site.posts %}
+  <li class="post post-archive">
     <a href="{{ post.url }}"><h2>{{ post.title }} | {{ post.date | date: "%m/%d/%Y" }}</h2></a>
     <p>{{ post.content }}
   </li>
