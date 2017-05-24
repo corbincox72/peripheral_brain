@@ -7,7 +7,7 @@ title: The Peripheral Brain
 <ul class="post-list">
 {% for post in site.posts limit: 10 %}
   <li class="post">
-    <a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.title }} | {{ post.date | date: "%m/%d/%Y" }}</h2></a>
+    <a href="{{ site.baseurl }} {{ post.url }}"><h2>{{ post.title }} | {{ post.date | date: "%m/%d/%Y" }}</h2></a>
     <p>{{ post.content }}
   </li>
 {% endfor %}
