@@ -167,5 +167,6 @@ h3{
 
 /* Formulas */
 .formulas{
-  text-align: center
+  text-align: center;
+  display: block;
 }
