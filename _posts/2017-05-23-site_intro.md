@@ -3,7 +3,7 @@ layout: post
 title: Hello and Welcome!
 ---
 
-# Hello and welcome to *The Peripheral Brain*
+## Hello and welcome to *The Peripheral Brain*
 
 This website is being used as a repository for all thing Purdue College of Pharmacy Therapeutics. Please visit the [About Page](about.html) if you have any bugs to report or suggestions to make. If you're interested in helping produce content for this website, feel free to contact me, Corbin Cox, in the GroupMe, via text, email, carrier pigeon, message-in-a-bottle, smoke signals, or your personal favorite mode of communication.
 
