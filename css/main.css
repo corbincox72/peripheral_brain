@@ -191,12 +191,6 @@ td{
 th{
   font-weight: bold;
 }
-.chem7 tr:last-child{
-  border-top: 2px solid #000;
-}
-.chem7 tr > td{
-  border-bottom: none;
-}
-.chem7 tr:hover{
-  background: none;
+.chem7{
+  margin-left: 10%;
 }
