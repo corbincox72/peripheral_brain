@@ -196,3 +196,6 @@ th{
 .chem7 tr > td{
   border-bottom: none;
 }
+.chem7 tr:hover{
+  background: none
+}
