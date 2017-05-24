@@ -174,9 +174,6 @@ button.accordion {
     background: #e7e3d4;
     color: #b23850;
 }
-button.accordion:hover{
-  color: #8590aa;
-}
 div.panel {
     display: none;
 }
@@ -185,7 +182,6 @@ button.accordion:after {
   transform:rotate(90deg);
     float: right;
 }
-
 button.accordion.active:after {
     content: "-";
     transform: none
