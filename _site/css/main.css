@@ -194,6 +194,10 @@ button.accordion.active:after {
 .disease-page h2~h2{
   margin-top: 2%;
 }
+.disease-titles{
+  text-align: center;
+  border-bottom: none;
+}
 
 /* Formulas */
 .formulas{
