@@ -180,7 +180,7 @@ table{
   margin: 1% 10%;
   text-align: justify;
 }
-tr:hover{
+tr~tr:hover{
   background: #8590aa;
 }
 th,
