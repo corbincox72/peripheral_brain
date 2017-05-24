@@ -6,7 +6,7 @@ title: News Archive
 <ul class="post-list post-list-archive">
 {% for post in site.posts %}
   <li class="post post-archive">
-    <a href="{{ site.url }}{{ post.url }}"><h2>{{ post.title }} | {{ post.date | date: "%m/%d/%Y" }}</h2></a>
+    <a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.title }} | {{ post.date | date: "%m/%d/%Y" }}</h2></a>
     <p>{{ post.content }}
   </li>
 {% endfor %}
