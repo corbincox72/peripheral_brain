@@ -163,3 +163,9 @@ h3{
 .disease-page h2~h2{
   margin-top: 2%;
 }
+
+
+/* Formulas */
+.formulas{
+  text-align: center
+}
