@@ -16,8 +16,8 @@
 title: The Peripheral Brain
 email: corbincox72@gmail.com
 description: ""
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://corbincox72.github.io/peripheral_brain" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "peripheral_brain" # the subpath of your site, e.g. /blog
+url: "https://corbincox72.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  corbincox72
 
 # Build settings
