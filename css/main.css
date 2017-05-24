@@ -50,12 +50,13 @@ a img {
 
 
 /* Global */
-body{
-  background-color: #EEE2DC;
+.body{
+  background-color: #c4dbf6;
   font-family: Helvetica, Arial, sans-serif;
+  min-height: 100vh;
 }
 a {
-  color: red;
+  color: #3b8beb;
   text-decoration: none;
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -84,10 +85,10 @@ h3{
 
 /* Navigation */
 .menus{
-    background-color: #EDC7B7;
+    background-color: #e7e3d4;
 }
 .menus a{
-  color: blue;
+  color: #b23850;
   text-decoration: none;
   list-style-type: none;
 }
@@ -104,7 +105,7 @@ h3{
   padding-right: 1em;
 }
 .nav-links > li a:hover {
-    color: orange;
+    color: #8590aa;
 }
 .header img{
   float:left;
@@ -112,7 +113,7 @@ h3{
   padding-right: 1vh
 }
 .nav-links > li ~ li {
-  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  border-left: 1px solid #b23850;
 }
 
 
@@ -126,6 +127,7 @@ h3{
   display: block;
   text-align: center;
   font-size: 2.5vh;
+  padding-bottom: 1px;
 }
 .footer-links > li{
   display: block;
@@ -137,12 +139,14 @@ h3{
   margin-right: 12%;
   margin-left: 12%;
   display: block;
-  border-bottom: 1px solid black;
 }
 .post h1, .post h2, .post p{
   margin: 2% 0;
 }
-
+.post ~ .post{
+  border-top: 1px solid black;
+  margin-top: 4px;
+}
 .post-archive{
   margin-right: 10%;
   margin-left: 10%;
