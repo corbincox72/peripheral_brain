@@ -31,8 +31,8 @@
 
 
 <div class="disease-page">
-<h1>Fat Soluble Vitamins</h1>
-
+<button class="accordion">Fat Soluble Vitamins</button>
+<div class="panel">
 <h2>Vitamin A (<em>Retinol, retinal, and retinoic acid</em>)</h2>
 
 <p><strong>Physiology:</strong> Retinoic acid is used as a steroid hormone for regulating cell growth and differentiation. Retinoic acid is stored in the liver as an ester of palmitate, forming retinol palmitate</p>
@@ -59,9 +59,9 @@
 <p><strong>Epidemiology:</strong> Vitamin K deficiency is rare.</p>
 
 <p><strong>Drug Interactions:</strong> Warfarin acts as a vitamin K antagonist, and inhibits the regeneration of vitamin K via epoxide reductase</p>
-
-<h1 >Water Soluble Vitamins</h1>
-
+</div>
+<button class="accordion">Water Soluble Vitamins</button>
+<div class="panel">
 <h2>Thiamin (<em>Vitamin B1</em>)</h2>
 
 <p><strong>Physiology:</strong> Thiamin pyrophosphate is utilized as a cofactor, and it acts as a carbanion (strong nucleophile). Thiamin triphosphate is utilized in nerve signal transmission in the peripheral nervous system.</p>
@@ -109,9 +109,9 @@
 <p><strong>Physiology:</strong> Vitamin C is used as a cofactor in enzymes involving the hydroxylation of lysine and proline which are then used in collagen. Vitamin C is also used non-enzymatically in the stomach to reduce Iron (III) to Iron (II), which is absorbed better. Laslty, vitamin C acts as a general antioxidant, protecting the other vitamins from oxidation.</p>
 
 <p><strong>Pathophysiology:</strong> Mild vitamin C deficiency leads to decreased immunocompetence and weekend connective tissue causing easy bruising. Severe deficiency causes <em>scurvy</em>, which is characterized by osteoporosis, hemorrhages, anemia, and decreased wound healing.</p>
-
-<h1>Minerals</h1>
-
+</div>
+<button class="accordion">Minerals</button>
+<div class="panel">
 <h2>Calcium</h2>
 
 <p><strong>Physiology:</strong> Calcium is utilized as a structural element in bones and as a second messenger for intracellular signaling. Calcium is also utilized in muscle contraction, nerve signalling, blood coagulation, and the actiation of certain proteins.</p>
@@ -123,9 +123,9 @@
 <p><strong>Physiology:</strong> Iron is used in oxygen transport, metabolism, cell proliferation, and immune function. Free iron is toxic to cells, and as such free iron is sequestered in ferritin while inside cells, and in transferrin while in the blood.</p>
 
 <p><strong>Pathophysiology:</strong> Iron deficiency produces anemia (see Hematologic: Anemia), and is commonly seen in children and menstruating females.</p>
-
-<h1>Trace Minerals</h1>
-
+</div>
+<button class="accordion">Trace Minerals</button>
+<div class="panel">
 <h2>Copper</h2>
 
 <p><strong>Physiology:</strong> Copper is used by many enzymes, including those involved in iron reduction/oxidation as well as enzymes involved in collagen cross linking.</p>
@@ -144,7 +144,31 @@
 
 <p><strong>Pathophysiology:</strong> Zinc deficiency can cause poor growth and sexual development in children, as well as poor wound healing, dermatitis, and impaired immune function. Many individuals have a marginal dietary intake of Zinc.</p>
 </div>
+</div>
 
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+            acc[i].innerHTML = "- "+acc_orig
+        }
+    }
+}
+</script>
 
 <footer class="footer menus">
   <nav>

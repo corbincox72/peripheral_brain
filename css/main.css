@@ -159,6 +159,37 @@ h3{
 }
 
 
+/* Accordion */
+button.accordion {
+    cursor: pointer;
+    width: 80%;
+    text-align: left;
+    transition: 0.4s;
+    font-size: 4vh;
+    padding-bottom: 1%;
+    margin: 2% 10% 1%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: #e7e3d4;
+    color: #b23850;
+}
+button.accordion:hover{
+  color: #8590aa;
+}
+div.panel {
+    display: none;
+}
+button.accordion:after {
+  content: ">";
+  transform:rotate(90deg);
+    float: left;
+}
+
+button.accordion.active:after {
+    content: "-";
+    transform: none
+}
 /* Disease Pages */
 .disease-page h1{
   margin-top: 3%;
