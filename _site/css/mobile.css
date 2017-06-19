@@ -1,0 +1,41 @@
+@media (max-width: 760px) {
+  body {
+    font-size: 14pt;
+    text-align: left;
+  }
+  h1, h2, h3, ul, ol, il, p, button.accordion{
+    margin: 3% 5% 1% 5%;
+    text-align: left;
+  }
+  button.accordion{
+    width: 90% ;
+    padding: 1.5% 1%;
+  }
+  h1, button.accordion {
+    font-size: 1.3em;
+  }
+  h2 {
+    font-size: 1.125em;
+  }
+  table{
+    width: 100%;
+  }
+  th, td {
+    font-size: 11pt;
+  }
+  .footer{
+    text-align: center;
+  }
+  .credits{
+    font-size: 50%
+  }
+
+/* Formulas */
+  .formulas math{
+    display: inline-block;
+    align: left;
+    margin-left: -15%;
+    font-size: 80%;
+    padding: 0;
+  }
+}
