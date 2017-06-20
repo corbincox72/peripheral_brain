@@ -3,16 +3,22 @@
     font-size: 14pt;
     text-align: left;
   }
-  h1, h2, h3, ul, ol, il, p, button.accordion{
+  h1, h2, h3, ul, ol, il, p{
     margin: 3% 5% 1% 5%;
+  }
+  p{
     text-align: left;
   }
   button.accordion{
     width: 90% ;
     padding: 1.5% 1%;
+    margin: 0% 5%;
   }
   h1, button.accordion {
     font-size: 1.3em;
+  }
+  h1{
+    font-weight: bold;
   }
   h2 {
     font-size: 1.125em;
@@ -25,6 +31,9 @@
   }
   .credits{
     font-size: 50%
+  }
+  hr {
+    width: 80%;
   }
 
   /* Header */

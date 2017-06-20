@@ -51,13 +51,14 @@ a img {
 
 /* Global */
 body{
-  background-color: #c4dbf6;
+  background-color: #fdfdfb;
   font-family: Helvetica, Arial, sans-serif;
   min-height: 100vh;
   font-size: 100%;
+  color: #0d1321;
 }
 a {
-  color: #3b8beb;
+  color: #82152b;
   text-decoration: none;
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -66,28 +67,29 @@ p{
   text-align: justify;
 }
 h1{
-  text-align: left;
-  font-size: 2em;
+  text-align: center;
+  font-size: 200%;
   padding-bottom: 1%;
-  margin: 2% 10% 1%;
-  border-bottom: 1px solid black;
-  color: #b23850
+  margin: 1% 10% 1%;
+  color: #1d2d44;
 }
 a h1{
-  color: #3b8beb;
+  color: #82152b;
 }
 h2{
   text-align: left;
   font-weight: bold;
-  font-size: 1.875em;
-  margin: 2% 10% 1%;
+  font-size: 150%;
+  margin: 1% 10% 1%;
+  color: #1d2d44;
 }
 h3{
-  font-size: 1.5em;
+  font-size: 125%;
   text-align: left;
-  margin: 2% 10% 1%;
+  margin: 1% 10% 1%;
   text-decoration: underline;
   font-weight: bold;
+  color: #1d2d44;
 }
 ul, ol{
   margin: 1% 10%;
@@ -104,17 +106,24 @@ il{
   color: #8590aa;
   margin: 1vh 10%;
 }
+hr {
+  width: 60%;
+  border: 1px solid #1d2d44;
+}
+strong, em{
+  color: #1d2d44;
+}
 /* Navigation */
 .menus{
-    background-color: #e7e3d4;
+    background-color: #748cab;
 }
 .menus a{
-  color: #b23850;
+  color: #82152b;
   text-decoration: none;
   list-style-type: none;
 }
 .header {
-    margin: 0 0 5px 0;
+    margin: 0 0 1% 0;
     padding: 1vh 0;
     width: 100%;
     display: inline-block;
@@ -153,6 +162,7 @@ il{
   text-align: center;
   font-size: 2.5vh;
   padding-bottom: 1px;
+  margin-top: 1%;
 }
 .footer-links > li{
   display: block;
@@ -162,8 +172,7 @@ il{
 /* Posts */
 .post{
   display: block;
-  background-color: #e7e3d4;
-  padding: 0.5em 1em;
+  padding: 0.5em 0em;
   margin-top: 1em;
   margin-bottom: 1em;
 }
@@ -191,11 +200,11 @@ button.accordion {
     font-size: 2em;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
-    margin: 2% 10% 1%;
+    margin: 0% 10% 0%;
     border: none;
-    outline: none;
-    background: #e7e3d4;
-    color: #b23850;
+    outline: 1px solid #1d2d44;
+    background: #fdfdfb;
+    color: #82152b;
 }
 div.panel {
     display: none;
@@ -234,11 +243,11 @@ table{
   text-align: justify;
 }
 tr~tr:hover{
-  background: #8590aa;
+  background: #748cab;
 }
 th, td{
   padding: 0.25em 1em;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #1d2d44;
 }
 th{
   font-weight: bold;

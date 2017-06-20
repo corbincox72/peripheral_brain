@@ -3,13 +3,15 @@ layout: default
 title: Home
 ---
 
-<h1 style="border-bottom: 4px solid black;">News</h1>
+<h1>News</h1>
+<hr style="width: 75%; border: 3px solid #1d2d44">
 <ul class="post-list">
 {% for post in site.posts limit: 10 %}
   <li class="post">
     <a href="{{ site.baseurl }}{{ post.url }}"><h1>{{ post.title }} : {{ post.date | date: "%m/%d/%Y" }}</h1></a>
     <p>{{ post.content }}
   </li>
+  <hr style="width: 75%; border: 3px solid #1d2d44">
 {% endfor %}
 
 
