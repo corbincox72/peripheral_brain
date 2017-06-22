@@ -150,6 +150,10 @@ strong, em{
 .nav-links > li ~ li {
   border-left: 1px solid #b23850;
 }
+.disclaimer{
+  width: 90%;
+  margin: 5% auto;
+}
 
 /* Footer */
 .footer img{
