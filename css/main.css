@@ -113,6 +113,13 @@ hr {
 strong, em{
   color: #1d2d44;
 }
+strong{
+  font-weight: bold;
+}
+ul > ul{
+  margin-left: 1em;
+  padding-left: 0;
+}
 /* Navigation */
 .menus{
     background-color: #748cab;
