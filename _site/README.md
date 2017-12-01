@@ -3,7 +3,9 @@ This website is intended to store clinical pearls and information from Corbin Co
 
 # Site Information
 ## Color Scheme
+
 |Color|Hex Value|
+|:==:|:==:|
 |Red|b23850|
 |Blue|3b8beb|
 |Tan|e7e3d4|

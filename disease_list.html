@@ -1,0 +1,9 @@
+---
+layout: default
+title: Diseases
+---
+<h1>Diseases</h1>
+
+{% for entry in site.diseases %}
+  <p><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></p>
+{% endfor %}
