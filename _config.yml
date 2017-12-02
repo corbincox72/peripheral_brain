@@ -31,8 +31,3 @@ collections:
     output: true
   pages:
     output: true
-
-plugins:
-  - jekyll-google_cse
-
-google_cse_id: "000188599913044562427:ap5tou1q3uc"
