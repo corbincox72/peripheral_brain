@@ -29,3 +29,5 @@ excerpt_separator: <!--more-->
 collections:
   diseases:
     output: true
+  pages:
+    output: true
