@@ -25,3 +25,7 @@ markdown: kramdown
 
 include: ['_pages']
 excerpt_separator: <!--more-->
+
+collections:
+  diseases:
+    output: true
