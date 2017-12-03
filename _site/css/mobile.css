@@ -9,7 +9,7 @@
     font-size: 1.25em;
   }
 
-  p, li {
+  li a, li h1, li h2, li h3, li p {
     text-align: left;
   }
 
