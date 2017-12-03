@@ -47,92 +47,160 @@ a img {
 }
 /* END RESET*/
 
+
+
 /* GLOBAL CHANGES */
 
-/* Color Definitions */
-:root {
-  --mainTextColor: #fff;
-  --linkColor: blue;
-}
+  /* Color Definitions */
+    :root {
+      --mainTextColor: #000;
+      --linkColor: blue;
+      --accentColor: lightgrey;
+    }
 
-/* Global Fonts/Text */
-h1, h2, h3, h4, h5, h6, p, table, li, ol, ul, blockquote, em, strong {
-  font-family: Arial, Helvetica, sans-serif
-}
+  /* Global Fonts/Text */
+    h1, h2, h3, h4, h5, h6, p, table, li, ol, ul, blockquote, em, strong {
+      font-family: Arial, Helvetica, sans-serif
+    }
 
-h1 {
-  font-size: 2em;
-}
+    h1, h2, h3, p, a, li {
+      margin: 0.25em 0;
+    }
 
-a:link, a:visited {
-    color: var(--linkColor);
-    text-decoration: none;
-}
+    p, li {
+      text-align: justify;
+    }
 
-/* Global Screen Config */
-html{
-  height: 100%;
-}
-body {
-  display: grid;
-  grid-template-columns: 5% 1fr 5%;
-  grid-gap: 0.25em;
-  min-height: 100%;
-  grid-template-rows: auto 1fr auto auto;
-}
+    h1 {
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    h3{
+      font-size: 1.25em;
+      font-weight: bold;
+    }
+
+    a:link, a:visited {
+        color: var(--linkColor);
+        text-decoration: none;
+    }
+
+    ul {
+      margin-left: 1em;
+    }
+
+    ul ul {
+      margin-left: 1em;
+    }
+
+  /* TABLE FORMATTING */
+    table {
+      border-collapse: collapse;
+    }
+
+    tr, td {
+      padding: 0.1em 0.5em;
+    }
+
+      /* TABLE LINES */
+        th {
+          border-bottom: 1px solid var(--mainTextColor);
+          font-weight: bold
+        }
+
+      /* TABLE SHADING */
+        tr:nth-child(even) {
+          background-color: var(--accentColor);
+        }
+
+  /* Global Screen Config */
+    html{
+      height: 100%;
+    }
+    body {
+      display: grid;
+      grid-template-columns: 5% 1fr 5%;
+      grid-gap: 0.25em;
+      min-height: 100%;
+      grid-template-rows: auto 1fr auto auto;
+      font-size: 12pt;
+    }
+
+
 
 /* Navigation Bar */
-header {
-  grid-column: 1 / -1;
-  grid-row: 1 / 1;
-  background-color: grey;
-}
+  header {
+    grid-column: 1 / -1;
+    grid-row: 1 / 1;
+    background-color: grey;
+  }
 
-header ul {
-    list-style-type: none;
+  header ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+  }
+
+  header li {
+    float: left;
+    padding: 0.25em 0.5em;
     margin: 0;
-    padding: 1px;
-    overflow: hidden;
-}
+  }
 
-header li {
-  float: left;
-  padding: 0.25em 0.5em;
-}
+  header li:hover{
+    background: darkgrey;
+  }
 
-header a {
-  font-size: 1.5em;
-}
+  header a {
+    font-size: 1.5em;
+  }
 
-/* Contents */
-.contents {
-  grid-column: 2 / 3;
-  grid-row: 2 / 2;
-}
+/* Total Page Contents */
+  .contents {
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+  }
 
 /* Footer Formatting */
-footer {
-  grid-column: 1 / -1;
-  grid-row: -1 / -1;
-  background-color: grey;
-  text-align: center;
-}
+  footer {
+    grid-column: 1 / -1;
+    grid-row: -1 / -1;
+    background-color: grey;
+    text-align: center;
+  }
 
-footer ul {
-  list-style-type: none;
-}
+  footer ul {
+    list-style-type: none;
+  }
+
+  footer li{
+    text-align: center;
+  }
+
 
 /* Disclaimer Page */
-.disclaimer {
-  grid-column: 2 / 3;
-  grid-row: 1 / 1;
-  grid-row-gap: 2em;
-}
+  .disclaimer {
+    grid-column: 2 / 3;
+    grid-row: 1 / 1;
+    grid-row-gap: 2em;
+  }
 
-/* Diseases Pages */
-.credits{
-  text-align: right;
-  grid-row: -2 / -2;
-  grid-column: 2 / 3;
-  color: grey;
-}
+/* Jekyll Page Formats */
+
+  /* Diseases Pages */
+    .credits{
+      grid-row: -2 / -2;
+      grid-column: 2 / 3;
+      color: grey;
+    }
+
+    .credits p{
+      text-align: right;
+    }

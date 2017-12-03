@@ -1,0 +1,17 @@
+@media screen and (max-width: 500px) {
+
+  header li {
+    float: none;
+    text-align: center;
+  }
+
+  header a {
+    font-size: 1.25em;
+  }
+
+
+
+
+
+
+}
