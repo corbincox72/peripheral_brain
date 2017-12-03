@@ -71,10 +71,6 @@ a img {
       text-align: justify;
     }
 
-    h1, h2, h3 {
-      margin-top: 1em;
-    }
-
     h1 {
       font-size: 2em;
       font-weight: bold;
@@ -101,6 +97,14 @@ a img {
 
     ul ul {
       margin-left: 1em;
+    }
+
+    code {
+      font-family: monospace;
+      color: #111;
+      background: #eee;
+      border-radius: 5px;
+      padding: 0.1em 0.25em;
     }
 
   /* TABLE FORMATTING */
@@ -194,6 +198,23 @@ a img {
     grid-column: 2 / 3;
     grid-row: 1 / 1;
     grid-row-gap: 2em;
+  }
+
+/* Post Layouts */
+  .post-list {
+    list-style-type: none;
+  }
+
+  .post-heading {
+    text-align: center;
+  }
+
+  .post-content {
+    border-style: solid;
+    border-color: black;
+    border-radius: 0.25em;
+    border-width: thin;
+    padding: 1em;
   }
 
 /* Jekyll Page Formats */
