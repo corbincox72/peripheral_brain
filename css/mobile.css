@@ -9,9 +9,14 @@
     font-size: 1.25em;
   }
 
+  p, li {
+    text-align: left;
+  }
+
   table{
     margin: 0 auto
   }
+
 
 
 
