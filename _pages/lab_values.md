@@ -1,15 +1,40 @@
 ---
 layout: default
 title: Lab Values
+author: Corbin Cox
+last-updated: December 3, 2017
+permalink: /lab_values
 ---
-<div class="labs">
-<h2>Typical Lab Layouts</h2>
 
-<h3>ABG</h3>
+# ABG
 
-<p>pH/pCO<sub>2</sub>/pO<sub>2</sub>/[HCO<sub>3</sub>]<sup>-</sup>/O<sub>2</sub>Sat</p>
+pH / paCO<sub>2</sub>  / paO<sub>2</sub>  / [HCO<sub>3</sub>]<sup>-</sup> / O<sub>2</sub>  Sat
 
-<h3>Chem7</h3>
+| Lab       | Low  | High | Units        |
+| --------- | ---- | ---- | :----------- |
+| pH        | 7.35 | 7.45 | n/a          |
+| paCO<sub>2</sub>   | 35   | 45   | mmHg         |
+| paO<sub>2</sub>   | 80   | 100  | mmHg         |
+| HCO<sub>3</sub><sup>-</sup> | 22   | 26   | mEq/L        |
+| O<sub>2</sub>  Sat | 95%  | 100% | % Saturation |
+
+# Electrolytes
+
+| Lab       | Low  | High | Units  |
+| --------- | ---- | ---- | ------ |
+| pH       | 7.35 | 7.45 | n/a    |
+| Na<sup>+</sup>     | 135  | 145  | mEq/L  |
+| Cl<sup>-</sup>    | 95   | 105  | mEq/L  |
+| K<sup>+</sup>      | 3.5  | 5    | mEq/L  |
+| HCO<sub>3</sub><sup>-</sup> | 22   | 26   | mEq/L  |
+| Mg<sup>2+</sup>    | 1.5  | 2.5  | mEq/L  |
+| PO<sub>4</sub><sup>3-</sup> | 2.5  | 4.5  | mEq/L  |
+| Osm       | 275  | 290  | mOsm/L |
+| Anion Gap | 3    | 11   | mEq/L  |
+
+
+
+# Chem7
 
 <svg width="14em" height="4em" class="chem7">
   <line x1="0" y1="50%" x2="75%" y2="50%" style="stroke-wdith:2px;stroke:black"/>
@@ -26,7 +51,8 @@ title: Lab Values
   <text x="90%" y="2.25em" text-anchor="middle">Gluc</text>
 </svg>
 
-<h3>CBC</h3>
+# CBC
+
 <svg width="12em" height="4em" class="chem7">
   <line x1="0" y1="0" x2="33%" y2="50%" style="stroke-wdith:2px;stroke:black"/>
   <line x1="0" y1="100%" x2="33%" y2="50%" style="stroke-wdith:2px;stroke:black"/>
@@ -39,30 +65,3 @@ title: Lab Values
   <text x="50%" y="3.25em" text-anchor="middle">Hct</text>
 
 </svg>
-
-<h2>ABG</h2>
-  <table>
-  <tr><th>Lab</th><th>Low</th><th>High</th><th>Units</th></tr>
-  <tr><td>pH</td><td>7.35</td><td>7.45</td><td>n/a</td></tr>
-  <tr><td>pCO<sub>2</sub></td><td>35</td><td>45</td><td>mmHg</td></tr>
-  <tr><td>pO<sub>2</sub></td><td>80</td><td>100</td><td>mmHg</td></tr>
-  <tr><td>HCO<sub>3</sub><sup>-</sup></td><td>22</td><td>26</td><td>mEq/L</td></tr>
-  <tr><td>O<sub>2</sub>Sat</td><td>95%</td><td>100%</td><td>% Saturation</td></tr>
-  </table>
-
-<h2>Electrolytes</h2>
-
-  <table>
-  <tr><th>Lab</th><th>Low</th><th>High</th><th>Units</th></tr>
-  <tr><td>pH</td><td>7.35</td><td>7.45</td><td>n/a</td></tr>
-  <tr><td>Na<sup>+</sup></td><td>135</td><td>145</td><td>mEq/L</td></tr>
-  <tr><td>Cl<sup>-</sup></td><td>95</td><td>105</td><td>mEq/L</td></tr>
-  <tr><td>K<sup>+</sup></td><td>3.5</td><td>5</td><td>mEq/L</td></tr>
-  <tr><td>HCO<sub>3</sub><sup>-</sup></td><td>22</td><td>26</td><td>mEq/L</td></tr>
-  <tr><td>Mg<sup>2+</sup></td><td>1.5</td><td>2.5</td><td>mg/dL</td></tr>
-  <tr><td>PO<sub>4</sub><sup>3-</sup></td><td>2.5</td><td>4.5</td><td>mg/dL</td></tr>
-  <tr><td>Osmolarity</td><td>275</td><td>290</td><td>mOsm/L</td></tr>
-  <tr><td>Anion Gap</td><td>3</td><td>11</td><td>mEq/L</td></tr>
-  </table>
-
-</div>

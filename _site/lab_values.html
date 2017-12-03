@@ -38,7 +38,7 @@
       <ul class="nav-links">
         <li><a href="/peripheral_brain/home.html">Home</a></li>
         <li><a href="/peripheral_brain/disease_list.html">Diseases</a></li>
-        <li><a href="/peripheral_brain/lab_values.html">Lab Values</a></li>
+        <li><a href="/peripheral_brain/lab_values">Lab Values</a></li>
         <li><a href="/peripheral_brain/formulas">Formulas</a></li>
       </ul>
   </nav>
@@ -46,21 +46,130 @@
 
 
 <div class="contents">
-<div class="labs">
-<h2>Typical Lab Layouts</h2>
+<h1 id="abg">ABG</h1>
 
-<h3>ABG</h3>
+<p>pH / paCO<sub>2</sub>  / paO<sub>2</sub>  / [HCO<sub>3</sub>]<sup>-</sup> / O<sub>2</sub>  Sat</p>
 
-<p>pH/pCO<sub>2</sub>/pO<sub>2</sub>/[HCO<sub>3</sub>]<sup>-</sup>/O<sub>2</sub>Sat</p>
+<table>
+  <thead>
+    <tr>
+      <th>Lab</th>
+      <th>Low</th>
+      <th>High</th>
+      <th style="text-align: left">Units</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>pH</td>
+      <td>7.35</td>
+      <td>7.45</td>
+      <td style="text-align: left">n/a</td>
+    </tr>
+    <tr>
+      <td>paCO<sub>2</sub></td>
+      <td>35</td>
+      <td>45</td>
+      <td style="text-align: left">mmHg</td>
+    </tr>
+    <tr>
+      <td>paO<sub>2</sub></td>
+      <td>80</td>
+      <td>100</td>
+      <td style="text-align: left">mmHg</td>
+    </tr>
+    <tr>
+      <td>HCO<sub>3</sub><sup>-</sup></td>
+      <td>22</td>
+      <td>26</td>
+      <td style="text-align: left">mEq/L</td>
+    </tr>
+    <tr>
+      <td>O<sub>2</sub>  Sat</td>
+      <td>95%</td>
+      <td>100%</td>
+      <td style="text-align: left">% Saturation</td>
+    </tr>
+  </tbody>
+</table>
 
-<h3>Chem7</h3>
+<h1 id="electrolytes">Electrolytes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Lab</th>
+      <th>Low</th>
+      <th>High</th>
+      <th>Units</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>pH</td>
+      <td>7.35</td>
+      <td>7.45</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>Na<sup>+</sup></td>
+      <td>135</td>
+      <td>145</td>
+      <td>mEq/L</td>
+    </tr>
+    <tr>
+      <td>Cl<sup>-</sup></td>
+      <td>95</td>
+      <td>105</td>
+      <td>mEq/L</td>
+    </tr>
+    <tr>
+      <td>K<sup>+</sup></td>
+      <td>3.5</td>
+      <td>5</td>
+      <td>mEq/L</td>
+    </tr>
+    <tr>
+      <td>HCO<sub>3</sub><sup>-</sup></td>
+      <td>22</td>
+      <td>26</td>
+      <td>mEq/L</td>
+    </tr>
+    <tr>
+      <td>Mg<sup>2+</sup></td>
+      <td>1.5</td>
+      <td>2.5</td>
+      <td>mEq/L</td>
+    </tr>
+    <tr>
+      <td>PO<sub>4</sub><sup>3-</sup></td>
+      <td>2.5</td>
+      <td>4.5</td>
+      <td>mEq/L</td>
+    </tr>
+    <tr>
+      <td>Osm</td>
+      <td>275</td>
+      <td>290</td>
+      <td>mOsm/L</td>
+    </tr>
+    <tr>
+      <td>Anion Gap</td>
+      <td>3</td>
+      <td>11</td>
+      <td>mEq/L</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="chem7">Chem7</h1>
 
 <svg width="14em" height="4em" class="chem7">
-  <line x1="0" y1="50%" x2="75%" y2="50%" style="stroke-wdith:2px;stroke:black"/>
-  <line x1="75%" y1="50%" x2="100%" y2="100%" style="stroke-wdith:2px;stroke:black"/>
-  <line x1="75%" y1="50%" x2="100%" y2="0%" style="stroke-wdith:2px;stroke:black"/>
-  <line x1="50%" y1="0%" x2="50%" y2="100%" style="stroke-wdith:2px;stroke:black"/>
-  <line x1="25%" y1="0%" x2="25%" y2="100%" style="stroke-wdith:2px;stroke:black"/>
+  <line x1="0" y1="50%" x2="75%" y2="50%" style="stroke-wdith:2px;stroke:black" />
+  <line x1="75%" y1="50%" x2="100%" y2="100%" style="stroke-wdith:2px;stroke:black" />
+  <line x1="75%" y1="50%" x2="100%" y2="0%" style="stroke-wdith:2px;stroke:black" />
+  <line x1="50%" y1="0%" x2="50%" y2="100%" style="stroke-wdith:2px;stroke:black" />
+  <line x1="25%" y1="0%" x2="25%" y2="100%" style="stroke-wdith:2px;stroke:black" />
   <text x="12.5%" y="1.5em" text-anchor="middle">Na</text>
   <text x="12.5%" y="3.5em" text-anchor="middle">K</text>
   <text x="37.5%" y="1.5em" text-anchor="middle">Cl</text>
@@ -70,46 +179,20 @@
   <text x="90%" y="2.25em" text-anchor="middle">Gluc</text>
 </svg>
 
-<h3>CBC</h3>
+<h1 id="cbc">CBC</h1>
+
 <svg width="12em" height="4em" class="chem7">
-  <line x1="0" y1="0" x2="33%" y2="50%" style="stroke-wdith:2px;stroke:black"/>
-  <line x1="0" y1="100%" x2="33%" y2="50%" style="stroke-wdith:2px;stroke:black"/>
-  <line x1="33%" x2="67%" y1="50%" y2="50%" style="stroke-wdith:2px;stroke:black"/>
-  <line x1="100%" y1="0" x2="67%" y2="50%" style="stroke-wdith:2px;stroke:black"/>
-  <line x1="100%" y1="100%" x2="67%" y2="50%" style="stroke-wdith:2px;stroke:black"/>
+  <line x1="0" y1="0" x2="33%" y2="50%" style="stroke-wdith:2px;stroke:black" />
+  <line x1="0" y1="100%" x2="33%" y2="50%" style="stroke-wdith:2px;stroke:black" />
+  <line x1="33%" x2="67%" y1="50%" y2="50%" style="stroke-wdith:2px;stroke:black" />
+  <line x1="100%" y1="0" x2="67%" y2="50%" style="stroke-wdith:2px;stroke:black" />
+  <line x1="100%" y1="100%" x2="67%" y2="50%" style="stroke-wdith:2px;stroke:black" />
   <text x="10%" y="2.25em" text-anchor="middle">WBC</text>
   <text x="90%" y="2.25em" text-anchor="middle">Plt</text>
   <text x="50%" y="1.25em" text-anchor="middle">Hgb</text>
   <text x="50%" y="3.25em" text-anchor="middle">Hct</text>
 
 </svg>
-
-<h2>ABG</h2>
-  <table>
-  <tr><th>Lab</th><th>Low</th><th>High</th><th>Units</th></tr>
-  <tr><td>pH</td><td>7.35</td><td>7.45</td><td>n/a</td></tr>
-  <tr><td>pCO<sub>2</sub></td><td>35</td><td>45</td><td>mmHg</td></tr>
-  <tr><td>pO<sub>2</sub></td><td>80</td><td>100</td><td>mmHg</td></tr>
-  <tr><td>HCO<sub>3</sub><sup>-</sup></td><td>22</td><td>26</td><td>mEq/L</td></tr>
-  <tr><td>O<sub>2</sub>Sat</td><td>95%</td><td>100%</td><td>% Saturation</td></tr>
-  </table>
-
-<h2>Electrolytes</h2>
-
-  <table>
-  <tr><th>Lab</th><th>Low</th><th>High</th><th>Units</th></tr>
-  <tr><td>pH</td><td>7.35</td><td>7.45</td><td>n/a</td></tr>
-  <tr><td>Na<sup>+</sup></td><td>135</td><td>145</td><td>mEq/L</td></tr>
-  <tr><td>Cl<sup>-</sup></td><td>95</td><td>105</td><td>mEq/L</td></tr>
-  <tr><td>K<sup>+</sup></td><td>3.5</td><td>5</td><td>mEq/L</td></tr>
-  <tr><td>HCO<sub>3</sub><sup>-</sup></td><td>22</td><td>26</td><td>mEq/L</td></tr>
-  <tr><td>Mg<sup>2+</sup></td><td>1.5</td><td>2.5</td><td>mg/dL</td></tr>
-  <tr><td>PO<sub>4</sub><sup>3-</sup></td><td>2.5</td><td>4.5</td><td>mg/dL</td></tr>
-  <tr><td>Osmolarity</td><td>275</td><td>290</td><td>mOsm/L</td></tr>
-  <tr><td>Anion Gap</td><td>3</td><td>11</td><td>mEq/L</td></tr>
-  </table>
-
-</div>
 
 </div>
 

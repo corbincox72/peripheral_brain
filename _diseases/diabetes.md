@@ -8,7 +8,7 @@ last-updated: December 1, 2017
 This is a test page for diabetes
 
 | x    | y    |
-| :---- | :---- |
+| ---- | ---- |
 | 1    | 2    |
 
 ## Hi
