@@ -37,9 +37,8 @@ $$
 \text{Corrected}\; [Na^+] = [Na^+] + 1.6 \left[ \frac{BG}{100}-1 \right]\\
 \text{TBW}_M = 0.6\; (L/kg) * Wt\\
 \text{TBW}_F = 0.5\; (L/kg) * Wt\\
-\text{Na Deficit} = TBW \left( [Na^+]_{goal}-[Na^+]_{plasma}  \right)\\
+\text{Na Deficit} = TBW \left( [Na^+]_\text{goal}-[Na^+]_\text{plasma}  \right)\\
 \text{FWD} = \text{TBW} \left(  \frac{[Na^+]}{140}-1 \right)\\
 \text{Corrected}\; [Ca^{2+}] = [Ca^{2+}] + 0.8(4-\text{Albumin})\\
-\Delta [Na] = \frac{[Na^+]_{fluid} - [Na^+]_{plasma}}{\text{TBW}+1}
+\Delta [Na] = \frac{[Na^+]_\text{fluid} - [Na^+]_\text{plasma}}{\text{TBW}+1}
 $$
-

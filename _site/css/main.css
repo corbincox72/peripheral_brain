@@ -56,6 +56,8 @@ a img {
       --mainTextColor: #000;
       --linkColor: blue;
       --accentColor: lightgrey;
+      --backgroundColor: white;
+      --headerColor: #777;
     }
 
   /* Global Fonts/Text */
@@ -107,6 +109,13 @@ a img {
       padding: 0.1em 0.25em;
     }
 
+    hr {
+      border-color: var(--accentColor);
+      border-width: thin;
+      margin: 1em 5%;
+      border-style: solid;
+    }
+
   /* TABLE FORMATTING */
     table {
       border-collapse: collapse;
@@ -118,8 +127,9 @@ a img {
 
       /* TABLE LINES */
         th {
-          border-bottom: 1px solid var(--mainTextColor);
-          font-weight: bold
+          border-bottom: 1px single var(--mainTextColor);
+          border-style: double;
+          font-weight: bold;
         }
 
       /* TABLE SHADING */
@@ -131,6 +141,7 @@ a img {
     html{
       height: 100%;
     }
+
     body {
       display: grid;
       grid-template-columns: 5% 1fr 5%;
@@ -138,15 +149,15 @@ a img {
       min-height: 100%;
       grid-template-rows: auto 1fr auto auto;
       font-size: 12pt;
+      background-color: var(--backgroundColor);
     }
-
 
 
 /* Navigation Bar */
   header {
     grid-column: 1 / -1;
     grid-row: 1 / 1;
-    background-color: grey;
+    background-color: var(--headerColor);
   }
 
   header ul {
@@ -163,7 +174,7 @@ a img {
   }
 
   header li:hover{
-    background: darkgrey;
+    background: var(--accentColor);
   }
 
   header a {
@@ -180,7 +191,7 @@ a img {
   footer {
     grid-column: 1 / -1;
     grid-row: -1 / -1;
-    background-color: grey;
+    background-color: var(--headerColor);
     text-align: center;
   }
 
@@ -210,11 +221,15 @@ a img {
     text-align: center;
   }
 
+  .post-heading hr{
+    border-width: medium;
+  }
+
   .post-content {
     border-style: solid;
-    border-color: black;
+    border-color: var(--accentColor);
     border-radius: 0.25em;
-    border-width: thin;
+    border-width: medium;
     padding: 1em;
   }
 

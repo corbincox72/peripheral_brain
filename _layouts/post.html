@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+
+
+<body class="body">
+{% include header.html %}
+
+<div class="contents">
+  <div class="post-heading">
+    <h2>{{ page.title }}</h2>
+    <h3>{{ page.date | date: "%m/%d/%Y" }} </h3>
+    <hr>
+  </div>
+  {{content}}
+</div>
+
+{% include footer.html %}
+</body>
+</html>

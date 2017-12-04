@@ -2,7 +2,7 @@
 author: Corbin Cox
 title: Markdown Examples
 last-edited: December 3, 2017
-layout: default
+layout: post
 ---
 
 # Heading 1 `# Heading 1`
