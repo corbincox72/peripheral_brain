@@ -1,10 +1,18 @@
 ---
 layout: default
-title: Diseases
+title: Diseases and Drugs
 ---
 
 <h1>Diseases</h1>
 
-{% for entry in site.diseases %}
-  <p><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></p>
+{% assign disease_list = site.diseases | sort: 'title' %}
+{% for entry in disease_list %}
+  <h2><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></h2>
+{% endfor %}
+
+<h1>Drug Classes</h1>
+
+{% assign drugClass_list = site.drugClasses | sort: 'title' %}
+{% for entry in drugClass_list %}
+  <h2><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></h2>
 {% endfor %}

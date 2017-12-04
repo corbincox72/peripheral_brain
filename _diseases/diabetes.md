@@ -2,7 +2,7 @@
 title: Diabetes
 layout: diseases
 author: Corbin Cox
-last-updated: December 1, 2017
+last-updated: December 3, 2017
 ---
 
 This is a test page for diabetes
