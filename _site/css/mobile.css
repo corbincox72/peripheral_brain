@@ -1,4 +1,7 @@
 @media screen and (max-width: 750px) {
+  body {
+    font-size: 14pt;
+  }
 
   header li {
     float: none;
