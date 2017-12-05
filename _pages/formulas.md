@@ -42,5 +42,3 @@ $$
 \text{Corrected}\; [Ca^{2+}] = [Ca^{2+}] + 0.8(4-\text{Albumin})\\
 \Delta [Na] = \frac{[Na^+]_\text{fluid} - [Na^+]_\text{plasma}}{\text{TBW}+1}
 $$
-
-<p></p>
