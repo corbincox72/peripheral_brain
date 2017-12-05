@@ -11,7 +11,7 @@ permalink: /lab_values
 pH / paCO<sub>2</sub>  / paO<sub>2</sub>  / [HCO<sub>3</sub>]<sup>-</sup> / O<sub>2</sub>  Sat
 
 | Lab       | Low  | High | Units        |
-| --------- | ---- | ---- | :----------- |
+| :--------- | :---- | :---- | :----------- |
 | pH        | 7.35 | 7.45 | n/a          |
 | paCO<sub>2</sub>   | 35   | 45   | mmHg         |
 | paO<sub>2</sub>   | 80   | 100  | mmHg         |
@@ -21,7 +21,7 @@ pH / paCO<sub>2</sub>  / paO<sub>2</sub>  / [HCO<sub>3</sub>]<sup>-</sup> / O<su
 # Electrolytes
 
 | Lab       | Low  | High | Units  |
-| --------- | ---- | ---- | ------ |
+| :--------- | :---- | :---- | :------ |
 | pH       | 7.35 | 7.45 | n/a    |
 | Na<sup>+</sup>     | 135  | 145  | mEq/L  |
 | Cl<sup>-</sup>    | 95   | 105  | mEq/L  |

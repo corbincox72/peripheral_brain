@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
 
   header li {
     float: none;
@@ -9,7 +9,7 @@
     font-size: 1.25em;
   }
 
-  li a, li h1, li h2, li h3, li p {
+  li a, li h1, li h2, li h3, li p, p, li li {
     text-align: left;
   }
 
@@ -17,8 +17,10 @@
     margin: 0 auto
   }
 
-
-
+  .chem7 {
+    display: block;
+    margin: 0 auto;
+  }
 
 
 
