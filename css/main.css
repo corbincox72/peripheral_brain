@@ -90,6 +90,7 @@ a img {
     h3{
       font-size: 1.25em;
       font-weight: bold;
+      text-align: center;
     }
 
     a:link, a:visited {
