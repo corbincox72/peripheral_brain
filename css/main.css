@@ -120,6 +120,13 @@ a img {
       border-style: solid;
     }
 
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: auto;
+    }
+
   /* TABLE FORMATTING */
     table {
       border-collapse: collapse;
