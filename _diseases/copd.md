@@ -2,8 +2,8 @@
 title: COPD
 layout: diseases
 author: Corbin Cox
-last-updated: December 8, 2017
-created: December 8, 2017
+last-updated: 2017-12-8
+created: 2017-12-8
 ---
 
 
@@ -20,7 +20,7 @@ COPD is characterized by chronic bronchitis, emphysema, and inflamed airways. Em
 
 - Dyspnea
 
-- Increased Sputum Production 
+- Increased Sputum Production
 
 - Increased RR
 
@@ -52,7 +52,7 @@ Spirometric Assessment with FEV<sub>1</sub>/FVC &lt;0.7
 ### Symptomatic Assessment
 
 | Stage | Symptomatic Assessment | Exacerbations                  |
-| ----- | ---------------------- | ------------------------------ |
+| :----- | :---------------------- | :------------------------------ |
 | A     | CAT&lt;10 OR mMRC&le;1 | &le;1                          |
 | B     | CAT&ge;10 OR mMRC&ge;2 | &le;1                          |
 | C     | CAT&lt;10 OR mMRC&le;1 | &ge;2 OR &ge;1 Hospitalization |
@@ -61,7 +61,7 @@ Spirometric Assessment with FEV<sub>1</sub>/FVC &lt;0.7
 ### Spirometric Airway Limitation
 
 | Stage  | Impairment  | FEV<sub>1</sub>/FVC | FEV<sub>1</sub>     |
-| ------ | ----------- | ------------------- | :------------------ |
+| :------ | :----------- | :------------------- | :------------------ |
 | GOLD 1 | Mild        | &lt;0.7             | &ge;80% Predicted   |
 | GOLD 2 | Moderate    | &lt;0.7             | [50%,80%) Predicted |
 | GOLD 2 | Severe      | &lt;0.7             | [30%,50%) Predicted |
@@ -70,7 +70,7 @@ Spirometric Assessment with FEV<sub>1</sub>/FVC &lt;0.7
 ### mMRC Grading
 
 | mMRC Grade | Severity of Breathlessness               |
-| ---------- | ---------------------------------------- |
+| :---------- | :---------------------------------------- |
 | 0          | SOB w/ Strenuous Exercise                |
 | 1          | SOB w/ Moderate Exertion (e.g. walking uphill or walking quickly) |
 | 2          | SOB w/ Normal Activity (e.g. cannot keep up with others or must stop at normal pace) |
@@ -80,7 +80,7 @@ Spirometric Assessment with FEV<sub>1</sub>/FVC &lt;0.7
 # Treatment Selection
 
 | GOLD Group | 1st Line       | 2nd Line          |
-| ---------- | -------------- | ----------------- |
+| :---------- | :-------------- | :----------------- |
 | A          | Bronchodilator | Try Another Class |
 | B          | LABA           | LABA + LAMA       |
 | C          | LAMA           | LABA + LAMA       |
@@ -109,11 +109,11 @@ GOLD C can conider a LABA + ICS combination for second line therapy; however it 
 # Common Inhalers
 
 | Brand Name                  | Active Ingredient(s)        | Class(es) |
-| --------------------------- | --------------------------- | --------- |
+| :--------------------------- | :--------------------------- | :--------- |
 | ProAir, Ventolin, Proventil | Albuterol                   | SABA      |
 | Xopenex                     | Levalbuterol                | SABA      |
 | Atrovent                    | Ipratropium                 | SAMA      |
-| Combivent                   | Albuterol/Ipratropium       | SABA/SAMA |
+| Combivent                   | Albuterol / Ipratropium       | SABA / SAMA |
 | QVAR                        | Beclomethasone              | ICS       |
 | Pulmicort                   | Budesonide                  | ICS       |
 | Alvesco                     | Ciclesonide                 | ICS       |
@@ -129,14 +129,14 @@ GOLD C can conider a LABA + ICS combination for second line therapy; however it 
 | Tudorza                     | Aclidinium                  | LAMA      |
 | Spiriva                     | Tiotropium                  | LAMA      |
 | Incruse                     | Umeclidinium                | LAMA      |
-| Advair, AirDuo              | Fluticasone/Salmeterol      | ICS/LABA  |
-| Symbicort                   | Budesonide/Formoterol       | ICS/LABA  |
-| Dulera                      | Mometasone/Formoterol       | ICS/LABA  |
-| Breo                        | Fluticasone/Vilanterol      | ICS/LABA  |
-| Stiolto                     | Olodaterol/Tiotropium       | LABA/LAMA |
-| Anoro                       | Vilanterol/Umeclidinium     | LABA/LAMA |
-| Utibron                     | Indacanterol/Glycopyrronium | LABA/LAMA |
-| Bevespi                     | Formoterol/Glycopyrronium   | LABA/     |
+| Advair, AirDuo              | Fluticasone / Salmeterol      | ICS / LABA  |
+| Symbicort                   | Budesonide / Formoterol       | ICS / LABA  |
+| Dulera                      | Mometasone / Formoterol       | ICS / LABA  |
+| Breo                        | Fluticasone / Vilanterol      | ICS / LABA  |
+| Stiolto                     | Olodaterol / Tiotropium       | LABA / LAMA |
+| Anoro                       | Vilanterol / Umeclidinium     | LABA / LAMA |
+| Utibron                     | Indacanterol / Glycopyrronium | LABA / LAMA |
+| Bevespi                     | Formoterol / Glycopyrronium   | LABA / LAMA |
 
 
 

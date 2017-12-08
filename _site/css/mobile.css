@@ -12,12 +12,16 @@
     font-size: 1.25em;
   }
 
-  li a, li h1, li h2, li h3, li p, p, li li {
+  li, li a, li h1, li h2, li h3, li p, p, li li {
     text-align: left;
   }
 
-  table{
-    margin: 0 auto
+  table {
+    max-width: 100%;
+  }
+
+  td {
+    word-wrap: break-word;
   }
 
   .chem7 {
