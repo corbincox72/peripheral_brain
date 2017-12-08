@@ -33,3 +33,6 @@ collections:
     output: true
   drugClasses:
     output: true
+
+plugins:
+  - jekyll-admin
