@@ -80,6 +80,9 @@ a img {
     h1 {
       font-size: 2em;
       font-weight: bold;
+      border-bottom-color: var(--accentColor);
+      border-bottom-width: medium;
+      border-bottom-style: solid;
     }
 
     h2 {
@@ -89,8 +92,9 @@ a img {
 
     h3{
       font-size: 1.25em;
-      font-weight: bold;
+      font-style: italic;
       text-align: center;
+      text-decoration: underline;
     }
 
     a:link, a:visited {
@@ -131,6 +135,7 @@ a img {
   /* TABLE FORMATTING */
     table {
       border-collapse: collapse;
+      margin: 0 auto;
     }
 
     td, th {
