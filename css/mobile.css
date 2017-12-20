@@ -29,7 +29,32 @@
     margin: 0 auto;
   }
 
+  /* Calculators Layout */
+  .calculatorContents {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
 
+  .inputCol{
+    grid-column: 1/2;
+    grid-row: 2/2;
+  }
+
+  .inputCol table {
+    margin: 0.5em auto;
+  }
+
+  .outputCol{
+    grid-column: 1/2;
+    grid-row: 3/3;
+    border-top: 1px solid var(--accentColor);
+    border-left: none;
+  }
+
+  .outputCol table {
+    margin: 0.5em auto;
+  }
 
 
 }

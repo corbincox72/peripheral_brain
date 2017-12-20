@@ -60,7 +60,7 @@ Spirometric Assessment with FEV<sub>1</sub>/FVC &lt;0.7
 
 ### Spirometric Airway Limitation
 
-| Stage  | Impairment  | FEV<sub>1</sub>/FVC | FEV<sub>1</sub>     |
+| Stage  | Impairment  | FEV<sub>1</sub> / FVC | FEV<sub>1</sub>     |
 | :------ | :----------- | :------------------- | :------------------ |
 | GOLD 1 | Mild        | &lt;0.7             | &ge;80% Predicted   |
 | GOLD 2 | Moderate    | &lt;0.7             | [50%,80%) Predicted |
