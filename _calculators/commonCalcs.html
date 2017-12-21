@@ -3,36 +3,26 @@ author: Corbin Cox
 title: Common Patient Calculations
 layout: calculator
 ---
-<h1 class="title">Common Calculators</h1>
-
 <div class="inputCol">
   <table class="calculator">
-    <tr><td> Height (in) </td><td> <input type=text name="height" id="ht"> </td></tr>
-    <tr><td> Weight (kg) </td><td> <input type=text name="weight" id="wt"> </td></tr>
-    <tr><td> Age (yrs) </td><td> <input type=text name="Age" id="age"> </td></tr>
-    <tr><td> SCr (mg/dL) </td><td> <input type=text name="SCr" id="scr"> </td></tr>
+    <tr><td> Height (in) </td><td> <input type=text name="height" id="ht" onkeyup=allResults()> </td></tr>
+    <tr><td> Weight (kg) </td><td> <input type=text name="weight" id="wt" onkeyup=allResults()> </td></tr>
+    <tr><td> Age (yrs) </td><td> <input type=text name="Age" id="age" onkeyup=allResults()> </td></tr>
+    <tr><td> SCr (mg/dL) </td><td> <input type=text name="SCr" id="scr" onkeyup=allResults()> </td></tr>
     <tr><td> Sex </td>
       <td>
         <form>
-          <input type=radio name="sex" id="sexM" value="M" checked="checked">Male<br>
-          <input type=radio name="sex" id="sexF" value="F">Female<br>
+          <input type=radio name="sex" id="sexM" value="M" checked="checked" onclick=allResults()>Male<br>
+          <input type=radio name="sex" id="sexF" value="F" onclick=allResults()>Female<br>
         </form>
       </td>
     </tr>
     <tr><td> Race </td>
       <td>
         <form>
-          <input type=radio name="race" id="raceAA">African American<br>
-          <input type=radio name="race" id="raceOther" checked="checked">Other<br>
+          <input type=radio name="race" id="raceAA" onclick=allResults()>African American<br>
+          <input type=radio name="race" id="raceOther" checked="checked" onclick=allResults()>Other<br>
         </form>
-      </td>
-    </tr>
-    <tr>
-      <td>
-
-      </td>
-      <td>
-        <button onclick=allResults()>Calculate</button>
       </td>
     </tr>
   </table>
@@ -41,9 +31,11 @@ layout: calculator
 <div class="outputCol">
   <table class="calculator">
     <tr>
-      <td>
-        <strong>Weights</strong>
-      </td>
+      <th>
+        Weights
+      </th>
+      <th></th>
+      <th></th>
     </tr>
     <tr>
       <td>
@@ -81,10 +73,17 @@ layout: calculator
         m^2
       </td>
     </tr>
+  </table>
+
+  <br>
+
+  <table class="calculator">
     <tr>
-      <td>
-        <strong>Kidney Function</strong>
-      </td>
+      <th>
+        Kidney Function
+      </th>
+      <th></th>
+      <th></th>
     </tr>
     <tr>
       <td>

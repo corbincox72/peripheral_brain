@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Common Patient Calculations | The Peripheral Brain</title>
+  <title>Aminoglycoside Initial Dosing | The Peripheral Brain</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -48,7 +48,7 @@
 <script src="/peripheral_brain/javascript/commonFunctions.js"></script>
 
 <div class="calculatorContents">
-  <h1 class="title">Common Patient Calculations</h1>
+  <h1 class="title">Aminoglycoside Initial Dosing</h1>
 <div class="inputCol">
   <table class="calculator">
     <tr><td> Height (in) </td><td> <input type=text name="height" id="ht" onkeyup=allResults()> </td></tr>
@@ -71,58 +71,28 @@
         </form>
       </td>
     </tr>
+    <tr><td> CrCl (mL/min) </td>
+      <td>
+        <form>
+          <input type=radio name="crcl" id="crclCKDEpi"  checked="checked" onclick=allResults()>CKD-Epi<br>
+          <input type=radio name="crcl" id="crclCG" onclick=allResults()>CG-CrCl<br>
+          <input type=radio name="crcl" id="crclCustom" onclick=allResults()>Other: <input type=text id="customCrClEntry" onkeyup=allResults() style="width:7em"><br>
+        </form>
+      </td>
+    </tr>
+    <tr><td> Low Vd (L/kg) </td><td> <input type=text name="vdRangeLow" id="lowVdkg" onkeyup=allResults()> </td></tr>
+    <tr><td> High Vd (L/kg) </td><td> <input type=text name="vdRangeHigh" id="highVdkg" onkeyup=allResults()> </td></tr>
+    <tr><td> Volume (L) </td><td> <input type=text name="volume" id="vd" onkeyup=allResults()> </td></tr>
+    <tr><td> Desired Peak (mg/L) </td><td> <input type=text name="peakD" id="cpeakD" onkeyup=allResults()> </td></tr>
+    <tr><td> Desired Trough (mg/L) </td><td> <input type=text name="troughD" id="cminD" onkeyup=allResults()> </td></tr>
+    <tr><td> Infusion Time (hr) </td><td> <input type=text name="infusionTime" id="tinf" onkeyup=allResults()> </td></tr>
+    <tr><td> Max to Peak (hr) </td><td> <input type=text name="sampleTime" id="timeToSample" onkeyup=allResults()> </td></tr>
+    <tr><td> Dosing Interval (hr) </td><td> <input type=text name="dosingInterval" id="tau" onkeyup=allResults()> </td></tr>
+    <tr><td> MD (mg) </td><td> <input type=text name="maintenanceDose" id="md" onkeyup=allResults()> </td></tr>
   </table>
 </div>
 
 <div class="outputCol">
-  <table class="calculator">
-    <tr>
-      <th>
-        Weights
-      </th>
-      <th></th>
-      <th></th>
-    </tr>
-    <tr>
-      <td>
-        IBW
-      </td>
-      <td id="ibwOutput"> </td>
-      <td>
-        kg
-      </td>
-    </tr>
-    <tr>
-      <td>
-        ABW
-      </td>
-      <td id="abwOutput"> </td>
-      <td>
-        kg
-      </td>
-    </tr>
-    <tr>
-      <td>
-        LBW
-      </td>
-      <td id="lbwOutput"> </td>
-      <td>
-        kg
-      </td>
-    </tr>
-    <tr>
-      <td>
-        BSA
-      </td>
-      <td id="bsaOutput"> </td>
-      <td>
-        m^2
-      </td>
-    </tr>
-  </table>
-
-  <br>
-
   <table class="calculator">
     <tr>
       <th>
@@ -140,13 +110,6 @@
         mL/min
       </td>
     </tr>
-    <tr>
-      <td>
-        Weight Used for CG
-      </td>
-      <td id="cgWeightOutput"></td>
-    </tr>
-    <tr>
       <td>
         CKD-Epi
       </td>
@@ -167,19 +130,156 @@
       </td>
     </tr>
   </table>
+
+  <br>
+
+  <table class="calculator">
+    <tr>
+      <th>
+        Pharmacokinetics
+      </th>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <td>
+        k
+      </td>
+      <td id="kOutput">
+      </td>
+      <td>
+        hr^-1
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Half-Life
+      </td>
+      <td id="halfLifeOutput">
+      </td>
+      <td>
+        hr
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Low Vd
+      </td>
+      <td id="lowVdOutput">
+      </td>
+      <td>
+        L
+      </td>
+    </tr>
+    <tr>
+      <td>
+        High Vd
+      </td>
+      <td id="highVdOutput">
+      </td>
+      <td>
+        L
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Dosing Interval
+      </td>
+      <td id="tauCalc"></td>
+      <td>
+        hr
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Mainenance Dose
+      </td>
+      <td id="mdCalc"></td>
+      <td>
+        mg
+      </td>
+    </tr>
+  </table>
+
+  <br>
+
+  <table class="calculator">
+    <tr>
+      <th>
+        Double Check
+      </th>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <td>
+        MD
+      </td>
+      <td id="mdD"></td>
+      <td>
+        mg
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Tau
+      </td>
+      <td id="tauD"></td>
+      <td>
+        hr
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Cmax
+      </td>
+      <td id="cmaxE"></td>
+      <td>
+        mg/L
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Cpk
+      </td>
+      <td id="cpkE"></td>
+      <td>
+        mg/L
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Cmin
+      </td>
+      <td id="cminE"></td>
+      <td>
+        mg/L
+      </td>
+    </tr>
+  </table>
+
 </div>
 
+
+
+<script src=/peripheral_brain/javascript/aminoglycosides.js></script>
 <script>
 function allResults() {
-  printResult("ibwOutput",ibw());
-  printResult("abwOutput",abw());
-  printResult("lbwOutput",lbw());
-
   printResult("cgCrClOutput",cgCrCl());
-  printResult("cgWeightOutput",renalWeightUsed());
   printResult("ckdEpiOuput",ckdEpi());
   printResult("ckdEpiBSAOutput",ckdEpiBSA());
-  printResult("bsaOutput",bsa());
+
+  printResult("kOutput",k());
+  printResult("halfLifeOutput",halfLife());
+  printResult("lowVdOutput",lowVolume());
+  printResult("highVdOutput",highVolume());
+  printResult("tauCalc",tauCalc());
+  printResult("mdCalc",maintenanceDoseCalc())
+  printResult("mdD",md());
+  printResult("tauD",tau());
+  printResult("cmaxE",cmaxE());
+  printResult("cpkE",cpkE());
+  printResult("cminE",cminE());
 }
 </script>
 

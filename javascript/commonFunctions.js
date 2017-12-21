@@ -122,3 +122,13 @@ function ckdEpi() {
 function ckdEpiBSA() {
   return (ckdEpi() * bsa() / 1.73).toFixed(0);
 }
+
+
+/* Basic Pharmacokinetics */
+function halfLife() {
+  return (Math.log(2)/k()).toFixed(2);
+}
+
+function cmaxD() {
+  return cpeakD() / Math.exp(-1*k()*timeToSample())
+}

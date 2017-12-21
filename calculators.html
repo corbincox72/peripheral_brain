@@ -1,0 +1,11 @@
+---
+layout: default
+title: Calculators
+author: Corbin Cox
+---
+<h1>Calculators</h1>
+
+  {% assign calculator_list = site.calculators | sort: 'title' %}
+  {% for entry in calculator_list %}
+    <h2><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></h2>
+  {% endfor %}
