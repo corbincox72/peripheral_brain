@@ -17,30 +17,18 @@ title: Aminoglycoside Initial Dosing
 <div class="outputCol">
   {% include /calculatorBits/crclOutput.html %}
   <br>
-  {% include /calculatorBits/pkOutput.html %}
+  {% include /calculatorBits/pkInitialOutput.html %}
   <br>
   {% include /calculatorBits/doubleCheck.html %}
 </div>
 
 
 
-<script src={{site.baseurl}}/javascript/aminoglycosides.js></script>
+<script src={{site.baseurl}}/javascript/aminoglycosideInitial.js></script>
 <script>
 function allResults() {
-  printResult("cgCrClOutput",cgCrCl());
-  printResult("ckdEpiOuput",ckdEpi());
-  printResult("ckdEpiBSAOutput",ckdEpiBSA());
-
-  printResult("kOutput",k());
-  printResult("halfLifeOutput",halfLife());
-  printResult("lowVdOutput",lowVolume());
-  printResult("highVdOutput",highVolume());
-  printResult("tauCalc",tauCalc());
-  printResult("mdCalc",maintenanceDoseCalc())
-  printResult("mdD",md());
-  printResult("tauD",tau());
-  printResult("cmaxE",cmaxE());
-  printResult("cpkE",cpkE());
-  printResult("cminE",cminE());
+  crclOutput();
+  pkInitialOutput();
+  doubleCheckOutput();
 }
 </script>

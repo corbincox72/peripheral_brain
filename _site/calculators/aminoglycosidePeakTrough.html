@@ -49,6 +49,214 @@
 
 <div class="calculatorContents">
   <h1 class="title">Aminoglycoside Peak-Trough Dosing Calculator</h1>
+<div class="inputCol">
+  <table class="calculator">
+    <tr>
+      <th colspan="2">
+        Current Patient Values
+      </th>
+    </tr>
+    <tr>
+  <td>
+    Pt Peak (mg/L)
+  </td>
+  <td>
+    <input type="text" id="ptPkInput" />
+  </td>
+</tr>
+
+<tr>
+  <td>
+    Pt Trough (mg/L)
+  </td>
+  <td>
+    <input type="text" id="ptTroughInput" />
+  </td>
+</tr>
+
+<tr>
+  <td>
+    Current Dosing Interval (hr)
+  </td>
+  <td>
+    <input type="text" id="ptDosingInterval" />
+  </td>
+</tr>
+
+  </table>
+  <br>
+
+  <table class="calculator">
+    <tr>
+      <th colspan="2">
+        Desired Values
+      </th>
+    </tr>
+    <tr><td> Desired Peak (mg/L) </td><td> <input type=text name="peakD" id="cpeakD" onkeyup=allResults()> </td></tr>
+<tr><td> Desired Trough (mg/L) </td><td> <input type=text name="troughD" id="cminD" onkeyup=allResults()> </td></tr>
+
+    <tr><td> Infusion Time (hr) </td><td> <input type=text name="infusionTime" id="tinf" onkeyup=allResults()> </td></tr>
+<tr><td> Max-Peak Interval (hr) </td><td> <input type=text name="sampleTime" id="timeToSample" onkeyup=allResults()> </td></tr>
+
+    <tr><td> Dosing Interval (hr) </td><td> <input type=text name="dosingInterval" id="tau" onkeyup=allResults()> </td></tr>
+<tr><td> MD (mg) </td><td> <input type=text name="maintenanceDose" id="md" onkeyup=allResults()> </td></tr>
+
+  </table>
+</div>
+
+<div class="outputCol">
+  <table class="calculator">
+  <tr>
+    <th colspan="3">
+      Pharmacokinetics
+    </th>
+  </tr>
+  <tr>
+    <td>
+      k
+    </td>
+    <td id="kOutput">
+    </td>
+    <td>
+      hr^-1
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Half-Life
+    </td>
+    <td id="halfLifeOutput">
+    </td>
+    <td>
+      hr
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Low Vd
+    </td>
+    <td id="lowVdOutput">
+    </td>
+    <td>
+      L
+    </td>
+  </tr>
+  <tr>
+    <td>
+      High Vd
+    </td>
+    <td id="highVdOutput">
+    </td>
+    <td>
+      L
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Dosing Interval
+    </td>
+    <td id="tauCalc"></td>
+    <td>
+      hr
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Mainenance Dose
+    </td>
+    <td id="mdCalc"></td>
+    <td>
+      mg
+    </td>
+  </tr>
+</table>
+
+
+<script>
+function pkOutput() {
+  printResult("kOutput",k());
+  printResult("halfLifeOutput",halfLife());
+  printResult("lowVdOutput",lowVolume());
+  printResult("highVdOutput",highVolume());
+  printResult("tauCalc",tauCalc());
+  printResult("mdCalc",maintenanceDoseCalc())
+  printResult("mdD",md());
+  printResult("tauD",tau());
+}
+</script>
+
+  <br>
+  <table class="calculator">
+  <tr>
+    <th colspan="3">
+      Double Check
+    </th>
+  </tr>
+  <tr>
+    <td>
+      MD
+    </td>
+    <td id="mdD"></td>
+    <td>
+      mg
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Tau
+    </td>
+    <td id="tauD"></td>
+    <td>
+      hr
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Cmax
+    </td>
+    <td id="cmaxE"></td>
+    <td>
+      mg/L
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Cpk
+    </td>
+    <td id="cpkE"></td>
+    <td>
+      mg/L
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Cmin
+    </td>
+    <td id="cminE"></td>
+    <td>
+      mg/L
+    </td>
+  </tr>
+</table>
+
+<script>
+function doubleCheckOutput() {
+  printResult("cmaxE",cmaxE());
+  printResult("cpkE",cpkE());
+  printResult("cminE",cminE());
+}
+</script>
+
+</div>
+
+<script src=/peripheral_brain/javascript/aminoglycosidePkTrough.js></script>
+<script>
+function allResults() {
+  crclOutput();
+  pkOutput();
+  doubleCheck();
+}
+</script>
 
 </div>
 

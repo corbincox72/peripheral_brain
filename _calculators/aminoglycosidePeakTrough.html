@@ -3,3 +3,41 @@ layout: calculator
 author: Corbin Cox
 title: Aminoglycoside Peak-Trough Dosing Calculator
 ---
+<h1>CACLULATOR NOT CURRENTLY WORKING</h1>
+<div class="inputCol">
+  <table class="calculator">
+    <tr>
+      <th colspan="2">
+        Current Patient Values
+      </th>
+    </tr>
+    {% include /calculatorBits/ptDosingQuestions.html %}
+  </table>
+  <br>
+
+  <table class="calculator">
+    <tr>
+      <th colspan="2">
+        Desired Values
+      </th>
+    </tr>
+    {% include /calculatorBits/peakTroughInput.html %}
+    {% include /calculatorBits/infusionTimeMaxPeakInt.html %}
+    {% include /calculatorBits/tauAndMD.html %}
+  </table>
+</div>
+
+<div class="outputCol">
+  {% include /calculatorBits/pkOutput.html %}
+  <br>
+  {% include /calculatorBits/doubleCheck.html %}
+</div>
+
+<script src={{site.baseurl}}/javascript/aminoglycosidePkTrough.js></script>
+<script>
+function allResults() {
+  crclOutput();
+  pkOutput();
+  doubleCheck();
+}
+</script>

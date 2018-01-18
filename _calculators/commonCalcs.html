@@ -5,134 +5,20 @@ layout: calculator
 ---
 <div class="inputCol">
   <table class="calculator">
-    <tr><td> Height (in) </td><td> <input type=text name="height" id="ht" onkeyup=allResults()> </td></tr>
-    <tr><td> Weight (kg) </td><td> <input type=text name="weight" id="wt" onkeyup=allResults()> </td></tr>
-    <tr><td> Age (yrs) </td><td> <input type=text name="Age" id="age" onkeyup=allResults()> </td></tr>
-    <tr><td> SCr (mg/dL) </td><td> <input type=text name="SCr" id="scr" onkeyup=allResults()> </td></tr>
-    <tr><td> Sex </td>
-      <td>
-        <form>
-          <input type=radio name="sex" id="sexM" value="M" checked="checked" onclick=allResults()>Male<br>
-          <input type=radio name="sex" id="sexF" value="F" onclick=allResults()>Female<br>
-        </form>
-      </td>
-    </tr>
-    <tr><td> Race </td>
-      <td>
-        <form>
-          <input type=radio name="race" id="raceAA" onclick=allResults()>African American<br>
-          <input type=radio name="race" id="raceOther" checked="checked" onclick=allResults()>Other<br>
-        </form>
-      </td>
-    </tr>
+    {% include /calculatorBits/demographicInfo.html %}
   </table>
 </div>
 
 <div class="outputCol">
-  <table class="calculator">
-    <tr>
-      <th>
-        Weights
-      </th>
-      <th></th>
-      <th></th>
-    </tr>
-    <tr>
-      <td>
-        IBW
-      </td>
-      <td id="ibwOutput"> </td>
-      <td>
-        kg
-      </td>
-    </tr>
-    <tr>
-      <td>
-        ABW
-      </td>
-      <td id="abwOutput"> </td>
-      <td>
-        kg
-      </td>
-    </tr>
-    <tr>
-      <td>
-        LBW
-      </td>
-      <td id="lbwOutput"> </td>
-      <td>
-        kg
-      </td>
-    </tr>
-    <tr>
-      <td>
-        BSA
-      </td>
-      <td id="bsaOutput"> </td>
-      <td>
-        m^2
-      </td>
-    </tr>
-  </table>
+    {% include /calculatorBits/weights.html %}
 
   <br>
-
-  <table class="calculator">
-    <tr>
-      <th>
-        Kidney Function
-      </th>
-      <th></th>
-      <th></th>
-    </tr>
-    <tr>
-      <td>
-        CG-CrCl
-      </td>
-      <td id="cgCrClOutput"></td>
-      <td>
-        mL/min
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Weight Used for CG
-      </td>
-      <td id="cgWeightOutput"></td>
-    </tr>
-    <tr>
-      <td>
-        CKD-Epi
-      </td>
-      <td id="ckdEpiOuput">
-      </td>
-      <td>
-         (mL/min/(1.73 m^2))
-      </td>
-    </tr>
-    <tr>
-      <td>
-        CKD-Epi
-      </td>
-      <td id="ckdEpiBSAOutput">
-      </td>
-      <td>
-         (mL/min)
-      </td>
-    </tr>
-  </table>
+  {% include /calculatorBits/crclOutput.html %}
 </div>
 
 <script>
 function allResults() {
-  printResult("ibwOutput",ibw());
-  printResult("abwOutput",abw());
-  printResult("lbwOutput",lbw());
-
-  printResult("cgCrClOutput",cgCrCl());
-  printResult("cgWeightOutput",renalWeightUsed());
-  printResult("ckdEpiOuput",ckdEpi());
-  printResult("ckdEpiBSAOutput",ckdEpiBSA());
-  printResult("bsaOutput",bsa());
+  crclOutput();
+  weightsOutput();
 }
 </script>

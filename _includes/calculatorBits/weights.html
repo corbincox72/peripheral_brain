@@ -1,0 +1,52 @@
+<table class="calculator">
+  <tr>
+    <th colspan="3">
+      Weights
+    </th>
+  </tr>
+  <tr>
+    <td>
+      IBW
+    </td>
+    <td id="ibwOutput"> </td>
+    <td>
+      kg
+    </td>
+  </tr>
+  <tr>
+    <td>
+      ABW
+    </td>
+    <td id="abwOutput"> </td>
+    <td>
+      kg
+    </td>
+  </tr>
+  <tr>
+    <td>
+      LBW
+    </td>
+    <td id="lbwOutput"> </td>
+    <td>
+      kg
+    </td>
+  </tr>
+  <tr>
+    <td>
+      BSA
+    </td>
+    <td id="bsaOutput"> </td>
+    <td>
+      m^2
+    </td>
+  </tr>
+</table>
+
+<script>
+function weightsOutput() {
+  printResult("ibwOutput",ibw());
+  printResult("abwOutput",abw());
+  printResult("lbwOutput",lbw());
+  printResult("bsaOutput",bsa());
+}
+</script>

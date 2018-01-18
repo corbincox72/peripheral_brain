@@ -1,10 +1,8 @@
 <table class="calculator">
   <tr>
-    <th>
+    <th colspan="3">
       Pharmacokinetics
     </th>
-    <th></th>
-    <th></th>
   </tr>
   <tr>
     <td>
@@ -65,3 +63,17 @@
     </td>
   </tr>
 </table>
+
+
+<script>
+function pkInitialOutput() {
+  printResult("kOutput",k());
+  printResult("halfLifeOutput",halfLife());
+  printResult("lowVdOutput",lowVolume());
+  printResult("highVdOutput",highVolume());
+  printResult("tauCalc",tauCalc());
+  printResult("mdCalc",maintenanceDoseCalc())
+  printResult("mdD",md());
+  printResult("tauD",tau());
+}
+</script>

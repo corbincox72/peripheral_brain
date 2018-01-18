@@ -299,6 +299,10 @@ a img {
       margin: 0 2em 0 auto;
     }
 
+    .inputCol table tr td:first-child {
+      text-align: right;
+    }
+
     .outputCol{
       grid-column: 2/3;
       border-left: 1px solid var(--accentColor);

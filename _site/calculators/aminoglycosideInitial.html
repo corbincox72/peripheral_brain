@@ -101,11 +101,9 @@
 <div class="outputCol">
   <table class="calculator">
   <tr>
-    <th>
+    <th colspan="3">
       Kidney Function
     </th>
-    <th></th>
-    <th></th>
   </tr>
   <tr>
     <td>
@@ -116,6 +114,13 @@
       mL/min
     </td>
   </tr>
+  <tr>
+    <td>
+      Weight Used for CG
+    </td>
+    <td id="cgWeightOutput"></td>
+  </tr>
+  <tr>
     <td>
       CKD-Epi
     </td>
@@ -137,14 +142,21 @@
   </tr>
 </table>
 
+<script>
+function crclOutput() {
+  printResult("cgCrClOutput",cgCrCl());
+  printResult("cgWeightOutput",renalWeightUsed());
+  printResult("ckdEpiOuput",ckdEpi());
+  printResult("ckdEpiBSAOutput",ckdEpiBSA());
+}
+</script>
+
   <br>
   <table class="calculator">
   <tr>
-    <th>
+    <th colspan="3">
       Pharmacokinetics
     </th>
-    <th></th>
-    <th></th>
   </tr>
   <tr>
     <td>
@@ -206,14 +218,26 @@
   </tr>
 </table>
 
+
+<script>
+function pkOutput() {
+  printResult("kOutput",k());
+  printResult("halfLifeOutput",halfLife());
+  printResult("lowVdOutput",lowVolume());
+  printResult("highVdOutput",highVolume());
+  printResult("tauCalc",tauCalc());
+  printResult("mdCalc",maintenanceDoseCalc())
+  printResult("mdD",md());
+  printResult("tauD",tau());
+}
+</script>
+
   <br>
   <table class="calculator">
   <tr>
-    <th>
+    <th colspan="3">
       Double Check
     </th>
-    <th></th>
-    <th></th>
   </tr>
   <tr>
     <td>
@@ -262,28 +286,24 @@
   </tr>
 </table>
 
+<script>
+function doubleCheckOutput() {
+  printResult("cmaxE",cmaxE());
+  printResult("cpkE",cpkE());
+  printResult("cminE",cminE());
+}
+</script>
+
 </div>
 
 
 
-<script src=/peripheral_brain/javascript/aminoglycosides.js></script>
+<script src=/peripheral_brain/javascript/aminoglycosideInitial.js></script>
 <script>
 function allResults() {
-  printResult("cgCrClOutput",cgCrCl());
-  printResult("ckdEpiOuput",ckdEpi());
-  printResult("ckdEpiBSAOutput",ckdEpiBSA());
-
-  printResult("kOutput",k());
-  printResult("halfLifeOutput",halfLife());
-  printResult("lowVdOutput",lowVolume());
-  printResult("highVdOutput",highVolume());
-  printResult("tauCalc",tauCalc());
-  printResult("mdCalc",maintenanceDoseCalc())
-  printResult("mdD",md());
-  printResult("tauD",tau());
-  printResult("cmaxE",cmaxE());
-  printResult("cpkE",cpkE());
-  printResult("cminE",cminE());
+  crclOutput();
+  pkOutput();
+  doubleCheckOutput();
 }
 </script>
 
