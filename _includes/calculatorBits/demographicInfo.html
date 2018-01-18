@@ -1,0 +1,20 @@
+<tr><td> Height (in) </td><td> <input type=text name="height" id="ht" onkeyup=allResults()> </td></tr>
+<tr><td> Weight (kg) </td><td> <input type=text name="weight" id="wt" onkeyup=allResults()> </td></tr>
+<tr><td> Age (yrs) </td><td> <input type=text name="Age" id="age" onkeyup=allResults()> </td></tr>
+<tr><td> SCr (mg/dL) </td><td> <input type=text name="SCr" id="scr" onkeyup=allResults()> </td></tr>
+<tr><td> Sex </td>
+  <td>
+    <form>
+      <input type=radio name="sex" id="sexM" value="M" checked="checked" onclick=allResults()>Male<br>
+      <input type=radio name="sex" id="sexF" value="F" onclick=allResults()>Female<br>
+    </form>
+  </td>
+</tr>
+<tr><td> Race </td>
+  <td>
+    <form>
+      <input type=radio name="race" id="raceAA" onclick=allResults()>African American<br>
+      <input type=radio name="race" id="raceOther" checked="checked" onclick=allResults()>Other<br>
+    </form>
+  </td>
+</tr>
