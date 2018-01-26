@@ -53,11 +53,12 @@ a img {
 
   /* Color Definitions */
     :root {
-      --mainTextColor: #000;
-      --linkColor: blue;
-      --accentColor: lightgrey;
-      --backgroundColor: white;
-      --headerColor: #777;
+      --mainTextColor: #1D2731;
+      --linkColor: #328CC1;
+      --accentColor: #0B3C5D;
+      --backgroundColor: #EFEFEF;
+      --headerColor: #D9B310;
+      --tableAccent: #bbb;
     }
 
   /* Global Fonts/Text */
@@ -80,7 +81,7 @@ a img {
     h1 {
       font-size: 2em;
       font-weight: bold;
-      border-bottom-color: var(--accentColor);
+      border-bottom-color: var(--mainTextColor);
       border-bottom-width: medium;
       border-bottom-style: solid;
     }
@@ -129,7 +130,7 @@ a img {
       text-align: center;
       text-transform: uppercase;
       border-bottom-width: thick;
-      border-bottom-color: var(--accentColor);
+      border-bottom-color: var(--mainTextColor);
       border-bottom-style: double;
       font-size: 2.25em;
       padding-bottom: 0.1em;
@@ -144,7 +145,7 @@ a img {
     }
 
     hr {
-      border-color: var(--accentColor);
+      border-color: var(--mainTextColor);
       border-width: thin;
       margin: 1em 5%;
       border-style: solid;
@@ -176,7 +177,7 @@ a img {
 
       /* TABLE SHADING */
         tr:nth-child(even) {
-          background-color: var(--accentColor);
+          background-color: var(--tableAccent);
         }
 
   /* Global Screen Config */
@@ -211,7 +212,7 @@ a img {
 
   header li {
     float: left;
-    padding: 0.25em 0.75em;
+    padding: 0.5em 0.75em;
     margin: 0;
   }
 
@@ -219,8 +220,16 @@ a img {
     background: var(--accentColor);
   }
 
+  header li:hover a{
+    color: var(--headerColor)
+  }
+
   header a {
     font-size: 1.5em;
+  }
+
+  header a:link, header a:visited, footer a:link, footer a:visited{
+    color: var(--mainTextColor);
   }
 
 /* Total Page Contents */
@@ -257,6 +266,7 @@ a img {
 /* Post Layouts */
   .post-list {
     list-style-type: none;
+    margin-left: 0
   }
 
   .post-heading {
@@ -269,7 +279,7 @@ a img {
 
   .post-content {
     border-style: solid;
-    border-color: var(--accentColor);
+    border-color: var(--mainTextColor);
     border-radius: 0.25em;
     border-width: medium;
     padding: 1em;
@@ -320,7 +330,7 @@ a img {
 
     .outputCol{
       grid-column: 2/3;
-      border-left: 1px solid var(--accentColor);
+      border-left: 1px solid var(--mainTextColor);
     }
 
     .outputCol table {
