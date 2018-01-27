@@ -63,16 +63,16 @@
 <tr><td> Sex </td>
   <td>
     <form>
-      <input type=radio name="sex" id="sexM" value="M" checked="checked" onclick=allResults()>Male<br>
-      <input type=radio name="sex" id="sexF" value="F" onclick=allResults()>Female<br>
+      <input type=radio name="sex" id="sexM" value="M" checked="checked" onclick=allResults()><label for="sexM">Male</label><br>
+      <input type=radio name="sex" id="sexF" value="F" onclick=allResults()><label for="sexF">Female</label><br>
     </form>
   </td>
 </tr>
 <tr><td> Race </td>
   <td>
     <form>
-      <input type=radio name="race" id="raceAA" onclick=allResults()>African American<br>
-      <input type=radio name="race" id="raceOther" checked="checked" onclick=allResults()>Other<br>
+      <input type=radio name="race" id="raceAA" onclick=allResults()><label for="raceAA">African American</label><br>
+      <input type=radio name="race" id="raceOther" checked="checked" onclick=allResults()><label for="raceOther">Other</label><br>
     </form>
   </td>
 </tr>
@@ -80,9 +80,9 @@
     <tr><td> CrCl (mL/min) </td>
   <td>
     <form>
-      <input type=radio name="crcl" id="crclCKDEpi"  checked="checked" onclick=allResults()>CKD-Epi<br>
-      <input type=radio name="crcl" id="crclCG" onclick=allResults()>CG-CrCl<br>
-      <input type=radio name="crcl" id="crclCustom" onclick=allResults()>Other: <input type=text id="customCrClEntry" onkeyup=allResults() style="width:5.4em"><br>
+      <input type=radio name="crcl" id="crclCKDEpi"  checked="checked" onclick=allResults()><label for="crclCKDEpi">CKD-Epi</label><br>
+      <input type=radio name="crcl" id="crclCG" onclick=allResults()><label for="crclCG">CG-CrCl</label><br>
+      <input type=radio name="crcl" id="crclCustom" onclick=allResults()><label for="crclCustom">Other:</label> <input type=text id="customCrClEntry" onkeyup=allResults() style="width:6.6em"><br>
     </form>
   </td>
 </tr>

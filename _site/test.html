@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Common Patient Calculations | The Peripheral Brain</title>
+  <title>Test | The Peripheral Brain</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -50,152 +50,13 @@
   </nav>
 </header>
 
-<script src="/peripheral_brain/javascript/commonFunctions.js"></script>
 
-<div class="calculatorContents">
-  <h1 class="title">Common Patient Calculations</h1>
-<div class="inputCol">
-  <table class="calculator">
-    <tr><td> Height (in) </td><td> <input type=text name="height" id="ht" onkeyup=allResults()> </td></tr>
-<tr><td> Weight (kg) </td><td> <input type=text name="weight" id="wt" onkeyup=allResults()> </td></tr>
-<tr><td> Age (yrs) </td><td> <input type=text name="Age" id="age" onkeyup=allResults()> </td></tr>
-<tr><td> SCr (mg/dL) </td><td> <input type=text name="SCr" id="scr" onkeyup=allResults()> </td></tr>
-<tr><td> Sex </td>
-  <td>
-    <form>
-      <input type=radio name="sex" id="sexM" value="M" checked="checked" onclick=allResults()><label for="sexM">Male</label><br>
-      <input type=radio name="sex" id="sexF" value="F" onclick=allResults()><label for="sexF">Female</label><br>
-    </form>
-  </td>
-</tr>
-<tr><td> Race </td>
-  <td>
-    <form>
-      <input type=radio name="race" id="raceAA" onclick=allResults()><label for="raceAA">African American</label><br>
-      <input type=radio name="race" id="raceOther" checked="checked" onclick=allResults()><label for="raceOther">Other</label><br>
-    </form>
-  </td>
-</tr>
+<div class="contents">
+<input type="checkbox" id="check1" checked><label for="check1">Option 1</label>
 
-  </table>
-</div>
+<br>
 
-<div class="outputCol">
-    <table class="calculator">
-  <tr>
-    <th colspan="3">
-      Weights
-    </th>
-  </tr>
-  <tr>
-    <td>
-      IBW
-    </td>
-    <td id="ibwOutput"> </td>
-    <td>
-      kg
-    </td>
-  </tr>
-  <tr>
-    <td>
-      ABW
-    </td>
-    <td id="abwOutput"> </td>
-    <td>
-      kg
-    </td>
-  </tr>
-  <tr>
-    <td>
-      LBW
-    </td>
-    <td id="lbwOutput"> </td>
-    <td>
-      kg
-    </td>
-  </tr>
-  <tr>
-    <td>
-      BSA
-    </td>
-    <td id="bsaOutput"> </td>
-    <td>
-      m^2
-    </td>
-  </tr>
-</table>
-
-<script>
-function weightsOutput() {
-  printResult("ibwOutput",ibw());
-  printResult("abwOutput",abw());
-  printResult("lbwOutput",lbw());
-  printResult("bsaOutput",bsa());
-}
-</script>
-
-
-  <br>
-  <table class="calculator">
-  <tr>
-    <th colspan="3">
-      Kidney Function
-    </th>
-  </tr>
-  <tr>
-    <td>
-      CG-CrCl
-    </td>
-    <td id="cgCrClOutput"></td>
-    <td>
-      mL/min
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Weight Used for CG
-    </td>
-    <td id="cgWeightOutput"></td>
-  </tr>
-  <tr>
-    <td>
-      CKD-Epi
-    </td>
-    <td id="ckdEpiOuput">
-    </td>
-    <td>
-       (mL/min/(1.73 m^2))
-    </td>
-  </tr>
-  <tr>
-    <td>
-      CKD-Epi
-    </td>
-    <td id="ckdEpiBSAOutput">
-    </td>
-    <td>
-       (mL/min)
-    </td>
-  </tr>
-</table>
-
-<script>
-function crclOutput() {
-  printResult("cgCrClOutput",cgCrCl());
-  printResult("cgWeightOutput",renalWeightUsed());
-  printResult("ckdEpiOuput",ckdEpi());
-  printResult("ckdEpiBSAOutput",ckdEpiBSA());
-}
-</script>
-
-</div>
-
-<script>
-function allResults() {
-  crclOutput();
-  weightsOutput();
-}
-</script>
+<input type="checkbox" id="check2"><label for="check2">Option 2</label>
 
 </div>
 
