@@ -26,7 +26,7 @@ $$
 \text{INR} = \left(  \frac{\text{PT}_{test}}{\text{PT}_{normal}} \right)^\text{ISI}
 $$
 
-| Anticoagulant       | PT/INR | aPTT | Anti-Xa Activity | Activated Clotting Time | Thrombin Time | Ecarin Clotting Time |
+|                     | PT/INR | aPTT | Anti-Xa Activity | Activated Clotting Time | Thrombin Time | Ecarin Clotting Time |
 | ------------------- | ------ | ---- | ---------------- | ----------------------- | ------------- | -------------------- |
 | Warfarin            | +*     | +/-  | -                | +                       | -             | No sig. Data         |
 | UFH                 | -      | +*   | +                | +*                      | +             | -                    |
@@ -144,43 +144,38 @@ Initial dosing is typically 5mg daily, but healthy outpatients can be given a lo
 
 NSAIDs can increase bleeding but **do not** increase INR
 
-**Increased INR**
+#### Increased INR
 
 * Acute Alcohol
-* *Amiodarone*
+* **Amiodarone**
 * Anabolic Steroids
-* *Bactrim*
+* **Bactrim**
 * Cimetidine
-* *Ciprofloxacin*
+* **Ciprofloxacin**
 * Erythromycin
-* *Fluconazole*
+* **Fluconazole**
 * Isoniazide
 * Liver Disease
-* *Metronidazole*
+* **Metronidazole**
 * Propafenone
 
-**Decreased INR**
+#### Decreased INR
 
 * Chronic Alcohol
 * Carbamazepine
 * Cholestyramine
-* *Rifampin*
+* **Rifampin**
 * Vit K Containing Foods
 
-*Consider empric adjustments of 5-15%*
+**Consider empric adjustments of 5-15%**
 
 ## Warfarin Overdose Managment
 
 * INR 4.5-10 w/o evidence of bleeding
-
   * Monitor
-
 * INR > 10 w/o evidence of bleeding
-
   * 5mg PO Vit K
-
 * Major Bleeding
-
   * PCC or FFP (PCC Prefered), Vit K (5-10mg) can be added
   * Check INR before administration and 30-60min after of PCC
 

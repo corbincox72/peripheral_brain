@@ -17,23 +17,16 @@ COPD is characterized by chronic bronchitis, emphysema, and inflamed airways. Em
 
 ## S/Sx
 
-- Chronic Cough
+* Chronic Cough
+* Dyspnea
+* Increased Sputum Production
+* Increased RR
+* Use of Accessory Muscles to Breath
+* Barrel Chest
+* Decreased Breath Sounds
+* Prolonged Exertion
 
-- Dyspnea
-
-- Increased Sputum Production
-
-- Increased RR
-
-- Use of Accessory Muscles to Breath
-
-- Barrel Chest
-
-- Decreased Breath Sounds
-
-- Prolonged Exiration
-
-  ![Barrel Chest](../images/barrel_chest.jpg)
+![Barrel Chest](../images/barrel_chest.jpg)
 
 ## Risk Factors
 
@@ -46,7 +39,7 @@ COPD is characterized by chronic bronchitis, emphysema, and inflamed airways. Em
 
 ## Diagnosis
 
-Spirometric Assessment with FEV<sub>1</sub>/FVC &lt;0.7
+Spirometric Assessment with FEV<sub>1</sub>/FVC &lt; 0.7
 
 ## Staging
 
@@ -54,10 +47,10 @@ Spirometric Assessment with FEV<sub>1</sub>/FVC &lt;0.7
 
 | Stage | Symptomatic Assessment | Exacerbations                  |
 | :---- | :--------------------- | :----------------------------- |
-| A     | CAT&lt;10 OR mMRC&le;1 | &le;1                          |
-| B     | CAT&ge;10 OR mMRC&ge;2 | &le;1                          |
-| C     | CAT&lt;10 OR mMRC&le;1 | &ge;2 OR &ge;1 Hospitalization |
-| D     | CAT&ge;10 OR mMRC&ge;2 | &ge;2 OR &ge;1 Hospitalization |
+| A     | CAT &lt; 10 OR mMRC &le; 1 | &le;1                          |
+| B     | CAT &ge; 10 OR mMRC &ge; 2 | &le;1                          |
+| C     | CAT &lt; 10 OR mMRC &le; 1 | &ge;2 OR &ge;1 Hospitalization |
+| D     | CAT &ge; 10 OR mMRC &ge; 2 | &ge;2 OR &ge;1 Hospitalization |
 
 ### Spirometric Airway Limitation
 
@@ -87,7 +80,7 @@ Spirometric Assessment with FEV<sub>1</sub>/FVC &lt;0.7
 | C          | LAMA           | LABA + LAMA       |
 | D          | LABA + LAMA    | LABA + LAMA + ICS |
 
-GOLD C can conider a LABA + ICS combination for second line therapy; however it is not as effective. GOLD D can consider Roflumilast if FEV<sub>1</sub>&lt;50% predicted w/ chronic bronchitis, and macrolide Abxs can be considered for former smokers.
+GOLD C can conider a LABA + ICS combination for second line therapy; however it is not as effective. GOLD D can consider Roflumilast if FEV<sub>1</sub> &lt; 50% predicted w/ chronic bronchitis, and macrolide Abxs can be considered for former smokers.
 
 # COPD Exacerbations
 

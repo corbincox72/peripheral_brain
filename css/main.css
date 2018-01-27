@@ -66,8 +66,16 @@ a img {
       width: 100%;
     }
 
-    h1, h2, h3, h4, h5, h6, p, table, li, ol, ul, blockquote, em, strong {
-      font-family: Arial, Helvetica, sans-serif
+    h1, h2, h3, h4, h5, h6, header a, footer a {
+      font-family: 'Open Sans', Arial, Helvetica, sans-serif
+    }
+
+    p, table, li, ol, ul, blockquote, em, strong {
+      font-family: 'Vollkorn', serif;
+    }
+
+    h1, h2, h3, h4, h5, h6, p, table, li, ol, ul, em, strong, blockquote {
+      color: var(--mainTextColor);
     }
 
     h1, h2, h3, h4, p, a {
@@ -100,12 +108,13 @@ a img {
     }
 
     h4{
-      font-weight: bold;
+      font-style: italic;
       text-align: center;
       margin: 1em 0 0.25em 0;
+      text-decoration: underline;
     }
 
-    a:link, a:visited {
+    a:link, a:visited, a h2 {
         color: var(--linkColor);
         text-decoration: none;
     }
@@ -137,18 +146,18 @@ a img {
     }
 
     code {
-      font-family: monospace;
-      color: #111;
-      background: #eee;
-      border-radius: 5px;
-      padding: 0.1em 0.25em;
+      font-family: 'Robot Mono', monospace;
+      color: var(--mainTextColor);
+      background: #ccc;
+      border-radius: 2px;
+      padding: 0em 0.25em;
     }
 
     hr {
       border-color: var(--mainTextColor);
-      border-width: thin;
+      border-width: medium;
       margin: 1em 5%;
-      border-style: solid;
+      border-style: double;
     }
 
     img {
@@ -183,6 +192,7 @@ a img {
   /* Global Screen Config */
     html{
       height: 100%;
+      width: 100%;
     }
 
     body {
@@ -230,6 +240,7 @@ a img {
 
   header a:link, header a:visited, footer a:link, footer a:visited{
     color: var(--mainTextColor);
+    font-weight: 900;
   }
 
 /* Total Page Contents */

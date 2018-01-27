@@ -1,6 +1,7 @@
 @media screen and (max-width: 750px) {
   body {
     font-size: 14pt;
+    grid-template-columns: 5% 1fr 5%;
   }
 
   header li {
@@ -33,7 +34,7 @@
   .calculatorContents {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto auto 1fr;
   }
 
   .inputCol{
