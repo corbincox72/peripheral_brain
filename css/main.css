@@ -66,12 +66,12 @@ a img {
       width: 100%;
     }
 
-    h1, h2, h3, h4, h5, h6, header a, footer a {
+    h1, h2, h3, h4, h5, h6, header a, footer a, td, th, input {
       font-family: 'Open Sans', Arial, Helvetica, sans-serif
     }
 
     p, table, li, ol, ul, blockquote, em, strong {
-      font-family: 'Vollkorn', serif;
+      font-family: 'Roboto Slab', serif;
     }
 
     h1, h2, h3, h4, h5, h6, p, table, li, ol, ul, em, strong, blockquote {
