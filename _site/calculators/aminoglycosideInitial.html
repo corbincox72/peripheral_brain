@@ -77,6 +77,40 @@
   </td>
 </tr>
 
+<script>
+function wt() {
+  return document.getElementById("wt").value;
+}
+
+function ht() {
+  return document.getElementById("ht").value;
+}
+
+function age() {
+  return document.getElementById("age").value;
+}
+
+function scr() {
+  return document.getElementById("scr").value;
+}
+
+function sex() {
+  if (document.getElementById("sexF").checked === true) {
+    return "F";
+  } else {
+    return "M";
+  }
+}
+
+function race() {
+  if (document.getElementById("raceAA").checked == true) {
+    return "AA";
+  } else {
+    return "W";
+  }
+}
+</script>
+
     <tr><td> CrCl (mL/min) </td>
   <td>
     <form>
@@ -87,18 +121,76 @@
   </td>
 </tr>
 
+<script>
+function crcl() {
+  if (document.getElementById("crclCKDEpi").checked) {
+    return ckdEpiBSA();
+  } else if (document.getElementById("crclCG").checked){
+    return cgCrCl();
+  } else {
+    return document.getElementById("customCrClEntry").value;
+  }
+}
+</script>
+
     <tr><td> Low Vd (L/kg) </td><td> <input type=text name="vdRangeLow" id="lowVdkg" onkeyup=allResults()> </td></tr>
 <tr><td> High Vd (L/kg) </td><td> <input type=text name="vdRangeHigh" id="highVdkg" onkeyup=allResults()> </td></tr>
 <tr><td> Volume (L) </td><td> <input type=text name="volume" id="vd" onkeyup=allResults()> </td></tr>
 
+<script>
+function lowVolume() {
+  return ((document.getElementById("lowVdkg").value) * volumeWt()).toFixed(1);
+}
+
+function highVolume() {
+  return ((document.getElementById("highVdkg").value) * volumeWt()).toFixed(1);
+}
+
+function volume() {
+  return document.getElementById("vd").value;
+}
+</script>
+
     <tr><td> Desired Peak (mg/L) </td><td> <input type=text name="peakD" id="cpeakD" onkeyup=allResults()> </td></tr>
 <tr><td> Desired Trough (mg/L) </td><td> <input type=text name="troughD" id="cminD" onkeyup=allResults()> </td></tr>
 
-    <tr><td> Infusion Time (hr) </td><td> <input type=text name="infusionTime" id="tinf" onkeyup=allResults()> </td></tr>
-<tr><td> Max-Peak Interval (hr) </td><td> <input type=text name="sampleTime" id="timeToSample" onkeyup=allResults()> </td></tr>
+
+<script>
+function cpeakD() {
+  return document.getElementById("cpeakD").value;
+}
+
+function cminD() {
+  return document.getElementById("cminD").value;
+}
+</script>
+
+    <tr><td> Infusion Time (hr) </td><td> <input type=text name="infusionTime" id="tinf" onkeyup=allResults() value=0.5> </td></tr>
+<tr><td> Max-Peak Interval (hr) </td><td> <input type=text name="sampleTime" id="timeToSample" onkeyup=allResults() value=0.5> </td></tr>
+
+
+<script>
+function tinf() {
+  return document.getElementById("tinf").value;
+}
+
+function timeToSample() {
+  return document.getElementById("timeToSample").value;
+}
+</script>
 
     <tr><td> Dosing Interval (hr) </td><td> <input type=text name="dosingInterval" id="tau" onkeyup=allResults()> </td></tr>
 <tr><td> MD (mg) </td><td> <input type=text name="maintenanceDose" id="md" onkeyup=allResults()> </td></tr>
+
+<script>
+function tau() {
+  return document.getElementById("tau").value;
+}
+
+function md() {
+  return document.getElementById("md").value;
+}
+</script>
 
   </table>
 </div>
@@ -148,6 +240,37 @@
 </table>
 
 <script>
+function cgCrCl() {
+  if (sex() == "F") {
+    return ((140-age())*renalWeight()/72/scr()*0.85).toFixed(0);
+  } else {
+    return ((140-age())*renalWeight()/72/scr()).toFixed(0);
+  }
+}
+
+function ckdEpi() {
+  if (sex() == "M") {
+    var k = 0.9;
+    var a = -0.411;
+    var sexMultiplier = 1;
+  } else {
+    var k = 0.7;
+    var a = -0.329;
+    var sexMultiplier = 1.018;
+  }
+
+  if (race() == "AA") {
+    var raceMultiplier = 1.159;
+  } else {
+    var raceMultiplier = 1;
+  }
+  return (141 * Math.pow(Math.min(1,scr()/k),a) * Math.pow(Math.max(1,scr()/k),-1.209) * Math.pow(0.993,age()) * sexMultiplier * raceMultiplier).toFixed(0) ;
+}
+
+function ckdEpiBSA() {
+  return (ckdEpi() * bsa() / 1.73).toFixed(0);
+}
+
 function crclOutput() {
   printResult("cgCrClOutput",cgCrCl());
   printResult("cgWeightOutput",renalWeightUsed());
@@ -225,6 +348,15 @@ function crclOutput() {
 
 
 <script>
+function tauCalc() {
+  var res = parseFloat(Math.log(cmaxD()/cminD()) / k()) + parseFloat(tinf());
+  return res.toFixed(2);
+}
+
+function maintenanceDoseCalc() {
+  return (cmaxD() * tinf() * volume() * k() * (1-Math.exp(-1*k()*tau())) / (1-Math.exp(-1*k()*tinf()))).toFixed(0);
+}
+
 function pkInitialOutput() {
   printResult("kOutput",k());
   printResult("halfLifeOutput",halfLife());
@@ -292,6 +424,19 @@ function pkInitialOutput() {
 </table>
 
 <script>
+
+function cmaxE() {
+  return (md() * (1-Math.exp(-1*k()*tinf())) / volume() / tinf() / k() / (1-Math.exp(-1*k()*tau()))).toFixed(1);;
+}
+
+function cpkE() {
+  return (cmaxE() * Math.exp(-1*k()*timeToSample())).toFixed(1);;
+}
+
+function cminE() {
+  return (cmaxE() * Math.exp(-1*k()*(tau() - tinf()))).toFixed(1);
+}
+
 function doubleCheckOutput() {
   printResult("cmaxE",cmaxE());
   printResult("cpkE",cpkE());

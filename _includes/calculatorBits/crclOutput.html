@@ -42,6 +42,37 @@
 </table>
 
 <script>
+function cgCrCl() {
+  if (sex() == "F") {
+    return ((140-age())*renalWeight()/72/scr()*0.85).toFixed(0);
+  } else {
+    return ((140-age())*renalWeight()/72/scr()).toFixed(0);
+  }
+}
+
+function ckdEpi() {
+  if (sex() == "M") {
+    var k = 0.9;
+    var a = -0.411;
+    var sexMultiplier = 1;
+  } else {
+    var k = 0.7;
+    var a = -0.329;
+    var sexMultiplier = 1.018;
+  }
+
+  if (race() == "AA") {
+    var raceMultiplier = 1.159;
+  } else {
+    var raceMultiplier = 1;
+  }
+  return (141 * Math.pow(Math.min(1,scr()/k),a) * Math.pow(Math.max(1,scr()/k),-1.209) * Math.pow(0.993,age()) * sexMultiplier * raceMultiplier).toFixed(0) ;
+}
+
+function ckdEpiBSA() {
+  return (ckdEpi() * bsa() / 1.73).toFixed(0);
+}
+
 function crclOutput() {
   printResult("cgCrClOutput",cgCrCl());
   printResult("cgWeightOutput",renalWeightUsed());

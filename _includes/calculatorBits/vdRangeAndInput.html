@@ -1,3 +1,17 @@
 <tr><td> Low Vd (L/kg) </td><td> <input type=text name="vdRangeLow" id="lowVdkg" onkeyup=allResults()> </td></tr>
 <tr><td> High Vd (L/kg) </td><td> <input type=text name="vdRangeHigh" id="highVdkg" onkeyup=allResults()> </td></tr>
 <tr><td> Volume (L) </td><td> <input type=text name="volume" id="vd" onkeyup=allResults()> </td></tr>
+
+<script>
+function lowVolume() {
+  return ((document.getElementById("lowVdkg").value) * volumeWt()).toFixed(1);
+}
+
+function highVolume() {
+  return ((document.getElementById("highVdkg").value) * volumeWt()).toFixed(1);
+}
+
+function volume() {
+  return document.getElementById("vd").value;
+}
+</script>

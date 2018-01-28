@@ -55,7 +55,6 @@
 <div class="calculatorContents">
   <h1 class="title">Aminoglycoside Peak-Trough Dosing Calculator</h1>
 <div class="inputCol">
-  <h1>CACLULATOR NOT CURRENTLY WORKING</h1>
   <table class="calculator">
     <tr>
       <th colspan="2">
@@ -64,10 +63,19 @@
     </tr>
     <tr>
   <td>
+    Dose (mg)
+  </td>
+  <td>
+    <input type="text" id="ptDoseInput" onkeyup=allResults()>
+  </td>
+</tr>
+
+<tr>
+  <td>
     Pt Peak (mg/L)
   </td>
   <td>
-    <input type="text" id="ptPkInput" />
+    <input type="text" id="ptPkInput" onkeyup=allResults()>
   </td>
 </tr>
 
@@ -76,7 +84,7 @@
     Pt Trough (mg/L)
   </td>
   <td>
-    <input type="text" id="ptTroughInput" />
+    <input type="text" id="ptTroughInput" onkeyup=allResults()>
   </td>
 </tr>
 
@@ -85,9 +93,58 @@
     Current Dosing Interval (hr)
   </td>
   <td>
-    <input type="text" id="ptDosingInterval" />
+    <input type="text" id="ptDosingInterval" onkeyup=allResults()>
   </td>
 </tr>
+
+<tr>
+  <td>
+    Current Infusion Time (hr)
+  </td>
+  <td>
+    <input type="text" id="ptInfTime" onkeyup=allResults() value=0.5>
+  </td>
+</tr>
+<tr>
+  <td>
+    Max-Peak Interval (hr)
+  </td>
+  <td>
+    <input type="text" id="ptTimeToSampleInput" onkeyup=allResults() value=0.5>
+  </td>
+</tr>
+<tr>
+  <td>
+    Trough-Min Interval (hr)
+  </td>
+  <td>
+    <input type="text" id="ptTroughMinIntervalInput" onkeyup=allResults() value=0>
+  </td>
+</tr>
+
+<script>
+function ptDose() {
+  return document.getElementById("ptDoseInput").value;
+}
+function ptPk() {
+  return document.getElementById("ptPkInput").value;
+}
+function ptTrough() {
+  return document.getElementById("ptTroughInput").value;
+}
+function ptTau() {
+  return document.getElementById("ptDosingInterval").value;
+}
+function ptInfTime() {
+  return document.getElementById("ptInfTime").value;
+}
+function ptTimeToSample() {
+  return document.getElementById("ptTimeToSampleInput").value;
+}
+function ptTroughMinInterval() {
+  return document.getElementById("ptTroughMinIntervalInput").value;
+}
+</script>
 
   </table>
   <br>
@@ -101,11 +158,43 @@
     <tr><td> Desired Peak (mg/L) </td><td> <input type=text name="peakD" id="cpeakD" onkeyup=allResults()> </td></tr>
 <tr><td> Desired Trough (mg/L) </td><td> <input type=text name="troughD" id="cminD" onkeyup=allResults()> </td></tr>
 
-    <tr><td> Infusion Time (hr) </td><td> <input type=text name="infusionTime" id="tinf" onkeyup=allResults()> </td></tr>
-<tr><td> Max-Peak Interval (hr) </td><td> <input type=text name="sampleTime" id="timeToSample" onkeyup=allResults()> </td></tr>
+
+<script>
+function cpeakD() {
+  return document.getElementById("cpeakD").value;
+}
+
+function cminD() {
+  return document.getElementById("cminD").value;
+}
+</script>
+
+    <tr><td> Infusion Time (hr) </td><td> <input type=text name="infusionTime" id="tinf" onkeyup=allResults() value=0.5> </td></tr>
+<tr><td> Max-Peak Interval (hr) </td><td> <input type=text name="sampleTime" id="timeToSample" onkeyup=allResults() value=0.5> </td></tr>
+
+
+<script>
+function tinf() {
+  return document.getElementById("tinf").value;
+}
+
+function timeToSample() {
+  return document.getElementById("timeToSample").value;
+}
+</script>
 
     <tr><td> Dosing Interval (hr) </td><td> <input type=text name="dosingInterval" id="tau" onkeyup=allResults()> </td></tr>
 <tr><td> MD (mg) </td><td> <input type=text name="maintenanceDose" id="md" onkeyup=allResults()> </td></tr>
+
+<script>
+function tau() {
+  return document.getElementById("tau").value;
+}
+
+function md() {
+  return document.getElementById("md").value;
+}
+</script>
 
   </table>
 </div>
@@ -139,19 +228,9 @@
   </tr>
   <tr>
     <td>
-      Low Vd
+      Pt Vd
     </td>
-    <td id="lowVdOutput">
-    </td>
-    <td>
-      L
-    </td>
-  </tr>
-  <tr>
-    <td>
-      High Vd
-    </td>
-    <td id="highVdOutput">
+    <td id="ptVdOutput">
     </td>
     <td>
       L
@@ -179,11 +258,19 @@
 
 
 <script>
-function pkInitialOutput() {
+function tauCalc() {
+  var res = parseFloat(Math.log(cmaxD()/cminD()) / k()) + parseFloat(tinf());
+  return res.toFixed(2);
+}
+
+function maintenanceDoseCalc() {
+  return (cmaxD() * tinf() * volume() * k() * (1-Math.exp(-1*k()*tau())) / (1-Math.exp(-1*k()*tinf()))).toFixed(0);
+}
+
+function pkPtOutput() {
   printResult("kOutput",k());
   printResult("halfLifeOutput",halfLife());
-  printResult("lowVdOutput",lowVolume());
-  printResult("highVdOutput",highVolume());
+  printResult("ptVdOutput",volume());
   printResult("tauCalc",tauCalc());
   printResult("mdCalc",maintenanceDoseCalc())
   printResult("mdD",md());
@@ -246,6 +333,19 @@ function pkInitialOutput() {
 </table>
 
 <script>
+
+function cmaxE() {
+  return (md() * (1-Math.exp(-1*k()*tinf())) / volume() / tinf() / k() / (1-Math.exp(-1*k()*tau()))).toFixed(1);;
+}
+
+function cpkE() {
+  return (cmaxE() * Math.exp(-1*k()*timeToSample())).toFixed(1);;
+}
+
+function cminE() {
+  return (cmaxE() * Math.exp(-1*k()*(tau() - tinf()))).toFixed(1);
+}
+
 function doubleCheckOutput() {
   printResult("cmaxE",cmaxE());
   printResult("cpkE",cpkE());
@@ -253,14 +353,31 @@ function doubleCheckOutput() {
 }
 </script>
 
+  <br>
+  <table class="calculator">
+    <th colspan="3">
+      Next Dose Delay*
+    </th>
+    <tr>
+      <td>
+        Delay
+      </td>
+      <td id="doseDelayOutput"></td>
+      <td>
+        hr
+      </td>
+    </tr>
+  </table>
+  <p style="margin: 1em">*This value represents the <strong>minimum</strong> time elapsed between the last peak and the next administration to garuntee the drug has decreased below the desired trough concentration </p>
 </div>
 
 <script src=/peripheral_brain/javascript/aminoglycosidePkTrough.js></script>
 <script>
+
 function allResults() {
-  crclOutput();
-  pkOutput();
-  doubleCheck();
+  printResult("doseDelayOutput", (Math.log(ptPk() / cminD()) / k()).toFixed(1) )
+  pkPtOutput();
+  doubleCheckOutput();
 }
 </script>
 

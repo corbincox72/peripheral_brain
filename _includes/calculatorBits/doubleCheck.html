@@ -52,6 +52,19 @@
 </table>
 
 <script>
+
+function cmaxE() {
+  return (md() * (1-Math.exp(-1*k()*tinf())) / volume() / tinf() / k() / (1-Math.exp(-1*k()*tau()))).toFixed(1);;
+}
+
+function cpkE() {
+  return (cmaxE() * Math.exp(-1*k()*timeToSample())).toFixed(1);;
+}
+
+function cminE() {
+  return (cmaxE() * Math.exp(-1*k()*(tau() - tinf()))).toFixed(1);
+}
+
 function doubleCheckOutput() {
   printResult("cmaxE",cmaxE());
   printResult("cpkE",cpkE());

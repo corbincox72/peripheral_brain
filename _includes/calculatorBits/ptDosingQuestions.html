@@ -1,9 +1,18 @@
 <tr>
   <td>
+    Dose (mg)
+  </td>
+  <td>
+    <input type="text" id="ptDoseInput" onkeyup=allResults()>
+  </td>
+</tr>
+
+<tr>
+  <td>
     Pt Peak (mg/L)
   </td>
   <td>
-    <input type="text" id="ptPkInput" />
+    <input type="text" id="ptPkInput" onkeyup=allResults()>
   </td>
 </tr>
 
@@ -12,7 +21,7 @@
     Pt Trough (mg/L)
   </td>
   <td>
-    <input type="text" id="ptTroughInput" />
+    <input type="text" id="ptTroughInput" onkeyup=allResults()>
   </td>
 </tr>
 
@@ -21,6 +30,55 @@
     Current Dosing Interval (hr)
   </td>
   <td>
-    <input type="text" id="ptDosingInterval" />
+    <input type="text" id="ptDosingInterval" onkeyup=allResults()>
   </td>
 </tr>
+
+<tr>
+  <td>
+    Current Infusion Time (hr)
+  </td>
+  <td>
+    <input type="text" id="ptInfTime" onkeyup=allResults() value=0.5>
+  </td>
+</tr>
+<tr>
+  <td>
+    Max-Peak Interval (hr)
+  </td>
+  <td>
+    <input type="text" id="ptTimeToSampleInput" onkeyup=allResults() value=0.5>
+  </td>
+</tr>
+<tr>
+  <td>
+    Trough-Min Interval (hr)
+  </td>
+  <td>
+    <input type="text" id="ptTroughMinIntervalInput" onkeyup=allResults() value=0>
+  </td>
+</tr>
+
+<script>
+function ptDose() {
+  return document.getElementById("ptDoseInput").value;
+}
+function ptPk() {
+  return document.getElementById("ptPkInput").value;
+}
+function ptTrough() {
+  return document.getElementById("ptTroughInput").value;
+}
+function ptTau() {
+  return document.getElementById("ptDosingInterval").value;
+}
+function ptInfTime() {
+  return document.getElementById("ptInfTime").value;
+}
+function ptTimeToSample() {
+  return document.getElementById("ptTimeToSampleInput").value;
+}
+function ptTroughMinInterval() {
+  return document.getElementById("ptTroughMinIntervalInput").value;
+}
+</script>

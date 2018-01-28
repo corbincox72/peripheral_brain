@@ -1,2 +1,13 @@
 <tr><td> Desired Peak (mg/L) </td><td> <input type=text name="peakD" id="cpeakD" onkeyup=allResults()> </td></tr>
 <tr><td> Desired Trough (mg/L) </td><td> <input type=text name="troughD" id="cminD" onkeyup=allResults()> </td></tr>
+
+
+<script>
+function cpeakD() {
+  return document.getElementById("cpeakD").value;
+}
+
+function cminD() {
+  return document.getElementById("cminD").value;
+}
+</script>

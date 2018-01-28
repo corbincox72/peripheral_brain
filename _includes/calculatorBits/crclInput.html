@@ -7,3 +7,15 @@
     </form>
   </td>
 </tr>
+
+<script>
+function crcl() {
+  if (document.getElementById("crclCKDEpi").checked) {
+    return ckdEpiBSA();
+  } else if (document.getElementById("crclCG").checked){
+    return cgCrCl();
+  } else {
+    return document.getElementById("customCrClEntry").value;
+  }
+}
+</script>

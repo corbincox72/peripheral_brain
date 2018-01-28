@@ -18,3 +18,37 @@
     </form>
   </td>
 </tr>
+
+<script>
+function wt() {
+  return document.getElementById("wt").value;
+}
+
+function ht() {
+  return document.getElementById("ht").value;
+}
+
+function age() {
+  return document.getElementById("age").value;
+}
+
+function scr() {
+  return document.getElementById("scr").value;
+}
+
+function sex() {
+  if (document.getElementById("sexF").checked === true) {
+    return "F";
+  } else {
+    return "M";
+  }
+}
+
+function race() {
+  if (document.getElementById("raceAA").checked == true) {
+    return "AA";
+  } else {
+    return "W";
+  }
+}
+</script>

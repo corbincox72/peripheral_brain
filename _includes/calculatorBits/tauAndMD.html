@@ -1,2 +1,12 @@
 <tr><td> Dosing Interval (hr) </td><td> <input type=text name="dosingInterval" id="tau" onkeyup=allResults()> </td></tr>
 <tr><td> MD (mg) </td><td> <input type=text name="maintenanceDose" id="md" onkeyup=allResults()> </td></tr>
+
+<script>
+function tau() {
+  return document.getElementById("tau").value;
+}
+
+function md() {
+  return document.getElementById("md").value;
+}
+</script>

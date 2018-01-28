@@ -26,19 +26,9 @@
   </tr>
   <tr>
     <td>
-      Low Vd
+      Pt Vd
     </td>
-    <td id="lowVdOutput">
-    </td>
-    <td>
-      L
-    </td>
-  </tr>
-  <tr>
-    <td>
-      High Vd
-    </td>
-    <td id="highVdOutput">
+    <td id="ptVdOutput">
     </td>
     <td>
       L
@@ -75,11 +65,10 @@ function maintenanceDoseCalc() {
   return (cmaxD() * tinf() * volume() * k() * (1-Math.exp(-1*k()*tau())) / (1-Math.exp(-1*k()*tinf()))).toFixed(0);
 }
 
-function pkInitialOutput() {
+function pkPtOutput() {
   printResult("kOutput",k());
   printResult("halfLifeOutput",halfLife());
-  printResult("lowVdOutput",lowVolume());
-  printResult("highVdOutput",highVolume());
+  printResult("ptVdOutput",volume());
   printResult("tauCalc",tauCalc());
   printResult("mdCalc",maintenanceDoseCalc())
   printResult("mdD",md());
