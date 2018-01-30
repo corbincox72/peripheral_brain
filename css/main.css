@@ -378,6 +378,12 @@ a img {
     grid-row: 2 / 2;
   }
 
+  @media screen and (min-width: 1430px) {
+    body {
+      grid-template-columns: 1fr 1000px 1fr;
+    }
+  }
+
 /* Footer Formatting */
   footer {
     grid-column: 1 / -1;

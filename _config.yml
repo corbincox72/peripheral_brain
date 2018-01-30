@@ -35,8 +35,6 @@ collections:
     output: true
   calculators:
     output: true
-  flowcharts:
-    output: true
 
 plugins:
   - jekyll-admin
