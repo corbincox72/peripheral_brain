@@ -2,7 +2,7 @@
 title: Ischemic Heart Disease
 layout: diseases
 author: Corbin Cox
-last-updated: 2018-1-29
+last-updated: 2018-2-1
 created: 2018-1-29
 toc: true
 ---
@@ -95,12 +95,82 @@ ST-Depression **only during episodes of angina**, EKG is otherwise unremarkable
 * Ivabradine: Negative Chronotropy via HCN Inhibition to Decrease Oxygen Consumption
 * Ranolazine: Inhibits late-Na current to inhibit reverse calcium transport during ischemic attacks
 * Statins: Decrease Athlerosclerosis
-* Paclitaxel: Binds and Stabilizes Microtubules to prevent mitosis in stent placement
-* Sirolimus: Binds FKBP12, inhibiting mTOR and arresting the cell cycle at the G<sub>1</sub>-S transition
 
 ###  Algorithm
 
 ![SIHD Sx Managment](../images/sidhTreatment.svg)
+
+## Anti-Platelet Therapy
+
+* ASA: 75-162mg QD (81mg QD most common)
+* Clopidogrel: 75mg BID
+* Prasugrel*: 10mg QD
+* Ticagrelor*: 90mg BID
+* Cangrelor*: IV Only
+
+**following ACS only*
+
+### Primary Prevention
+
+Patients 50-69 with &ge; 10% 10-year CVD risk should be initiated on low-dose aspirin indefinitely if they have no additional bleeding risk. Older patients can continue ASA or initiate ASA; however, shorter life expectancy means the risks may outweigh the benefits. There is insufficient evidencefor a recomendation in patients under 50.
+
+### Secondary Prevention
+
+| Interventions      | Drugs                                    | Duration                                 |
+| ------------------ | ---------------------------------------- | ---------------------------------------- |
+| SIHD               | ASA 81mg QD*^                            | Indefinitely                             |
+| Elective PCI + BMS | ASA 325mg before then 81mg QD & Clopidogrel 300-600mg before then 75mg QD | ASA: Indefinitely; Clopidogrel: Minimum of 1mo, typically 12mo |
+| Elective PCI + DES | ASA 325mg before then 81mg QD & Clopidogrel 300-600mg before then 75mg QD | ASA: Indefinitely; Clopidogrel: Minimum of 6mo, typically 12mo |
+| PCI/Stent + CABG   | Restart regimine for stent               | ASA: Indefinitely; Repeat duration of stent (i.e. minimum set by kind of stent, 12mo typical) |
+| CABG               | ASA 81mg QD & Clopidogrel 75mg QD        | ASA Indefinitely; Clopidogrel 12mo       |
+
+*Pts with absolute contraindications or significant intolerance to ASA can initiate Clopidogrel 75mg QD
+
+^DAPT: Dual Antiplatelet Therapy may be given despite lack of evidence in high risk patients
+
+### DAPT Score and Risk of DAPT Duration
+
+| Characteristic           | Points |
+| ------------------------ | ------ |
+| Age &ge; 75              | -2     |
+| Age [65,75)              | -1     |
+| Age &lt; 65              | 0      |
+| Current Smoker           | 1      |
+| DM                       | 1      |
+| MI at Presentation       | 1      |
+| Prior PCI or MI          | 1      |
+| Stent Diameter &lt; 3mm  | 1      |
+| Paclitaxel-eluting Stent | 1      |
+| CHF with LVEF &lt; 30%   | 2      |
+| SVG PCI                  | 2      |
+
+Scores &ge; 2 favor prolonged therapy, while &lt; 2 have an unfavorable benefit/risk ratio for prolonged therapy (use standard therapy).
+
+### ACEIs in CAD
+
+ACEIs and ARBs have been show to stabilize plaques, improve endothelial function, inhibit smooth muscle migration, decrease macrophage infiltration, and possibly decrease oxidation of LDL. All CAD patients, especially those with CHF with LVEF &le; 40%, HTN, DM, or CKD should be on an ACEI or ARB.
+
+## Symptomatic Control
+
+### Nitrates
+
+SL Nitroglycerin is the prefered agent for acute attacks, given as either 0.3-0.6mg SL tabs or 0.4mg/spray SL spray. NTG tablets cannot be stored in vials other than that which they are shipped in, and cannot, by law, have childproof caps.
+
+#### Dosing
+
+1. Sit Down (Risk of Hypotension)
+2. Take 1 dose
+3. Wait 5 minutes
+4. If pain does not resolve, call 911 and take a second dose
+5. Take a maximum of 3 doses as needed
+
+### &beta;-Blockers
+
+Beta-Blockers work via decreasing myocardial contractility and heart rate, decreasing oxygen demand. Cardioselective agents such as Metoprolol (<100mg dose) and Atenolol (<50mg dose) are prefered, and beta-blocker with intrinsic sympathomimetic activity should be avoided due to the increased resting HR. For the specific behavor of &beta;-blockers, see their section in [Sympatholytics]({{ site.baseurl }}/drugClasses/sympatholytics.html)
+
+### CCBs
+
+Long acting DHP CCBs or non-DHP CCBs are appropriate therapy choices for prevention of anginal episodes. Consider the distinct behaviors of the DHP (vasodilatory similar to nitrates) and non-DHP (negative inotropes and chronotropes, similar to &beta;-blockers, but with small amounts of vasodilation) classes in determining appropriate therapy. Non-DHPs have the significant and unique monitoring parameter of constipation, especially verapamil.
 
 # Prinzmetal's (Variable) Angina
 
