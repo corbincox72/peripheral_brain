@@ -1,8 +1,8 @@
 ---
-title: Ischemic Heart Disease
+title: Stable Ischemic Heart Disease (Incomplete)
 layout: diseases
 author: Corbin Cox
-last-updated: 2018-2-1
+last-updated: 2018-2-8
 created: 2018-1-29
 toc: true
 ---
@@ -152,9 +152,9 @@ ACEIs and ARBs have been show to stabilize plaques, improve endothelial function
 
 ## Symptomatic Control
 
-### Nitrates
+### Acute Nitrates
 
-SL Nitroglycerin is the prefered agent for acute attacks, given as either 0.3-0.6mg SL tabs or 0.4mg/spray SL spray. NTG tablets cannot be stored in vials other than that which they are shipped in, and cannot, by law, have childproof caps.
+SL Nitroglycerin is the prefered agent for acute attacks, given as either 0.3-0.6mg SL tabs or 0.4mg/spray SL spray. NTG tablets cannot be stored in vials other than that which they are shipped in, and cannot, by law, have childproof caps.  It is appropriate to have a patient keep a diary of nitrate use to record the frequency of their attacks the the frequency of rescue NTG use.
 
 #### Dosing
 
@@ -166,11 +166,35 @@ SL Nitroglycerin is the prefered agent for acute attacks, given as either 0.3-0.
 
 ### &beta;-Blockers
 
-Beta-Blockers work via decreasing myocardial contractility and heart rate, decreasing oxygen demand. Cardioselective agents such as Metoprolol (<100mg dose) and Atenolol (<50mg dose) are prefered, and beta-blocker with intrinsic sympathomimetic activity should be avoided due to the increased resting HR. For the specific behavor of &beta;-blockers, see their section in [Sympatholytics]({{ site.baseurl }}/drugClasses/sympatholytics.html)
+Beta-Blockers work via decreasing myocardial contractility and heart rate, decreasing oxygen demand. Cardioselective agents such as Metoprolol (<100mg dose) and Atenolol (<50mg dose) are prefered, and beta-blocker with intrinsic sympathomimetic activity should be avoided due to the increased resting HR. &beta;-blockers should be dosed to achieve either: RHR 50-60, exercise HR &lt; 100, or exercise HR 75% of HR causing angina. For the specific behavor of &beta;-blockers, see their section in [Sympatholytics]({{ site.baseurl }}/drugClasses/sympatholytics.html). 
 
 ### CCBs
 
-Long acting DHP CCBs or non-DHP CCBs are appropriate therapy choices for prevention of anginal episodes. Consider the distinct behaviors of the DHP (vasodilatory similar to nitrates) and non-DHP (negative inotropes and chronotropes, similar to &beta;-blockers, but with small amounts of vasodilation) classes in determining appropriate therapy. Non-DHPs have the significant and unique monitoring parameter of constipation, especially verapamil.
+Long acting DHP CCBs or non-DHP CCBs are appropriate therapy choices for prevention of anginal episodes. Consider the distinct behaviors of the DHP (vasodilatory similar to nitrates) and non-DHP (negative inotropes and chronotropes, similar to &beta;-blockers, but with small amounts of vasodilation) classes in determining appropriate therapy. Non-DHPs have the significant and unique monitoring parameter of constipation, especially verapamil. IR DHP CCBs should be avoided due to marked tachycardia.
+
+### Chronic Nitrates
+
+ISDN, ISMN, and transdermal NTG are commonly used. These agents should not be used as monotherapy due to a required washout period of 10-12hrs with no drug on board to prevent tolerance. Other downsides include frequency of administration (BID-QID).
+
+### Ranolazine
+
+Ranolazine inhibits late-Na influx into cardiac myocytes, which during ischemia can change the sodium gradient enough to reverse Ca transport into the cell, creating a positive feedback loop of contraction and damaging the ischemic tissue. Ranolazine has no impact on BP or HR, but can cause **long Q-T intervals**, which has been shown to relate to increased risk of sudden cardiac death. Ranolazine is a third line agent and is typically used in combination with multiple other agents or if adequate control cannot be reached with dual therapy due to decreased HR and BP.
+
+#### Side Effects
+
+* Constipation
+* Nausea
+* Dizziness
+* Headache
+* Dose-Dependent QT Prolongation
+
+### Ivabradine
+
+Ivabradine can be used off label for angina in adults unable to tolerate &beta;-blockers, with no arrhythmias and a RHR &ge; 70. This medication can also be used in combination with &beta;-blockers if adequate control could not be reached with an adequate &beta;-blocker dose.
+
+
+
+**CONTINUE HERE WITH COMPELLING INDICATIONS SLIDE 126**
 
 # Prinzmetal's (Variable) Angina
 
@@ -205,8 +229,4 @@ Unstable angina is supply ischemia characterized by a rapid worsening of athlero
 * ASA: Decrease Platelt Aggregation / Inhibit Thrombus Formation
 * P2Y12 Inhibitors (Clopidogrel, Prasgurel, Ticagrelor): Inhibit Platelt Activation / Inhibit Thrombus Formation
 * Heparin: Inhibition of Thrombin via AT-III to inhibit coagulation cascade
-
-# Cardiac Syndrome X
-
-# Silent Myocardial Ischemia
 

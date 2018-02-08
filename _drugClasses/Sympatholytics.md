@@ -1,8 +1,8 @@
 ---
-title: Sympatholytics
+title: Sympatholytics (Incomplete)
 layout: diseases
 author: Corbin Cox
-last-updated: 2018-2-1
+last-updated: 2018-2-8
 created: 2018-2-1
 toc: true
 permalink: /drugClasses/sympatholytics.html
@@ -28,3 +28,10 @@ permalink: /drugClasses/sympatholytics.html
 | Timolol              | &beta;<sub>1</sub>, &beta;<sub>2</sub>   | 0    | 10-20mg BID            |
 | Labetolol            | &beta;<sub>1</sub>, &beta;<sub>2</sub>, &alpha;<sub>1</sub> | 0    | 200-400mg BID          |
 
+## Common Side Effects
+
+* Bronchoconstriction (particularly those with &beta;<sub>2</sub> activity)
+* Fatigue
+* Depression
+* Nightmares
+* Sexual dysfunction

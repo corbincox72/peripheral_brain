@@ -1,5 +1,5 @@
 ---
-title: COPD
+title: COPD (Incomplete)
 layout: diseases
 author: Corbin Cox
 last-updated: 2017-12-8
@@ -45,8 +45,8 @@ Spirometric Assessment with FEV<sub>1</sub>/FVC &lt; 0.7
 
 ### Symptomatic Assessment
 
-| Stage | Symptomatic Assessment | Exacerbations                  |
-| :---- | :--------------------- | :----------------------------- |
+| Stage | Symptomatic Assessment     | Exacerbations                  |
+| :---- | :------------------------- | :----------------------------- |
 | A     | CAT &lt; 10 OR mMRC &le; 1 | &le;1                          |
 | B     | CAT &ge; 10 OR mMRC &ge; 2 | &le;1                          |
 | C     | CAT &lt; 10 OR mMRC &le; 1 | &ge;2 OR &ge;1 Hospitalization |
