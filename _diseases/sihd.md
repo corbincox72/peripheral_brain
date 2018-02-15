@@ -2,7 +2,7 @@
 title: Stable Ischemic Heart Disease (Incomplete)
 layout: diseases
 author: Corbin Cox
-last-updated: 2018-2-8
+last-updated: 2018-2-15
 created: 2018-1-29
 toc: true
 ---
@@ -98,7 +98,7 @@ ST-Depression **only during episodes of angina**, EKG is otherwise unremarkable
 
 ###  Algorithm
 
-![SIHD Sx Managment](../images/sidhTreatment.svg)
+![SIHD Management Algorithm](../flowcharts/sihdManagement/sihdManagement.svg)
 
 ## Anti-Platelet Therapy
 
@@ -166,7 +166,7 @@ SL Nitroglycerin is the prefered agent for acute attacks, given as either 0.3-0.
 
 ### &beta;-Blockers
 
-Beta-Blockers work via decreasing myocardial contractility and heart rate, decreasing oxygen demand. Cardioselective agents such as Metoprolol (<100mg dose) and Atenolol (<50mg dose) are prefered, and beta-blocker with intrinsic sympathomimetic activity should be avoided due to the increased resting HR. &beta;-blockers should be dosed to achieve either: RHR 50-60, exercise HR &lt; 100, or exercise HR 75% of HR causing angina. For the specific behavor of &beta;-blockers, see their section in [Sympatholytics]({{ site.baseurl }}/drugClasses/sympatholytics.html). 
+Beta-Blockers work via decreasing myocardial contractility and heart rate, decreasing oxygen demand. Cardioselective agents such as Metoprolol (<100mg dose) and Atenolol (<50mg dose) are prefered, and beta-blocker with intrinsic sympathomimetic activity should be avoided due to the increased resting HR. &beta;-blockers should be dosed to achieve either: RHR 50-60, exercise HR &lt; 100, or exercise HR 75% of HR causing angina. For the specific behavor of &beta;-blockers, see their section in [Sympatholytics]({{ site.baseurl }}/drugClasses/sympatholytics.html).
 
 ### CCBs
 
@@ -229,4 +229,3 @@ Unstable angina is supply ischemia characterized by a rapid worsening of athlero
 * ASA: Decrease Platelt Aggregation / Inhibit Thrombus Formation
 * P2Y12 Inhibitors (Clopidogrel, Prasgurel, Ticagrelor): Inhibit Platelt Activation / Inhibit Thrombus Formation
 * Heparin: Inhibition of Thrombin via AT-III to inhibit coagulation cascade
-

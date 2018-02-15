@@ -1,23 +1,42 @@
 /* Flowchart variables */
 /* Sequence Diagram variables */
 /* Gantt chart variables */
-.mermaid .label {
-  color: #333;
+.mermaid svg{ /* Center Diagrams */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
+
+.mermaid .label {
+  color: var(--mainTextColor); /* Text Color */
+}
+
 .node rect,
 .node circle,
 .node ellipse,
 .node polygon {
-  fill: #ECECFF;
-  stroke: #CCCCFF;
+  fill: var(--backgroundColor); /* Fill of Boxes */
+  stroke: var(--mainTextColor); /* Line Color Around Boxes */
   stroke-width: 1px;
 }
+
 .edgePath .path {
-  stroke: #333333;
+  stroke: #000; /* Line Color */
 }
+
 .edgeLabel {
-  background-color: #e8e8e8;
+  background-color: var(--backgroundColor); /* Line Label Background Color */
 }
+
+.edgeLabel .label {
+  color: var(--mainTextColor); /* Line Label Color */
+  font-size: small; /* Line Label Size */
+}
+
+.mermaid .node .label {
+  font-size: 10pt;
+}
+
 .cluster rect {
   fill: #ffffde !important;
   rx: 4 !important;
@@ -47,7 +66,7 @@ text.actor {
 .messageLine1 {
   stroke-width: 1.5;
   stroke-dasharray: "2 2";
-  stroke: #333;
+  stroke: var;
 }
 #arrowhead {
   fill: #333;
@@ -256,7 +275,6 @@ text.actor {
 */
 .node text {
   font-family: 'trebuchet ms', verdana, arial;
-  font-size: 14px;
 }
 div.mermaidTooltip {
   position: absolute;
