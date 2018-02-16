@@ -5,6 +5,7 @@ author: Corbin Cox
 last-updated: 2018-1-25
 created: 2018-1-22
 toc: true
+common: true
 ---
 
 # Coagulation Cascade
@@ -36,7 +37,7 @@ $$
 | Edoxaban / Apixaban | +/-    | +/-  | +                | No sig. Data            | -             | -                    |
 | Dabigatran          | +/-    | +    | +/-              | -                       | +*            | +*                   |
 
-(* Prefered Test, + Higher Values, - No Effect, +/- Inconsistent Effect)
+(* Preferred Test, + Higher Values, - No Effect, +/- Inconsistent Effect)
 
 # Anticoagulant Classes
 

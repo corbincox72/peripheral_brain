@@ -11,7 +11,7 @@ toc: true
 
 # Pathophysiology
 
-COPD is characterized by chronic bronchitis, emphysema, and inflamed airways. Emphysema is the abnormal enlargment of airspaces due to the destruction of alvelar wall tissue. Bronchitis is characterized by the inflammation of the bronchioles leading to hypertrophy and fibrosis of the respiratory smooth muscle, accompanied by mucosal gland enlargment and ciliary abnormalities. In the case of COPD, inflammation refers to increased oxidative stress, increased levels of proteases with decreased levels of antiproteases, as well as inflamation due to irritants such as cigarette smoke.
+COPD is characterized by chronic bronchitis, emphysema, and inflamed airways. Emphysema is the abnormal enlargment of airspaces due to the destruction of alveolar wall tissue. Bronchitis is characterized by the inflammation of the bronchioles leading to hypertrophy and fibrosis of the respiratory smooth muscle, accompanied by mucosal gland enlargement and ciliary abnormalities. In the case of COPD, inflammation refers to increased oxidative stress, increased levels of proteases with decreased levels of antiproteases, as well as inflammation due to irritants such as cigarette smoke.
 
 # Diagnosis and Staging
 

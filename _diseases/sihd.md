@@ -5,6 +5,7 @@ author: Corbin Cox
 last-updated: 2018-2-15
 created: 2018-1-29
 toc: true
+common: true
 ---
 
 # Cardiac Anatomy
@@ -87,7 +88,7 @@ ST-Depression **only during episodes of angina**, EKG is otherwise unremarkable
 ### Common Drug Classes for Treatment
 
 * Organic Nitrates: Dilation of Venous Blood Vessels to Reduce Preload
-  * Glyceryl Trinitrate for acute attacks
+  * NTG for acute attacks
   * IS(M/D)N for prophylaxis
 * DHP CCBs: Arterial Vasodilation to Decrease Afterload
 * Non-DHP CCBs: Negative Inotropy and Chronotropy to Decrease Oxygen Consumption
@@ -154,7 +155,7 @@ ACEIs and ARBs have been show to stabilize plaques, improve endothelial function
 
 ### Acute Nitrates
 
-SL Nitroglycerin is the prefered agent for acute attacks, given as either 0.3-0.6mg SL tabs or 0.4mg/spray SL spray. NTG tablets cannot be stored in vials other than that which they are shipped in, and cannot, by law, have childproof caps.  It is appropriate to have a patient keep a diary of nitrate use to record the frequency of their attacks the the frequency of rescue NTG use.
+SL Nitroglycerin is the preferred agent for acute attacks, given as either 0.3-0.6mg SL tabs or 0.4mg/spray SL spray. NTG tablets cannot be stored in vials other than that which they are shipped in, and cannot, by law, have childproof caps.  It is appropriate to have a patient keep a diary of nitrate use to record the frequency of their attacks the frequency of rescue NTG use.
 
 #### Dosing
 
@@ -207,7 +208,7 @@ Prinzmetal's angina is a supply ischemia resulting from spontaneous vasospasm in
 ### Common Drug Classes for Treatment
 
 * Organic Nitrates: Dilation of Venous Blood Vessels to Reduce Preload
-  * Glyceryl Trinitrate for acute attacks
+  * GNTG for acute attacks
   * IS(M/D)N for prophylaxis
 * DHP CCBs: Arterial Vasodilation to Decrease Afterload
 * Non-DHP CCBs: Negative Inotropy and Chronotropy to Decrease Oxygen Consumption

@@ -7,9 +7,12 @@
 
   <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" />
   <link rel="stylesheet" href="{{ site.baseurl }}/css/mobile.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/buttons.css" />
 
-  <script src='{{ site.baseurl }}/javascript/mermaid.js'></script>
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/mermaid.css" />
+  {% if page.toc == true %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/diseases.css">
+  {% endif %}
+
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">

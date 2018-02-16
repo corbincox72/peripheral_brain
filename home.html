@@ -2,18 +2,54 @@
 layout: default
 title: Home
 ---
+<div class="twoCol">
+  <div class="col1">
+    <h1 class="center" style="margin-top: 0.25em;">Common Pages</h1>
 
-<h1 class="title">News</h1>
-<ul class="post-list">
-{% for post in site.posts limit: 10 %}
-  <li class="post">
-    <div class="post-heading">
-      <a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.title }}</h2></a>
-      <h3>{{ post.date | date: "%m/%d/%Y" }} </h3>
-    </div>
-    <div class="post-content">
-      {{ post.content }}
-    </div>
-  </li>
-{% endfor %}
-</ul>
+    <h2>Diseases</h2>
+    <ul style="list-style: none; margin-left: 0px">
+    {% assign diseases = site.diseases | sort: 'title' %}
+    {% for item in diseases %}
+      {% if item.common == true %}
+        <li>
+          <a href="{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+
+    <h2>Drug Classes</h2>
+    <ul style="list-style: none; margin-left: 0px">
+    {% assign drugs = site.drugClasses | sort: 'title' %}
+    {% for item in drugs %}
+      {% if item.common == true %}
+        <li>
+          <a href="{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </div>
+
+  <div class="col2">
+    <h1 class="center" style="margin-top: 0.25em;">Useful Links</h1>
+
+    <ul style="list-style:none; margin-left:0px;">
+      <li>
+        <a href="http://online.lexi.com.ezproxy.lib.purdue.edu/lco/action/home?reauth" target="_blank">Lexicomp</a>
+      </li>
+      <li>
+        <a href="https://fco-factsandcomparisons-com.ezproxy.lib.purdue.edu/action/home?siteid=5&reauth" target="_blank">Facts and Comparisons</a>
+      </li>
+      <li>
+        <a href="http://www-micromedexsolutions-com.ezproxy.lib.purdue.edu/micromedex2/librarian" target="_blank">Micromedex</a>
+      </li>
+      <li>
+        <a href="https://www.ncbi.nlm.nih.gov/pubmed?otool=inpurduelib" target="_blank">Pubmed</a>
+      </li>
+      <li>
+        <a href="http://tools.acc.org/ASCVD-Risk-Estimator-Plus/" target="_blank">ASCVD Risk Calculator</a>
+      </li>
+    </ul>
+  </div>
+</div>

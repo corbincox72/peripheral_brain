@@ -6,16 +6,19 @@
 <body class="body">
 {% include header.html %}
 
-<div class="contents">
 <h1 class="title">{{ page.title }}</h1>
-<div class="toc">
-{% if page.toc == true %}
-  <h4>Table of Contents</h4>
-  {% include toc.html html=content %}
-{% endif %}
-</div>
 
-{{ content }}
+<div class="contents">
+
+  <div class="toc">
+    {% if page.toc == true %}
+      {% include toc.html html=content %}
+    {% endif %}
+  </div>
+
+  <div class="content">
+    {{ content }}
+  </div>
 
 </div>
 
