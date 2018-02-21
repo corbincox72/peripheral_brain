@@ -1,8 +1,8 @@
 ---
-title: Stable Ischemic Heart Disease (Incomplete)
+title: Stable Ischemic Heart Disease
 layout: diseases
 author: Corbin Cox
-last-updated: 2018-2-15
+last-updated: 2018-2-21
 created: 2018-1-29
 toc: true
 common: true
@@ -193,9 +193,28 @@ Ranolazine inhibits late-Na influx into cardiac myocytes, which during ischemia 
 
 Ivabradine can be used off label for angina in adults unable to tolerate &beta;-blockers, with no arrhythmias and a RHR &ge; 70. This medication can also be used in combination with &beta;-blockers if adequate control could not be reached with an adequate &beta;-blocker dose.
 
+## Compelling Indications
 
+* Prior MI: Non-ISA &beta;-Blocker
+* LV Systolic Dysfunction/HF: Carvedilol, Bisoprolol, or Metoprolol XL
 
-**CONTINUE HERE WITH COMPELLING INDICATIONS SLIDE 126**
+## Recommended Therapies with Other Conditions
+
+* Sinus Bradycardia, 2nd or 3rd Degree AVB: DHP CCB or Nitrate
+* Sinus Tachycardia, SV Tachycardia, AFib: &beta;-blocker or non-DHP CCB
+* Ventricular Arrhythmias: &beta;-blocker
+* Severe HAs: &beta;-blocker or non-DHP CCB
+* Hyperthyroidism: &beta;-blocker
+* Essential Tremor: Non-Cardioselective &beta;-blocker
+
+## Therapies to Avoid with Other Conditions
+
+* Sinus Bradycardia, 2nd or 3rd Degree AVB: &beta;-blocker or non-DHP CCB
+* Sinus Tachycardia, SV Tachycardia, AFib: Short Acting DHP CCB or Nitrate
+* Prior MI: ISA &beta;-blocker or Short Acting DHP CCB
+* Severe HAs: Nitrates or DHP CCB
+* Bronchospastic Disease: &beta;-blocker
+* PVD, Depression: Non-Cardioselective &beta;-blocker
 
 # Prinzmetal's (Variable) Angina
 
@@ -205,28 +224,6 @@ Prinzmetal's angina is a supply ischemia resulting from spontaneous vasospasm in
 
 ## Treatment
 
-### Common Drug Classes for Treatment
-
-* Organic Nitrates: Dilation of Venous Blood Vessels to Reduce Preload
-  * GNTG for acute attacks
-  * IS(M/D)N for prophylaxis
-* DHP CCBs: Arterial Vasodilation to Decrease Afterload
-* Non-DHP CCBs: Negative Inotropy and Chronotropy to Decrease Oxygen Consumption
-* &beta;-Blockers: Negative Inotropy and Chronotropy to Decrease Oxygen Consumption
-* Ivabradine: Negative Chronotropy via HCN Inhibition to Decrease Oxygen Consumption
-* Ranolazine: Inhibits late-Na current to inhibit reverse calcium transport during ischemic attacks
-* Statins: Decrease Athlerosclerosis
-
-# Unstable Angina
-
-## Pathophysiology
-
-Unstable angina is supply ischemia characterized by a rapid worsening of athlerosclerosis of a coronary vessel in which the cap of the deposit ruptures, leading to thrombus formation. Unstable angina typically onsets suddenly and typically warns of an impending MI.
-
-## Treatment
-
-### Common Drug Classes for Treatment
-
-* ASA: Decrease Platelt Aggregation / Inhibit Thrombus Formation
-* P2Y12 Inhibitors (Clopidogrel, Prasgurel, Ticagrelor): Inhibit Platelt Activation / Inhibit Thrombus Formation
-* Heparin: Inhibition of Thrombin via AT-III to inhibit coagulation cascade
+* See the above treatment algorithm under "Vasospastic Angina"
+* DHP CCBs and Nitrates are recommended based upon blood pressure
+* AVOID &beta;-blockers as they can induce coronary vasospasm

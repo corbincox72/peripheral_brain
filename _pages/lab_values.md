@@ -77,3 +77,13 @@ pH / paCO<sub>2</sub>  / paO<sub>2</sub>  / [HCO<sub>3</sub>]<sup>-</sup> / O<su
 | INR            | Extrinsic Pathway | -    | 1.1  | n/a              |
 | aPTT           | Intrinsic Pathway | 26   | 33   | sec              |
 
+# EKG Measurments
+
+|              | Interval (ms) |
+| ------------ | ------------- |
+| PR Interval  | 120-200       |
+| QRS          | 80-120        |
+| QT           | 380-460       |
+| QTc (Male)   | 360-470       |
+| QTc (Female) | 360-480       |
+
