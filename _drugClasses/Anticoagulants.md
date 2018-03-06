@@ -88,8 +88,6 @@ Initial dosing is typically 5mg daily, but healthy outpatients can be given a lo
 | DVT + Cancer           | **LMWH** for 3-6mo then warfarin or **LMWH** indefinitely or until cancer resolves |
 | Multiple Events        | Lifelong therapy, consider &ge; 3mo if high bleeding risk |
 
-
-
 ### Dosing Adjustments
 
 **The 5 D's of Warfarin Adjustments**

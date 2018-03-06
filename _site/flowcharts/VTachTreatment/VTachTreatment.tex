@@ -1,0 +1,41 @@
+\documentclass[tikz, border=0px]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+
+\tikzstyle{startstop} = [rectangle,rounded corners,minimum width=3cm,minimum height=1cm,align=center,draw=black, text width=2.5cm, fill=green!30]
+
+\tikzstyle{therapy} = [trapezium, trapezium left angle =70, trapezium right angle=110, minimum width=2cm, minimum height = 1cm, centered,draw=black,align=center, text width=2cm, fill=orange!30]
+
+\tikzstyle{decision} = [diamond, minimum width = 3cm, minimum height = 3cm, text centered, draw=black, text width = 2cm,align=center,fill=blue!30]
+
+\tikzstyle{arrow} = [thick, ->, >=stealth]
+\tikzstyle{doublearrow} = [<->, thick, >=stealth]
+
+\begin{document}
+\begin{tikzpicture}[node distance=4cm]
+
+\node (start) [startstop] {VTach};
+\node (shd) [startstop, below left of=start, xshift = -2cm] {Structural Heart Disease};
+\node (healthy) [startstop, below right of=start, xshift= 2cm] {No SHD};
+\node (dcc) [therapy, below left of=shd, text width = 1cm, xshift=-1cm] {DCC};
+\node (procain) [therapy, below of=shd, yshift=1.17cm] {IV Procainamide};
+\node (others) [therapy, below right of=shd,xshift=1cm, text width = 3cm] {IV Amiodarone or Sotalol};
+\node (verapamil) [below left of=healthy, therapy, text width = 2.1cm, yshift = -2cm] {IV Verapamil};
+\node (nonVerapamil) [below right of = healthy, therapy, yshift = -2cm] {IV $\beta$-Blocker};
+
+\draw [arrow] (start) -| (shd);
+\draw [arrow] (start) -| (healthy);
+\draw [arrow] (shd) -| node[anchor=south west] {1st Choice} (dcc);
+\draw [arrow] (shd) -- node[anchor=west] {2nd Choice} (procain);
+\draw [arrow] (shd) -| node[anchor=south east] {3rd Choice} (others);
+\draw [arrow] (healthy) -| node[anchor=north west, yshift = -1.5cm] {Verapamil Sensitive} (verapamil);
+\draw [arrow] (healthy) -| node[anchor= north east, yshift = -2.5cm] {Outflow Tract} (nonVerapamil);
+\draw [arrow] (procain) -- ++(0,-1.5cm) -| node[anchor=north west, xshift = 4cm] {Unresolved} (dcc);
+\draw [arrow] (others) -- ++(0,-1.5cm) -| (dcc);
+\draw [arrow] (verapamil) -- ++(0,-1.5cm) -| node[anchor=south west, xshift = 4cm] {Unresolved} (dcc);
+\draw [arrow] (nonVerapamil) -- ++(0,-1.5cm) -| (dcc);
+
+
+
+\end{tikzpicture}
+\end{document}

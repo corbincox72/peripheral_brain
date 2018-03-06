@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Arrhythmias (Incomplete) | The Peripheral Brain</title>
+  <title>Arrhythmias | The Peripheral Brain</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -57,7 +57,7 @@
 </header>
 
 
-<h1 class="title">Arrhythmias (Incomplete)</h1>
+<h1 class="title">Arrhythmias</h1>
 
 <div class="contents">
 
@@ -83,8 +83,50 @@
       <li><a href="#risk-factors-1">Risk Factors</a></li>
       <li><a href="#ssx-1">SSx</a></li>
       <li><a href="#treatment-goals">Treatment Goals</a></li>
-      <li><a href="#drug-therapy">Drug Therapy</a></li>
-      <li><a href="#stable-treatment-algorithm">Stable Treatment Algorithm</a></li>
+      <li><a href="#treatment-1">Treatment</a>
+        <ul>
+          <li><a href="#ventricular-rate-control">Ventricular Rate Control</a></li>
+          <li><a href="#sinus-rhythm-conversion">Sinus Rhythm Conversion</a></li>
+          <li><a href="#sinus-rhythm-maintenance">Sinus Rhythm Maintenance</a></li>
+          <li><a href="#anticoagulation">Anticoagulation</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#paroxysmal-supraventricular-tachycardia">Paroxysmal Supraventricular Tachycardia</a>
+    <ul>
+      <li><a href="#ssx-2">SSx</a></li>
+      <li><a href="#treatment-2">Treatment</a>
+        <ul>
+          <li><a href="#cardioversion-of-hemodynamically-stable-patients">Cardioversion of Hemodynamically Stable Patients</a></li>
+          <li><a href="#prevention-of-symptomatic-psvt">Prevention of Symptomatic PSVT</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#premature-ventricular-complexes">Premature Ventricular Complexes</a>
+    <ul>
+      <li><a href="#risk-factors-2">Risk Factors</a></li>
+      <li><a href="#ssx-3">SSx</a></li>
+      <li><a href="#treatment-3">Treatment</a></li>
+    </ul>
+  </li>
+  <li><a href="#ventricular-tachycardia">Ventricular Tachycardia</a>
+    <ul>
+      <li><a href="#risk-factors-3">Risk Factors</a></li>
+      <li><a href="#ssx-4">SSx</a></li>
+      <li><a href="#treatment-4">Treatment</a>
+        <ul>
+          <li><a href="#termination-of-hemodynamically-stable-vtach">Termination of Hemodynamically Stable VTach</a></li>
+          <li><a href="#prevention-of-vtach">Prevention of VTach</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#ventricular-fibrillation">Ventricular Fibrillation</a>
+    <ul>
+      <li><a href="#risk-factors-4">Risk Factors</a></li>
+      <li><a href="#treatment-5">Treatment</a></li>
     </ul>
   </li>
 </ul>
@@ -121,7 +163,7 @@
 <table>
   <thead>
     <tr>
-      <th> </th>
+      <th>Measure</th>
       <th>Interval (ms)</th>
     </tr>
   </thead>
@@ -150,6 +192,8 @@
 </table>
 
 <p>*High risk of Torsades w/ QTc ≥ 500ms</p>
+
+<script type="math/tex; mode=display">QTc=\frac{QT}{\sqrt{60/HR}}</script>
 
 <h1 id="sinus-bradycardia-sick-sinus-syndrome">Sinus Bradycardia (Sick Sinus Syndrome)</h1>
 
@@ -320,7 +364,13 @@
   </tbody>
 </table>
 
-<h2 id="drug-therapy">Drug Therapy</h2>
+<h2 id="treatment-1">Treatment</h2>
+
+<h3 id="ventricular-rate-control">Ventricular Rate Control</h3>
+
+<p><img src="../flowcharts/stableAFib/stableAFib.svg" alt="Stable A-Fib Ventricular Rate Control Treatment Algorithm" /></p>
+
+<p>Treat to goal HR of &lt; 110 BPM unless the patient is symptomatic or has HFrEF, then treat to goal of 80 BPM</p>
 
 <table>
   <thead>
@@ -335,20 +385,466 @@
   <tbody>
     <tr>
       <td>Diltiazem</td>
-      <td>0.25 mg/kg IV over 2min</td>
+      <td>0.25 mg/kg IV over 2 min</td>
       <td>5-15 mg/hr or 120-360 mg ER PO QD</td>
+      <td>Hypotension<br />Bradycardia<br />HFrEF Exacerbation<br />AV Blockade</td>
       <td> </td>
+    </tr>
+    <tr>
+      <td>Verapamil</td>
+      <td>0.075-0.15 mg/kg IV over 2 min w/ an addition 10 mg at 30 min if needed</td>
+      <td>0.005 mg/kg/min or 120-380 mg ER PO QD</td>
+      <td>Hypotension<br />Bradycardia<br />HFrEF Exacerbation<br />AV Blockade<br />Constipation</td>
+      <td>Increases levels of Digoxin and Dofetilide</td>
+    </tr>
+    <tr>
+      <td>Esmolol</td>
+      <td>500 mcg/kg IV over 1 min</td>
+      <td>50-300 mcg/kg/min IV</td>
+      <td>β-Blockade</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Propranolol</td>
+      <td>1mg IV over 1min q2min Max of 3 doses</td>
+      <td>30-60mg PO Daily in divided doses</td>
+      <td>β-Blockade</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Metoprolol</td>
+      <td>2.5-5mg IV over 2 min Max of 3 doses</td>
+      <td>Tartrate: 25-100mg PO BID<br />Succinate: 50-400mg PO QD</td>
+      <td>β-Blockade</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Digoxin</td>
+      <td>0.25mg IV q4hr Max of 1.5mg over 24hr</td>
+      <td>0.125-0.375mg PO or IV QD</td>
+      <td>N/V<br />Anorexia<br />Arrythmias</td>
+      <td>Amiodarone and Verapamil Increase Digoxin Levels</td>
+    </tr>
+    <tr>
+      <td>Amiodarone</td>
+      <td>300mg IV over 1hr</td>
+      <td>10-50 mg/hr over 24hr<br />100-200mg PO QD</td>
+      <td>Hypotension<br />Bradycadia<br />Photosensitivity<br />Pulmonary Fibrosis<br />Blue-Grey Skin<br />Hepatotoxicity<br />Hypo- / Hyperthyroidism</td>
+      <td>Increases levels of warfarin and digoxin</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="sinus-rhythm-conversion">Sinus Rhythm Conversion</h3>
+
+<p><img src="../flowcharts/stableAfibConversion/stableAfibConversion.svg" alt="Stable A-Fib Ventricular Rate Control Treatment Algorithm" /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Drug</th>
+      <th>Loading Dose</th>
+      <th>Maintenance dose</th>
+      <th>SEs</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>DCC</td>
+      <td>120-200 J Biphasic<br />200 J Monophasic</td>
+      <td>n/a</td>
+      <td>Pain<br />Risks of General Sedation</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Amiodarone</td>
+      <td>150mg over 10 min<br />600-800mg QD in 2-3 divided doses for total loading dose of 10g</td>
+      <td>1 mg/min for 6hrs then 0.5 mg/min for 18 hr<br />200mg PO QD</td>
+      <td>Hypotension<br />Bradycardia</td>
+      <td>Increases levels of Digoxin and Warfarin<br />24hr conversion</td>
+    </tr>
+    <tr>
+      <td>Dofetilide</td>
+      <td>See Table Below</td>
+      <td>n/a</td>
+      <td>TdP</td>
+      <td>Cimetidine<br />HCTZ<br />Ketoconazole<br />Trimethoprim<br />Verapamil<br />(All raise levels of dofetilide)<br />24hr conversion</td>
+    </tr>
+    <tr>
+      <td>Ilbutilide</td>
+      <td>1mg IV over 10 min q10min x2 if needed<br />&lt; 60kg use 0.01 mg/kg</td>
+      <td>n/a</td>
+      <td>TdP</td>
+      <td>30min conversion</td>
+    </tr>
+    <tr>
+      <td>Propafenone</td>
+      <td>450-600mh PO x1</td>
+      <td>n/a</td>
+      <td>Dizziness<br />Blurred Vision<br />HFrEF</td>
+      <td>3-8hr conversion<br />CI in HF</td>
+    </tr>
+    <tr>
+      <td>Flecainide</td>
+      <td>200-300mg PO x1</td>
+      <td>n/a</td>
+      <td>Dizziness<br />Blurred Vision<br />HFrEF</td>
+      <td>3-8hr conversion<br />CI in HF</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>CrCl</th>
+      <th>Dofetilide A-Fib Dose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>&gt; 60</td>
+      <td>500 mcg PO BID</td>
+    </tr>
+    <tr>
+      <td>40-60</td>
+      <td>250 mcg PO BID</td>
+    </tr>
+    <tr>
+      <td>20-40</td>
+      <td>125 mcg PO BID</td>
+    </tr>
+    <tr>
+      <td>&lt; 20</td>
+      <td>CI</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="sinus-rhythm-maintenance">Sinus Rhythm Maintenance</h3>
+
+<p><img src="../flowcharts/afibMaintenanceOfNSR/afibMaintenanceOfNSR.svg" alt="A-Fib Sinus Rhythm Maintenance" /></p>
+
+<h3 id="anticoagulation">Anticoagulation</h3>
+
+<p>Anticoagulation is required for all A-Fib patients. Appropriate anticoagulants include warfarin, dabigatran, rivaroxaban, apixaban, and edoxaban. See <a href="/peripheral_brain/drugClasses/anticoagulants.html">Anticoagulants</a> for appropriate dosing, monitoring, and therapy selection for these patients.</p>
+
+<h1 id="paroxysmal-supraventricular-tachycardia">Paroxysmal Supraventricular Tachycardia</h1>
+
+<p><img src="../images/Arrythmias/psvt.jpg" alt="PSVT EKG" /></p>
+
+<p>PSVT presents as a narrow complex, regular tachycardia which spontaneously initiates and terminates.</p>
+
+<p>PSVT is most commonly due to re-entrant circuits within the:</p>
+
+<ul>
+  <li>AV Node (60%)</li>
+  <li>Accessory Pathways (WPW, 30%)</li>
+  <li>Atria (4-8%)</li>
+  <li>SA Node (4%)</li>
+</ul>
+
+<p>PSVT is more common in women and those over the age of 65, and usually occurs in pts w/o a significant CV Hx.</p>
+
+<h2 id="ssx-2">SSx</h2>
+
+<ul>
+  <li>Neck-pounding</li>
+  <li>Palpitations</li>
+  <li>Dizziness</li>
+  <li>Weakness</li>
+  <li>Lightheadedness</li>
+  <li>Near-syncope / Syncope</li>
+  <li>Polyuria</li>
+</ul>
+
+<h2 id="treatment-2">Treatment</h2>
+
+<h3 id="cardioversion-of-hemodynamically-stable-patients">Cardioversion of Hemodynamically Stable Patients</h3>
+
+<ol>
+  <li>Vagal Maneuvers and/or IV Adenosine</li>
+  <li>IV Rate Control Drugs (β-Blockers or nonDHP-CCBs)</li>
+  <li>Synchronized DCC</li>
+</ol>
+
+<table>
+  <thead>
+    <tr>
+      <th>Drug</th>
+      <th>Dose</th>
+      <th>SEs</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Adenosine</td>
+      <td>6mg IVPB w/ flush<br />12mg in 1-2min x2 if needed</td>
+      <td>Chest Pain<br />Flushing<br />SOB<br />Sinus Pause<br />Bronchospasm</td>
+      <td>Carbamazepine and dipyridamole alter adenosine response, decrease dose by 50%</td>
+    </tr>
+    <tr>
+      <td>Diltiazem</td>
+      <td>0.25 mg/kg IV over 2 min</td>
+      <td>5-15 mg/hr or 120-360 mg ER PO QD</td>
+      <td>Hypotension<br />Bradycardia<br />HFrEF Exacerbation<br />AV Blockade</td>
+    </tr>
+    <tr>
+      <td>Verapamil</td>
+      <td>0.075-0.15 mg/kg IV over 2 min w/ an addition 10 mg at 30 min if needed</td>
+      <td>0.005 mg/kg/min or 120-380 mg ER PO QD</td>
+      <td>Hypotension<br />Bradycardia<br />HFrEF Exacerbation<br />AV Blockade<br />Constipation</td>
+    </tr>
+    <tr>
+      <td>Esmolol</td>
+      <td>500 mcg/kg IV over 1 min</td>
+      <td>50-300 mcg/kg/min IV</td>
+      <td>β-Blockade</td>
+    </tr>
+    <tr>
+      <td>Propranolol</td>
+      <td>1mg IV over 1min q2min Max of 3 doses</td>
+      <td>30-60mg PO Daily in divided doses</td>
+      <td>β-Blockade</td>
+    </tr>
+    <tr>
+      <td>Metoprolol</td>
+      <td>2.5-5mg IV over 2 min Max of 3 doses</td>
+      <td>Tartrate: 25-100mg PO BID<br />Succinate: 50-400mg PO QD</td>
+      <td>β-Blockade</td>
+    </tr>
+    <tr>
+      <td>Amiodarone</td>
+      <td>150mg IV over 10 min</td>
+      <td>1 mg/min for 6hr then 0.5 mg/min for 18hr</td>
+      <td>Hypotension<br />Bradycadia<br />Photosensitivity<br />Pulmonary Fibrosis<br />Blue-Grey Skin<br />Hepatotoxicity<br />Hypo- / Hyperthyroidism</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="prevention-of-symptomatic-psvt">Prevention of Symptomatic PSVT</h3>
+
+<p><strong>Drug therapy should only be initiated in SYMPTOMATIC patients</strong></p>
+
+<p><img src="../flowcharts/PSVTPrevention/PSVTPrevention.svg" alt="Prevention of PSVT Recurrence Algorithm" /></p>
+
+<h1 id="premature-ventricular-complexes">Premature Ventricular Complexes</h1>
+
+<p><img src="../images/Arrythmias/pvc.gif" alt="PVC EKG" /></p>
+
+<p>PVCs present as irregular, wide QRS complexes that do not follow a P-wave. Prevalence of these arrhythmias increases with age, and they are indicative of increased cardiovascular risk in patients &gt; 30yo. &gt; 10k-20k PVCs QD is indicative of cardiomyopathy. PVCs occur due to increased automaticity of myocytes and/or purkinje fibers.</p>
+
+<h2 id="risk-factors-2">Risk Factors</h2>
+
+<ul>
+  <li>IHD</li>
+  <li>MI</li>
+  <li>Anemia</li>
+  <li>Hypoxia</li>
+  <li>Cardiac Surgery</li>
+</ul>
+
+<h2 id="ssx-3">SSx</h2>
+
+<ul>
+  <li>Usually Asymptomatic</li>
+  <li>Palpitations</li>
+  <li>Dizziness</li>
+  <li>Lightheadedness</li>
+</ul>
+
+<h2 id="treatment-3">Treatment</h2>
+
+<p><strong>Asymptomatic patients should NOT be treated</strong></p>
+
+<ul>
+  <li>Non CV Pts
+    <ol>
+      <li>β-Blockers, Diltiazem, or Verapamil</li>
+      <li>If unresponsive, antiarrhythmics</li>
+      <li>Ablation</li>
+    </ol>
+  </li>
+  <li>CAD Pts
+    <ol>
+      <li>β-Blockers, Diltiazem, or Verapamil</li>
+      <li>If unresponsive, antiarrhythmics (Avoid Class 1C)</li>
+    </ol>
+  </li>
+  <li>HFrEF Pts
+    <ol>
+      <li>β-Blockers</li>
+    </ol>
+  </li>
+</ul>
+
+<h1 id="ventricular-tachycardia">Ventricular Tachycardia</h1>
+
+<p><img src="../images/Arrythmias/vtach.jpg" alt="VTach EKG" /></p>
+
+<p>VTach presents as a regular, wide complex tachycardia defined as at least 3 consecutive PVCs at a rate of &gt; 100 BPM. Sustained VTach is defined as either VTach lasting longer than 30s, or VTach requiring intervention w/i 30s due to hemodynamic instability. Otherwise, it is classified as non sustained. VTach in patients w/o SHD is referred to as idiopathic, and will either be verapamil sensitive or outflow tract VTach (β-blocker sensitive). VTach occurs as a result of increased myocyte automaticity which is sustained by reentry circuits.</p>
+
+<h2 id="risk-factors-3">Risk Factors</h2>
+
+<ul>
+  <li>Coronary artery disease</li>
+  <li>Myocardial infarction</li>
+  <li>HFrEF</li>
+  <li>Hypokalemia</li>
+  <li>Hypomagnesemia</li>
+  <li>Drugs
+    <ul>
+      <li>Flecainide</li>
+      <li>Propafenone</li>
+      <li>Digoxin</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="ssx-4">SSx</h2>
+
+<ul>
+  <li>May be asymptomatic (nonsustained VT)</li>
+  <li>Palpitations</li>
+  <li>Hypotension</li>
+  <li>Dizziness</li>
+  <li>Lightheadedness</li>
+  <li>Syncope</li>
+  <li>Angina</li>
+</ul>
+
+<h2 id="treatment-4">Treatment</h2>
+
+<h3 id="termination-of-hemodynamically-stable-vtach">Termination of Hemodynamically Stable VTach</h3>
+
+<p><img src="../flowcharts/VTachTreatment/VTachTreatment.svg" alt="Hemodynamically Stable VTach Termination Algorithm" /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Drug</th>
+      <th>Loading Dose</th>
+      <th>Maintenance Dose</th>
+      <th>SEs</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Procainamide</td>
+      <td>10-17 mg/kg IV at 20-50 mg/min</td>
+      <td>1-4 mg/min</td>
+      <td>Hypotension<br />QT Prolongation<br />TdP</td>
+      <td>Cimetidine, Ranitidine, and Trimethoprim inhibit procainamide elimination</td>
+    </tr>
+    <tr>
+      <td>Amiodarone</td>
+      <td>150mg IV over 10 min</td>
+      <td>1 mg/min for 6hr then 0.5 mg/min for 18hr</td>
+      <td>Hypotension<br />Bradycardia<br />Phlebitis</td>
+      <td>Increases levels of Digoxin and Warfarin</td>
+    </tr>
+    <tr>
+      <td>Sotalol</td>
+      <td>75mg IV Q12H</td>
+      <td>n/a</td>
+      <td>Hypotension<br />Bradycardia<br />QT Prolongation<br />TdP</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Verapamil</td>
+      <td>2.5-5mg IV Q15-30min at 1-3 mg/min</td>
+      <td>n/a</td>
+      <td>Hypotension<br />Bradycardia<br />HFrEF exacerbation</td>
+      <td>Inhibits the elimination of digoxin and dofetilide</td>
+    </tr>
+    <tr>
+      <td>Esmolol</td>
+      <td>500 mcg/kg IV over 1 min</td>
+      <td>50-300 mcg/kg/min IV</td>
+      <td>β-Blockade</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Propranolol</td>
+      <td>1mg IV over 1min q2min Max of 3 doses</td>
+      <td>30-60mg PO Daily in divided doses</td>
+      <td>β-Blockade</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Metoprolol</td>
+      <td>2.5-5mg IV over 2 min Max of 3 doses</td>
+      <td>Tartrate: 25-100mg PO BID<br />Succinate: 50-400mg PO QD</td>
+      <td>β-Blockade</td>
       <td> </td>
     </tr>
   </tbody>
 </table>
 
-<p><strong>CONTINUE HERE ON SLIDE 41</strong></p>
+<h3 id="prevention-of-vtach">Prevention of VTach</h3>
 
-<h2 id="stable-treatment-algorithm">Stable Treatment Algorithm</h2>
+<ul>
+  <li>ICD
+    <ul>
+      <li>Preferred Therapy</li>
+    </ul>
+  </li>
+  <li>Amiodarone 400mg PO QD
+    <ul>
+      <li>Useful in pts w/ frequent ICD shocks</li>
+    </ul>
+  </li>
+  <li>Sotalol 80-160mg PO QD
+    <ul>
+      <li>Useful in pts w/ frequent ICD shocks</li>
+    </ul>
+  </li>
+  <li>Catheter Ablation
+    <ul>
+      <li>Recommended for pts w/ prior MI or who are intolerant to antiarrythmics</li>
+    </ul>
+  </li>
+</ul>
 
-<p><img src="../flowcharts/stableAFib/stableAFib.svg" alt="Stable A-Fib Treatment Algorithm" /></p>
+<h1 id="ventricular-fibrillation">Ventricular Fibrillation</h1>
 
+<p><img src="../images/Arrythmias/vfib.jpg" alt="VFib EKG" /></p>
+
+<p>VFib presents as irregular, chaotic electrical activity with no palpable pulse and no QRS complexes</p>
+
+<h2 id="risk-factors-4">Risk Factors</h2>
+
+<ul>
+  <li>MI</li>
+  <li>HFrEF</li>
+  <li>CAD</li>
+</ul>
+
+<h2 id="treatment-5">Treatment</h2>
+
+<ol>
+  <li>CPR x2min and obtain vascular access</li>
+  <li>Defibrillation (120-200 J Biphasic or 360 J Monophasic)</li>
+  <li>CPR x2min</li>
+  <li>Epi 1mg</li>
+  <li>Defibrillation (120-200 J Biphasic or 360 J Monophasic)</li>
+  <li>CPR x2min</li>
+  <li>Amiodarone 300mg in 20-30mL D5W</li>
+  <li>Defibrillation (120-200 J Biphasic or 360 J Monophasic)</li>
+  <li>CPR x2min</li>
+  <li>Epi 1mg</li>
+  <li>Defibrillation (120-200 J Biphasic or 360 J Monophasic)</li>
+  <li>CPR x2min</li>
+  <li>Amiodarone 150mg in 20-30mL D5W</li>
+  <li>Defibrillation (120-200 J Biphasic or 360 J Monophasic)</li>
+  <li>CPR x2min</li>
+  <li>Epi 1mg</li>
+  <li>Defibrillation (120-200 J Biphasic or 360 J Monophasic)</li>
+  <li>Repeat steps 15-17 until the end of code</li>
+</ol>
 
   </div>
 
@@ -357,7 +853,7 @@
 <div class="credits">
   <p>Author: Corbin Cox <br>
   Created: 2018-2-15 <br>
-  Last Updated: 2018-2-21</p>
+  Last Updated: 2018-3-6</p>
 </div>
 
 <footer class="footer menus">

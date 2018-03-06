@@ -55,7 +55,7 @@ a img {
     :root {
       --mainTextColor: #1D2731;
       --linkColor: #328CC1;
-      --accentColor: #0B3C5D;
+      --accentColor: #29648A;
       --backgroundColor: #EFEFEF;
       --headerColor: #D9B310;
       --tableAccent: #bbb;
@@ -74,7 +74,11 @@ a img {
       font-family: 'Roboto Slab', serif;
     }
 
-    h1, h2, h3, h4, h5, h6, p, table, li, ol, ul, em, strong, blockquote {
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--accentColor);
+    }
+
+    p, table, li, ol, ul, em, strong, blockquote {
       color: var(--mainTextColor);
     }
 
@@ -89,7 +93,7 @@ a img {
     h1 {
       font-size: 2em;
       font-weight: bold;
-      border-bottom-color: var(--mainTextColor);
+      border-bottom-color: var(--accentColor);
       border-bottom-width: medium;
       border-bottom-style: solid;
     }
@@ -103,13 +107,10 @@ a img {
       font-size: 1.25em;
       font-weight: bold;
       text-decoration: underline;
-      text-align: center;
-      text-transform: uppercase;
     }
 
     h4{
       font-style: italic;
-      text-align: center;
       margin: 1em 0 0.25em 0;
       text-decoration: underline;
     }
@@ -143,7 +144,6 @@ a img {
       text-align: center;
       text-transform: uppercase;
       border-bottom-width: thick;
-      border-bottom-color: var(--mainTextColor);
       border-bottom-style: double;
       font-size: 2.25em;
       padding-bottom: 0.1em;
@@ -162,7 +162,7 @@ a img {
     }
 
     hr {
-      border-color: var(--mainTextColor);
+      border-color: var(--accentColor);
       border-width: medium;
       margin: 1em 5%;
       border-style: double;
@@ -183,11 +183,11 @@ a img {
   /* TABLE FORMATTING */
     table {
       border-collapse: collapse;
-      margin: 0 auto;
+      margin: 1em auto;
     }
 
     td, th {
-      padding: 0.1em 0.5em;
+      padding: 0.2em 0.5em;
     }
 
       /* TABLE LINES */

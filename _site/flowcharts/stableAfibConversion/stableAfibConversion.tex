@@ -1,0 +1,37 @@
+\documentclass[tikz, border=0px]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+
+\tikzstyle{startstop} = [rectangle,rounded corners,minimum width=3cm,minimum height=1cm,align=center,draw=black, text width=2.5cm, fill=green!30]
+
+\tikzstyle{therapy} = [trapezium, trapezium left angle =70, trapezium right angle=110, minimum width=2cm, minimum height = 1cm, centered,draw=black,align=center, text width=2cm, fill=orange!30]
+
+\tikzstyle{decision} = [diamond, minimum width = 3cm, minimum height = 3cm, text centered, draw=black, text width = 2cm,align=center,fill=blue!30]
+
+\tikzstyle{arrow} = [thick, ->, >=stealth]
+\tikzstyle{doublearrow} = [<->, thick, >=stealth]
+
+\begin{document}
+\begin{tikzpicture}[node distance=2cm]
+
+\node (start) [decision] {Symptom Duration};
+\node (dcc) [therapy, below left of=start, xshift=-2cm, yshift=-1cm] {Consider DCC};
+\node (delayedOrEarly) [decision, below right of=start, xshift=2cm, yshift=-2cm] {Delayed or Early Conversion};
+\node (delayedConversion) [therapy, right of=delayedOrEarly, xshift=3cm] {Anticoag x3wks, DCC, Anticoag $\ge$4wks};
+\node (earlyConversion) [decision, below of=delayedOrEarly, yshift=-3cm] {TEE Thrombus?};
+\node (dccUnfeasible) [decision, below of=dcc, yshift=-2cm] {DCC Unfeasible};
+\node (HFrEF) [therapy, left of=dccUnfeasible, xshift=-3cm] {Amiodarone Dofetilide Ibutilide (EF $\ge$ 30\%)};
+\node (nonHFrEF) [therapy, below of=dccUnfeasible, yshift=-2cm] {Amiodarone Dofetilide Flecainide Ibutilide Propafenone};
+
+\draw [arrow] (start) -| node[anchor=south west] {$\le$48hr} (dcc);
+\draw [arrow] (start) -| node[anchor=south east] {$\le$48hr} (delayedOrEarly);
+\draw [arrow] (dcc) -- (dccUnfeasible);
+\draw [arrow] (dccUnfeasible) -- node[anchor=south]{HFrEF} (HFrEF);
+\draw [arrow] (dccUnfeasible) -- (nonHFrEF);
+\draw [arrow] (delayedOrEarly) -- node[anchor=west]{Early} (earlyConversion);
+\draw [arrow] (delayedOrEarly) -- node[anchor=south]{Delayed} (delayedConversion);
+\draw [arrow] (earlyConversion.west) -- ++(-2cm,0) |- node[anchor=west, yshift=-4cm] {No Thrombus} (dcc);
+\draw [arrow] (earlyConversion.south) |- ++ (2cm,-1cm) |- node[anchor=west,yshift=-1cm] {Anticoag $\ge$4wks} (earlyConversion.east);
+
+\end{tikzpicture}
+\end{document}

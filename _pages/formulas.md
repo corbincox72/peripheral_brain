@@ -49,3 +49,6 @@ $$
 \text{INR} = \left(  \frac{\text{PT}_{test}}{\text{PT}_{normal}} \right)^\text{ISI}
 $$
 
+# EKG Interpretation
+
+$$ QTc=\frac{QT}{\sqrt{60/HR}} $$

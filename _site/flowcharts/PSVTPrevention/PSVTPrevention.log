@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.16)  21 FEB 2018 09:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.16)  6 MAR 2018 12:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**stemiAlgorithm.tex
-(./stemiAlgorithm.tex
+**PSVTPrevention.tex
+(./PSVTPrevention.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/standalone/standalone.cls
@@ -445,8 +445,8 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 \arrowsize=\dimen151
-)) (./stemiAlgorithm.aux)
-\openout1 = `stemiAlgorithm.aux'.
+)) (./PSVTPrevention.aux)
+\openout1 = `PSVTPrevention.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
@@ -521,24 +521,31 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 19.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 19.
+
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./stemiAlgorithm.aux) ) 
+(./PSVTPrevention.aux) ) 
 Here is how much of TeX's memory you used:
- 14156 strings out of 492982
- 310518 string characters out of 6132527
- 363178 words of memory out of 5000000
- 17471 multiletter control sequences out of 15000+600000
+ 14219 strings out of 492982
+ 311918 string characters out of 6132527
+ 366178 words of memory out of 5000000
+ 17534 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,7n,67p,416b,625s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,7n,67p,416b,624s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb>
-Output written on stemiAlgorithm.pdf (1 page, 17615 bytes).
+amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb>
+Output written on PSVTPrevention.pdf (1 page, 34860 bytes).
 PDF statistics:
- 15 PDF objects out of 1000 (max. 8388607)
- 10 compressed objects within 1 object stream
+ 23 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

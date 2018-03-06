@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.27)  15 FEB 2018 11:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.16)  6 MAR 2018 11:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **stableAFib.tex
 (./stableAFib.tex
 LaTeX2e <2017-04-15>
-Babel <3.17> and hyphenation patterns for 84 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/standalone/standalone.cls
 Document Class: standalone 2015/07/15 v1.2 Class to compile TeX sub-files stand
 alone
@@ -531,10 +531,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./stableAFib.aux) ) 
 Here is how much of TeX's memory you used:
- 14210 strings out of 492980
- 311666 string characters out of 6132509
- 366179 words of memory out of 5000000
- 17527 multiletter control sequences out of 15000+600000
+ 14210 strings out of 492982
+ 311666 string characters out of 6132527
+ 366178 words of memory out of 5000000
+ 17525 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,7n,67p,412b,625s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -542,7 +542,7 @@ Here is how much of TeX's memory you used:
 onts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on stableAFib.pdf (1 page, 35214 bytes).
+Output written on stableAFib.pdf (1 page, 35273 bytes).
 PDF statistics:
  23 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream
