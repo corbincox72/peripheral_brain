@@ -1,6 +1,6 @@
 @media screen and (max-width: 825px) {
   body {
-    font-size: 14pt;
+    font-size: 12pt;
     grid-template-columns: 2.5% 1fr 2.5%;
   }
 
@@ -33,6 +33,10 @@
   .chem7 {
     display: block;
     margin: 0 auto;
+  }
+
+  img, svg{
+    max-width: 95%;
   }
 
   /* Calculators Layout */

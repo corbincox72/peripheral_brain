@@ -1,8 +1,8 @@
 ---
-title: Congestive Heart Failure (INCOMPLETE)
+title: Congestive Heart Failure
 layout: diseases
 author: Corbin Cox
-last-updated: 2018-3-7
+last-updated: 2018-3-8
 created: 2018-3-7
 toc: true
 ---
@@ -273,4 +273,113 @@ Maximize control of underlying disease, consider adding ARAs. Titrations are not
 
 # Acute Decompensated HF
 
-**Complete This Section**
+## Inidcations for Hospitalization
+
+* &gt; 10kg weight gain
+* SSx of Congestion
+* Evidence of Low CO
+* Organ Hypoperfusion
+* Hemodynamically Compromised
+* Conditions which may cause hemodynamic instability
+
+## Physical Assessment
+
+* CXR
+* PE Focusing on Congestion and Perfusion
+* Electrolytes and SCr
+* BNP and/or NT-proBNP
+
+Hemodynamically unstable pts should receive an arterial line and central line for resuscitation and continuous hemodynamic monitoring
+
+## ADHF Classifications
+
+| Class | Fluid Status       | Perfusion Status | CI (L/min/m^2) | PCWP (mmHg) |
+| ----- | ------------------ | ---------------- | -------------- | ----------- |
+| I     | Normal             | Normal           | &ge; 2.2       | 15-18       |
+| II    | Overloaded         | Normal           | &ge; 2.2       | &ge; 18     |
+| III   | Normal or Depleted | Low              | &lt; 2.2       | 15-18       |
+| IV    | Overloaded         | Low              | &lt; 2.2       | &ge; 18     |
+
+## Medical Management
+
+### General Considerations
+
+* Continue &beta;-Blocker unless:
+  * Recent up-titration initiated exacerbation
+  * Dobutamine is needed
+  * Pt is hemodynamically unstable
+* If &beta;-Blocker is D/C'ed, do not restart until pt is stable and off pressers, inotropes, VDs, and/or IV diuretics
+* Monitor CrCl and consider stopping ACEI / ARB / ARA (Increases &gt; 25%)
+  * Do not increase until discharge
+
+### Monitoring 
+
+| Parameter    | Frequency  | Notes                                                        |
+| ------------ | ---------- | ------------------------------------------------------------ |
+| Wt           | QAM        | After morning urine void                                     |
+| Fluid I/O    | Continuous | Strict documentation                                         |
+| Vitals       | Q Shift    | Particular attention to orthostatic hypotension and other hypotensive SSx<br />O<sub>2</sub> Sat at least QD |
+| SSx          | QD         |                                                              |
+| Electrolytes | QD         | K, Mg, and Na of particular concern                          |
+| Renal Fx     | QD         | SCr and BUN                                                  |
+
+### IV Diuretic Dosing
+
+|                                        | Furosemide | Bumetanide | Torsemide | Ethacrynic Acid |
+| -------------------------------------- | ---------- | ---------- | --------- | --------------- |
+| Oral Equivalent Dose (mg)              | 40         | 1          | 20        |                 |
+| Initial Bolus (mg)                     | 40-120     | 1-4        | 10-40     | 0.5-1 mg/kg     |
+| Max Bolus (mg)                         | 160-200    | 10         | 100       |                 |
+| Initial Bolus w/ Infusion (mg (mg/hr)) | 40 (10)    | 1 (0.5)    | 20 (0.5)  |                 |
+| 24hr Max (mg)                          | 960        | 48         | 480       |                 |
+
+#### IV Loop Diuretic Resistance
+
+Consider:
+
+* Na & Water Restriction
+* Increased Dose (Not Frequency)
+* Continuous Infusions
+* Add Thiazide
+  * MTZ  2.5-5 mg PO QD
+  * HCTZ 12.5-25 mg PO QD
+  * CTZ 250-500 mg IV QD
+
+### Vasodilators
+
+| Vasodilator   | Effects                                                      | Dosing                                                       | SEs                                                          |
+| ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Nitroprusside | Balanced vasodilator <br />Decreases SVR                     | 0.25 mcg/kg/min titrated to response<br />Max 3              | Cyanide toxicity (&gt; 3d use)<br />Hypotension              |
+| NTG           | Venous &gt; Arterial Vasodilator<br />Decreases PCWP         | 5mcg/mg initially increased by 5mcg/min q5-10min<br />Max 200<br />Consider 2 min bolus at 400 mcg/min to load | Hypotension<br />HA<br />Reflex Tachycardia<br />Nitrate Tolerance |
+| Nesiritide    | Balanced Vasodilator<br />Increased Urine Output and Na Loss | 2 mcg/kg Bolud<br />0.01 mcg/kg/min increased by 0.005 mcg/kg/min<br />Max 0.03 | Hypotension<br />Tachycardia<br />Renal Dysfunction          |
+| Morphine      | Venodilation<br />Decreases PCWP                             | 2-10mg IVPB q5-30min                                         | Itching / Histamine Release<br />Bradypenia                  |
+| Hydralazine   | Arterial Vasodilator<br />Highly Variable Response           | 10-20mg IVPB q4-6h                                           | See Above                                                    |
+
+### Inotropes
+
+| Drug       | MOA                                                          | Effects                                            | Dosing                                                       | SEs                                                          |
+| ---------- | ------------------------------------------------------------ | -------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Dobutamine | &beta;<sub>1,2</sub>-Agonist<br />Weak &alpha;<sub>1</sub> Agonist | (+) Inotrope, Chronotrope, and Lusitrope           | 2.5-5 mcg/kg/min Titrated                                    | Arrythmias<br />Tachycardia<br />Ischemia<br />Hypokalemia<br />Tolerance in 48-72hr |
+| Milrinone  | PDE 3 (Cardiac and Vascular PDE) Inhibitor                   | (+) Inotrope<br />Venous &gt; Arterial Vasodilator | 0.1-0.375 mcg/kg/min titrated                                | Arrythmias<br />Tachycardia<br />Ischmia<br />Hypotension<br />Thrombocytopenia (rare) |
+| Dopamine   | DA, &beta;<sub>1,2</sub>, and  &alpha;<sub>1</sub> Agonist<br />NE Release | (+) Inotrope, Chronotrope, and Lusitrope           | 0-3 mcg/kg/min (Renal Vasodilation)<br />3-10 (Inotropy)<br />&gt; 10 (Vasopressor) | Arrythmias<br />Tachycardia<br />Ischemia<br />Hypokalemia<br />Tolerance in 48-72hr<br />Skin Necrosis on Infiltration |
+
+### Class I Management
+
+Optimize chronic therapy
+
+### Class II Management
+
+IV Loop Diuretics &pm; IV Vasodilators (Prefer Morphine or NTG)
+
+### Class III Management
+
+* Small Fluid Boluses (250-500mL) until PCWP 15-18
+* If patient cannot be normalized on fluid alone:
+  * SBP &lt; 90: Add IV Dopamine (Initiate at inotropic dose and increase as necessary)
+  * SBP &ge; 90: Add Milrinone or Dobutamine or Arterial Vasodilator
+
+### Class IV Management
+
+* IV Diuretics
+* SBP &lt; 90: IV Dopamine
+* SBP &ge; 90: IV Inotrope or Vasodilators
