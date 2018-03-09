@@ -144,6 +144,11 @@ a img {
       margin-bottom: 0.25em;
     }
 
+    .navList {
+      list-style-type: none;
+      margin-left: 0;
+    }
+
     li, li li, li li li {
       margin: 0.25em 0;
     }

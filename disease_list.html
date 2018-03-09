@@ -7,12 +7,16 @@ title: Diseases and Drugs
 
 {% assign disease_list = site.diseases | sort: 'title' %}
 {% for entry in disease_list %}
-  <p><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></p>
+<ul class="navList">
+  <li><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+</ul>
 {% endfor %}
 
 <h1>Drug Classes</h1>
 
 {% assign drugClass_list = site.drugClasses | sort: 'title' %}
 {% for entry in drugClass_list %}
-  <p><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></p>
+  <ul class="navList">
+    <li><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+  </ul>
 {% endfor %}

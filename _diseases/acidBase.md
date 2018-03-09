@@ -372,7 +372,7 @@ The acidosis associated with infusions of non-balanced crystalloid fluids has no
 
 
 $$
-pH = 6.1 + \log{\frac{{HCO_3}^-}{0.03*pCO_2}}
+pH = 6.1 + \log{ \frac{ {HCO_3}^-} {0.03*pCO_2} }
 $$
 
 
