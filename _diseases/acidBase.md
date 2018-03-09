@@ -368,7 +368,7 @@ See the [EM-Crit Acid-Base Evaluation Sheet](https://emcrit.org/wp-content/uploa
 
 # NS, 1/2NS, and D5W Acidotic Mechanism
 
-The acidosis associated with infusions of non-balanced crystalloid fluids has nothing to do with the presence of Cl<sup>-</sup>, the weak base of HCl. It instead has to do with the dilution of the bodies natural buffer, bicarbonate. Dilution of endogenous bicarb with significant volumes of crystalloid leads to a shift in the equilibrium point of the Henderson-Hasselback equation. Holding pCO<sub>2</sub> constant (pCO<sub>2</sub> is held constant because the lungs will rapidly return pCO<sub>2</sub> to the appropriate physiologic value) shows that decreasing the bicarbonate concentration leads to a decrease in pH.
+The acidosis associated with infusions of non-balanced crystalloid fluids has nothing to do with the presence of Cl<sup>-</sup>, the weak base of HCl. It instead has to do with the dilution of the body's natural buffer, bicarbonate. Dilution of endogenous bicarb with significant volumes of crystalloid leads to a shift in the equilibrium point of the Henderson-Hasselback equation. Holding pCO<sub>2</sub> constant (pCO<sub>2</sub> is held constant because the lungs will rapidly return pCO<sub>2</sub> to the appropriate physiologic value) shows that decreasing the bicarbonate concentration leads to a decrease in pH.
 
 
 $$
