@@ -365,3 +365,15 @@ Notes on calculations: The approximate SID is appropriate unless the pt is suffe
    * Osm Gap &gt; 50: Almost certainly toxic alcohol
 
 See the [EM-Crit Acid-Base Evaluation Sheet](https://emcrit.org/wp-content/uploads/acid_base_sheet_2-2011.pdf) for more details on Quantitative Acid Base
+
+# NS, 1/2NS, and D5W Acidotic Mechanism
+
+The acidosis associated with infusions of non-balanced crystalloid fluids has nothing to do with the presence of Cl<sup>-</sup>, the weak base of HCl. It instead has to do with the dilution of the bodies natural buffer, bicarbonate. Dilution of endogenous bicarb with significant volumes of crystalloid leads to a shift in the equilibrium point of the Henderson-Hasselback equation. Holding pCO<sub>2</sub> constant (pCO<sub>2</sub> is held constant because the lungs will rapidly return pCO<sub>2</sub> to the appropriate physiologic value) shows that decreasing the bicarbonate concentration leads to a decrease in pH.
+
+
+$$
+pH = 6.1 + \log{\frac{{HCO_3}^-}{0.03*pCO_2}}
+$$
+
+
+This result is supported by the Quantitative Acid-Base approach to fluid acidity. NS, 1/2NS, and D5W all have SID=0, implying they are highly acidic fluids due to the dilutional effects on albumin and bicarb. However, fluids such as LR, which have a SID of 24-28 (due to the contents of 24-28 mEq/L of lactate, which is converted to bicarbonate), will not dilute the buffering bicarbonate or concentrate it (as would be the case in infusions of more concentrated bicarbonate solutions). Therefore, solutions with an SID lower than the patient's current bicarbonate will induce acidosis, while solutions with an SID higher than the patient's  current bicarbonate will induce alkalosis.
