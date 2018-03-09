@@ -38,9 +38,11 @@ table {
 }
 strong, b {
   font-weight: bold;
+  font-size: normal;
 }
 em, i {
   font-style: italic;
+  font-size: normal;
 }
 a img {
   border: none;
