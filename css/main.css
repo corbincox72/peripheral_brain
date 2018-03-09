@@ -114,6 +114,10 @@ a img {
       font-style: italic;
     }
 
+    p {
+      font-size: normal;
+    }
+
     a:link, a:visited, a h2 {
         color: var(--linkColor);
         text-decoration: none;
