@@ -85,7 +85,7 @@ a img {
     }
 
     h1, h2, h3, h4, p, a {
-      margin: 1.25em 0 0.25em 0;
+      margin: 1em 0 0.25em 0;
     }
 
     p, li {
@@ -116,6 +116,11 @@ a img {
 
     p {
       font-size: normal;
+      text-indent: 1em;
+    }
+
+    h1+p,h2+p,h3+p,h4+p,h5+p,h6+p{
+      text-indent: 0em;
     }
 
     a:link, a:visited, a h2 {
@@ -129,11 +134,11 @@ a img {
 
     ul, ol {
       margin-left: 1.5em;
-      margin-top: 0.25em;
+      margin-top: 1em;
       margin-bottom: 0.25em;
     }
 
-    ul ul, ol ol {
+    ul ul, ol ol, ul ol, ol ul {
       margin-left: 1em;
       margin-top: 0.25em;
       margin-bottom: 0.25em;

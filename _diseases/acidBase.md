@@ -71,10 +71,14 @@ Compensation should occur in simples (i.e. single) acid-base disorders, and the 
 ## Metabolic Acidosis
 
 Metabolic acidoses are characterized by decreased levels of bicarbonate in the blood. Metabolic acidoses are split into two categories: anion gap and non-anion gap acidoses. In acidotic pts with a low bicarbonate, an anion gap and delta gap should be calculated.
+
+
 $$
 \text{Anion Gap} = [Na^+] - [Cl^-] - [{HCO_3}^-]\\
 \text{Delta Gap} = \text{Pts' Anion Gap} - \text{Normal Anion Gap}
 $$
+
+
 A normal anion gap is 3-11 mEq/L, if the anion gap is elevated, the patient has an anion gap acidosis. If the patient has an anion gap calculate the delta gap. If the bicarb plus the delta gap is an elevated bicarb (&gt; 26 mEq/L), the patient is suffering from a mixed metabolic acidosis/alkalosis. Anion gap pts should also have a lactate drawn. If the $$\text{Anion Gap}-\text{Serum Lactate}$$ is a normal anion gap, the patient is likely suffering from lactic acidosis.
 
 ### Anion Gap Acidosis
@@ -82,7 +86,7 @@ A normal anion gap is 3-11 mEq/L, if the anion gap is elevated, the patient has 
 **GOLD MARK**
 
 * Glycols (Ethylene and propylene)
-* [5-Oxoproline (pyroglutamic acid)](http://joel.topf.googlepages.com/ClinJAmSocNephrol2006FenvesIncreased.pdf)
+* 5-Oxoproline [(pyroglutamic acid)](http://joel.topf.googlepages.com/ClinJAmSocNephrol2006FenvesIncreased.pdf)
   * APAP ingestion in combination with severe sepsis
   * Renal Fx
   * Hepatic Fx
@@ -110,7 +114,9 @@ Normal: 0.5-1 mmol/L
 
 Moderately Elevated: 2-4 mmol/L
 
-Severely Elevated: &gt; 4 mmol/L, pt should be worked up for severe bacterial infections, started on prophylactic Abx, and [Early Goal Directed Therapy](https://emcrit.org/pulmcrit/accelerated-goal-directed-therapy-for-septic-shock/) should be initiated until infection can be definitively r/o
+Severely Elevated: &gt; 4 mmol/L
+
+Severely elevated pts should be worked up for severe bacterial infections, started on prophylactic Abx, and [Early Goal Directed Therapy](https://emcrit.org/pulmcrit/accelerated-goal-directed-therapy-for-septic-shock/) should be initiated until infection can be definitively r/o
 
 **Causes**
 
@@ -200,7 +206,7 @@ Order a urine chemistry and calculate the urine anion gap (same formula as serum
   * Esp. useful if hyperkalemia, revived cardiac arrest, and overdoses
   * Cardiac arrest pts receive ~1 mEq/kg
   * Give 1/3-1/2 of dose as calculated below, and use 12 as target bicarb to prevent alkalosis
-  * $$[0.5 L/kg * \text{IBW} * (\text{Desired }HCO_3 - \text{Actual }HCO_3)]$$
+  * Dose: $$[0.5 L/kg * \text{IBW} * (\text{Desired }HCO_3 - \text{Actual }HCO_3)]$$
   * Monitor K, Ca, Na, and Serum Osm; alkalosis decreases oxygen release from heme which can lead to neural hypoxia; CSF acidosis can occur as excess CO<sub>2</sub> diffuses into the CSF
   * Chronic bicarb can be used for RTAs at 1-3 mEq/kg QD (may increase to &gt;10)
 
@@ -318,10 +324,10 @@ Order a urine chemistry and calculate the urine anion gap (same formula as serum
 
 # Henderson-Hasselbach Acid-Base Evaluation
 
-1. Determine if bicarb, CO<sub>2</sub>, or both change in the same direction as pH
-   * If both do, then calculate compensation
-   * If only one changes in the same direction as pH, there is a mixed disorder where both are acidotic or alkalotic.
-   * If change is in opposite direction with relatively normal pH, consider a mixed (opposing) or triple disorder
+Determine if bicarb, CO<sub>2</sub>, or both change in the same direction as pH
+* If both do, then calculate compensation
+* If only one changes in the same direction as pH, there is a mixed disorder where both are acidotic or alkalotic.
+* If change is in opposite direction with relatively normal pH, consider a mixed (opposing) or triple disorder
 
 # Quantitative Acid-Base Evaluation
 
