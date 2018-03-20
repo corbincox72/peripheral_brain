@@ -2,7 +2,7 @@
 title: Seizure Disorders (Incomplete)
 layout: diseases
 author: Corbin Cox
-last-updated: 2018-3-19
+last-updated: 2018-3-20
 created: 2018-3-19
 toc: true
 common: true
@@ -152,6 +152,31 @@ Risk Factors for recurrence include:
 
 ## Medication Therapy
 
+### Typical First-Line Therapy by Sz Type
+
+| Sz Class       | Typical 1st Line Agents                                      |
+| -------------- | ------------------------------------------------------------ |
+| Partial-Onset  | Carbamazepine<br />Lamotrigine<br />Levetiracetam<br />Oxcarbazepine<br />Valproate |
+| Tonic-Clonic   | Carbamazepine<br />Lamotrigine<br />Oxcarbazepine<br />Valproate |
+| Absence        | Ethosuximide<br />Lamotrigine<br />Valproate                 |
+| Myoclonic      | Levetiracetam<br />Topiramate<br />Valproate                 |
+| Lennox-Gastaut | Valproate<br />Lamotrigine                                   |
+
+### Drug Interactions
+
+| Enzyme | Substrate                                                    | Inducer                                                      | Inhibitor                                                    |
+| ------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 1A2    | Carbamazepine                                                | Carbamazepine<br />Phenobarbital<br />Phenytoin<br />Primidone |                                                              |
+| 2C9    | Brivaracetam<br />Phenobarbital<br />Phenytoin<br />Primidone<br />Valproate | Carbamazepine<br />Phenobarbital<br />Phenytoin<br />Primidone |                                                              |
+| 2C19   | Brivaracetam<br />Lacosamide<br />Phenobarbital<br />Phenytoin<br />Primidone<br />Valproate | Carbamazepine<br />Phenobarbital<br />Phenytoin<br />Primidone | Eslicarbazepine<br />Lacosamide<br />Oxcarbazepine<br />Topiramate |
+| 2D6    |                                                              |                                                              | Clobazam                                                     |
+| 3A4    | Carbamazepine<br />Clobazam<br />Clonazepam<br />Ethosuximide<br />Felbamate<br />Preampanel<br />Tiagabine<br />Zonisamide | Carbamazepine<br />Clobazam<br />Eslicarbazepine<br />Felbamate<br />Lamotrigine<br />Oxcarbazepine<br />Phenobarbital<br />Phenytoin<br />Primidone<br />Rufinimide<br />Topiramate<br />**REDUCE OC EFFICACY** |                                                              |
+| UGT    |                                                              | Carbamazepine<br />Eslicarbazepine<br />Phenobarbital<br />Phenytoin<br />Primidone | Valproate                                                    |
+
+#### Contraceptive Use
+
+Contraceptive interactions are primarily mediated through CYP3A4 alterations leading to increased breakdown of the estrogen component of contraceptives. Contraceptives must be used in patients on anticonvulsants, as almost all anticonvulsants are teratogenic. This interaction can be avoided by utilizing progestin-only formulations, high dose estrogen OCs, IUDs, etc.
+
 ### Phenytoin / Fosphenytoin
 
 * Phenytoin: 20 mg/kg IV w/ a second dose after 10min if needed
@@ -167,7 +192,7 @@ Risk Factors for recurrence include:
 * Target Concentration: 10-20 mcg/mL
 
 
-## Valproate
+###  Valproate
 
 * Load 15-20 mg/kg
 * Follow with 15 mg/kg QD titrated to Max 60 mg/kg QD
@@ -178,4 +203,73 @@ Risk Factors for recurrence include:
   * V<sub>d</sub>: 0.2-0.3 L/kg
   * Target Concentration: 80 mcg/kg (50-125 mcg/mL)
 
-  **PICK UP AT OTHER INPATIENT TREATMENT CONSIDERATIONS SLIDE 14**
+### Lamotrigine
+
+| Without UGT Interactions | w/ UGT Inhibitor (Valproate)<br />(Halve Dose) | w/ UGT Inducer (Carbamazepine, Phenytoin)<br />(Double Dose) |
+| ------------------------ | ---------------------------------------------- | ------------------------------------------------------------ |
+| 25mg QD x14d             | 25mg QOD x14d                                  | 50mg QD x14d                                                 |
+| 50mg QD x14d             | 25mg QD x14d                                   | 100mg QD x14d                                                |
+| 100mg QD x7d             | 50mg QD x7d                                    | 200mg QD x7d                                                 |
+| 200mg QD                 | 100mg QD                                       | 400mg QD                                                     |
+
+Always re-evaluate lamotrigine dose if offending interaction is started or stopped. Titration schedule must be followed strictly to avoid high risk of SJS/TEN. In pts with prior exposure to lamotrigine higher initial doses may be used.
+
+## Severe Adverse Drug Reactions
+
+### Anticonvulsant Hypersensitivity Syndrome
+
+![The diffuse, morbiliform rash associated with AHS](../images/szs/ahs.jpg)
+
+AHS is a severe allergic reaction associated with arena oxide metabolic intermediate of aromatic drugs. The reaction presents as a diffuse, morbiliform rash. There is some cross reactivity with TCAs because of this. Common offenders include:
+
+* Carbamazepine
+* Oxcarbazepine
+* Eslicarbazepine
+* Felbamate
+* Lamotrigine
+* Phenobarbital
+* Phenytoin
+* Zonisamidde
+
+Carbamazepine and its derivatives are the most common offenders, and a significantly increased risk of this reaction occurs in patients carrying HLA-B\*1502, which is most commonly seen in Asian populations. HLA-A\*3101 conveys some risk as well, and is common in those of Northern European descent.
+
+### DRESS Syndrome
+
+![The measles-like rash of DRESS Syndrome](../images/szs/dress.jpg)
+
+Drug Reaction with Eosinophilia and Systemic Symptoms is a life threatening allergic reaction which commonly initially presents with a similar rash to measles. The reaction then progresses to organ dysfunction and multi-system organ failure. DRESS commonly occurs 2-6wks after initiating one of the following:
+
+* Carbamazepine
+* Lamotrigine
+* Phenobarbital
+* Phenytoin
+* Valproate
+* Zonisamide
+
+HLA-A*3101 (common in Asians and Northern European Populations) is commonly associated with an increased risk of DRESS syndrome. Treat by withdrawing drug and providing supportive care.
+
+### Anticonvulsant Withdrawal Syndrome
+
+Anticonvulsant withdrawal refers to the increased risk of Szs associated with abrupt discontinuation of anticonvulsant medications. Common other SSx include:
+
+* Anxiety
+* Agitation
+* Other Physical Complaints
+
+Anticonvulsant withdrawal syndrome can be prevented by slowly tapering patients off medication. Tapers of the course of a year are appropriate for trial D/C due to lack of Szs. Patients with non-life threatening SEs should be tapered slowly, but can be tapered faster than 1 year. Consider the longest taper medically feasible without undue danger or suffering to the patient.
+
+# Pregnancy and Anticonvulsant Medications
+
+Sz frequency increases during pregnancy, and dosing regimens may change. Unfortunately many anticonvulsants are known teratogens such as:
+
+* Carbamazepine
+* Clonazepam
+* Fos-/Phenytoin
+* Phenobarbital
+* Primidone
+* Topiramate
+* Valproate
+
+These medications should not be used in pregnancy if at all possible. Pregnant patients should be supplemented with Folate 5mg QD and consider Vit K 10mg QD in the last month of pregnancy followed by Vit K 1mg IM (for the infant) at birth.
+
+**CONTINUE HERE AT DEPRESSION IN EPILEPSY SLIDE 26**
