@@ -159,8 +159,6 @@ Risk Factors for recurrence include:
 * Phenytoin: Maximum Infusion Rate of 50 mg/min IV
 * Fosphenytoin: 20 PE/kg IV w/ a second dose after 10min if needed
 * Fosphenytoin: Maximum Infusion Rate of 150 PE/min IV
-
-
 * Phenytoin Limiting SE of Infusion rate is hypotension due to propylene glycol 
 * Monitor for purple glove syndrome
 * Cardiac Monitoring Required
@@ -169,13 +167,14 @@ Risk Factors for recurrence include:
   * Albumin and serum concentration must be measured at the same time
 * Target Concentration: 10-20 mcg/mL
 
+
 ## Valproate
 
 * Load 15-20 mg/kg
 
 * Follow with 15 mg/kg QD titrated to Max 60 mg/kg QD
 
-  * IV dose given Q6H
+  * IV given in divided doses given Q6H
 
 * IV:PO Conversion is 1:1
 
