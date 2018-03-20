@@ -144,7 +144,6 @@ Risk Factors for recurrence include:
 * 2-6yr before good seizure control in treatment
 * Significant number of seizures (&gt; 30) before control achieved
 * Partial seizures (which is the most common type)
-
 * Abnormal EEG throughout treatment
 * Organic neurological disorder
   * Traumatic brain injury
@@ -171,15 +170,10 @@ Risk Factors for recurrence include:
 ## Valproate
 
 * Load 15-20 mg/kg
-
 * Follow with 15 mg/kg QD titrated to Max 60 mg/kg QD
-
   * IV given in divided doses given Q6H
-
 * IV:PO Conversion is 1:1
-
 * Loading Dose Calculation
-
   * Dose: $$V_d * ([\text{Desired}]-[\text{Current}]) * Wt $$
   * V<sub>d</sub>: 0.2-0.3 L/kg
   * Target Concentration: 80 mcg/kg (50-125 mcg/mL)
