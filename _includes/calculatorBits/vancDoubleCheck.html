@@ -1,0 +1,100 @@
+<table class="calculator">
+  <tr>
+    <th colspan="3">
+      Double Check
+    </th>
+  </tr>
+  <tr>
+    <td>
+      MD
+    </td>
+    <td id="mdD"></td>
+    <td>
+      mg
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Tau
+    </td>
+    <td id="tauD"></td>
+    <td>
+      hr
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Cmax
+    </td>
+    <td id="cmaxE"></td>
+    <td>
+      mg/L
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Cpk
+    </td>
+    <td id="cpkE"></td>
+    <td>
+      mg/L
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Cmin
+    </td>
+    <td id="cminE"></td>
+    <td>
+      mg/L
+    </td>
+  </tr>
+  <tr>
+    <td>
+      AUC<sub>0-24hr</sub>
+    </td>
+    <td id="auc"></td>
+    <td>
+      mg*hr/L
+    </td>
+  </tr>
+  <tr>
+    <td>
+      AUC<sub>0-24hr</sub> / MIC
+    </td>
+    <td id="aucMIC"></td>
+    <td>
+    </td>
+  </tr>
+</table>
+
+<script>
+
+function cmaxE() {
+  return (md() * (1-Math.exp(-1*k()*tinf())) / volume() / tinf() / k() / (1-Math.exp(-1*k()*tau()))).toFixed(1);;
+}
+
+function cpkE() {
+  return (cmaxE() * Math.exp(-1*k()*timeToSample())).toFixed(1);
+}
+
+function cminE() {
+  return (cmaxE() * Math.exp(-1*k()*(tau() - tinf()))).toFixed(1);
+}
+
+function auc() {
+  return ( ( (tinf() * (cmaxE()/2+cminE()/2)) + ( (tau()-tinf()) * (cmaxE()-cminE())/(Math.log(cmaxE()/cminE())) ) ) * (24 / tau())).toFixed(0);
+}
+
+function aucMIC() {
+  return (auc()/mic()).toFixed(0);
+}
+
+function vancDoubleCheckOutput() {
+  printResult("cmaxE",cmaxE());
+  printResult("cpkE",cpkE());
+  printResult("cminE",cminE());
+  printResult("auc",auc());
+  printResult("aucMIC",aucMIC());
+}
+</script>

@@ -51,7 +51,7 @@ toc: true
 
 * AUC<sub>0-24</sub> / MIC = 400
 
-* NTE 15 mg/min due to risk of Red Man Syndrome
+* **NTE 15 mg/min due to risk of Red Man Syndrome**
 
   | CrCl     | Approximate Dosing Interval (hr)   |
   | -------- | ---------------------------------- |

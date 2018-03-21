@@ -1,0 +1,37 @@
+---
+layout: calculator
+author: Corbin Cox
+title: Vancomycin Initial Dosing
+---
+<div class="inputCol">
+  <table class="calculator">
+    {% include /calculatorBits/demographicInfo.html %}
+    {% include /calculatorBits/crclInput.html %}
+    {% include /calculatorBits/micInput.html %}
+    {% include /calculatorBits/vdRangeAndInput.html %}
+    {% include /calculatorBits/peakTroughInput.html %}
+    {% include /calculatorBits/infusionTimeMaxPeakInt.html %}
+    {% include /calculatorBits/tauAndMD.html %}
+
+  </table>
+</div>
+
+<div class="outputCol">
+  {% include /calculatorBits/crclOutput.html %}
+  <br>
+  {% include /calculatorBits/pkInitialOutput.html %}
+  <br />
+  {% include /calculatorBits/vancDoubleCheck.html %}
+  <p style="margin: 1em"><strong>Maximum Infusion Rate of 15mg/min</strong></p>
+</div>
+
+
+
+<script src={{site.baseurl}}/javascript/vancInitial.js></script>
+<script>
+function allResults() {
+  crclOutput();
+  pkInitialOutput();
+  vancDoubleCheckOutput();
+}
+</script>

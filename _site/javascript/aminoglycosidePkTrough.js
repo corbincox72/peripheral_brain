@@ -1,5 +1,5 @@
 function k() {
-  return (Math.log(ptPk()/ptTrough())/(ptTau()-ptInfTime())).toFixed(4);
+  return (Math.log(ptPk()/ptTrough())/(ptTau()-ptInfTime()-ptTimeToSample()-ptTroughMinInterval())).toFixed(4);
 }
 
 function volume() {
