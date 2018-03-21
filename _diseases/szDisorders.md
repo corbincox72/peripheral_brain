@@ -1,8 +1,8 @@
 ---
-title: Seizure Disorders (Incomplete)
+title: Seizure Disorders
 layout: diseases
 author: Corbin Cox
-last-updated: 2018-3-20
+last-updated: 2018-3-21
 created: 2018-3-19
 toc: true
 common: true
@@ -187,9 +187,10 @@ Contraceptive interactions are primarily mediated through CYP3A4 alterations lea
 * Monitor for purple glove syndrome
 * Cardiac Monitoring Required
 * Oral Dose Conversion
-  * Adjusted Concentration: $$\frac{\text{Observed Concentration}}{0.25*\text{Albumin}+0.1} $$
+  * Adjusted Concentration = $$\frac{\text{Observed Concentration}}{0.25*\text{Albumin}+0.1} $$
   * Albumin and serum concentration must be measured at the same time
-* Target Concentration: 10-20 mcg/mL
+* Target Concentration = 10-20 mcg/mL
+* High Withdrawal Risk
 
 
 ###  Valproate
@@ -199,9 +200,10 @@ Contraceptive interactions are primarily mediated through CYP3A4 alterations lea
   * IV given in divided doses given Q6H
 * IV:PO Conversion is 1:1
 * Loading Dose Calculation
-  * Dose: $$V_d * ([\text{Desired}]-[\text{Current}]) * Wt $$
-  * V<sub>d</sub>: 0.2-0.3 L/kg
-  * Target Concentration: 80 mcg/kg (50-125 mcg/mL)
+  * Dose = $$V_d * ([\text{Desired}]-[\text{Current}]) * Wt $$
+  * V<sub>d</sub> = 0.2-0.3 L/kg
+  * Target Concentration = 80 mcg/kg (50-125 mcg/mL)
+* High Withdrawal Risk
 
 ### Lamotrigine
 
@@ -213,6 +215,35 @@ Contraceptive interactions are primarily mediated through CYP3A4 alterations lea
 | 200mg QD                 | 100mg QD                                       | 400mg QD                                                     |
 
 Always re-evaluate lamotrigine dose if offending interaction is started or stopped. Titration schedule must be followed strictly to avoid high risk of SJS/TEN. In pts with prior exposure to lamotrigine higher initial doses may be used.
+
+### Medication Table
+
+| Drug            | Brand                                          | Notes                                                        |
+| --------------- | ---------------------------------------------- | ------------------------------------------------------------ |
+| Brivaracetam    | Briviact                                       | C-V controlled substance; adjunctive therapy for partial-onset seizures, twice daily dosing, dose adjustment for hepatic impairment, 2C19 substrate, injection available (4 day max use), somnolence/sedation, ataxia, fatigue, dizziness, N/V, psychosis, irritability, aggression, depression, rifampin decreases serum concentration of brivaracetam |
+| Carbamazepine   | Tegretol (IR or XR)<br />Carbatrol<br />Epitol | Partial/generalized seizures, P450 inducer (including auto-inducing own metabolism), hyponatremia, aplasticanemia, SJS/TEN (HLA-B\*1502 testing in patients of Asian descent), DRESS syndrome (HLA-A\*3101 testing –Northern European descent (not required, suggested), therapeutic range 4–12 mcg/ml, electrolytes, CBCw/platelets, decreased efficacy of OCs, teratogen – category D (some generics available) |
+| Clobazam        | Onfi                                           | C-IV controlled substance; 3A4 substrate, weak 3A4 inducer – possible decreased efficacy of OCs; 1,5–benzodiazepine (theoretically less abuse potential); significant withdrawal symptoms if stopped abruptly; indicated only as adjunct for Lennox-Gastaut syndrome |
+| Clonazepam      | Klonopin                                       | C-IV controlled substance; 3A4 substrate; pregnancy category D, indicated for myoclonic seizures; side effects – anterograde amnesia, paradoxical disinhibited behavior, significant withdrawal symptoms if stopped abruptly, respiratory depression, CNS depression; contraindicated in severe hepatic dysfunction; generic available |
+| Eslicarbazepine | Aptiom                                         | Active metabolite of oxcarbazepine; prodrug metabolized to active form; 2C19 inhibitor; SJS/TEN (HLA-B\*1502testing in patients of Asian descent (required) and HLA-A\*3101 testing of patients of Northern European descent (not required), hyponatremia, blood dyscrasias (not as severe as carbamazepine); partial/generalized tonic clonic |
+| Ethosuximide    | Zarontin                                       | Indicated only for absence seizures; avoid in renal/hepatic dysfunction; 3A4 substrate; CBC w/diff. & platelets, BMP – leukopenia, eosinophilia, psychiatric/sleep disturbances, aggression; SLE, SJS/TEN (generic available) |
+| Felbamate       | Felbatol                                       | Boxed warnings – aplastic anemia, hepatic failure – LFTs baseline and frequently thereafter (at least every 3 months), warn patients about signs of hepatic dysfunction, CBC w/ diff. & plts baseline and every 3 months – d/c if signs of bone marrow suppression; most commonly used for Lennox-Gastaut syndrome (generic available) |
+| Gabapentin      | Neurontin<br />Gralise<br />Fanatrex           | Abuse potential although not a controlled substance; 100% renal clearance; CrCl 30–60 mL/min – max dose 1800 mg/day; not recommended CrCl < 30 mL/min; monitor renal function; sedation, peripheral edema; first-line agent partial/generalized tonic clonic; also used for neuropathic pain(generic available) |
+| Lacosamide      | Vimpat                                         | C-V controlled substance; partial/generalized tonic clonic; IV dosing available for status epilepticus; 2C19 substrate and inhibitor; caution in cardiac conduction abnormalities – prolongs PR interval –visual disturbances; dizziness, ataxia, somnolence, double vision; idiosyncratic – hepatic impairment, 1st Degree Heart Block |
+| Lamotrigine     | Lamictal                                       | Broad spectrum anticonvulsant – 1st line agent, SJS/TEN – dose titration required to minimize risk; may decrease efficacy of OCs at higher doses of lamotrigine; blurred vision, drowsiness, dizziness, decreased coordination (generic available – IR dosage form) |
+| Levetiracetam   | Keppra                                         | Broad spectrum anticonvulsant; IV dosing available for status epilepticus; 1st line agent; renal dosing for CrCl < 50 mL/min; ESRD – 500–1000mg q24hr max, supplement 25–500mg after dialysis; adults with partial seizures – ataxia, abnormal gait; adolescents (most commonly) –psychosis, worsening depression, unusual mood changes (generic available) |
+| Lorazepam       | Ativan                                         | Not commonly used as an oral dose for maintenance control of seizures (abuse potential); common1st line agent for status epilepticus; significant withdrawal symptoms if taken orally for maintenance treatment and abruptly stopped; CAN be used in hepatic dysfunction |
+| Oxcarbazepine   | Trieptal<br />Oxtellar XR                      | 3A4 substrate/inducer; 2C19 inhibitor; SJS/TEN (HLA-B\*1502 testing in patients of Asian descent(required)), DRESS syndrome (HLA-A\*3101 testing in patients of Northern European descent – not required), hyponatremia (more common than with carbamazepine), blood dyscrasias (less common than with carbamazepine, NOT aplastic anemia); CBC w/differential/platelets, electrolytes (generic) |
+| Perampanel      | Fycompa                                        | C-III controlled substance; 3A4 major substrate, dosing adjustments if given with 3A4 inducers; boxed warning for serious/life-threatening neuropsychiatric events; use with caution in pts w/ psychosis; gait disturbance, somnolence |
+| Fos-/Phenytoin  | Dilantin<br />(Fos-) Cerebyx                   | Strong P450 and UGT inducer; teratogen – pregnancy category D, therapeutic serum conc 10 – 20mcg/mL (calculate free phenytoin with albumin); boxed warning – cardiovascular events; decreased bone mineral density, SJS/TEN, nystagmus, ataxia, double vision, hepatotoxicy, hirsutism, gingival hyperplasia, alteration of Vit D metabolism; osteoporosis; status epilepticus– fosphenytoin dosed in phenytoin equivalents preferred to reduce risk of arrhythmias, hypotension, purple glove syndrome |
+| Phenobarbital   |                                                | C-IV controlled substance; not commonly used in oral dosing in adults for seizure maintenance, may see in children; status epilepticus dosing for refractory status; pregnancy category D; 2C9 substrate;P450 and UGT strong inducer; LONG half-life; somnolence, cognitive impairment; impaired Ca absorption; can be fatal in overdose (generic available) |
+| Pregabalin      | Lyrica                                         | C-V controlled substance; partial/generalized tonic clonic; 100% renal elimination – dose adjustments in CrCl < 60 mL/min; angioedema, PR prolongation; dizziness, sedation, peripheral edema; monitor renal function; more commonly used for neuropathic pain and generalized anxiety disorder |
+| Primidone       | Mysoline                                       | Metabolized to phenobarbital; Pregnancy category D; strong P450 and UGT inducer; more commonly used to treat essential tremor; monitor LFTs and CBC w/ diff & plts (generic) |
+| Rufinamide      | Banzel                                         | Lennox-Gastaut or refractory seizures; CI in familial short QT syndrome; DRESS; SJS/TEN; somnolence, fatigue, ataxia, nausea |
+| Tiagabine       | Gabitril                                       | 3A4 substrate – dose adjustments required for use with strong 3A4 inducers or inhibitors; may cause cognitive impairment; somnolence, tremor; use with caution off-label for patient w/o Sz disorder (ie, as a mood stabilizer for bipolar disorder) and with hepatic dysfunction – may trigger seizures |
+| Topiramate      | Topamax                                        | 3A4 substrate/inducer – may decrease efficacy of OCs, pregnancy category D, status epilepticus dosing – but is only PO dosing; warnings/precautions – nephrolithiasis, CNS depression, metabolic acidosis, oligohydrosis/hyperthermia; secondary angle-closure gluacoma; visual field defects; cognitive impairment, hyperchloremic non-anion gap metabolic acidosis; monitor urinalysis, BMP (for bicarbonate) q6m dose titrate slowly (generic) |
+| Vigabtrin       | Sabril                                         | 35% renally cleared, otherwise UGT metabolism; renal dosing for CrCl < 80 mL/min; CI in patients with other risk factors for irreversible vision loss (boxed warning), warnings for peripheral neuropathy, edema, anemia, neurotoxicity; side effects – depression, insomnia, weight gain, permanent loss of peripheral vision |
+| Valproate       | Depakote                                       | Broad spectrum; use not recommended in pregnancy – neural tube defects/lower IQ in offspring; serum concentration range – 50–125 mcg/mL; status epilepticus dosing available, including loading dose; may cause hyperammonemia, thrombocytopenia, weight gain, N/V, sedation, alopecia, polycystic ovarian syndrome (PCOS) – monitor CBC w differential/platelets, LFTs, serum concentration; watch dispensing – IR capsules, DR tablets, ER tablets, sprinkle capsules(some are generic) |
+| Zonisamaide     | Zonegran                                       | **CI in sulfa allergy**; partial/generalized tonic clonic; metabolic acidosis, renal calculi, **DRESS syndrome**, drowsiness, tremor, weight loss |
 
 ## Severe Adverse Drug Reactions
 
@@ -272,4 +303,29 @@ Sz frequency increases during pregnancy, and dosing regimens may change. Unfortu
 
 These medications should not be used in pregnancy if at all possible. Pregnant patients should be supplemented with Folate 5mg QD and consider Vit K 10mg QD in the last month of pregnancy followed by Vit K 1mg IM (for the infant) at birth.
 
-**CONTINUE HERE AT DEPRESSION IN EPILEPSY SLIDE 26**
+# Depression and Epilepsy
+
+Sz disorder pts are at high risk for epilepsy. All anticonvulsants increase risk of suicidal thinking/behavior. Antidepressant therapy carries an increased risk of suicidal thinking/behavior in those &lt; 24yo. Many antidepressants also have CYP interactions to consider. **Bupropion should not be used in patients with Sz disorders as it decreases the Sz threshold.**
+
+# CVD and Anticonvulsants
+
+* QTc Shortening: Rufinamide
+* PR Changes: Lacosamide, Pregabalin
+* Peripheral Edema: Pregabalin, Gabapentin
+* Heart Block: Lacosamide (Caution w/ conduction abnormalities)
+* Arrhythmia: Fos-/phenytoin (CI in Heart Block)
+
+# Electrolyte, Acid-Base, and Metabolic Abnormalities and Anticonvulsants
+
+* Carbamazepine / Eslicarbaepine / Oxcarbazepine: Hyponatremia and SIADH
+* Zonisamide: Metabolic Acidosis and Renal Calculi
+* Phenytoin: Decreased levels of Vit D leading to osteoporosis
+* Topiramate: CA Inhibitor leading to decreased serum bicarb, metabolic acidosis, and nephrolithiasis
+
+# Miscellaneous Therapy
+
+* Ketogenic diets are somewhat effective at reducing Sz frequency, and it is more effective in children
+* Vagal Nerve Stimulation
+* Deep Brain Stimulation
+* Responsive Neurostimulation
+* Surgery to remove Sz focus

@@ -55,12 +55,12 @@ a img {
 
   /* Color Definitions */
     :root {
-      --mainTextColor: #1D2731;
-      --linkColor: #328CC1;
-      --accentColor: #29648A;
-      --backgroundColor: #EFEFEF;
-      --headerColor: #D9B310;
-      --tableAccent: #bbb;
+      --mainTextColor: #031424;
+      --linkColor: #07889B;
+      --accentColor: #465C8B;
+      --backgroundColor: #FFF;
+      --headerColor: #C0B283;
+      --tableAccent: #CDCDCD;
     }
 
   /* Global Fonts/Text */
@@ -68,12 +68,16 @@ a img {
       width: 100%;
     }
 
-    h1, h2, h3, h4, h5, h6, header a, footer a, td, th, input, .calculatorContents p{
+    /* h1, h2, h3, h4, h5, h6, header a, footer a, td, th, input, .calculatorContents p{
       font-family: 'Open Sans', Arial, Helvetica, sans-serif
     }
 
     p, table, li, ol, ul, blockquote, em, strong{
       font-family: 'Roboto Slab', serif;
+    } */
+
+    h1, h2, h3, h4, h5, h6, header a, footer a, td, th, input, .calculatorContents p, p, table, li, ol, ul, blockquote, em, strong{
+      font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -95,6 +99,7 @@ a img {
     h1 {
       font-size: 2em;
       font-weight: bold;
+      font-variant: small-caps;
       border-bottom-color: var(--accentColor);
       border-bottom-width: medium;
       border-bottom-style: solid;
@@ -151,7 +156,7 @@ a img {
 
     .title {
       text-align: center;
-      text-transform: uppercase;
+      font-variant: small-caps;
       border-bottom-width: thick;
       border-bottom-style: double;
       font-size: 2.25em;
@@ -187,6 +192,10 @@ a img {
 
     .center {
       text-align: center;
+    }
+
+    .toc li {
+      margin-top: 0.5em;
     }
 
   /* TABLE FORMATTING */
