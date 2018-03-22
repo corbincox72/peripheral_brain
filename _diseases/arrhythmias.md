@@ -17,7 +17,7 @@ Pacemaker cells are primarily governed by Ca channels, while myocytes are govern
 
 ## Vaughan-Williams-Singh Antiarrhythmic Scale
 
-* Class 1: Na Channel Blockers 
+* Class 1: Na Channel Blockers
   * 1a: Mixed Na and K Blockade (moderate dissociation), blocks open state of Na, widens QRS and prolongs QT
   * 1b: Fast dissociation, slightly shortens phase 2, minimal clinical impact
   * 1c: Strong (slow dissociation) Na blockade slowing 0, widens QRS

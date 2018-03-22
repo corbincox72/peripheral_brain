@@ -40,7 +40,8 @@ var tipuesearch_stem = {'words': [
      {'word': 'dm', 'stem': 'diabetes'},
      {'word': 'hld', 'stem': 'hyperlipidemia'},
      {'word': 'dld', 'stem': 'dyslipidemia'},
-     {'word': 'bp', 'stem': 'blood pressure'}
+     {'word': 'bp', 'stem': 'blood pressure'},
+     {'word': 'sz', 'stem': 'seizure'}
 ]};
 
 

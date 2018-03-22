@@ -24,11 +24,6 @@
     word-wrap: break-word;
   }
 
-  .title {
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-  }
-
   .chem7 {
     display: block;
     margin: 0 auto;
@@ -36,6 +31,10 @@
 
   img, svg{
     max-width: 95%;
+  }
+
+  .twoCol{
+    display: block
   }
 
   /* Calculators Layout */

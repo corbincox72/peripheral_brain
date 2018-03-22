@@ -103,6 +103,7 @@ a img {
       border-bottom-color: var(--accentColor);
       border-bottom-width: medium;
       border-bottom-style: solid;
+      overflow: hidden;
     }
 
     h2 {
@@ -134,9 +135,10 @@ a img {
     }
 
     ul, ol {
-      margin-left: 1.5em;
       margin-top: 1em;
       margin-bottom: 0.25em;
+      list-style-position: inside;
+      overflow: hidden;
     }
 
     ul ul, ol ol, ul ol, ol ul {
@@ -161,10 +163,8 @@ a img {
       border-bottom-style: double;
       font-size: 2.25em;
       padding-bottom: 0.1em;
-      grid-column: 1/-1;
+      grid-column: 2/-2;
       grid-row: 2/3;
-      margin-left: 5%;
-      margin-right: 5%;
     }
 
     code {
@@ -186,16 +186,12 @@ a img {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      max-width: 90%;
+      max-width: 80%;
       max-height: 1000px;
     }
 
     .center {
       text-align: center;
-    }
-
-    .toc li {
-      margin-top: 0.5em;
     }
 
   /* TABLE FORMATTING */
@@ -292,7 +288,7 @@ a img {
 
 /* Total Page Contents */
   .contents {
-    grid-column: 2 / 3;
+    grid-column: 2 / -2;
     grid-row: 3 / 4;
   }
 

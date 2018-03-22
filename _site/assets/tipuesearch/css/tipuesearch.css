@@ -35,10 +35,14 @@ http://www.tipue.com/search
 /* search box */
 
 
+#searchContainer{
+  width: 100%;
+}
+
 #tipue_search_input
 {
-     color: var(--mainTextColor);
-     max-width: 210px;
+   color: var(--mainTextColor);
+   width: 100%;
 	padding: 0.25em;
 	border: 1px solid var(--accentColor);
 	border-radius: 0;
@@ -61,6 +65,7 @@ http://www.tipue.com/search
 .tipue_search_right
 {
      float: left;
+     width: 50%;
 }
 
 
