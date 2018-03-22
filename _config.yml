@@ -38,3 +38,8 @@ collections:
 
 plugins:
   - jekyll-admin
+
+tipue_search:
+  include:
+    pages: true
+    collections: [calculators, pages, diseases, drugClasses]

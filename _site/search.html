@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Anticonvulsants (Incomplete) | The Peripheral Brain</title>
+  <title>Search | The Peripheral Brain</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,8 +12,6 @@
   <link rel="stylesheet" href="/peripheral_brain/css/mobile.css" />
   <link rel="stylesheet" href="/peripheral_brain/css/buttons.css" />
 
-  
-    <link rel="stylesheet" href="/peripheral_brain/css/diseases.css">
   
 
 
@@ -37,6 +35,13 @@
 
 
   
+  <link rel="stylesheet" href="/peripheral_brain/assets/tipuesearch/css/normalize.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="/peripheral_brain/assets/tipuesearch/tipuesearch_content.js"></script>
+  <link rel="stylesheet" href="/peripheral_brain/assets/tipuesearch/css/tipuesearch.css">
+  <script src="/peripheral_brain/assets/tipuesearch/tipuesearch_set.js"></script>
+  <script src="/peripheral_brain/assets/tipuesearch/tipuesearch.min.js"></script>
+  
   
 </head>
 
@@ -57,28 +62,23 @@
 </header>
 
 
-<h1 class="title">Anticonvulsants (Incomplete)</h1>
+<h1 class="title">Search</h1>
 
 <div class="contents">
+<form action="/peripheral_brain/search.html">
+  <div class="tipue_search_left"><img src="/peripheral_brain/assets/tipuesearch/search.png" class="tipue_search_icon"></div>
+  <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required></div>
+  <div style="clear: both;"></div>
+</form>
 
-  <div class="toc">
-    
-      
+<div id="tipue_search_content"></div>
 
-    
-  </div>
+<script>
+$(document).ready(function() {
+  $('#tipue_search_input').tipuesearch();
+});
+</script>
 
-  <div class="content">
-    
-
-  </div>
-
-</div>
-
-<div class="credits">
-  <p>Author: Corbin Cox <br>
-  Created: 2018-3-19 <br>
-  Last Updated: 2018-3-19</p>
 </div>
 
 <footer class="footer menus">
@@ -90,7 +90,6 @@
     <!-- <a href="/peripheral_brain/home.html"><img src="/peripheral_brain/images/logo_1000x1000.png" alt="Logo"> -->
   </nav>
 </footer>
-
 
 </body>
 </html>
