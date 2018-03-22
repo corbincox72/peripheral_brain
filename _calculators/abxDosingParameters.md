@@ -46,11 +46,8 @@ toc: true
 ## Vancomycin
 
 * Peak: 30-40 mg/L
-
 * Trough: 10-15 mg/L (15-20 in endocarditis, osteomyelitis, meningitis, MRSA, and pneumonia) 
-
 * AUC<sub>0-24</sub> / MIC = 400
-
 * **NTE 15 mg/min due to risk of Red Man Syndrome**
 
   | CrCl     | Approximate Dosing Interval (hr)   |
@@ -75,9 +72,7 @@ toc: true
 ## Hartford Nomogram
 
 * Target Max of 20 mg/L (MIC of 2 mg/L targeting 10:1)
-
 * 7 mg/kg over 1 hour (gent / tob) or 15 mg/kg (amikacin)
-
 * Obtain a value 6-14hr after the start of the infusion on day 5
 
   | CrCl    | Interval        |
