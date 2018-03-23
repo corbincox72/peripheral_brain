@@ -137,8 +137,9 @@ a img {
     ul, ol {
       margin-top: 1em;
       margin-bottom: 0.25em;
-      list-style-position: inside;
-      overflow: hidden;
+      padding-left: 0.05em; /*Prevents Cuttoff of Bullet Points*/
+      list-style-position: inside; /* Moves Lists over to keep bullets in margins */
+      overflow: hidden; /* Helps lists wrap ToC */
     }
 
     ul ul, ol ol, ul ol, ol ul {
@@ -154,6 +155,7 @@ a img {
 
     li, li li, li li li {
       margin: 0.25em 0;
+
     }
 
     .title {
@@ -170,7 +172,7 @@ a img {
     code {
       font-family: 'Robot Mono', monospace;
       color: var(--mainTextColor);
-      background: #ccc;
+      background: var(--tableAccent);
       border-radius: 2px;
       padding: 0em 0.25em;
     }
@@ -199,7 +201,11 @@ a img {
       border-collapse: collapse;
       margin: 1em auto;
       border: medium var(--mainTextColor) solid;
-      }
+      display: block
+      width: auto;
+      max-width:100%;
+      overflow-x: auto;
+    }
 
     td, th {
       padding: 0.2em 0.5em;

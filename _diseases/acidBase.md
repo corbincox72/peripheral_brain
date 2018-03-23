@@ -9,7 +9,7 @@ toc: true
 
 # Physiology
 
-Acid-base regulation is essential for maintenance of physiologic functions, and is primarily controlled through respiratory and renal means. The underlying chemical buffering of the blood is primarily maintained by HCO<sub>3</sub><sup>-</sup> ions, which can become carbonic acid when combined with a proton. The Henderson-Hasselbach equation for this equilibrium is $$ pH = 6.1 + \log{\frac{[HCO_3^-]}{[H_2CO_3]}} $$. This is equivalent to $$ pH = 6.1 + \log{\frac{[HCO_3^-]}{0.03*pCO_2 }} $$. pCO<sub>2</sub> is controlled by respiration, while [HCO<sub>3</sub><sup>-</sup>] is regulated by the kidneys. 
+Acid-base regulation is essential for maintenance of physiologic functions, and is primarily controlled through respiratory and renal means. The underlying chemical buffering of the blood is primarily maintained by HCO<sub>3</sub><sup>-</sup> ions, which can become carbonic acid when combined with a proton. The Henderson-Hasselbach equation for this equilibrium is $$ pH = 6.1 + \log{\frac{[HCO_3^-]}{[H_2CO_3]}} $$. This is equivalent to $$ pH = 6.1 + \log{\frac{[HCO_3^-]}{0.03*pCO_2 }} $$. pCO<sub>2</sub> is controlled by respiration, while [HCO<sub>3</sub><sup>-</sup>] is regulated by the kidneys.
 
 ## Buffers
 
@@ -179,7 +179,7 @@ Bicarbonate cannot be reabsorbed in the PCT leading to bicarb wasting sodium los
 
 #### Type IV RTA
 
-Lack of aldosterone prevents the secretion of hydrogen in the collecting duct. This prevents ammoniagenesis, and also creates a potassium-sparing effect causing hyperkalemia. 
+Lack of aldosterone prevents the secretion of hydrogen in the collecting duct. This prevents ammoniagenesis, and also creates a potassium-sparing effect causing hyperkalemia.
 
 **Causes**
 
@@ -246,7 +246,7 @@ Order a urine chemistry and calculate the urine anion gap (same formula as serum
   * Not useful in volume depletion, renal dysfunction, or pH &gt; 7.55
 * Consider HCl infusion if not responding needed
 
-### Saline Resistant Alkalosis (Urine [Cl] &gt; 20 mEq/L) 
+### Saline Resistant Alkalosis (Urine [Cl] &gt; 20 mEq/L)
 
 #### Causes
 
@@ -332,11 +332,11 @@ Determine if bicarb, CO<sub>2</sub>, or both change in the same direction as pH
 # Quantitative Acid-Base Evaluation
 
 $$
-\text{Strong Ion Difference} = Na + K + \text{Ionized }Mg + \text{Ionized }Ca - Cl\\
+\text{Strong Ion Difference} = Na + K + \text{I-}Mg + \text{I-}Ca - Cl\\
 \text{Strong Ion Difference} \approx Na - Cl\\
 \text{Base Deficit} \approx 24.2 - HCO_3\\
-\text{Strong Ion Gap} \approx BD + (SID - \text{Normal SID}) + 2.5 [4.2-\text{Albumin}] - \text{Lactate}\\
-\text{Osm Gap} = \text{Measured Osm} - (2*Na + Gluc / 18 + BUN / 2.8 + EtOH / 3.7)\\
+\text{Strong Ion Gap} \approx BD + (SID - \text{Norm SID}) + 2.5 [4.2-\text{Alb}] - \text{Lact}\\
+\text{Osm Gap} = \text{Ser Osm} - (2*Na + \frac{Gluc}{18} + \frac{BUN}{2.8} + \frac{EtOH}{3.7})\\
 \text{Base Deficit} = -\text{Base Excess}
 $$
 
