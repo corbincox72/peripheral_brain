@@ -201,10 +201,7 @@ a img {
       border-collapse: collapse;
       margin: 1em auto;
       border: medium var(--mainTextColor) solid;
-      display: block
-      width: auto;
       max-width:100%;
-      overflow-x: auto;
     }
 
     td, th {
