@@ -1,8 +1,12 @@
 ---
-title: Forumlas
+title: Formulas
 author: Corbin Cox
-layout: default
 permalink: /formulas
+layout: diseases
+last-updated: 2018-3-24
+created: 2018-3-24
+toc: true
+common: false
 ---
 
 # Dosing and Body Weights

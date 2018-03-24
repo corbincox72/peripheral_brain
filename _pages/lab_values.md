@@ -1,9 +1,12 @@
 ---
-layout: default
 title: Lab Values
 author: Corbin Cox
-last-updated: December 3, 2017
 permalink: /lab_values
+layout: diseases
+last-updated: 2017-12-3
+created: 2017-12-3
+toc: true
+common: false
 ---
 
 # ABG
