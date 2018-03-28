@@ -81,7 +81,7 @@ An aggressive form of MS presenting initially with a large number of lesions and
 - Speech and swallowing issues
 - Breathing problems (chest muscles affected by nerve damage)
 - HA
-- Hearing loss	
+	 Hearing loss	
 
 
 ## Predictors of Quicker Progression
@@ -136,11 +136,13 @@ See "Disease Modifying Therapies in MS" by Dr. Ott for dosing, comprehensive SEs
   * Should remain in clinic 6hr after initial dose w/ CV monitoring (BP & HR)
     * CV Risk factors => 24hr EKG
   * Avoid in preexisting bradycardia or heart block w/o pacemaker
+  * PML Risk in Pts with JCV Igs, must test for JCV Igs before initiating therapy
 * Teriflunomide (Aubagio, may be second line)
   * **MOA:** Cytotoxic via inhibition of dihydroorotate dehydrogenase (used in *de novo* pyrimidine synthesis). Inhibits lymphocyte proliferation.
 * Dimethyl Fumarate (Tecfidera, may be second line)
   * **MOA:** Prodrug metabolized by esterase's which activated Nrf2-mediated cellular antioxidant response. Suppresses T cells and dendritic cells. May promote remyelination.
   * Nrf2: Nrf2 is constantly ubuquinated by Keap1, destroying it. During times of oxidative stress, Keap1 is damaged, allowing Nrf2 to enter the nuclear and activate genes controlled by the Antioxidant Response Element. This increases glutathione synthesis and Glutathione-S-Transferase synthesis. This GSH can be release by astrocytes to break down extracellular oxidative stressors, or broken down and reassembled in neurons to detoxify intracellular stressors.
+  * PML Risk in Pts with JCV Igs, must test for JCV Igs before initiating therapy
 * Daclizumab (Zinbryta, may be second line) 
   * CI in Hx of Autoimmune hepatitis or hepatic impairment (LFTs &ge;2x ULN)
   * Avoid Live Vaccines up to 4mo after therapy
@@ -150,6 +152,8 @@ See "Disease Modifying Therapies in MS" by Dr. Ott for dosing, comprehensive SEs
 
 * Natalizumab (Tysabri)
   * **MOA:** MAB against &alpha;4-integrin, prevents binding with &beta;1-integrin to form VLA-1 which combines with VCAM-1 to allow leukocyte infiltration of the CNS
+  * PML Risk in Pts with JCV Igs, must test for JCV Igs before initiating therapy
+  * Immunocompromised pts, pts with active viral hepatitis, active malignancy, or inability to have an MRI cannot take natalizumab
 * Mitoxantrone (Novantrone)
   * **MOA:** Cytotoxic agent via DNA breaks (via DNA intercalation) and delay of DNA repair via inhibition of Topoisomerase-II. Inhibits lymphocyte proliferation
   * Cardiomyopathy
