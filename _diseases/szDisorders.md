@@ -251,7 +251,7 @@ Always re-evaluate lamotrigine dose if offending interaction is started or stopp
 
 ![The diffuse, morbiliform rash associated with AHS](../images/szs/ahs.jpg)
 
-AHS is a severe allergic reaction associated with arena oxide metabolic intermediate of aromatic drugs. The reaction presents as a diffuse, morbiliform rash. There is some cross reactivity with TCAs because of this. Common offenders include:
+AHS is a severe allergic reaction associated with arene-oxide metabolic intermediate of aromatic drugs. The reaction presents as a diffuse, morbiliform rash. There is some cross reactivity with TCAs because of this. Common offenders include:
 
 * Carbamazepine
 * Oxcarbazepine
@@ -260,7 +260,7 @@ AHS is a severe allergic reaction associated with arena oxide metabolic intermed
 * Lamotrigine
 * Phenobarbital
 * Phenytoin
-* Zonisamidde
+* Zonisamide
 
 Carbamazepine and its derivatives are the most common offenders, and a significantly increased risk of this reaction occurs in patients carrying HLA-B\*1502, which is most commonly seen in Asian populations. HLA-A\*3101 conveys some risk as well, and is common in those of Northern European descent.
 

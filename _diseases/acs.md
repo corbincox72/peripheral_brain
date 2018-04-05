@@ -337,3 +337,11 @@ Risk of Events:
   * For PCI second bolus of 0.5 mg/kg IVPB followed by 1.75 mg/kg/hr
   * Reduce to 1 mg/kg/hr (CrCl &lt; 30 mL/min) or 1.4 mg/kg/hr (CrCl (30,60))
   * Continue PRN after PCI at 0.25 mg/kg/hr
+
+# Guidelines
+
+* [ACS Guidelines (AHA / ACC)](http://www.acc.org/clinical-topics/acute-coronary-syndromes#sort=%40fwhatstrendingscore86069%20descending&tab=guidelines)
+* [PCI in STEMI](http://www.onlinejacc.org/content/67/10/1235)
+* [STEMI Management](http://www.onlinejacc.org/content/61/4/e78)
+* [NSTEMI Management](http://circ.ahajournals.org/content/130/25/e344)
+* [DAPT in ACS](http://www.onlinejacc.org/content/68/10/1082)
