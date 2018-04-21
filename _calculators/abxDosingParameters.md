@@ -9,13 +9,11 @@ toc: true
 
 # Generic Loading/Maintenance Doses
 
-| Drug                    | Loading Dose | Maintenance Dose                         |
+| Drug                    | Loading Dose | Maintenance Dose (Normal Renal Fx)       |
 | ----------------------- | ------------ | ---------------------------------------- |
 | Gentamicin / Tobramycin | 2-2.5 mg/kg  | 1.5-2 mg/kg q8-12hr *                    |
 | Amikacin                | 7.5 mg/kg    | 5-7.5 mg/kg q12hr *                      |
 | Vancomycin              | 25-30 mg/kg  | 15-20 mg/kg q8-12hr * (total body weight) |
-
-*Assuming Normal renal function
 
 # Target Concentrations
 
@@ -46,9 +44,11 @@ toc: true
 ## Vancomycin
 
 * Peak: 30-40 mg/L
-* Trough: 10-15 mg/L (15-20 in endocarditis, osteomyelitis, meningitis, MRSA, and pneumonia) 
+* Trough: 10-15 mg/L (15-20 in endocarditis, osteomyelitis, meningitis, MRSA, and pneumonia)
+* Vd: 0.6-0.7 (0.4-1) L/kg
 * AUC<sub>0-24</sub> / MIC = 400
-* **NTE 15 mg/min due to risk of Red Man Syndrome**
+* AUC > 700 => Increased risk of nephrotoxicity
+* NTE 15 mg/min due to risk of Red Man Syndrome
 
   | CrCl     | Approximate Dosing Interval (hr)   |
   | -------- | ---------------------------------- |
@@ -64,7 +64,7 @@ toc: true
 
 # Extended Interval Dosing of Aminoglycosides
 
-* Use IBW if TBW &lt; 1.3 * IBW or AdjBW if TBW &ge; 1.3 * IBW 
+* Use IBW if TBW &lt; 1.3 * IBW or AdjBW if TBW &ge; 1.3 * IBW
 * Gentamicin / Tobramycin: 5-7 mg/kg, target peak of 15-20 mg/L
 * Amikacin: 15-25 mg/kg, target peak of 50-60 mg/L
 * Trough should be undetectable
@@ -74,6 +74,7 @@ toc: true
 * Target Max of 20 mg/L (MIC of 2 mg/L targeting 10:1)
 * 7 mg/kg over 1 hour (gent / tob) or 15 mg/kg (amikacin)
 * Obtain a value 6-14hr after the start of the infusion on day 5
+
 
   | CrCl    | Interval        |
   | ------- | --------------- |
