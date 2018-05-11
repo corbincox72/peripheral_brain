@@ -37,7 +37,7 @@ $$
 # Fluids and Electrolytes
 
 $$
-\text{Osm} = 2[Na^+]+\frac{\text{BUN}}{2.8}+\frac{BG}{18}\\
+\text{Osm} = 2*[\text{Na}]\; (mEq/L)+\frac{\text{BUN}\; (mg/dL)}{2.8} + \frac{\text{BG}\; (mg/dL)}{18} + \frac{\text{EtOH}\; (md/dL)}{3.7}\\
 \text{Corrected}\; [Na^+] = [Na^+] + 1.6 \left[ \frac{BG}{100}-1 \right]\\
 \text{TBW}_M = 0.6\; (L/kg) * Wt\\
 \text{TBW}_F = 0.5\; (L/kg) * Wt\\
