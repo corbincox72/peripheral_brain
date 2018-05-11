@@ -5,7 +5,7 @@ author: Corbin Cox
 last-updated: 2018-3-21
 created: 2018-3-19
 toc: true
-common: true
+common: false
 ---
 
 # Seizure Classification

@@ -5,7 +5,7 @@ author: Corbin Cox
 last-updated: 2018-2-21
 created: 2018-1-29
 toc: true
-common: true
+common: false
 ---
 
 # Cardiac Anatomy

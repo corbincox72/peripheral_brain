@@ -5,6 +5,7 @@ author: Corbin Cox
 last-updated: 2018-3-8
 created: 2018-3-8
 toc: true
+common: true
 ---
 
 # Physiology

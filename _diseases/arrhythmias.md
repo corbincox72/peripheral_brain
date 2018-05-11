@@ -5,6 +5,7 @@ author: Corbin Cox
 last-updated: 2018-3-6
 created: 2018-2-15
 toc: true
+common: false
 ---
 
 # Cardiac Conduction Physiology

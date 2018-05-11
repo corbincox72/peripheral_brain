@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.3)  11 MAY 2018 12:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.3)  11 MAY 2018 12:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**HFrEFAlgortihm.tex
-(./HFrEFAlgortihm.tex
+**hypotonicHyponatremia.tex
+(./hypotonicHyponatremia.tex
 LaTeX2e <2018-04-01> patch level 3
 Babel <3.20> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/standalone/standalone.cls
@@ -449,8 +449,8 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 \arrowsize=\dimen151
-)) (./HFrEFAlgortihm.aux)
-\openout1 = `HFrEFAlgortihm.aux'.
+)) (./hypotonicHyponatremia.aux)
+\openout1 = `hypotonicHyponatremia.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
@@ -526,34 +526,29 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 18.
+(Font)              <7> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 18.
-
-Overfull \hbox (3.45988pt too wide) in paragraph at lines 33--33
- [][][][]\OT1/cmr/m/n/10 Ivabradine 
- []
+(Font)              <5> on input line 29.
 
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./HFrEFAlgortihm.aux) ) 
+(./hypotonicHyponatremia.aux) ) 
 Here is how much of TeX's memory you used:
- 14263 strings out of 492649
- 313004 string characters out of 6129623
- 380276 words of memory out of 5000000
- 17891 multiletter control sequences out of 15000+600000
+ 14180 strings out of 492649
+ 311177 string characters out of 6129623
+ 374270 words of memory out of 5000000
+ 17808 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,7n,67p,416b,632s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb>
-Output written on HFrEFAlgortihm.pdf (1 page, 38288 bytes).
+ 62i,7n,67p,423b,678s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb>
+Output written on hypotonicHyponatremia.pdf (1 page, 28606 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 19 PDF objects out of 1000 (max. 8388607)
+ 13 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -30,6 +30,7 @@ pH / paCO<sub>2</sub>  / paO<sub>2</sub>  / [HCO<sub>3</sub>]<sup>-</sup> / O<su
 | Cl<sup>-</sup>              | 95   | 105  | mEq/L  |
 | K<sup>+</sup>               | 3.5  | 5    | mEq/L  |
 | Ca<sup>2+</sup>             | 8.5  | 10.5 | mg/dL  |
+| Ionized Ca<sup>2+</sup>     | 4.6  | 5.1  | mg/dL  |
 | HCO<sub>3</sub><sup>-</sup> | 22   | 26   | mEq/L  |
 | Mg<sup>2+</sup>             | 1.5  | 2.5  | mg/dL  |
 | PO<sub>4</sub><sup>3-</sup> | 2.5  | 4.5  | mg/dL  |
