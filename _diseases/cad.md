@@ -1,5 +1,5 @@
 ---
-title: Stable Ischemic Heart Disease
+title: CAD
 layout: diseases
 author: Corbin Cox
 last-updated: 2018-2-21
