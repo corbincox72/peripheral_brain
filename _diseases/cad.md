@@ -167,7 +167,7 @@ SL Nitroglycerin is the preferred agent for acute attacks, given as either 0.3-0
 
 ### &beta;-Blockers
 
-Beta-Blockers work via decreasing myocardial contractility and heart rate, decreasing oxygen demand. Cardioselective agents such as Metoprolol (<100mg dose) and Atenolol (<50mg dose) are prefered, and beta-blocker with intrinsic sympathomimetic activity should be avoided due to the increased resting HR. &beta;-blockers should be dosed to achieve either: RHR 50-60, exercise HR &lt; 100, or exercise HR 75% of HR causing angina. For the specific behavor of &beta;-blockers, see their section in [Sympatholytics]({{ site.baseurl }}/drugClasses/sympatholytics.html).
+Beta-Blockers work via decreasing myocardial contractility and heart rate, decreasing oxygen demand. Cardioselective agents such as Metoprolol (<100mg dose) and Atenolol (<50mg dose) are prefered, and beta-blocker with intrinsic sympathomimetic activity should be avoided due to the increased resting HR. &beta;-blockers should be dosed to achieve either: RHR 50-60, exercise HR &lt; 100, or exercise HR 75% of HR causing angina. For the specific behavor of &beta;-blockers, see their section in [Sympatholytics]({{ site.baseurl }}/drugClasses/ANS.html).
 
 ### CCBs
 

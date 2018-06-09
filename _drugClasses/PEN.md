@@ -209,6 +209,41 @@ Typically given a 2/3 Cl, 1/3 Acetate. Alter as needed to aid management of Acid
 
 # Special Nutritional Populations
 
+## Pediatric Patients
+
+**[CDC / WHO Growth Charts](https://www.cdc.gov/growthcharts/index.htm)**
+
+### Energy Requirements
+
+| Age     | kcal/kg/d | Protein g/kg/d |
+| ------- | --------- | -------------- |
+| Preterm | 100-120+  | 3.5-4          |
+| 0-6mo   | 100-110   | 2-3            |
+| 6-12mo  | 90-100    | 1.5-2          |
+| 1-7yr   | 60-80     | 1-2            |
+| 7-12yr  | 50-60     | 1-1.2          |
+| 12-18   | 30-50     | 0.8-0.9        |
+
+\*approx 40% of calories should be from fat
+
+* Breastfeeding CIs
+  * HIV (+)
+  * **Infectious** TB
+  * Untreated Brucellosis
+  * Some Drugs
+  * Human T-cell Lymphotrophic Virus Infection
+* Breast milk is approximately 20kcal/oz (50% fat)
+  * Cow's milk is not an appropriate replacement
+* Vitamin Supplementation
+  * Preterm Infants
+    * Vit D (&lt; 1.5 kg): 200 U QD
+    * Vit D (&ge; 1.5kg): 200-400 U QD
+    * Iron: 2 mg/kg QD (elemental)
+  * Term Infants
+    * Vit D 400 U QD if partially or fully breastfed
+* Solid foods should be added at 4-6mo, 1 new food q4-5d
+  * Avoid honey until &gt; 1yo
+
 ## DM
 
 * Moderate control of BG
