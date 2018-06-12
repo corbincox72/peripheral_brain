@@ -310,6 +310,7 @@ Excessively high proteins and/or lipids leads to increased plasma volume. Diluti
 2. Intracellular Ca Shift
    * Insulin Regular 10U IVP Q2-6H w/ 50 mL (25g) D50W IVP (unless BG is very high)
    * Bicarb 50-100mEq IVP Q2-6H (avoid in metabolic alkalosis, not useful in respiratory acidosis)
+     * **Bicarb cannot be used in ESRD pts**
    * Albuterol 10-20mg Nebulized (Can be continuous, lasts 1-2hrs)
 3. Potassium Excretion
    * Furosemide 20-40mg IVP Q4-6H (useless if K is high from renal failure)
