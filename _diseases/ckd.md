@@ -24,14 +24,16 @@ common: false
 
 $$
 \text{CG-CrCl (mL/min)} = \frac{140-\text{age}}{\text{SCr}\times 72}\left(0.85\text{ if female}\right)\\
-\text{MDRD GFR (mL/min)} = 170 \times \text{SCr}^{-0.999} \times \text{Age}^{-0.178} \times 0.762 \text{(if female)} \times 1.18 \text{(if AA)} \time \text{BUN}^{-0.17} \time \text{Alb}^{0.318}
+\text{MDRD GFR (mL/min)} = 170 \times \text{SCr}^{-0.999} \times \text{Age}^{-0.178} \times 0.762 \text{(if female)} \times 1.18 \text{(if AA)} \times \text{BUN}^{-0.17} \times \text{Alb}^{0.318}
 $$
 # Diuretic Infusions
+
 |Diuretic|Load (mg)|Rate (CrCl &lt; 25)|Rate (CrCl 25-75)|Rate (CrCl &gt; 75)|
 |Furosemide|40|20-40 mg/hr|10-20 mg/hr|10 mg/hr|
 |Bumetanide|1|1-2 mg/hr|0.5-1 mg/hr|0.5 mg/hr|
 |Torsemide|20|10-20 mg/hr|5-10 mg/hr|5 mg/hr|
 |Chlorthalidone|100-500 QD||||
+
 # Complications of Untreated ESRD
 * Uremia
 	* SSx: Encephalopathy, edema, LVH, anorexia, N/V/C, anemia, uremic pruritis
@@ -42,8 +44,10 @@ $$
 	* Hyperkalemia: NTE 3g QD in ESRD
 		* Avoid K-sparring drugs
 ## Mineral and Bone Disorder
+
 High Phos is the cause of all problems. High phos leads to hypocalcemia both directly and indirectly. Indirectly, Phos leads to a decrease in calcitriol in an effort to decrease Phos absorption from the gut, which also decrease Ca absorption and impairs Ca deposition in bone. This hypocalcemia increases the levels of PTH (in combination with the activity of the Phos directly on the PT gland), leading to secondary hyperparathyroidism. PTH leads to increased bone demineralization. The metabolic acidosis and Al overload also commonly seen in these pts contributes to bone demineralization and osteoporosis. 
 ### Treatment
+
 * Phosphate Binders (All are given w/ meals and are skipped if not eating)
 	* CaCO<sub>3</sub> (Tums): 500mg (40% elem Ca) PO TID w/ meals (NTE 1500mg elem Ca QD)
 		* SEs: Constipation
@@ -69,7 +73,7 @@ High Phos is the cause of all problems. High phos leads to hypocalcemia both dir
 * Dietary Phos Restriction of 800-1000 mg QD
 	* Phos &gt; 4.6 in CKD 3-4 or &gt; 5.5 in ESRD or PTH &gt; target range for CKD3-5
 * Vit D Repletion
-	* Vit D<sub>2/3<sub> (Ergocalciferol/Cholecalciferol)
+	* Vit D<sub>2/3</sub> (Ergocalciferol/Cholecalciferol)
 		* Must be activated by the liver and kidney (therefore not usable in CKD5)
 		* 50000 IU D<sub>2</sub> montly or 1000 IU D<sub>3</sub> QD
 	* Calcitriol (Rocaltrol / Calcijex)
@@ -92,11 +96,13 @@ High Phos is the cause of all problems. High phos leads to hypocalcemia both dir
 	* Binds Ca receptor on PT gland and decreases PTH secretion directly
 	* **CI: Hypocalcemia (&lt; 7.5 mg/dL) hold until Ca &gt; 8 mg/dL**
 ### Monitoring
+
 |Parameter|CKD3|CKD4|CKD5|Goal|
 |Ca|Q6-12mo|Q3-6mo|Q1-3mo|8.5-105 mg/dL|
 |Phos|Q6-12mo|Q3-6mo|Q1-3mo|2.5-4.5 mg/dL|
 |Calcitriol|Baseline|Individualized|Individualized|30 ng/mL|
 |iPTH|Baseline|Q6-12mo|Q3-6mo|11-54 pg/mL <br />HD: 100-500 pg/mL|
+
 ## Anemia in CKD
 See the [Anemia](/anemia.html)  for DDx of anemia. Common causes of anemia in CKD patients are iron deficiency and EPO deficiency.
 ### Monitoring
