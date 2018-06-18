@@ -95,7 +95,7 @@ common: true
 
 # Sympatholytics
 
-### &beta;-Blockers
+## &beta;-Blockers
 
 | Drug                 | Receptor Selectivity                     | ISA  | Usual Maintenance Dose |
 | -------------------- | ---------------------------------------- | ---- | ---------------------- |

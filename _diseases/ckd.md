@@ -26,6 +26,7 @@ $$
 \text{CG-CrCl (mL/min)} = \frac{140-\text{age}}{\text{SCr}\times 72}\left(0.85\text{ if female}\right)\\
 \text{MDRD GFR (mL/min)} = 170 \times \text{SCr}^{-0.999} \times \text{Age}^{-0.178} \times 0.762 \text{(if female)} \times 1.18 \text{(if AA)} \times \text{BUN}^{-0.17} \times \text{Alb}^{0.318}
 $$
+
 # Diuretic Infusions
 
 |Diuretic|Load (mg)|Rate (CrCl &lt; 25)|Rate (CrCl 25-75)|Rate (CrCl &gt; 75)|
@@ -43,11 +44,11 @@ $$
 		* Add diuretics if necessary
 	* Hyperkalemia: NTE 3g QD in ESRD
 		* Avoid K-sparring drugs
+
 ## Mineral and Bone Disorder
+High Phos is the cause of all problems. High phos leads to hypocalcemia both directly and indirectly. Indirectly, Phos leads to a decrease in calcitriol in an effort to decrease Phos absorption from the gut, which also decrease Ca absorption and impairs Ca deposition in bone. This hypocalcemia increases the levels of PTH (in combination with the activity of the Phos directly on the PT gland), leading to secondary hyperparathyroidism. PTH leads to increased bone demineralization. The metabolic acidosis and Al overload also commonly seen in these pts contributes to bone demineralization and osteoporosis.
 
-High Phos is the cause of all problems. High phos leads to hypocalcemia both directly and indirectly. Indirectly, Phos leads to a decrease in calcitriol in an effort to decrease Phos absorption from the gut, which also decrease Ca absorption and impairs Ca deposition in bone. This hypocalcemia increases the levels of PTH (in combination with the activity of the Phos directly on the PT gland), leading to secondary hyperparathyroidism. PTH leads to increased bone demineralization. The metabolic acidosis and Al overload also commonly seen in these pts contributes to bone demineralization and osteoporosis. 
 ### Treatment
-
 * Phosphate Binders (All are given w/ meals and are skipped if not eating)
 	* CaCO<sub>3</sub> (Tums): 500mg (40% elem Ca) PO TID w/ meals (NTE 1500mg elem Ca QD)
 		* SEs: Constipation
@@ -107,7 +108,7 @@ High Phos is the cause of all problems. High phos leads to hypocalcemia both dir
 See the [Anemia](/anemia.html)  for DDx of anemia. Common causes of anemia in CKD patients are iron deficiency and EPO deficiency.
 ### Monitoring
 * Hgb annualy in CKD3, twice yearly in CKD4, and Q3mo in ESRD
-* TSAT and Ferritin Q3mo 
+* TSAT and Ferritin Q3mo
 	* Iron repletion indicated if TSAT &lt; 30% and Ferritin &lt; 500 ng/mL
 ### Treatment
 * PO Iron: 200mg elemental iron QD
@@ -132,7 +133,7 @@ See the [Anemia](/anemia.html)  for DDx of anemia. Common causes of anemia in CK
 	* Darbepoetin alfa (Aranesp)
 		* 0.45 mcg/kg IV or SubQ weekly titrated to Hgb 12
 	* SEs: Pure red Cell Aplasia (Igs develop to EPO; D/C drug permenantely), High Hgb => HF, stroke, Sz, MI, HTN, or cardiac arrest
-  
+
 |Weekly EPO Dose (units)|Weekly Darbepoetin Dose (mcg)|
 |&lt; 1500|6.25|
 |1500-2499|6.25|
@@ -151,10 +152,13 @@ Monitor Hgb weekly, adjust q4wks or longer, goal Hgb rise of 1-2 g/dL monthly, d
 	* V: Urea Volume of Distribution
 	* Goal &ge; 1.4
 * Urea Reduction Ratio (URR): &ge; 70%
+
 # AKI
+
 $$
 FE_{Na} = U_{Na} \times SCr \times \frac{100}{UCr} \times S_{Na}
 $$
+
 * FE<sub>Na</sub> &le; 1% => Intrinsic Renal Failure
 * FE<sub>Na</sub> &gt; 1% => Prerenal or Functional Renal Failure
 ## Common Nephrotoxic Agents
