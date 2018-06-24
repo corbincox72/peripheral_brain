@@ -167,6 +167,7 @@ a img {
       padding-bottom: 0.1em;
       grid-column: 2/-2;
       grid-row: 2/3;
+      padding-top: 0.5em;
     }
 
     code {
@@ -235,7 +236,6 @@ a img {
       grid-template-rows: auto auto 1fr auto auto;
       font-size: 12pt;
       background-color: var(--backgroundColor);
-      grid-row-gap: 1em;
     }
 
     .twoCol {
