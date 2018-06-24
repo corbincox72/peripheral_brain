@@ -203,7 +203,7 @@ Give for at least 48hr, preferably 8d or duration of hospital stay
   * 60 U/kg IVPB (Max 4000 U) the 12 U/kg/hr (Max 1000 U/hr)
   * aPTT 50-70s (1.5-2x control)
   * Not for more than 48hr
-  * Monitor SSx of Bleeding; Baseline and QD CBC; aPTT Baseline and q6h until stable then QD; Plt Baseline then q1-3d (preferably QD); Baseline INR 
+  * Monitor SSx of Bleeding; Baseline and QD CBC; aPTT Baseline and q6h until stable then QD; Plt Baseline then q1-3d (preferably QD); Baseline INR
 * Enoxaparin
   * 30mg IVPB and 1mg/kg SC Q12H (Usually max 100mg for first 2 doses)
   * CrCl [10,30) 1mg/kg SC Q24H
@@ -250,13 +250,9 @@ Give for at least 48hr, preferably 8d or duration of hospital stay
   * Aldosterone Antagonists should be started w/i 3-14d post MI
   * Aldosterone Antagonists should not be used w/ SCr &gt; 2.5 in men or &gt; 2 in women (or CrCl &lt; 30 mL/min), or w/ [K] &gt; 5 or who are receiving a K sparing diuretic
   * Aldosterone Antagonists do not require K supplementation if K &gt; 4
-
 * Appropriate Statin
-
 * Magnesium if low (to prevent hypokalemia)
-
 * Glycemic Control PRN
-
 * DHP CCB if angina is refractory to NTG and &beta;-blockers
 
 # NSTEMI
@@ -324,7 +320,7 @@ Risk of Events:
 
 1. DAPT w/ ASA and Clopidogrel and Ticagrelor &pm; GPIs
 2. Anticoagulation w/ UFH, SC Enoxaparin, SC Fondaparinux, or IV Bivalirudin
-3. Angiography determines PCI, CABG, or medical management 
+3. Angiography determines PCI, CABG, or medical management
 
 ### Dosing
 

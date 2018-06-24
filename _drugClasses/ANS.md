@@ -1,9 +1,9 @@
 ---
-title: ANS (Incomplete)
+title: ANS
 layout: diseases
 author: Corbin Cox
-last-updated: 2018-2-8
-created: 2018-6-8
+last-updated: 2018-6-24
+created: 2018-2-8
 toc: true
 common: true
 ---
@@ -76,14 +76,14 @@ common: true
 | Norepinephrine                                               | &alpha;, &beta;                                              | Inopressor                                                   |
 | Epinephrine                                                  | &alpha;, &beta;                                              | Inopressor, anaphylaxis, cardiac arrest, vasoconstrictor     |
 | Phenylephrine                                                | &alpha;<sub>1</sub>                                          | Mydriasis w/o cycloplegia, push-dose pressor, decongestant   |
-| Naphazoline, Tetrahydrozoline, and Oxymetazoline             | &alpha;<sub>1</sub> partial agonist                          | Nasal and ophthalmic decongestant / vasoconstrictor<br />Tachyphylaxis |
-| Methyldopa (prodrug), Clonidine, Guanabenz, Guanfacine, Apraclonidine, and Tizanidine | &alpha;<sub>2</sub>                                          | HTN, vasomotor menopausal SSx, and many psychiatric uses<br />Inhibit preganglionic innervation of heart, kidney, and vascular &alpha;<sub>1</sub> causing bradycardia, decreased renin release, and inhibition of vasoconstriction<br />Apraclonidine is used primarily for glaucoma<br />Tizanidine is primarily used for muscle spasticity |
+| Naphazoline<br />Tetrahydrozoline<br />Oxymetazoline         | &alpha;<sub>1</sub> partial agonist                          | Nasal and ophthalmic decongestant / vasoconstrictor<br />Tachyphylaxis |
+| Methyldopa (prodrug)<br />Clonidine<br />Guanabenz<br />Guanfacine<br />Apraclonidine<br />Tizanidine | &alpha;<sub>2</sub>                                          | HTN, vasomotor menopausal SSx, and many psychiatric uses<br />Inhibit preganglionic innervation of heart, kidney, and vascular &alpha;<sub>1</sub> causing bradycardia, decreased renin release, and inhibition of vasoconstriction<br />Apraclonidine is used primarily for glaucoma<br />Tizanidine is primarily used for muscle spasticity |
 | Isoproteronol                                                | &beta;                                                       | Used in Asthma, COPD, and as an inotrope                     |
-| Metaproterenol, Terbutaline, Albuterol, Salmeterol, Formoterol,  -erols | &beta;<sub>2</sub>                                           | Bronchodilator<br />Terbutaline can be used as a tocolytic in premature labor |
+| Metaproterenol<br />Terbutaline<br />Albuterol<br />Salmeterol<br />Formoterol<br />-erols | &beta;<sub>2</sub>                                           | Bronchodilator<br />Terbutaline can be used as a tocolytic in premature labor |
 | Dobutamine                                                   | &beta;                                                       | Dopamine derivative<br />**Inotrope w/ little chronotropic activity** due to enantiomers' competing chronotropic actions |
 | Amphetamines                                                 | Inhibition of VMAT leading to reversal of DAT, NET, and SERT | Indirect sympathomimetic<br />Used in ADHD, narcolepsy, obesity, and ephedrine and pseudoephedrine are decongestants<br />**Ephedrine is unique and is a direct adrenergic agonist** |
 | Cocaine                                                      | NERT, DAT, and SERT Inhibitor                                |                                                              |
-| Phenelzine and Selegiline                                    | MAOIs                                                        | NE, Epi, Phenylephrine are sensitive                         |
+| Phenelzine<br />Selegiline                                   | MAOIs                                                        | NE, Epi, Phenylephrine are sensitive                         |
 
 ## SEs
 
@@ -95,34 +95,161 @@ common: true
 
 # Sympatholytics
 
+## &alpha;-Blockers
+
+| Drug             | Receptor Selectivity                                      | Notes                                               |
+| ---------------- | --------------------------------------------------------- | --------------------------------------------------- |
+| Phenoxybenzamine | &alpha;<sub>1,2</sub>, Histamine, ACh, 5HT (Irreversible) | Useful in HTN crisis and pheochromocytomas          |
+| Phentolamine     | &alpha;<sub>1,2</sub>                                     | IV only, useful in HTN crisis and pheochromocytomas |
+| Prazosin         | &alpha;<sub>1</sub>                                       | BPH, HTN<br />t<sub>1/2</sub>: 3hr                  |
+| Terazosin        | &alpha;<sub>1</sub>                                       | BPH, HTN<br />t<sub>1/2</sub>: 12hr                 |
+| Doxazosin        | &alpha;<sub>1</sub>                                       | BPH, HTN<br />t<sub>1/2</sub>: 20hr                 |
+
+### SEs &alpha;<sub>1</sub> Blockade
+
+* Orthostatic Hypotension
+* Inhibition of Ejaculation
+* Congestion
+* Reflex Tachycardia
+
 ## &beta;-Blockers
 
-| Drug                 | Receptor Selectivity                     | ISA  | Usual Maintenance Dose |
-| -------------------- | ---------------------------------------- | ---- | ---------------------- |
-| Acebutolol           | &beta;<sub>1</sub>                       | +    | 200-600mg BID          |
-| Atenolol             | &beta;<sub>1</sub>                       | 0    | 50-100mg QD            |
-| Betaxolol            | &beta;<sub>1</sub>                       | 0    | 10-20mg QD             |
-| Bisoprolol           | &beta;<sub>1</sub>                       | 0    | 5-10mg QD              |
-| Carteolol            | &beta;<sub>1</sub>, &beta;<sub>2</sub>   | ++   | 2.5-10mg QD            |
-| Carvedilol           | &beta;<sub>1</sub>, &beta;<sub>2</sub>, &alpha;<sub>1</sub> | 0    | 25-50mg BID            |
-| Metoprolol  Tartrate | &beta;<sub>1</sub>                       | 0    | 50-100mg BID           |
-| Metoprolol Succinate | &beta;<sub>1</sub>                       | 0    | 100-200mg QD           |
-| Nadolol              | &beta;<sub>1</sub>, &beta;<sub>2</sub>   | 0    | 40-80mg QD             |
-| Penbutolol           | &beta;<sub>1</sub>, &beta;<sub>2</sub>   | +    | 20mg QD                |
-| Pindolol             | &beta;<sub>1</sub>, &beta;<sub>2</sub>   | +++  | 5-20mg BID             |
-| Propranolol          | &beta;<sub>1</sub>, &beta;<sub>2</sub>   | 0    | Variable               |
-| Propranolol LA       | &beta;<sub>1</sub>, &beta;<sub>2</sub>   | 0    | 80-160mg QD            |
-| Timolol              | &beta;<sub>1</sub>, &beta;<sub>2</sub>   | 0    | 10-20mg BID            |
-| Labetolol            | &beta;<sub>1</sub>, &beta;<sub>2</sub>, &alpha;<sub>1</sub> | 0    | 200-400mg BID          |
+| Drug                 | Receptor Selectivity                                        | ISA  | Usual Maintenance Dose                                       | Notes                                                        |
+| -------------------- | ----------------------------------------------------------- | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Acebutolol           | &beta;<sub>1</sub>                                          | +    | 200-600mg BID                                                |                                                              |
+| Atenolol             | &beta;<sub>1</sub>                                          | 0    | 50-100mg QD                                                  |                                                              |
+| Betaxolol            | &beta;<sub>1</sub>                                          | 0    | 10-20mg QD                                                   |                                                              |
+| Bisoprolol           | &beta;<sub>1</sub>                                          | 0    | 5-10mg QD                                                    | Approved for CHF                                             |
+| Carteolol            | &beta;<sub>1</sub>, &beta;<sub>2</sub>                      | ++   | 2.5-10mg QD                                                  | Partial Agonist                                              |
+| Carvedilol           | &beta;<sub>1</sub>, &beta;<sub>2</sub>, &alpha;<sub>1</sub> | 0    | 25-50mg BID                                                  | Approved for CHF                                             |
+| Esmolol              | &beta;<sub>1</sub>                                          | 0    | HTN Emergency: 500-1000mcg/kg over 1min<br />50-200mcg/kg/min | IV Only<br />t<sub>1/2</sub>: 9min<br />Incompatible w/ Bicarb<br />Useful for rapid HR and BP control as a drip |
+| Labetalol            | &beta;<sub>1</sub>, &beta;<sub>2</sub>, &alpha;<sub>1</sub> | 0    | 200-400mg BID                                                | Enantiomers possess different properties                     |
+| Metoprolol  Tartrate | &beta;<sub>1</sub>                                          | 0    | 50-100mg BID                                                 |                                                              |
+| Metoprolol Succinate | &beta;<sub>1</sub>                                          | 0    | 100-200mg QD                                                 | Approved for CHF                                             |
+| Nebivolol            | &beta;<sub>1</sub>                                          | 0    | 5-40mg QD                                                    | Increases NO production                                      |
+| Nadolol              | &beta;<sub>1</sub>, &beta;<sub>2</sub>                      | 0    | 40-80mg QD                                                   | t<sub>1/2</sub>: 20hr                                        |
+| Penbutolol           | &beta;<sub>1</sub>, &beta;<sub>2</sub>                      | +    | 20mg QD                                                      |                                                              |
+| Pindolol             | &beta;<sub>1</sub>, &beta;<sub>2</sub>                      | +++  | 5-20mg BID                                                   | Partial Agonist                                              |
+| Propranolol          | &beta;<sub>1</sub>, &beta;<sub>2</sub>                      | 0    | Variable                                                     | Lipophilic<br />Reduces Renin Release                        |
+| Propranolol LA       | &beta;<sub>1</sub>, &beta;<sub>2</sub>                      | 0    | 80-160mg QD                                                  |                                                              |
+| Timolol              | &beta;<sub>1</sub>, &beta;<sub>2</sub>                      | 0    | 10-20mg BID                                                  | PO and Ophthalmic (Glaucoma)                                 |
 
-### Common Side Effects
+### SEs
 
 * Bronchoconstriction (particularly those with &beta;<sub>2</sub> activity)
+* Bradycardia / AV Block
+* **Difficulty identifying Hypoglycemia**
+* **Withdrawal can cause HTN Crisis**
 * Fatigue
 * Depression
 * Nightmares
 * Sexual dysfunction
 
+## Catecholamine Depleters
+
+* Reserpine
+  * Blocks VMAT inhibiting vesicular loading
+  * Lasts for weeks
+
 # Cholinergics
 
+## Cholinergic Toxidrome
+
+**SLUD**
+
+* Salivation
+* Lacrimation
+* Urination
+* Defecation
+* Sweating
+* Pupil constriction
+* Hallucinations
+* Bradycardia
+
+## Direct Cholinergic Agents
+
+* Acetylcholine
+* Carbachol
+* Methacholine
+* Bethanechol (Muscharinic Agonist)
+* Muscarine
+* Nicotine
+* Pilocarpine (Muscharinic Agonist)
+* Varenicline (Partial Nicotinic Agonist)
+
+## Cholinesterase Inhibitors
+
+* Reversible
+  * Edrophonium
+    * Dx of Myasthenia Gravis (SSx will resolve almost immediately)
+  * Neostigmine
+  * Pyridostigmine
+  * Physostigmine
+    * Anticholinergic antidote
+  * Tacrine
+  * Donepezil
+  * Rivastigmine
+  * Galantamine
+  * Memantine
+* Irreversible
+  * Organophosphates
+  * Isoflurophate
+  * Echothiophate
+  * Sarin
+  * Soman
+  * Malathion
+  * Diazinon
+
+### Treatment of Anticholinesterase Inhibitor Poisoning
+
+* 2-PAM (Pralidoximine, 2-pyridine aldoxime methyl chloride)
+* Organophosphate Poisoning IV: 30 mg/kg (Max 2g) then 8-10 mg/kg/hr (Max 650 mg/hr)
+* Organophosphate Poisoning IM
+  * Mild: 600mg IM repeat q15min PRN NTE 1800mg
+  * Severe: 600mg IM rapid repeat NTE 1800mg
+  * Persistent: May repeat 1800mg series q1h 
+* Reversible Anticholinesterase Inhibitors: 2-PAM or Anticholinergic agents
+  * 2-PAM: 1-2g IV then 250mg q5min PRN
+
 # Anticholinergics
+
+* Atropine
+  * 0.5mg: Slight cardiac slowing, some oral dryness, and inhibition of sweating
+  * 1mg: Tachycardia, mild mydriasis, oral dryness
+  * 2mg: Tachycardia / palpitations, mydriasis, blurring of near vision, oral dryness
+  * 5mg: All above SSx marked, difficulty speaking / swallowing, HA, hot / dry skin
+  * &ge; 10mg: All above SSx, iris obliterated, vision very blurry, hallucinations, coma, ataxia
+* Ipratroprium
+  * COPD
+* Scopolamine
+  * Motion Sickness
+  * Highest CNS penetration
+* Homatropine
+  * Cycloplegia and Mydriasis
+* Tropicamide
+  * Cycloplegia and Mydriasis
+* Benztropine
+  * PD and EPS
+* Glycopyrrolate
+  * GI Disorders (charged, won't enter CNS)
+* Propantheline
+  * GI Disorders (charged, won't enter CNS)
+
+## Paralytics
+
+**DO NOT ADMINISTER A PARALYTIC WITHOUT SUFFICIENT OPIOID ANALGESIA OR SIGNIFICANT SEDATION (Propofol, Ketamine, Etomidate, Volatile Anesthetics, etc)**
+
+* Succinylcholine
+  * 1-2 mg/kg IV or 4-5 mg/kg IM
+  * Depolarizing blocker
+  * Causes hyperkalemia
+  * Short acting (effect ends in &approx;5 min)
+* Non-Depolarizing
+  * Vecuronium
+    * 0.1 mg/kg
+    * Lasts 30-60min
+  * Pancuronium
+    * 0.1 mg/kg
+    * 45-90 min
+  * Rocuronium
+    * 0.8-1 mg/kg (30-45 min)

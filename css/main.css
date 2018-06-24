@@ -374,6 +374,10 @@ a img {
       grid-template-rows: auto 1fr;
     }
 
+    .calculatorContents p{
+      grid-column: 1/3;
+    }
+
     .calculatorContents .title{
       grid-column: 1/3;
       grid-row: 1/2

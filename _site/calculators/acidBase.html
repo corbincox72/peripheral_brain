@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Acid-Base Analysis | The Peripheral Brain</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+
+  <link rel="stylesheet" href="/peripheral_brain/css/main.css" />
+  <link rel="stylesheet" href="/peripheral_brain/css/mobile.css" />
+  <link rel="stylesheet" href="/peripheral_brain/css/buttons.css" />
+
+  
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/peripheral_brain/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/peripheral_brain/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/peripheral_brain/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/peripheral_brain/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/peripheral_brain/favicons/safari-pinned-tab.svg" color="#465c8b">
+  <link rel="shortcut icon" href="/peripheral_brain/favicons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="Peripheral Brain">
+  <meta name="application-name" content="Peripheral Brain">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/peripheral_brain/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#cdcdcd">
+
+
+  
+  
+</head>
+
+
+<body class="body">
+<header>
+  <nav>
+    <!-- <a href="/peripheral_brain/home.html"><img src="/peripheral_brain/images/logo_1000x1000.png" alt="Logo"> -->
+      <ul class="nav-links">
+        <li><a href="/peripheral_brain/home.html">Home</a></li>
+        <li><a href="/peripheral_brain/disease_list.html">Diseases and Drugs</a></li>
+        <li><a href="/peripheral_brain/lab_values">Lab Values</a></li>
+        <li><a href="/peripheral_brain/formulas">Formulas</a></li>
+        <li><a href="/peripheral_brain/calculators.html">Calculators</a></li>
+        <li><a href="/peripheral_brain/search.html">Search</a></li>
+      </ul>
+  </nav>
+</header>
+
+<script src="/peripheral_brain/javascript/commonFunctions.js"></script>
+
+<div class="calculatorContents">
+  <h1 class="title">Acid-Base Analysis</h1>
+<div class="inputCol">
+  <table class="calculator">
+    <tr><td>pH</td><td> <input type=text name="pH" id="pH" onkeyup=allResults()> </td></tr>
+    <tr><td>paCO<sub>2</sub> (mmHg)</td><td> <input type=text name="paCO2" id="paCO2" onkeyup=allResults()> </td></tr>
+    <tr><td> Bicarb (mEq/L) </td><td> <input type=text name="bicarb" id="bicarb" onkeyup=allResults()> </td></tr>
+    <tr>
+      <td>
+        Base Deficit
+      </td>
+      <td>
+        <form>
+          <input type=radio name="baseDeficit" id="calcBaseDeficit"  checked="checked" onclick=allResults()><label for="calcBaseDeficit">Calculated</label><br>
+          <input type=radio name="baseDeficit" id="customBaseDeficit" onclick=allResults()><label for="customBaseDeficit"> Other: </label> <input type=text id="customBaseDeficit" onkeyup=allResults() style="width:5em">
+        </form>
+      </td>
+    </tr>
+    <tr><td> Na (mEq/L) </td><td> <input type=text name="sodium" id="Na" onkeyup=allResults()> </td></tr>
+    <tr><td> Cl (mEq/L) </td><td> <input type=text name="chloride" id="Cl" onkeyup=allResults()> </td></tr>
+    <tr><td> Lactate (mmol/L) </td><td> <input type=text name="lactate" id="lactate" onkeyup=allResults()> </td></tr>
+    <tr><td> Albumin (g/dL) </td><td> <input type=text name="albumin" id="alb" onkeyup=allResults()> </td></tr>
+    <tr><td> Glucose (mg/dL) </td><td> <input type=text name="glucose" id="glucose" onkeyup=allResults()> </td></tr>
+    <tr><td> BUN (mg/dL) </td><td> <input type=text name="bun" id="bun" onkeyup=allResults()> </td></tr>
+    <tr><td> EtOH (mg/dL) </td><td> <input type=text name="etoh" id="etoh" onkeyup=allResults()> </td></tr>
+    <tr><td> Osmolality (mOsm/L) </td><td> <input type=text name="osmolality" id="osmolality" onkeyup=allResults()> </td></tr>
+  </table>
+</div>
+
+<div class="outputCol">
+  <table>
+    <th colspan="2">
+      Basic Analysis
+    </th>
+    <tr>
+      <td>
+        pH Evaluation
+      </td>
+      <td id="pHEval">
+
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Pulmonary Evaluation
+      </td>
+      <td id="pulmEval">
+
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Bicarb Evaluation
+      </td>
+      <td id="bicarbEval">
+
+      </td>
+    </tr>
+  </table>
+<br />
+  <table>
+    <th colspan="2">
+      Qualitative Acid-Base
+    </th>
+    <tr>
+      <td>
+        SID
+      </td>
+      <td id="SID">
+
+      </td>
+    </tr>
+    <tr>
+      <td>
+        SID Evaluation
+      </td>
+      <td id="SIDEval">
+
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Calculated Base Deficit
+      </td>
+      <td id="calculatedBaseDeficit">
+
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Strong Ion Gap
+      </td>
+      <td id="SIG">
+
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Strong Ion Gap Evaluation
+      </td>
+      <td id="SIGEval">
+
+      </td>
+    </tr>
+  </table>
+<br />
+  <table>
+    <th colspan="3">
+      Compensation to...
+    </th>
+    <tr>
+      <td>
+        Chronic Resp
+      </td>
+      <td>
+        Decrease in SID:
+      </td>
+      <td id="chronicRespComp">
+
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Metabolic Acidosis
+      </td>
+      <td>
+        Decrease in paCO2:
+      </td>
+      <td id="metabolicAcidosisComp">
+
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Metabolic Alkalosis
+      </td>
+      <td>
+        Increase in paCO2:
+      </td>
+      <td id="metabolicAlkalosisComp">
+
+      </td>
+    </tr>
+  </table>
+<br />
+  <table>
+    <th colspan="2">
+      Osmolarity
+    </th>
+    <tr>
+      <td>
+        Osm
+      </td>
+      <td id="osm">
+
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Osm Gap
+      </td>
+      <td id="osmGap">
+
+      </td>
+    </tr>
+  </table>
+</div>
+
+<p>
+  <strong>Note:</strong> All compensations will be calculated regardless of appropriate use. See the <a href="https://emcrit.org/wp-content/uploads/acid_base_sheet_2-2011.pdf">EM-Crit Acid-Base Evaluation Sheet</a> for descriptions of these processes, as well as DDX for each Acid-Base Disorder
+</p>
+
+<script>
+function allResults() {
+  pH();
+  paCO2();
+  bicarb();
+  Na();
+  Cl();
+  lactate();
+  albumin();
+  glucose();
+  BUN();
+  EtOH();
+  osmolality();
+
+  printResult("pHEval",pHEval());
+  printResult("pulmEval",pulmEval());
+  printResult("bicarbEval",bicarbEval());
+  printResult("SID",SID());
+  printResult("SIDEval",SIDEval());
+  printResult("calculatedBaseDeficit",calculatedBaseDeficit());
+  printResult("SIG",SIG());
+  printResult("SIGEval",SIGEval());
+  printResult("chronicRespComp",chronicRespComp());
+  printResult("metabolicAcidosisComp",metabolicAcidosisComp());
+  printResult("metabolicAlkalosisComp",metabolicAlkalosisComp());
+  printResult("osm",osm());
+  printResult("osmGap",osmGap());
+}
+
+function pH() {
+  return document.getElementById("pH").value;
+}
+function paCO2() {
+  return document.getElementById("paCO2").value;
+}
+function bicarb() {
+  return document.getElementById("bicarb").value;
+}
+function baseDeficit() {
+  if (document.getElementById("calcBaseDeficit").checked) {
+    return calculatedBaseDeficit();
+  } else {
+    return document.getElementById("customBaseDeficit").value;
+  }
+}
+function Na() {
+  return document.getElementById("Na").value;
+}
+function Cl() {
+  return document.getElementById("Cl").value;
+}
+function lactate() {
+  return document.getElementById("lactate").value;
+}
+function albumin() {
+  return document.getElementById("alb").value;
+}
+function glucose() {
+  return document.getElementById("glucose").value;
+}
+function BUN() {
+  return document.getElementById("bun").value;
+}
+function EtOH() {
+  return document.getElementById("etoh").value;
+}
+function osmolality() {
+  return document.getElementById("osmolality").value;
+}
+
+function pHEval() {
+  if (pH() < 7.35) {
+    return "Acidosis"
+  } else if (pH() > 7.45) {
+    return "Alkalosis"
+  } else {
+    return "Mixed Disorder or Mild Disturbance"
+  }
+}
+
+function pulmEval() {
+  if (paCO2() < 35) {
+    return "Respiratory Alkalosis"
+  } else if (paCO2() > 45) {
+    return "Respiratory Acidosis"
+  } else {
+    return "No Significant Resp. Contribution"
+  }
+}
+
+function bicarbEval() {
+  if (bicarb() < 22){
+    return "Metabolic Acidosis"
+  } else if (bicarb() > 26) {
+    return "Metabolic Alkalosis"
+  } else {
+    return "No Significant Metab. Contribution"
+  }
+}
+
+function SID() {
+  return (Na() - Cl());
+}
+
+function SIDEval() {
+  if (SID() < 38){
+    return "Metabolic Acidosis"
+  } else if (bicarb() > 38) {
+    return "Metabolic Alkalosis"
+  } else {
+    return "No Significant Metab. Contribution"
+  }
+}
+
+function calculatedBaseDeficit() {
+  return -1*(0.93*bicarb()+13.77*pH()-124.58).toFixed(0);
+}
+
+function SIG() {
+  return (baseDeficit() + (SID()-38)+2.5*(4.2-albumin())-lactate()).toFixed(0);
+}
+
+function SIGEval() {
+  if (SIG() > 2) {
+    return "Anion Gap Acidosis"
+  } else {
+    return "Non-Anion Gap Acidosis"
+  }
+}
+
+function chronicRespComp() {
+  return (0.4*(paCO2()-40)).toFixed(0);
+}
+
+function metabolicAcidosisComp() {
+  return baseDeficit();
+}
+
+function metabolicAlkalosisComp() {
+  return (-0.6*baseDeficit()).toFixed(0);
+}
+
+function osm() {
+  return (2*Na()+glucose()/18+BUN()/2.8+EtOH()/3.7).toFixed(0);
+}
+
+function osmGap() {
+  return (osmolality()-osm());
+}
+
+</script>
+
+</div>
+
+<footer class="footer menus">
+  <nav>
+    <ul class="footer-links">
+      <li><a href="/peripheral_brain/home.html">Home</a></li>
+      <li><a href="/peripheral_brain/index.html">Disclaimer</a></li>
+    </ul>
+    <!-- <a href="/peripheral_brain/home.html"><img src="/peripheral_brain/images/logo_1000x1000.png" alt="Logo"> -->
+  </nav>
+</footer>
+
+</body>
+</html>
