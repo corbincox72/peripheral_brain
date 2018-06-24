@@ -15,8 +15,6 @@ body {
 .toc ul {
   list-style: none;
   margin-left: 0em;
-  padding: 0;
-  margin: 0.25em 0em;
 }
 
 .toc ul ul {
@@ -28,7 +26,6 @@ body {
 .toc li {
   text-align: left;
   margin-top: 0.25em;
-  margin-bottom: 0.25em;
   padding: 0;
 }
 

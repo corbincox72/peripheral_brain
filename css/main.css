@@ -235,6 +235,7 @@ a img {
       grid-template-rows: auto auto 1fr auto auto;
       font-size: 12pt;
       background-color: var(--backgroundColor);
+      grid-row-gap: 1em;
     }
 
     .twoCol {
@@ -257,6 +258,8 @@ a img {
     grid-column: 1 / -1;
     grid-row: 1 / 1;
     background-color: var(--headerColor);
+    position: fixed;
+    width: 100%;
   }
 
   header ul {

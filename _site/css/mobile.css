@@ -3,6 +3,10 @@
     grid-template-columns: 2.5% 1fr 2.5%;
   }
 
+  header{
+    position: static;
+  }
+
   header li {
     float: none;
     text-align: center;
