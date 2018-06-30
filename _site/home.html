@@ -159,8 +159,73 @@
         <a href="https://www.pharmgkb.org" target="_blank">PharmGKB</a>
       </li>
     </ul>
+
+    <h1 class="center">Expiration Dates</h1>
+    <table>
+      <tr>
+        <td>
+          Today
+        </td>
+        <td id="today">
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          14d
+        </td>
+        <td id="day14">
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          28d
+        </td>
+        <td id="day28">
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          30d
+        </td>
+        <td id="day30">
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          60d
+        </td>
+        <td id="day60">
+
+        </td>
+      </tr>
+    </table>
+
   </div>
 </div>
+
+<script>
+Date.prototype.addDays = function(days) {
+    var date = new Date(this.valueOf());
+    date.setDate(date.getDate() + days);
+    return date;
+}
+
+function dates() {
+  var today = new Date();
+
+  document.getElementById("today").innerHTML = today.toLocaleDateString("en-US");
+  document.getElementById("day14").innerHTML = (today.addDays(14)).toLocaleDateString("en-US");
+  document.getElementById("day28").innerHTML = (today.addDays(28)).toLocaleDateString("en-US");
+  document.getElementById("day30").innerHTML = (today.addDays(30)).toLocaleDateString("en-US");
+  document.getElementById("day60").innerHTML = (today.addDays(60)).toLocaleDateString("en-US");
+}
+
+window.onload = dates;
+</script>
 
 </div>
 
