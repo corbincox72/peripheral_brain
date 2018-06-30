@@ -202,6 +202,14 @@
 
         </td>
       </tr>
+      <tr>
+        <td>
+          180d
+        </td>
+        <td id="day180">
+
+        </td>
+      </tr>
     </table>
 
   </div>
@@ -222,6 +230,7 @@ function dates() {
   document.getElementById("day28").innerHTML = (today.addDays(28)).toLocaleDateString("en-US");
   document.getElementById("day30").innerHTML = (today.addDays(30)).toLocaleDateString("en-US");
   document.getElementById("day60").innerHTML = (today.addDays(60)).toLocaleDateString("en-US");
+  document.getElementById("day180").innerHTML = (today.addDays(180)).toLocaleDateString("en-US");
 }
 
 window.onload = dates;
