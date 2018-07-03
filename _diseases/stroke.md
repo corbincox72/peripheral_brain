@@ -64,7 +64,7 @@ Hemorrhagic strokes often result from a cerebral vasculature aneurism or from se
   * Agressive BP control can limit stroke recurrence, long-term neuro deficits, an decrease risk of cerebral edema; however concern from above usually wins, attempt to balance (i.e 150s instead of 170s or 110s)
 
 ## Thrombolysis
-## Dosing
+### Dosing
 * **Must satisfy inclusion / exclusion criteria below**
 * 0.9 mg/kg NTE 90mg Total dose
   * 10% (0.09 mg/kg) IVPB over 1min
@@ -75,7 +75,7 @@ Hemorrhagic strokes often result from a cerebral vasculature aneurism or from se
   * Can begin to lower to outpt goal after 24h
 * Avoid **all** antiplatelets and anticoagulants for 24hr post-admin
 
-## SEs
+### SEs
 * Bleeding
 * Stroke Conversion
 * Cerebral Edema
