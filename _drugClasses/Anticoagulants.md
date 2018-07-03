@@ -1,11 +1,11 @@
 ---
-title: Anticoagulants (Incomplete)
+title: Anticoagulants
 layout: diseases
 author: Corbin Cox
-last-updated: 2018-1-25
+last-updated: 2018-7-02
 created: 2018-1-22
 toc: true
-common: true
+common: false
 ---
 
 # Coagulation Cascade
@@ -48,6 +48,23 @@ $$
   * Indirect: Unfractionated Heparin, LMWH (Enoxaparin / Daltaparin), Fondaparinux
 * Direct Thrombin Inhibitors
   * Dabigatran
+
+# Heparins and Heparin-Like Drugs
+
+## Pharmacology
+
+**MOA:** Stabilization of the Anti-Thrombin - Thrombin and Anti-Thrombin - Factor Xa complexes, decreasing coagulation (Heparin stabilizes both, LMWHs preferentially stabilize the Xa interaction)
+
+**Adverse Effects:** Hemorrhage, HIT (fondaparinux has no risk of HIT), Osteoporosis
+
+### HIT
+
+| T       | MOA                     | Time                     | Platelets         | Clinical Impact  |
+| ------- | ----------------------- | ------------------------ | ----------------- | ---------------- |
+| Type I  | Platelet Aggregation    | &lt; 2d                  | ~100k             | Low              |
+| Type II | Ig - Platelet Complexes | 5-10d w/o prior exposure | &lt; 50% Baseline | Life-Threatening |
+
+More commonly caused by heparin than LMWHs, D/C immediately and CI further use. Avoid by starting enoxaparin. If HIT II occurs, switch to fondaparinux.
 
 # Warfarin
 
@@ -172,8 +189,10 @@ NSAIDs can increase bleeding but **do not** increase INR
 
 * INR 4.5-10 w/o evidence of bleeding
   * Monitor
+
 * INR > 10 w/o evidence of bleeding
   * 5mg PO Vit K
+
 * Major Bleeding
   * PCC or FFP (PCC Prefered), Vit K (5-10mg) can be added
   * Check INR before administration and 30-60min after of PCC
@@ -185,7 +204,63 @@ NSAIDs can increase bleeding but **do not** increase INR
   | FFP        | 10-15 mL/kg  | Rapid, but partial correction |
   | PCC        | 30 IU/kg     | w/i 10-15min                  |
 
-  ​
+  
+
+# DOACs
+
+Dosing is condition-specific, and can be reviewed in the [DVT article]({{ site.baseurl }}/diseases/dvt.html)
+
+## Xa Inhibitors
+
+* Apixaban (Eliquis)
+* Rivaroxaban (Xarelto)
+* Edoxaban (Savaysa)
+
+## Thrombin Inhibitors
+
+* Dabigatran (Pradaxa)
+* Argatroban
+
+## Dosing
+
+**Post-Op Prophylaxis**
+
+|            | Dabigatran                                                   | Rivaroxaban                                                  | Apixaban                                                     |
+| ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Dose       | Day of Surgery: 110mg x1 (1-4hr post-op)<br />Not Day of Surgery: 220mg  QD x28-35d | Hip: 10mg QD x35d<br />Knee 10mg QD x12d<br />6-10hr post-op | Hip: 2.5mg BID x35d<br />Knee 2.5mg BID x12d<br />12-24hr post-op |
+| Renal Adj. | CrCl &le; 30, no evidence                                    | CrCl &le; 30, no evidence                                    | CrCl &le; 30, no evidence                                    |
+
+**Non-Valvular A-Fib**
+
+|            | Dabigatran           | Rivaroxaban         | Apixaban                                                     | Edoxaban                                                 |
+| ---------- | -------------------- | ------------------- | ------------------------------------------------------------ | -------------------------------------------------------- |
+| Dose       | 150mg BID            | 20mg QD             | 5mg BID                                                      | 60mg QD                                                  |
+| Renal Adj. | CrCl 15-30: 75mg BID | CrCl 15-30: 15mg QD | 2 of the following: SCr &ge; 1.5, Age &ge; 80, or Wt &le; 60kg get 2.5mg BID <br />HD Pts: 5mg BID unless above criteria are met, then reduce | CrCl 15-50: 30mg QD<br />**Not for use if CrCl &gt; 95** |
+
+**DVT / PE Treatment** (3mo if provoked, 3-12+mo if unprovoked)
+
+|            | Dabigatran                                | Rivaroxaban                 | Apixaban                                  | Edoxaban                                    |
+| ---------- | ----------------------------------------- | --------------------------- | ----------------------------------------- | ------------------------------------------- |
+| Dose       | 150mg BID                                 | 15mg BID x3wks then 20mg QD | 10mg BID x7d then 5mg BID                 | 60mg QD                                     |
+| Renal Adj. | CrCl &lt; 30: No Data                     | CrCl &lt; 30: Avoid         | CrCl &lt; 25 or SCr &gt; 2.5: No evidence | CrCl 15-50: 30mg QD<br />&le; 60kg: 30mg QD |
+| Notes      | Requires 5-10d parenteral anticoagulation |                             |                                           | Requires 5-10d parenteral anticoagulation   |
+
+**Secondary DVT / PE Prophylaxis** (May D/C after 6mo)
+
+|                  | Rivaroxaban         | Apixaban                                  |
+| ---------------- | ------------------- | ----------------------------------------- |
+| Dose             | 20mg QD             | 2.5mg BID                                 |
+| Renal Adjustment | CrCl &lt; 30: Avoid | CrCl &lt; 25 or SCr &gt; 2.5: No evidence |
+
+**VTE Prophylaxis**
+
+|                  | Betrixaban                                 |
+| ---------------- | ------------------------------------------ |
+| Dose             | 160mg load then 80mg QD x35-42d            |
+| Renal Adjustment | CrCl 15-30: 80mg load then 40mg QD x35-42d |
+| Note             | Lasts &gt; 72hr after D/C                  |
+
+
 
 # References
 

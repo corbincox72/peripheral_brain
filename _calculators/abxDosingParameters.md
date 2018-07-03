@@ -47,7 +47,7 @@ toc: true
 * Trough: 10-15 mg/L (15-20 in endocarditis, osteomyelitis, meningitis, MRSA, and pneumonia)
 * Vd: 0.6-0.7 (0.4-1) L/kg
 * AUC<sub>0-24</sub> / MIC = 400
-* AUC > 700 => Increased risk of nephrotoxicity
+* AUC &gt; 700 => Increased risk of nephrotoxicity
 * NTE 15 mg/min due to risk of Red Man Syndrome
 
   | CrCl     | Approximate Dosing Interval (hr)   |
@@ -75,13 +75,12 @@ toc: true
 * 7 mg/kg over 1 hour (gent / tob) or 15 mg/kg (amikacin)
 * Obtain a value 6-14hr after the start of the infusion on day 5
 
-
-  | CrCl    | Interval        |
-  | ------- | --------------- |
-  | &gt; 60 | q24h            |
-  | 40-60   | q36h            |
-  | 20-39   | q48h            |
-  | &lt; 20 | Use traditional |
+| CrCl    | Interval        |
+| ------- | --------------- |
+| &gt; 60 | q24h            |
+| 40-60   | q36h            |
+| 20-39   | q48h            |
+| &lt; 20 | Use traditional |
 
   ![hartfordNomogram](../images/hartfordNomogram.jpg)
 
