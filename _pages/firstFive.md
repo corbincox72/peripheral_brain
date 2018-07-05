@@ -85,10 +85,10 @@ common: false
 * Plt &lt; 100k
 * Current anticoag w/ INR &gt; 1.7 or aPTT &gt; 45s
   * NOACs CI tPA
-**Reversible exclusion criteria**
+  * **Reversible exclusion criteria**
 
 ### Extended tPA Window
-* 4.5hrs after SSx onset
+* &lt; 4.5hrs after SSx onset
 * Add the following to the exclusion criteria
   * Age &ge; 80
   * Hx of Stroke w/ DM
@@ -96,7 +96,7 @@ common: false
   * NIHSS &gt; 25
   
 ## BP Control
-* Use common IV antihypertensives discussed in [HTN Crisis section]({{ site.baseurl }}/diseases/htn.html)
+* Use common IV antihypertensives discussed in [HTN Crisis section]({{ site.baseurl }}/diseases/htn#emergency)
 * Labetalol 10-20mg IVPB q10-20min NTE 300mg
 * Nicardipine 5mg/hr IV titrated q5min NTE 15 mg/hr
 * Nitroprusside 0.5-10 mcg/kg/min titrated (preferable if DBP &gt; 140)
