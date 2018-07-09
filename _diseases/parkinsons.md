@@ -21,7 +21,7 @@ PD is caused by death of dopaminergic neurons in the *substantia nigra* which co
 
 Environmental factors though to contribute to PD include toxins which trigger oxidative stress and mitochondrial dysfunction.
 
-## The *Substantia Nigra*
+## The Substantia Nigra
 
 The SN provides input to the basal ganglia associated with some cognitive functions and voluntary motor control, as well as supplies dopamine to the striatum.
 
