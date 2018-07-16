@@ -36,13 +36,6 @@
     display: block;
     text-align: left;
   }
-  header.responsive {float: none;}
-  header.responsive {position: relative;}
-  header.responsive {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
 
   li, li a, li h1, li h2, li h3, li p, p, li li {
     text-align: left;
