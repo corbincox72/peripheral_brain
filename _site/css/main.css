@@ -262,34 +262,28 @@ a img {
     width: 100%;
   }
 
-  header ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-  }
-
-  header li {
+  header a {
     float: left;
+    display: block;
+    text-align: center;
     padding: 0.5em 0.75em;
     margin: 0;
-  }
-
-  header li:hover{
-    background: var(--accentColor);
-  }
-
-  header li:hover a{
-    color: var(--headerColor)
-  }
-
-  header a {
+    text-decoration: none;
     font-size: 1.5em;
   }
 
   header a:link, header a:visited, footer a:link, footer a:visited{
     color: var(--accentColor);
     font-weight: 900;
+  }
+
+  header a:hover {
+    color: var(--headerColor);
+    background: var(--accentColor);
+  }
+
+  header .icon {
+    display: none;
   }
 
 /* Total Page Contents */

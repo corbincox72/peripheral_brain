@@ -40,19 +40,29 @@
 
 
 <body class="body">
-<header>
+<header id="myHeader">
   <nav>
     <!-- <a href="/peripheral_brain/home.html"><img src="/peripheral_brain/images/logo_1000x1000.png" alt="Logo"> -->
-      <ul class="nav-links">
-        <li><a href="/peripheral_brain/home.html">Home</a></li>
-        <li><a href="/peripheral_brain/disease_list.html">Diseases and Drugs</a></li>
-        <li><a href="/peripheral_brain/firstFive">TF5M</a></li>
-        <li><a href="/peripheral_brain/lab_values">Lab Values</a></li>
-        <li><a href="/peripheral_brain/formulas">Formulas</a></li>
-        <li><a href="/peripheral_brain/calculators.html">Calculators</a></li>
-        <li><a href="/peripheral_brain/search.html">Search</a></li>
-      </ul>
+    <a href="/peripheral_brain/home.html">Home</a>
+    <a href="/peripheral_brain/disease_list.html">Diseases and Drugs</a>
+    <a href="/peripheral_brain/firstFive">TF5M</a>
+    <a href="/peripheral_brain/lab_values">Lab Values</a>
+    <a href="/peripheral_brain/formulas">Formulas</a>
+    <a href="/peripheral_brain/calculators.html">Calculators</a>
+    <a href="/peripheral_brain/search.html">Search</a>
+    <a href="javascript:void(0);" class="icon" onclick="openMenu()">&#9776;</a>
   </nav>
+
+  <script>
+  function openMenu() {
+      var x = document.getElementById("myHeader");
+      if (x.className === "header") {
+          x.className += " responsive";
+      } else {
+          x.className = "header";
+      }
+  }
+  </script>
 </header>
 
 
