@@ -19,7 +19,7 @@
   header a:not(:first-child){
     display: none;
   }
-  
+
   header a.icon {
     float: right;
     display: block;
@@ -36,9 +36,9 @@
     display: block;
     text-align: left;
   }
-  header.responsive .dropdown {float: none;}
-  header.responsive .dropdown-content {position: relative;}
-  header.responsive .dropdown .dropbtn {
+  header.responsive {float: none;}
+  header.responsive {position: relative;}
+  header.responsive {
     display: block;
     width: 100%;
     text-align: left;
