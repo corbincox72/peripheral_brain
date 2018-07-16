@@ -7,11 +7,6 @@
     position: static;
   }
 
-  header li {
-    float: none;
-    text-align: center;
-  }
-
   header a {
     font-size: 1.25em;
   }
@@ -19,7 +14,7 @@
   header a:not(:first-child){
     display: none;
   }
-  
+
   header a.icon {
     float: right;
     display: block;
@@ -34,13 +29,6 @@
   header.responsive a {
     float: none;
     display: block;
-    text-align: left;
-  }
-  header.responsive .dropdown {float: none;}
-  header.responsive .dropdown-content {position: relative;}
-  header.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
     text-align: left;
   }
 

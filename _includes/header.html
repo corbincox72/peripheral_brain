@@ -1,4 +1,4 @@
-<header id="myHeader">
+<header id="myHeader" class="myHeader">
   <nav>
     <!-- <a href="{{ site.baseurl }}/home.html"><img src="{{ site.baseurl }}/images/logo_1000x1000.png" alt="Logo"> -->
     <a href="{{ site.baseurl }}/home.html">Home</a>
@@ -14,10 +14,10 @@
   <script>
   function openMenu() {
       var x = document.getElementById("myHeader");
-      if (x.className === "header") {
+      if (x.className === "myHeader") {
           x.className += " responsive";
       } else {
-          x.className = "header";
+          x.className = "myHeader";
       }
   }
   </script>
