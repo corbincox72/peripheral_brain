@@ -56,11 +56,11 @@ a img {
   /* Color Definitions */
     :root {
       --mainTextColor: #031424;
-      --linkColor: #07889B;
-      --accentColor: #465C8B;
+      --linkColor: #91332d;
+      --accentColor: #02558B;
       --backgroundColor: #FFF;
-      --headerColor: #C0B283;
-      --tableAccent: #CDCDCD;
+      --headerColor: #E8E8E8;
+      --tableAccent: #b6b6b6;
     }
 
   /* Global Fonts/Text */
@@ -76,8 +76,12 @@ a img {
       font-family: 'Roboto Slab', serif;
     } */
 
-    h1, h2, h3, h4, h5, h6, header a, footer a, td, th, input, .calculatorContents p, p, table, li, ol, ul, blockquote, em, strong{
-      font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif
+    h1, h2, h3, h4, h5, h6, header a, footer a, td, th, input, table, .navList li a{
+      font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+    }
+
+    p, a, li, ol, ul, em, strong, blockquote {
+      font-family: 'Roboto Slab', Times, serif;
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -128,10 +132,12 @@ a img {
     a:link, a:visited, a h2 {
         color: var(--linkColor);
         text-decoration: none;
+        -webkit-transition: color 0.25s ease;
+        transition: color 0.25s ease;
     }
 
     a:hover {
-      color: var(--headerColor);
+      color: var(--accentColor);
     }
 
     ul, ol {
@@ -229,18 +235,23 @@ a img {
     }
 
     body {
+      display: -ms-grid;
       display: grid;
-      grid-template-columns: 15% 1fr 15%;
+      -ms-grid-columns: 15% 1fr 15%;
+          grid-template-columns: 15% 1fr 15%;
       grid-gap: 0.25em;
       min-height: 100%;
-      grid-template-rows: auto auto 1fr auto auto;
+      -ms-grid-rows: auto auto 1fr auto auto;
+          grid-template-rows: auto auto 1fr auto auto;
       font-size: 12pt;
       background-color: var(--backgroundColor);
     }
 
     .twoCol {
+      display: -ms-grid;
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      -ms-grid-columns: 1fr 1fr;
+          grid-template-columns: 1fr 1fr;
       grid-gap: 1em;
     }
 
@@ -278,8 +289,7 @@ a img {
   }
 
   header a:hover {
-    color: var(--headerColor);
-    background: var(--accentColor);
+    color: var(--linkColor);
   }
 
   header .icon {
@@ -294,7 +304,8 @@ a img {
 
   @media screen and (min-width: 1389px) {
      body {
-       grid-template-columns: 1fr 1250px 1fr;
+       -ms-grid-columns: 1fr 1250px 1fr;
+           grid-template-columns: 1fr 1250px 1fr;
      }
    }
 
@@ -303,16 +314,22 @@ a img {
     grid-column: 1 / -1;
     grid-row: -1 / -1;
     background-color: var(--headerColor);
-    text-align: center;
   }
 
-  footer ul {
-    list-style-type: none;
+  footer a {
+    float: left;
+    padding: 1em 0.75em;
+    margin: 0;
+    font-size: 1.25em;
   }
 
-  footer li{
-    text-align: center;
-    font-size: 1.25em
+  .footerLinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
 
@@ -360,12 +377,15 @@ a img {
 
   /* Calculator Layouts */
     .calculatorContents {
+      display: -ms-grid;
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      -ms-grid-columns: 1fr 1fr;
+          grid-template-columns: 1fr 1fr;
       grid-gap: 0.25em;
       font-size: 12pt;
       grid-column: 2/3;
-      grid-template-rows: auto 1fr;
+      -ms-grid-rows: auto 1fr;
+          grid-template-rows: auto 1fr;
     }
 
     .calculatorContents p{

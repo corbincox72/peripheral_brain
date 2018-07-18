@@ -1,15 +1,13 @@
 body {
-  grid-template-columns: 5% 1fr 5%;
+  -ms-grid-columns: 5% 1fr 5%;
+      grid-template-columns: 5% 1fr 5%;
 }
 
 .toc {
   float: right;
   max-width: 20%;
   padding: 0.5em 1em;
-  margin: 0 0 0 1em;
-  border-style: solid;
-  border-width: medium;
-  border-color: var(--accentColor);
+  margin: 1em 0 0 1em;
 }
 
 .toc ul {
@@ -50,6 +48,7 @@ body {
 
 @media screen and (min-width: 1389px) {
    body {
-     grid-template-columns: 1fr 1250px 1fr;
+     -ms-grid-columns: 1fr 1250px 1fr;
+         grid-template-columns: 1fr 1250px 1fr;
    }
  }

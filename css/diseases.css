@@ -6,10 +6,7 @@ body {
   float: right;
   max-width: 20%;
   padding: 0.5em 1em;
-  margin: 0 0 0 1em;
-  border-style: solid;
-  border-width: medium;
-  border-color: var(--accentColor);
+  margin: 1em 0 0 1em;
 }
 
 .toc ul {

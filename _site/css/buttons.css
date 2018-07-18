@@ -107,7 +107,8 @@
       opacity: 1;
       -webkit-transform: scale(1);
       transform: scale(1);
-      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+              transform: rotate(-45deg);
     }
 
     /* Text Input */

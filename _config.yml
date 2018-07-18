@@ -38,6 +38,7 @@ collections:
 
 plugins:
   - jekyll-admin
+  - jekyll-autoprefixer
 
 tipue_search:
   include:

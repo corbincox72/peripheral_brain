@@ -3,6 +3,9 @@ layout: default
 title: Diseases and Drugs
 exclude_from_search: true
 ---
+<div class="twoCol">
+
+<div class="col1">
 <h1>Diseases</h1>
 
 {% assign disease_list = site.diseases | sort: 'title' %}
@@ -11,7 +14,9 @@ exclude_from_search: true
   <li><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
 </ul>
 {% endfor %}
+</div>
 
+<div class="col2">
 <h1>Drug Classes</h1>
 
 {% assign drugClass_list = site.drugClasses | sort: 'title' %}
@@ -20,3 +25,6 @@ exclude_from_search: true
     <li><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
   </ul>
 {% endfor %}
+
+</div>
+</div>
