@@ -1,5 +1,5 @@
 ---
-title: Congestive Heart Failure
+title: CHF
 layout: diseases
 author: Corbin Cox
 last-updated: 2018-3-8

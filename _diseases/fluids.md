@@ -21,7 +21,7 @@ common: true
 | Bicarb     | 22   | 24   | mEq/L  |
 | Osm        | 275  | 290  | mOsm/L |
 
-$$\text{Osm} = 2*\text{Na}\; (mEq/L)+\text{BUN}\; (mg/dL) / 2.8 + \text{BG}\; (mg/dL) / 18 + \text{EtOH}\; (md/dL) / 3.7 $$
+$$\text{Osm} = 2*\text{Na}+\text{BUN} / 2.8 + \text{BG} / 18 + \text{EtOH} / 3.7 \\ \text{Na (mEq/L), BUN (mg/dL), BG (mg/dL), EtOH (mg/dL)}$$
 
 # Normal Fluid Repletion Rates
 

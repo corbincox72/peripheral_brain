@@ -207,7 +207,7 @@ common: true
 * Organophosphate Poisoning IM
   * Mild: 600mg IM repeat q15min PRN NTE 1800mg
   * Severe: 600mg IM rapid repeat NTE 1800mg
-  * Persistent: May repeat 1800mg series q1h 
+  * Persistent: May repeat 1800mg series q1h
 * Reversible Anticholinesterase Inhibitors: 2-PAM or Anticholinergic agents
   * 2-PAM: 1-2g IV then 250mg q5min PRN
 

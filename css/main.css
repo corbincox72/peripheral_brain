@@ -353,6 +353,13 @@ a img {
 
 /* Jekyll Page Formats */
 
+  /* Labs */
+
+  .chem7 {
+    display: block;
+    margin: 1em auto;
+  }
+
   /* Diseases Pages */
     .credits{
       grid-row: -2 / -2;

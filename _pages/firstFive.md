@@ -100,3 +100,22 @@ common: false
 * Labetalol 10-20mg IVPB q10-20min NTE 300mg
 * Nicardipine 5mg/hr IV titrated q5min NTE 15 mg/hr
 * Nitroprusside 0.5-10 mcg/kg/min titrated (preferable if DBP &gt; 140)
+
+# Transfusion for Severe Acute Anemia
+
+* Criteria
+  * Acutely Symptomatic
+  * Hgb &lt; 8 (some argue 7)
+* Admin PRBCs
+  * Type and cross before admin
+  * 1 U &approx; 300 mL &approx; &Delta; 1 g/dL Hgb
+  * Consider activation of massive transfusion protocol
+  * Hemorrhaging / trauma pts may require infusions of FFP and Plt as well to sustain coagulation, strongly consider before using large volumes of crystalloid
+  * Pts refusing transfusion can be given high dose iron, B12, and Epo, look up protocol
+* Complications
+  * Iron Overload
+  * Infection (HIV etc, rare)
+  * Hyperviscosity syndrome
+  * Alloimmunization
+  * Volume overload
+  * Transfusion reactions

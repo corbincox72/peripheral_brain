@@ -56,7 +56,7 @@ pH / paCO<sub>2</sub>  / paO<sub>2</sub>  / [HCO<sub>3</sub>]<sup>-</sup> / O<su
   <text x="90%" y="2.25em" text-anchor="middle">Gluc</text>
 </svg>
 
-# CBC
+# Hematology
 
 <svg width="12em" height="4em" class="chem7">
   <line x1="0" y1="0" x2="33%" y2="50%" style="stroke-wdith:2px;stroke:black"/>
@@ -71,7 +71,41 @@ pH / paCO<sub>2</sub>  / paO<sub>2</sub>  / [HCO<sub>3</sub>]<sup>-</sup> / O<su
 
 </svg>
 
+| Lab     | Low  | High | Unit  |
+| ------- | ---- | ---- | ----- |
+| Hgb (M) | 13.5 | 17.5 | g/dL  |
+| Hgb (F) | 12   | 16   | g/dL  |
+| Hct (M) | 41   | 53   | %     |
+| Hct (F) | 36   | 46   | %     |
+| RBC (M) | 4.5  | 5.9  | M/mcL |
+| RBC (F) | 4.1  | 5.1  | M/mcL |
+| MCV     | 80   | 100  | fL    |
+| RDW     | 11   | 15   | %     |
+| Folate  | 1.8  | 16   | ng/mL |
+| B12     | 100  | 900  | pg/mL |
 
+
+| Cells       | Low % | High % |
+| ----------- | ----- | ------ |
+| Segmented   | 45    | 75     |
+| Bands       | 3     | 5      |
+| Lymphocytes | 20    | 40     |
+| Monocytes   | 2     | 8      |
+| Eosinophils | 0     | 4      |
+| Basophils   | 2     | 2      |
+
+$$ \text{ANC} = \left[\% \text{Segs} + \% \text{Bands}\right] \times \text{WBC} $$
+
+| Lab         | Low  | High | Unit   |
+| ----------- | ---- | ---- | ------ |
+| Ferritin    | 10   | 20   | mcg/L  |
+| Serum Iron  | 60   | 150  | mcg/dL |
+| Transferrin | 20   | 50   | %      |
+| TIBC        | 250  | 400  | mcg/dL |
+
+$$
+\text{Serum Fe} / \text{TIBC} = \text{Tranferrin} \%
+$$
 
 # Anticoagulation Monitoring
 
