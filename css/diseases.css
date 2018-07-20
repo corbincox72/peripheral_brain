@@ -2,11 +2,12 @@ body {
   grid-template-columns: 5% 1fr 5%;
 }
 
+.twoCol{
+  grid-template-columns: 20% 1fr;
+}
+
 .toc {
-  float: right;
-  max-width: 20%;
-  padding: 0.5em 1em;
-  margin: 1em 0 0 1em;
+  padding: 0.25em;
 }
 
 .toc ul {
