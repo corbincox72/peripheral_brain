@@ -136,7 +136,7 @@ Dose is cumulative (i.e. add up dose for each time category)
 
 | Drug        | Dose                                                 | Use                             | Note                                                         |
 | ----------- | ---------------------------------------------------- | ------------------------------- | ------------------------------------------------------------ |
-| Lepirudin   | 0.15 mg/kg/hr &pm; 0.4 mg/kg bolus                   | HIT                             | aPTT 1.5-2.5x normal<br />Reduce dose if CrCl &lt; 60        |
+| Lepirudin   | 0.15 mg/kg/hr +/- 0.4 mg/kg bolus                   | HIT                             | aPTT 1.5-2.5x normal<br />Reduce dose if CrCl &lt; 60        |
 | Bivalirudin | 0.7 mg/kg then 1.75 mg/kg/hr                         | HIT<br />UFH alternative in PCI |                                                              |
 | Argatroban  | 2 mcg/kg/min<br />Hepatic Impairment: 0.5 mcg/kg/min | HIT                             | Elevates INR, overlap w/ warfarin until INR &ge; 4 (then D/C argatroban) |
 

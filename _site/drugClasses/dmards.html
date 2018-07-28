@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>DMARDs | The Peripheral Brain</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+
+  <link rel="stylesheet" href="/peripheral_brain/css/main.css" />
+  <link rel="stylesheet" href="/peripheral_brain/css/mobile.css" />
+  <link rel="stylesheet" href="/peripheral_brain/css/buttons.css" />
+
+  
+    <link rel="stylesheet" href="/peripheral_brain/css/diseases.css">
+  
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/peripheral_brain/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/peripheral_brain/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/peripheral_brain/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/peripheral_brain/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/peripheral_brain/favicons/safari-pinned-tab.svg" color="#465c8b">
+  <link rel="shortcut icon" href="/peripheral_brain/favicons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="Peripheral Brain">
+  <meta name="application-name" content="Peripheral Brain">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/peripheral_brain/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#cdcdcd">
+
+
+  
+  
+</head>
+
+
+<body class="body">
+<header id="myHeader" class="myHeader">
+  <nav>
+    <!-- <a href="/peripheral_brain/home.html"><img src="/peripheral_brain/images/logo_1000x1000.png" alt="Logo"> -->
+    <a href="/peripheral_brain/home.html">Home</a>
+    <a href="/peripheral_brain/disease_list.html">Diseases and Drugs</a>
+    <a href="/peripheral_brain/firstFive">TF5M</a>
+    <a href="/peripheral_brain/lab_values">Lab Values</a>
+    <a href="/peripheral_brain/formulas">Formulas</a>
+    <a href="/peripheral_brain/calculators.html">Calculators</a>
+    <a href="/peripheral_brain/search.html">Search</a>
+    <a href="javascript:void(0);" class="icon" onclick="openMenu()">&#9776;</a>
+  </nav>
+
+  <script>
+  function openMenu() {
+      var x = document.getElementById("myHeader");
+      if (x.className === "myHeader") {
+          x.className += " responsive";
+      } else {
+          x.className = "myHeader";
+      }
+  }
+  </script>
+</header>
+
+
+<h1 class="title">DMARDs</h1>
+
+<div class="contents twoCol">
+  <div class="toc col1">
+    
+      <ul>
+  <li><a href="#traditional-dmards">Traditional DMARDs</a>
+    <ul>
+      <li><a href="#methotrexate">Methotrexate</a>
+        <ul>
+          <li><a href="#ses">SEs</a></li>
+          <li><a href="#cis">CIs</a></li>
+          <li><a href="#monitoring">Monitoring</a></li>
+        </ul>
+      </li>
+      <li><a href="#leflunomide">Leflunomide</a>
+        <ul>
+          <li><a href="#ses-1">SEs</a></li>
+          <li><a href="#cis-1">CIs</a></li>
+          <li><a href="#monitoring-1">Monitoring</a></li>
+        </ul>
+      </li>
+      <li><a href="#hydroxychloroquine">Hydroxychloroquine</a>
+        <ul>
+          <li><a href="#ses-2">SEs</a></li>
+          <li><a href="#monitoring-2">Monitoring</a></li>
+        </ul>
+      </li>
+      <li><a href="#sulfasalazine">Sulfasalazine</a>
+        <ul>
+          <li><a href="#ses-3">SEs</a></li>
+          <li><a href="#monitoring-3">Monitoring</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#tnf-antagonists">TNF Antagonists</a>
+    <ul>
+      <li><a href="#agents">Agents</a></li>
+      <li><a href="#ses-4">SEs</a></li>
+      <li><a href="#precautions--warnings">Precautions / Warnings</a></li>
+      <li><a href="#cis-2">CIs</a></li>
+      <li><a href="#monitoring-4">Monitoring</a></li>
+      <li><a href="#golimumab">Golimumab</a>
+        <ul>
+          <li><a href="#monitoring-5">Monitoring</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#il-1-receptor-antagonists">IL-1 Receptor Antagonists</a>
+    <ul>
+      <li><a href="#anakinra-kineret">Anakinra (Kineret)</a>
+        <ul>
+          <li><a href="#ses-5">SEs</a></li>
+          <li><a href="#warning--precation">Warning / Precation</a></li>
+          <li><a href="#monitoring-6">Monitoring</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#anti-cd20-ig">Anti-CD20 Ig</a>
+    <ul>
+      <li><a href="#rituximab-rituxan">Rituximab (Rituxan)</a>
+        <ul>
+          <li><a href="#ses-6">SEs</a></li>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#monitoring-7">Monitoring</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#ctla-4-antagonist">CTLA-4 Antagonist</a>
+    <ul>
+      <li><a href="#abatacept-orencia">Abatacept (Orencia)</a>
+        <ul>
+          <li><a href="#ses-7">SEs</a></li>
+          <li><a href="#warning--precautions">Warning / Precautions</a></li>
+          <li><a href="#monitoring-8">Monitoring</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#il-6-inhibitor">IL-6 Inhibitor</a>
+    <ul>
+      <li><a href="#tocilizumab-actrema">Tocilizumab (Actrema)</a>
+        <ul>
+          <li><a href="#ses-8">SEs</a></li>
+          <li><a href="#warnings-1">Warnings</a></li>
+          <li><a href="#cis-3">CIs</a></li>
+          <li><a href="#monitoring-9">Monitoring</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#janus-kinase-inhibitors">Janus Kinase Inhibitors</a>
+    <ul>
+      <li><a href="#tofacitinib-xeljanz">Tofacitinib (Xeljanz)</a>
+        <ul>
+          <li><a href="#ses-9">SEs</a></li>
+          <li><a href="#warnings--precautions">Warnings / Precautions</a></li>
+          <li><a href="#cis-4">CIs</a></li>
+          <li><a href="#monitoring-10">Monitoring</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+    
+  </div>
+
+  <div class="content col2">
+    <h1 id="traditional-dmards">Traditional DMARDs</h1>
+
+<h2 id="methotrexate">Methotrexate</h2>
+
+<p>**MOA: **Inhibition of purine and pyrimidine synthesis (folic acid mimic)</p>
+
+<h3 id="ses">SEs</h3>
+
+<ul>
+  <li>Bone marrow suppression</li>
+  <li>N / V / D</li>
+  <li>Stomatitis / mucositis</li>
+  <li>Hepatic Cirrhosis</li>
+  <li>Hepatitis</li>
+  <li>Hepatic Fibrosis</li>
+  <li>Pneumonitis</li>
+  <li>Pulmonary Fibrosis</li>
+  <li>Rash</li>
+  <li>Urticaria</li>
+  <li>Alopecia</li>
+  <li>Teratogenicity</li>
+  <li>Bone marrow suppression, N / V / D, and stomatitis / mucositis may be improved with folate 1mg QD</li>
+</ul>
+
+<h3 id="cis">CIs</h3>
+
+<ul>
+  <li>Pregnancy</li>
+  <li>Lactating</li>
+  <li>Chronic liver disease
+    <ul>
+      <li>Caution w/ chronic EtOH use</li>
+    </ul>
+  </li>
+  <li>Immunodeficiency</li>
+  <li>Existing blood dyscrasias</li>
+  <li>Pleural or peritoneal effusion</li>
+  <li>CrCl &lt; 40</li>
+</ul>
+
+<h3 id="monitoring">Monitoring</h3>
+
+<ul>
+  <li>Baseline
+    <ul>
+      <li>CXR</li>
+      <li>CBC w/ Plt</li>
+      <li>SCr</li>
+      <li>Full Hepatic Panel</li>
+      <li>Hep B &amp; C Screening</li>
+    </ul>
+  </li>
+  <li>Maintenance: CBC, SCr, LFT
+    <ul>
+      <li>&lt; 3mo from initiation: q2-4wks</li>
+      <li>3-6mo: q8-12wks</li>
+      <li>&gt; 6mo: q12wks</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="leflunomide">Leflunomide</h2>
+
+<p>**MOA: **Prodrug inhibitor of pyrimidine synthesis via dihydroorotate dehydrogenase, leading to inhibition of T-cell proliferation</p>
+
+<h3 id="ses-1">SEs</h3>
+
+<ul>
+  <li><strong>Diarrhea</strong></li>
+  <li><strong>Rash</strong></li>
+  <li><strong>Alopecia</strong></li>
+  <li>Increased LFTs</li>
+  <li>Teratogenic in both males and females
+    <ul>
+      <li>Use cholestyramine 8g TID x11d to clear for conception</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="cis-1">CIs</h3>
+
+<ul>
+  <li>Pregnancy</li>
+</ul>
+
+<h3 id="monitoring-1">Monitoring</h3>
+
+<ul>
+  <li>Baseline
+    <ul>
+      <li>CBC</li>
+      <li>SCr</li>
+      <li>LFTs</li>
+    </ul>
+  </li>
+  <li>Maintenance: Same as MTX</li>
+</ul>
+
+<h2 id="hydroxychloroquine">Hydroxychloroquine</h2>
+
+<p>**MOA: **Inhibition of protein secretion by lysosomal accumulation</p>
+
+<h3 id="ses-2">SEs</h3>
+
+<ul>
+  <li>N / V / D</li>
+  <li>Increased skin pigmentation</li>
+  <li>Rash</li>
+  <li>Alopecia</li>
+  <li>Retinal Toxicity
+    <ul>
+      <li>Avoid in pts &gt; 70yo</li>
+      <li>Avoid cumulative lifetime dose &gt; 800g</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="monitoring-2">Monitoring</h3>
+
+<ul>
+  <li>Vision exam at baseline and q6-12mo</li>
+</ul>
+
+<h2 id="sulfasalazine">Sulfasalazine</h2>
+
+<p>**MOA: **Prodrug that surpasses cytokine release from macrophages via an unknown mechanism</p>
+
+<h3 id="ses-3">SEs</h3>
+
+<ul>
+  <li>N / V / D</li>
+  <li>Anorexia</li>
+  <li>Rash</li>
+  <li>Urticaria</li>
+  <li><strong>Photosensitivity</strong></li>
+  <li><strong>Sulfa Allergy</strong></li>
+  <li>Leukopenia</li>
+  <li>Thrombocytopenia</li>
+  <li>Rare Hematologic SEs
+    <ul>
+      <li>Aplastic Anemia</li>
+      <li>Hemolytic anemia</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="monitoring-3">Monitoring</h3>
+
+<ul>
+  <li>Baseline
+    <ul>
+      <li>LFTs</li>
+      <li>CBC</li>
+      <li>SCr</li>
+    </ul>
+  </li>
+  <li>Maintenance: Same as MTX</li>
+</ul>
+
+<h1 id="tnf-antagonists">TNF Antagonists</h1>
+
+<h2 id="agents">Agents</h2>
+
+<ul>
+  <li>Etanercept (Enbrel)</li>
+  <li>Infliximab (Remicade)</li>
+  <li>Adalimumab (Humira)</li>
+  <li>Golimumab (Simponi)</li>
+  <li>Certolizumab (Cimzia)</li>
+</ul>
+
+<h2 id="ses-4">SEs</h2>
+
+<ul>
+  <li>HA</li>
+  <li>Rash</li>
+  <li>URIs</li>
+  <li>Injection site reaction</li>
+  <li>CHF exacerbation</li>
+  <li>Risk of malignancy</li>
+  <li>Risk of demyelinating disease</li>
+</ul>
+
+<h2 id="precautions--warnings">Precautions / Warnings</h2>
+
+<ul>
+  <li>Increased risk of infection</li>
+  <li>Not for use w/ anakinra due to increased infection risk</li>
+  <li>Demyelinating disorders</li>
+  <li>Malignancies</li>
+  <li>CHF</li>
+  <li>No concurrent live vaccines</li>
+</ul>
+
+<h2 id="cis-2">CIs</h2>
+
+<ul>
+  <li>See precautions for class above</li>
+</ul>
+
+<h2 id="monitoring-4">Monitoring</h2>
+
+<ul>
+  <li>TB skin test before starting therapy</li>
+</ul>
+
+<h2 id="golimumab">Golimumab</h2>
+
+<h3 id="monitoring-5">Monitoring</h3>
+
+<ul>
+  <li>CBC w/ Plt</li>
+  <li>LFTs</li>
+</ul>
+
+<h1 id="il-1-receptor-antagonists">IL-1 Receptor Antagonists</h1>
+
+<h2 id="anakinra-kineret">Anakinra (Kineret)</h2>
+
+<h3 id="ses-5">SEs</h3>
+
+<ul>
+  <li>Injection site reaction</li>
+  <li>HA</li>
+  <li>N / V</li>
+  <li>Flu-like SSx</li>
+  <li>Hypersentivity to <em>E. coli</em> derived proteins</li>
+  <li>Increased risk of serious infections</li>
+  <li>Neutropenia</li>
+</ul>
+
+<h3 id="warning--precation">Warning / Precation</h3>
+
+<ul>
+  <li>Do not use w/ TNF inhibitors or abatacept due to infection risk</li>
+</ul>
+
+<h3 id="monitoring-6">Monitoring</h3>
+
+<ul>
+  <li>Neutrophil count at baseline, monthly x3mo, then q3mo x1yr</li>
+</ul>
+
+<h1 id="anti-cd20-ig">Anti-CD20 Ig</h1>
+
+<h2 id="rituximab-rituxan">Rituximab (Rituxan)</h2>
+
+<p><strong>MOA:</strong> Binds CD20 on B cells and activates NK cells against B cells, leading to apoptosis</p>
+
+<h3 id="ses-6">SEs</h3>
+
+<ul>
+  <li>T umor lysis syndrome</li>
+  <li>Mucocutaneous reactions</li>
+  <li>Viral infection</li>
+  <li>Hypersensitivity</li>
+  <li>Renal toxicity</li>
+  <li>Bowel obstruction</li>
+  <li>Hepatitis B reactivation</li>
+  <li>Cardiac arrhythmia</li>
+</ul>
+
+<h3 id="warnings">Warnings</h3>
+
+<ul>
+  <li><strong>Black Box:</strong> Fatal infusion reaction, tumor lysis syndrome, and mucocutaneous reactions</li>
+</ul>
+
+<h3 id="monitoring-7">Monitoring</h3>
+
+<ul>
+  <li>CBC w/ plts</li>
+  <li>SCr</li>
+  <li>Vital signs during infusion</li>
+</ul>
+
+<h1 id="ctla-4-antagonist">CTLA-4 Antagonist</h1>
+
+<h2 id="abatacept-orencia">Abatacept (Orencia)</h2>
+
+<p><strong>MOA:</strong> Inhibits co-stimulatory signal by binding to CTLA-4 on T<sub>C</sub> cells</p>
+
+<h3 id="ses-7">SEs</h3>
+
+<ul>
+  <li>HA</li>
+  <li>Nausea</li>
+  <li>URI</li>
+  <li>Nasopharyngitis</li>
+  <li>Infusion reaction</li>
+  <li>Serious infeciton</li>
+  <li>Malignancy</li>
+</ul>
+
+<h3 id="warning--precautions">Warning / Precautions</h3>
+
+<ul>
+  <li>Caution in COPD due to infection risk</li>
+  <li>No live vaccinations</li>
+  <li>Not for use w/ TNF inhibitors or IL-1 antagonists</li>
+</ul>
+
+<h3 id="monitoring-8">Monitoring</h3>
+
+<ul>
+  <li>No hematologic monitoring</li>
+</ul>
+
+<h1 id="il-6-inhibitor">IL-6 Inhibitor</h1>
+
+<h2 id="tocilizumab-actrema">Tocilizumab (Actrema)</h2>
+
+<h3 id="ses-8">SEs</h3>
+
+<ul>
+  <li>Serious infection</li>
+  <li>Hepatotoxicity</li>
+  <li>Thrombocytopenia</li>
+  <li>Neutropenia</li>
+  <li>Infusion reactions</li>
+  <li><strong>Lipid abnormalities</strong></li>
+  <li>Intestinal perforation</li>
+</ul>
+
+<h3 id="warnings-1">Warnings</h3>
+
+<ul>
+  <li><strong>Black Box:</strong> Serious infection</li>
+</ul>
+
+<h3 id="cis-3">CIs</h3>
+
+<ul>
+  <li>Liver toxicity</li>
+  <li>Thrombocytopenia</li>
+  <li>Neutropenia</li>
+</ul>
+
+<h3 id="monitoring-9">Monitoring</h3>
+
+<ul>
+  <li>Neutrophil Count q4-8wks</li>
+  <li>Plt Count q4-8wks</li>
+  <li>LFTs q4-8wks</li>
+  <li>Lipid Panel: After 4-8wks then q6mo</li>
+</ul>
+
+<h1 id="janus-kinase-inhibitors">Janus Kinase Inhibitors</h1>
+
+<h2 id="tofacitinib-xeljanz">Tofacitinib (Xeljanz)</h2>
+
+<h3 id="ses-9">SEs</h3>
+
+<ul>
+  <li>URI</li>
+  <li>HA</li>
+  <li>Diarrhea</li>
+  <li>Nasopharyngitis</li>
+</ul>
+
+<h3 id="warnings--precautions">Warnings / Precautions</h3>
+
+<ul>
+  <li>CYP Interactions</li>
+  <li>Do not use w/ hepatic impairment</li>
+  <li><strong>Black Box:</strong> Risk of infection and malignancy</li>
+</ul>
+
+<h3 id="cis-4">CIs</h3>
+
+<ul>
+  <li>Hgb &lt; 9</li>
+  <li>ANC &lt; 1000</li>
+  <li>Lymphocyte Count &lt; 500</li>
+</ul>
+
+<h3 id="monitoring-10">Monitoring</h3>
+
+<ul>
+  <li>Lymphocyte Count at baseline then q3mo</li>
+  <li>Neutrophil count at baseline, 4-8wks, then q3mo</li>
+  <li>Hgb at baseline, 4-8wks, then q3mo</li>
+</ul>
+
+  </div>
+
+</div>
+
+<div class="credits">
+  <p>Author: Corbin Cox <br>
+  Created: 2018-7-28 <br>
+  Last Updated: 2018-7-28</p>
+</div>
+
+<footer class="footer menus">
+  <nav>
+    <div class="footerLinks">
+      <a href="/peripheral_brain/home.html">Home</a>
+      <a href="/peripheral_brain/index.html">Disclaimer</a>
+    </div>
+  </nav>
+</footer>
+
+
+</body>
+</html>
