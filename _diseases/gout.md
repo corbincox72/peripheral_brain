@@ -14,7 +14,7 @@ Inflammatory arthritis caused by the deposition of uric acid crystals in the joi
 
 ## Purine Metabolism
 
-**INSERT IMAGE OF PURINE METABOLIC PATHWAY HERE**
+![Purine Metabolism]({{ site.baseurl }}/images/purineMetabolism.jpg)
 
 # Risk Factors
 
