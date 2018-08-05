@@ -1,5 +1,5 @@
 ---
-title: Steroids (Incomplete)
+title: Steroids
 layout: diseases
 author: Corbin Cox
 last-updated: 2018-8-1
@@ -75,10 +75,19 @@ common: false
   * Anemia
   * Low BP in Addison's Disease (due to concomitant hypoaldosteronism)
   * Hyperpigmentation of skin in Addison's (ACTH precursor cleaved to increase adrenal output, but cleavage also produces melanocyte stimulating hormone)
+* Treatment
+  * Hydrocortisone 15-25 mg QD or cortisone 20-35 mg QD or Prednisone 3-5mg QD
+  * Acute Adrenal Crisis: 100mg IV hydrocortisone followed by 200mg QD (NTE 200-400mg QD) continuous infusion x24hr, reduce to 100mg QD once stable, then taper
 
 ### Cushing's
 
 * Hypersecretion of adrenal hormones or excessive administration of external GCs
+* DDx
+  * Suspicion of Cushing's should be investigated with 24hr urine cortisol and low-dose dexamethasone suppression test
+  * If abnormal, test plasma ACTH and high-dose dexamethasone suppression test
+  * Low ACTH and no suppression => Adrenal Tumor / Adrenal Cushing's
+  * High ACTH and no suppression => Ectopic Cushing's
+  * High ACTH and suppression => Pituitary Cushing's
 * Pathophysiology
   * Either adrenal tumor, pituitary tumor, or ectopic tumor producing ACTH
   * Differentiation by ACTH level (high in secondary and tertiary, low in primary)
@@ -106,9 +115,56 @@ common: false
   * Alkalosis (via opposite mechanism of Type IV RTA, high export of H+ due to incredible aldosterone levels)
   * HTN
 
-  **Pick up here at beginning of individual GCs (Slide 18)**
+## Glucocorticoid Properties
+
+| Injectable / PO Steroids  | GC Activity | MC Activity | Equivalent Physiologic Dose (mg QD) | Notes                                                        |
+| ------------------------- | ----------- | ----------- | ----------------------------------- | ------------------------------------------------------------ |
+| Cortisol (Hydrocortisone) | 1           | 1           | 20                                  | Short Acting                                                 |
+| Cortisone                 | 0.8         | 0.8         | 25                                  | Short Acting                                                 |
+| Prednisone                | 4           | 0.3         | 5                                   | Intermediate Acting<br />Prodrug                             |
+| Prednisolone              | 4           | 0.3         | 5                                   | Intermediate Acting<br />Biologically Active                 |
+| Methylprednisolone        | 5           | 0           | 4                                   | Intermediate Acting                                          |
+| Triamcinolone             | 5           | 0           | 4                                   | Intermediate Acting<br />More hydrophilic<br />Low PO Bioavailability |
+| Dexamethasone             | 25          | 0           | 0.7                                 | Long Acting<br />Lipophilic                                  |
+| Betamethasone             | 25          | 0           | 0.7                                 | Long Acting<br />Lipophilic                                  |
+| Fludrocortisone           | 10          | 125         | n/a                                 | Used for MC replacement therapy                              |
+
+| Topical Steroids        | Notes             |
+| ----------------------- | ----------------- |
+| Triamcinolone Acetonide | High Potency      |
+| Betamethasone valerate  | Medium Potency    |
+| Clobetasol propionate   | Very High Potency |
+| Halobetasol propionate  | Very High Potency |
+| Halcinonide             | High Potency      |
+| Fluticasone propionate  | Medium potency    |
+| Mometasone furoate      | Medium potency    |
+
+### Pharmacologic Dosing of Systemic GCs
+
+* All in Prednisone equivalents
+* Maintenance: 5-15mg QD
+* Moderate: 0.5 mg/kg QD
+* High: 1-3 mg/kg QD
+* Massive: 15-30 mg/kg QD
+* Taper if using &ge; 7.5mg prednisone QD &gt; 3wks by reducing dose by 20mg prednisone equivalents QD
+
+## SEs
+
+* Infection
+* Muscle weakness / wasting
+* Osteoporosis
+* Nervousness
+* Anxiety
+* Insomnia
+* Psychosis
+* Increased BP and fluid retention
+* High BP
+* Increased Wt
+* Ulcers
+* Cataracts
 
 # Mineralocorticoids
 
 * Regulated by RAAS
   * Increased levels of Ang II leads to increased release of Aldosterone from the adrenal cortex
+* Only commonly used drug is fludrocortisone
