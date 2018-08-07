@@ -90,6 +90,7 @@ Pro-GLP-1 is released upon entry of food into the duodenum, which stimulates ins
 * Hypoglycemia
 * Wt gain
 ### Pharmacokinetics
+
 | Insulin   | Classification | Onest (hr) | Peak (hr) | Duration (hr) |
 |-----------|----------------|------------|-----------|---------------|
 | Aspart    | US             | 0.25-0.5   | 1-2       | 3-5           |
@@ -100,6 +101,7 @@ Pro-GLP-1 is released upon entry of food into the duodenum, which stimulates ins
 | Glargine  | Long           | 4-5        | No Peak   | 22-24         |
 | Detemir   | Long           | 2          | No Peak   | 14-24         |
 | Degludec  | Ultra-Long     | 1-2        | No Peak   | &approx; 40   |
+
 ### Misc
 * Only NPH and NPH mixtures should be cloudy
 * NPH can be mixed with R and the ultra-short-acting
