@@ -77,16 +77,17 @@ $$
 | WBC           | 4.5-10    | High           | High           | High           | High            |
 
 ## Treatment
-* **MAKE FLUID FLOWCHART IN LATEX AND INSERT HERE**
+![DKA/HHS Fluid Resus Flowchart]({{ site.baseurl }}/flowcharts/dkaFluidResus/dkaFluidResus.svg)
+
 * Insulin 0.1 U/kg bolus then 0.1 U/kg/hr OR 0.14 U/kg/hr w/ no bolus
 * Decrease rate to 0.02-0.05 U/kg/hr once BG controlled
-	* &le; 200 in DKA or &le; 300 in HHS
+  * &le; 200 in DKA or &le; 300 in HHS
 * Do not initiate insulin if K &lt; 3.3 mEq/L, replete to &approx; 5 w/ 20 mEq/L containing fluids
 * Replete Phos if &lt; 1 or if exhibiting organ dysfunction by protocol (usually 20-30 mEq added to 1L of fluid)
 * Bicarb may not be efficacious, consider LR or other balanced salt solution alternated or in place of NS in order to help correct acidosis
-	* Use will drive K down farther
+  * Use will drive K down farther
 * Transition to SubQ insulin when pt is eating and hyperglycemic crisis has resolved
-	* Overlap SubQ w/ IV infusion for 1-2hrs
+  * Overlap SubQ w/ IV infusion for 1-2hrs
 
 ## Monitoring
 * Hypoglycemia
