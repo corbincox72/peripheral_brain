@@ -1,4 +1,4 @@
-----
+---
 title: Acute Coronary Syndromes
 layout: diseases
 author: Corbin Cox

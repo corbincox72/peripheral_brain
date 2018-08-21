@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>DM | The Peripheral Brain</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+
+  <link rel="stylesheet" href="/peripheral_brain/css/main.css" />
+  <link rel="stylesheet" href="/peripheral_brain/css/mobile.css" />
+  <link rel="stylesheet" href="/peripheral_brain/css/buttons.css" />
+
+  
+    <link rel="stylesheet" href="/peripheral_brain/css/diseases.css">
+  
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/peripheral_brain/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/peripheral_brain/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/peripheral_brain/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/peripheral_brain/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/peripheral_brain/favicons/safari-pinned-tab.svg" color="#465c8b">
+  <link rel="shortcut icon" href="/peripheral_brain/favicons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="Peripheral Brain">
+  <meta name="application-name" content="Peripheral Brain">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/peripheral_brain/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#cdcdcd">
+
+
+  
+  
+</head>
+
+
+<body class="body">
+<header id="myHeader" class="myHeader">
+  <nav>
+    <!-- <a href="/peripheral_brain/home.html"><img src="/peripheral_brain/images/logo_1000x1000.png" alt="Logo"> -->
+    <a href="/peripheral_brain/home.html">Home</a>
+    <a href="/peripheral_brain/disease_list.html">Diseases and Drugs</a>
+    <a href="/peripheral_brain/firstFive">TF5M</a>
+    <a href="/peripheral_brain/lab_values">Lab Values</a>
+    <a href="/peripheral_brain/formulas">Formulas</a>
+    <a href="/peripheral_brain/calculators.html">Calculators</a>
+    <a href="/peripheral_brain/search.html">Search</a>
+    <a href="javascript:void(0);" class="icon" onclick="openMenu()">&#9776;</a>
+  </nav>
+
+  <script>
+  function openMenu() {
+      var x = document.getElementById("myHeader");
+      if (x.className === "myHeader") {
+          x.className += " responsive";
+      } else {
+          x.className = "myHeader";
+      }
+  }
+  </script>
+</header>
+
+
+<h1 class="title">DM</h1>
+
+<div class="contents twoCol">
+  <div class="toc col1">
+    
+      <ul>
+  <li><a href="#dm">DM</a>
+    <ul>
+      <li><a href="#dx-criteria-and-goals">Dx Criteria and Goals</a></li>
+      <li><a href="#ssx">SSx</a></li>
+      <li><a href="#treatment">Treatment</a></li>
+      <li><a href="#monitoring">Monitoring</a></li>
+    </ul>
+  </li>
+  <li><a href="#dka--hhs">DKA / HHS</a>
+    <ul>
+      <li><a href="#ddx">DDx</a></li>
+      <li><a href="#treatment-1">Treatment</a></li>
+      <li><a href="#monitoring-1">Monitoring</a>
+        <ul>
+          <li><a href="#resolution-criteria">Resolution Criteria</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+    
+  </div>
+
+  <div class="content col2">
+    <h1 id="dm">DM</h1>
+<h2 id="dx-criteria-and-goals">Dx Criteria and Goals</h2>
+<ul>
+  <li>Criteria
+    <ul>
+      <li>FBG ≥ 126 mg/dL</li>
+      <li>A1C ≥ 6.5%</li>
+      <li>Randomg BG &gt; 200</li>
+      <li>2hr PPBG ≥ 200 during OGTT w/ 75g load</li>
+    </ul>
+  </li>
+  <li>Goals
+    <ul>
+      <li>FBG &lt; 120</li>
+      <li>A1C
+        <ul>
+          <li>ADA: ≤ 7%</li>
+          <li>AACE ≤ 6.5%</li>
+        </ul>
+      </li>
+      <li>Alb:SCr &lt; 30 mcg/mg</li>
+      <li>BP &lt; 130/80
+<script type="math/tex">\overline{eBG} = 28.6 \times A1C - 46.7</script></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="ssx">SSx</h2>
+<ul>
+  <li>High BG</li>
+  <li>Polyuria</li>
+  <li>Polydypsia</li>
+  <li>Infection</li>
+  <li>Blurred vision</li>
+  <li>Ketoacidosis</li>
+</ul>
+
+<h2 id="treatment">Treatment</h2>
+<p><strong>Basal-Bolus insuling for T1DM</strong>
+<a href="/peripheral_brain/drugClasses/hypoglycemics">See Hypoglycemics for Therapy Dosing and SEs</a></p>
+<ol>
+  <li>Initiate lifestyle modifications and metformin</li>
+  <li>Add second drug after 3mo</li>
+  <li>Add third drug after additional 3mo</li>
+  <li>Add insulin at any point if necessary</li>
+  <li>Switch to basal-bolus or basal &amp; GLP-1 for tightest control</li>
+  <li>PP Hyperglycemi is best treated with GLP-1s, DPP-4 inhibitors, amylin analogs, or &amp;alph;-glucosidase inhibitors</li>
+</ol>
+
+<p><img src="http://care.diabetesjournals.org/content/diacare/41/Supplement_1/S73/F1.large.jpg?width=800&amp;height=600&amp;carousel=1" alt="Antihyperglycemic Therapy Algorithm from ADA" /></p>
+
+<p><img src="http://care.diabetesjournals.org/content/diacare/41/Supplement_1/S73/F2.large.jpg?width=800&amp;height=600&amp;carousel=1" alt="Proceed from Basal Insulin ADA Algorithm" /></p>
+
+<h2 id="monitoring">Monitoring</h2>
+<ul>
+  <li>Screen all pts ≥ 45yo or overweight individuals
+    <ul>
+      <li>Repeat q3yr if normal</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="dka--hhs">DKA / HHS</h1>
+<h2 id="ddx">DDx</h2>
+<ul>
+  <li>HHS is commonly caused by dehydration</li>
+  <li>DKA is commonly caused by an absolute lack of insulin</li>
+  <li>Calculate corrected Na before correcting, preferably fix underlying BG problem before correcting at all
+    <ul>
+      <li>Corrected Na = $ \text{Na} + 0.16 \times (\text{BG}-100) $</li>
+    </ul>
+  </li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Lab</th>
+      <th>Normal</th>
+      <th>Mild DKA</th>
+      <th>Moderate DKA</th>
+      <th>Severe DKA</th>
+      <th>HHS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BG</td>
+      <td>90-130</td>
+      <td>&gt; 250</td>
+      <td>&gt; 250</td>
+      <td>&gt; 250</td>
+      <td>&gt; 600</td>
+    </tr>
+    <tr>
+      <td>apH</td>
+      <td>7.35-7.45</td>
+      <td>7.25-7.3</td>
+      <td>7-7.25</td>
+      <td>&lt; 7</td>
+      <td>&gt; 7.3</td>
+    </tr>
+    <tr>
+      <td>Bicarb</td>
+      <td>22-26</td>
+      <td>15-18</td>
+      <td>&lt; 15</td>
+      <td>&lt; 10</td>
+      <td>&gt; 18</td>
+    </tr>
+    <tr>
+      <td>Urine Ketones</td>
+      <td>-</td>
+      <td>+</td>
+      <td>+</td>
+      <td>+</td>
+      <td>Small</td>
+    </tr>
+    <tr>
+      <td>Serum Ketones</td>
+      <td>-</td>
+      <td>+</td>
+      <td>+</td>
+      <td>+</td>
+      <td>Small</td>
+    </tr>
+    <tr>
+      <td>Osm</td>
+      <td>275-300</td>
+      <td>Variable</td>
+      <td>Variable</td>
+      <td>Variable</td>
+      <td>&gt; 320</td>
+    </tr>
+    <tr>
+      <td>Anion Gap</td>
+      <td>7-9</td>
+      <td>&gt; 10</td>
+      <td>&gt; 12</td>
+      <td>&gt; 12</td>
+      <td>Variable</td>
+    </tr>
+    <tr>
+      <td>Mental Status</td>
+      <td>Alert</td>
+      <td>Alert</td>
+      <td>Drowsy</td>
+      <td>Stupor / Coma</td>
+      <td>Stupor / Coma</td>
+    </tr>
+    <tr>
+      <td>Na</td>
+      <td>135-145</td>
+      <td>Mild Decrease</td>
+      <td>Mild Decrease</td>
+      <td>Mild Decrease</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>K</td>
+      <td>3.5-5</td>
+      <td>Normal or High</td>
+      <td>Normal or High</td>
+      <td>Normal or High</td>
+      <td>Normal or Low</td>
+    </tr>
+    <tr>
+      <td>SCr</td>
+      <td>0.6-1.3</td>
+      <td>Slightly High</td>
+      <td>Slightly High</td>
+      <td>Slightly High</td>
+      <td>Moderately High</td>
+    </tr>
+    <tr>
+      <td>BUN</td>
+      <td>6-20</td>
+      <td>High</td>
+      <td>High</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Amylase</td>
+      <td>23-85</td>
+      <td>High</td>
+      <td>High</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Lipase</td>
+      <td>0-160</td>
+      <td>High</td>
+      <td>High</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>WBC</td>
+      <td>4.5-10</td>
+      <td>High</td>
+      <td>High</td>
+      <td>High</td>
+      <td>High</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="treatment-1">Treatment</h2>
+<p><img src="/peripheral_brain/flowcharts/dkaFluidResus/dkaFluidResus.svg" alt="DKA/HHS Fluid Resus Flowchart" /></p>
+
+<ul>
+  <li>Insulin 0.1 U/kg bolus then 0.1 U/kg/hr OR 0.14 U/kg/hr w/ no bolus</li>
+  <li>Decrease rate to 0.02-0.05 U/kg/hr once BG controlled
+    <ul>
+      <li>≤ 200 in DKA or ≤ 300 in HHS</li>
+    </ul>
+  </li>
+  <li>Do not initiate insulin if K &lt; 3.3 mEq/L, replete to &amp;approx; 5 w/ 20 mEq/L containing fluids</li>
+  <li>Replete Phos if &lt; 1 or if exhibiting organ dysfunction by protocol (usually 20-30 mEq added to 1L of fluid)</li>
+  <li>Bicarb may not be efficacious, consider LR or other balanced salt solution alternated or in place of NS in order to help correct acidosis
+    <ul>
+      <li>Use will drive K down farther</li>
+    </ul>
+  </li>
+  <li>Transition to SubQ insulin when pt is eating and hyperglycemic crisis has resolved
+    <ul>
+      <li>Overlap SubQ w/ IV infusion for 1-2hrs</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="monitoring-1">Monitoring</h2>
+<ul>
+  <li>Hypoglycemia</li>
+  <li>Hypokalemia</li>
+  <li>Gradually increase Na to avoid cerebral edema
+    <h3 id="resolution-criteria">Resolution Criteria</h3>
+  </li>
+  <li>DKA
+    <ul>
+      <li>BG &lt; 200 and 2 of the following
+        <ul>
+          <li>Bicarb ≥ 15</li>
+          <li>vpH &gt; 7.3</li>
+          <li>Anion Gap ≤ 12</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>HHS
+    <ul>
+      <li>BG &lt; 300</li>
+      <li>Normal Osm</li>
+      <li>Normal Mental Status</li>
+    </ul>
+  </li>
+  <li>Markdown 4396 bytes 686 words 105 lines Ln 47, Col 1 HTML 2346 characters 497 words 170 paragraphs</li>
+</ul>
+
+  </div>
+
+</div>
+
+<div class="credits">
+  <p>Author: Corbin Cox <br>
+  Created: 2018-8-6 <br>
+  Last Updated: 2018-8-6</p>
+</div>
+
+<footer class="footer menus">
+  <nav>
+    <div class="footerLinks">
+      <a href="/peripheral_brain/home.html">Home</a>
+      <a href="/peripheral_brain/index.html">Disclaimer</a>
+    </div>
+  </nav>
+</footer>
+
+
+</body>
+</html>

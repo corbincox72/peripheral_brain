@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Hypoglycemics | The Peripheral Brain</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+
+  <link rel="stylesheet" href="/peripheral_brain/css/main.css" />
+  <link rel="stylesheet" href="/peripheral_brain/css/mobile.css" />
+  <link rel="stylesheet" href="/peripheral_brain/css/buttons.css" />
+
+  
+    <link rel="stylesheet" href="/peripheral_brain/css/diseases.css">
+  
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/peripheral_brain/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/peripheral_brain/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/peripheral_brain/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/peripheral_brain/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/peripheral_brain/favicons/safari-pinned-tab.svg" color="#465c8b">
+  <link rel="shortcut icon" href="/peripheral_brain/favicons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="Peripheral Brain">
+  <meta name="application-name" content="Peripheral Brain">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/peripheral_brain/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#cdcdcd">
+
+
+  
+  
+</head>
+
+
+<body class="body">
+<header id="myHeader" class="myHeader">
+  <nav>
+    <!-- <a href="/peripheral_brain/home.html"><img src="/peripheral_brain/images/logo_1000x1000.png" alt="Logo"> -->
+    <a href="/peripheral_brain/home.html">Home</a>
+    <a href="/peripheral_brain/disease_list.html">Diseases and Drugs</a>
+    <a href="/peripheral_brain/firstFive">TF5M</a>
+    <a href="/peripheral_brain/lab_values">Lab Values</a>
+    <a href="/peripheral_brain/formulas">Formulas</a>
+    <a href="/peripheral_brain/calculators.html">Calculators</a>
+    <a href="/peripheral_brain/search.html">Search</a>
+    <a href="javascript:void(0);" class="icon" onclick="openMenu()">&#9776;</a>
+  </nav>
+
+  <script>
+  function openMenu() {
+      var x = document.getElementById("myHeader");
+      if (x.className === "myHeader") {
+          x.className += " responsive";
+      } else {
+          x.className = "myHeader";
+      }
+  }
+  </script>
+</header>
+
+
+<h1 class="title">Hypoglycemics</h1>
+
+<div class="contents twoCol">
+  <div class="toc col1">
+    
+      <ul>
+  <li><a href="#physiology">Physiology</a></li>
+  <li><a href="#injectable">Injectable</a>
+    <ul>
+      <li><a href="#insulin">Insulin</a>
+        <ul>
+          <li><a href="#drugs">Drugs</a></li>
+          <li><a href="#dosing">Dosing</a></li>
+          <li><a href="#ses">SEs</a></li>
+          <li><a href="#pharmacokinetics">Pharmacokinetics</a></li>
+          <li><a href="#misc">Misc</a></li>
+        </ul>
+      </li>
+      <li><a href="#glp-1-agonists">GLP-1 Agonists</a>
+        <ul>
+          <li><a href="#drugs-1">Drugs</a></li>
+          <li><a href="#efficacy">Efficacy</a></li>
+          <li><a href="#ses-1">SEs</a></li>
+          <li><a href="#cis">CIs</a></li>
+        </ul>
+      </li>
+      <li><a href="#misc-1">Misc</a></li>
+    </ul>
+  </li>
+  <li><a href="#oral">Oral</a>
+    <ul>
+      <li><a href="#sulfonylureas-and-meglitinides">Sulfonylureas and Meglitinides</a>
+        <ul>
+          <li><a href="#moa">MOA</a></li>
+          <li><a href="#dosing-1">Dosing</a></li>
+          <li><a href="#efficacy-1">Efficacy</a></li>
+          <li><a href="#ses-2">SEs</a></li>
+          <li><a href="#cautions">Cautions</a></li>
+          <li><a href="#treatment-failure">Treatment Failure</a></li>
+        </ul>
+      </li>
+      <li><a href="#metformin">Metformin</a>
+        <ul>
+          <li><a href="#moa-1">MOA</a></li>
+          <li><a href="#dosing-2">Dosing</a></li>
+          <li><a href="#efficacy-2">Efficacy</a></li>
+          <li><a href="#ses-3">SEs</a></li>
+          <li><a href="#cis-1">CIs</a></li>
+        </ul>
+      </li>
+      <li><a href="#sglt-2-inhibitors">SGLT-2 Inhibitors</a>
+        <ul>
+          <li><a href="#moa-2">MOA</a></li>
+          <li><a href="#dosing-3">Dosing</a></li>
+          <li><a href="#efficacy-3">Efficacy</a></li>
+          <li><a href="#ses-4">SEs</a></li>
+        </ul>
+      </li>
+      <li><a href="#thiazolidinediones">Thiazolidinediones</a>
+        <ul>
+          <li><a href="#moa-3">MOA</a></li>
+          <li><a href="#dosing-4">Dosing</a></li>
+          <li><a href="#efficacy-4">Efficacy</a></li>
+          <li><a href="#ses-5">SEs</a></li>
+        </ul>
+      </li>
+      <li><a href="#dpp-4-inhibitors">DPP-4 Inhibitors</a>
+        <ul>
+          <li><a href="#dosing-5">Dosing</a></li>
+          <li><a href="#efficacy-5">Efficacy</a></li>
+          <li><a href="#ses-6">SEs</a></li>
+        </ul>
+      </li>
+      <li><a href="#α-glucosidase-inhibitors">α-Glucosidase Inhibitors</a>
+        <ul>
+          <li><a href="#moa-4">MOA</a></li>
+          <li><a href="#dosing-6">Dosing</a></li>
+          <li><a href="#efficacy-6">Efficacy</a></li>
+          <li><a href="#ses-7">SEs</a></li>
+          <li><a href="#cis-2">CIs</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+    
+  </div>
+
+  <div class="content col2">
+    <h1 id="physiology">Physiology</h1>
+<p>Insulin and glucagon are the primary controllers of glucose metabolism and BG levels. Insulin is released and binds to insulin receptors on target cells, which then phosphorylates itself, leading to intracellular activation and phosphorylation of target proteins.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Transporter</th>
+      <th>Glucose Km</th>
+      <th>Activity</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GLUT 1</td>
+      <td>1-2 mM</td>
+      <td>Constitutive</td>
+      <td>Widely Expressed</td>
+    </tr>
+    <tr>
+      <td>GLUT 2</td>
+      <td>15-20 mM</td>
+      <td>Constitutive</td>
+      <td>β-Cells, Liver</td>
+    </tr>
+    <tr>
+      <td>GLUT 3</td>
+      <td>&lt; 1 mM</td>
+      <td>Constitutive</td>
+      <td>Neurons</td>
+    </tr>
+    <tr>
+      <td>GLUT 4</td>
+      <td>5 mM</td>
+      <td>Insulin Induced</td>
+      <td>Skeletal Muscle<br /> Adipocytes</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Insulin is released from the pancreactic β-cells after a complex signalling pathway. first, glucose enters through GLUT2 transporters, and are rapidly metabolized by glucokinase (which is un-saturated at physiologic concentrations and produces G6P at a rate proportional to the concentration in the cell). Subsequent glucose metabolism increased the level of ATP in the cell relative to ADP, which closes an ATP-gated K channel, removing a hyperpolarizing stimuli, which in turn depolarizes the cell, triggering the activation of VCa channels. The influx of calcium mobilizes insulin granules on myosin filaments, leading to insulin release.</p>
+
+<p>Pro-GLP-1 is released upon entry of food into the duodenum, which stimulates insulin release, suppresses glucagon release, slows gastric emptying, and enhances β-cell proliferation and function. GLP-1 is broken down in plasma by DPP-4</p>
+
+<h1 id="injectable">Injectable</h1>
+<h2 id="insulin">Insulin</h2>
+<h3 id="drugs">Drugs</h3>
+<ul>
+  <li>Ultra-Short-Acting
+    <ul>
+      <li>Aspart (Novolog)</li>
+      <li>Lispro (Humalog)</li>
+      <li>Glulisine (Apidra)</li>
+    </ul>
+  </li>
+  <li>Short-Acting
+    <ul>
+      <li>Regular (Insulin R)</li>
+    </ul>
+  </li>
+  <li>Intermediate-Acting
+    <ul>
+      <li>NPH (Insulin N, Neutral Protamine Hagedorn)</li>
+    </ul>
+  </li>
+  <li>Long-Acting
+    <ul>
+      <li>Detemir (Levemir)</li>
+      <li>Glargine (Lantus)</li>
+      <li>Degludec (Tresiba)
+        <h3 id="dosing">Dosing</h3>
+      </li>
+    </ul>
+  </li>
+  <li>Dosing Principles
+    <ul>
+      <li>50-70% of TDD should be basal</li>
+      <li>A1C &gt; 10%, 70% of problem is FBS</li>
+      <li>A1C &lt; 7.5%, 70% of problem is PPG</li>
+    </ul>
+  </li>
+  <li>T1DM
+    <ul>
+      <li>Insulin Naive
+        <ul>
+          <li>Honeymoon Phase: 0.1-0.4 U/kg QD</li>
+          <li>Normal: 0.5-0.6 U/kg QD (Wt)</li>
+          <li>1U:15g carbs is typical carb ratio</li>
+          <li>NPH Combo: 2/3 am and 1/3 PM, with 2/3 dose NPH and 1/3 SA or USA</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>T2DM
+    <ul>
+      <li>Naive
+        <ul>
+          <li>ADA: 0.1-0.2 U/kg QD Basal</li>
+          <li>AACE: 0.1-0.2 U/kg QD if A1C &lt;  8%, otherwise 0.2-0.3 U/kg QD Basal</li>
+          <li>FBS / 18</li>
+          <li>Wt (kg) / 10</li>
+        </ul>
+      </li>
+      <li>Adjustment
+        <ul>
+          <li>ADA: 10-15% or 2-4 U increase weekly or twice weekly</li>
+          <li>AACE: Titrate q2-3d</li>
+        </ul>
+      </li>
+      <li>Initiation of Bolus
+        <ul>
+          <li>1-2U:15g</li>
+          <li>0.1 U/kg</li>
+          <li>10% basal dose</li>
+          <li>4-5 U/meal</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Carb Ratios
+    <ul>
+      <li>500 / total daily insulin dose = x =&gt; 1U:xg</li>
+      <li>Take total carbs over 3 days and divide by total bolus insulin given</li>
+    </ul>
+  </li>
+  <li>Correction Factor
+    <ul>
+      <li>1500 / TDD (all insulin) = Δ BG (mg/dL) / 1U Insulin Regular</li>
+      <li>1800/ TDD (all insulin) = Δ BG (mg/dL) / 1U USA</li>
+    </ul>
+  </li>
+  <li>Somogyi Effect
+    <ul>
+      <li>Pts may experience nocturnal hypoglycemia with rebounding hyperglycemia in the morning</li>
+      <li>DDx w/ 3am BG</li>
+      <li>Add snack, move NPH to dinner instead of bed, or decrease LA dose before bed</li>
+    </ul>
+  </li>
+  <li>Acute Illness
+    <ul>
+      <li>BG Q4H</li>
+      <li>Test urine ketones in T1DM</li>
+      <li>Correct BG as needed</li>
+      <li>Maintain fluid intake</li>
+      <li>Continue insulin even if food intake is decreased</li>
+    </ul>
+  </li>
+  <li>Conversion
+    <ul>
+      <li>Convert to concentrated if TDD ≥ 200-300 U</li>
+      <li>QD NPH to LA is same dose</li>
+      <li>BID NPH to LA is 80% of dose</li>
+      <li>LA U-100 convert 1:1</li>
+      <li>BID NPH to U-300 glargine is 80% of dose</li>
+      <li>LA to U-200 degludec is 1:1</li>
+      <li>Lispro U-100 to U-200 is 1:1</li>
+      <li>U-100 TDD to U-500 may need 80%
+        <h3 id="ses">SEs</h3>
+      </li>
+    </ul>
+  </li>
+  <li>Hypoglycemia</li>
+  <li>Wt gain
+    <h3 id="pharmacokinetics">Pharmacokinetics</h3>
+  </li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Insulin</th>
+      <th>Classification</th>
+      <th>Onest (hr)</th>
+      <th>Peak (hr)</th>
+      <th>Duration (hr)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Aspart</td>
+      <td>US</td>
+      <td>0.25-0.5</td>
+      <td>1-2</td>
+      <td>3-5</td>
+    </tr>
+    <tr>
+      <td>Lispro</td>
+      <td>US</td>
+      <td>0.25-0.5</td>
+      <td>1-2</td>
+      <td>3-4</td>
+    </tr>
+    <tr>
+      <td>Glulisine</td>
+      <td>US</td>
+      <td>0.25-0.5</td>
+      <td>1-2</td>
+      <td>3-4</td>
+    </tr>
+    <tr>
+      <td>Regular</td>
+      <td>Short</td>
+      <td>0.5-1</td>
+      <td>2-3</td>
+      <td>4-6</td>
+    </tr>
+    <tr>
+      <td>NPH</td>
+      <td>Intermediate</td>
+      <td>2-4</td>
+      <td>4-8</td>
+      <td>8-12</td>
+    </tr>
+    <tr>
+      <td>Glargine</td>
+      <td>Long</td>
+      <td>4-5</td>
+      <td>No Peak</td>
+      <td>22-24</td>
+    </tr>
+    <tr>
+      <td>Detemir</td>
+      <td>Long</td>
+      <td>2</td>
+      <td>No Peak</td>
+      <td>14-24</td>
+    </tr>
+    <tr>
+      <td>Degludec</td>
+      <td>Ultra-Long</td>
+      <td>1-2</td>
+      <td>No Peak</td>
+      <td>&amp;approx; 40</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="misc">Misc</h3>
+<ul>
+  <li>Only NPH and NPH mixtures should be cloudy</li>
+  <li>NPH can be mixed with R and the ultra-short-acting</li>
+</ul>
+
+<h2 id="glp-1-agonists">GLP-1 Agonists</h2>
+<h3 id="drugs-1">Drugs</h3>
+<ul>
+  <li>Exenatide (Byetta, Bydureon, Exendin 4)
+    <ul>
+      <li>From Gila Monster</li>
+      <li>Byetta 5mcg BID x1mo then 10mcg BID</li>
+      <li>Bydureon 2mg weekly</li>
+    </ul>
+  </li>
+  <li>Liraglutide (Victoza)
+    <ul>
+      <li>0.6mg QD x7d then 1.2mg NTE 1.8mg QD</li>
+    </ul>
+  </li>
+  <li>Dulaglutide (Trulicity)
+    <ul>
+      <li>0.75mg weekly NTE 1.5mg weekly</li>
+    </ul>
+  </li>
+  <li>Lixisenatide (Adlyxin)
+    <ul>
+      <li>10mcg QD x14d then 20mcg QD
+        <h3 id="efficacy">Efficacy</h3>
+      </li>
+    </ul>
+  </li>
+  <li>A1C: ↓ 0.4-0.7%</li>
+  <li>Wt: ↓ 1.5kg
+    <h3 id="ses-1">SEs</h3>
+  </li>
+  <li>Lower risk of hypoglycemia than other agents</li>
+  <li>N / V can be severe</li>
+  <li>Risk of pancreatitis</li>
+  <li>May cause wt loss
+    <h3 id="cis">CIs</h3>
+  </li>
+  <li>Hx of Thyroid C-Cell Tumors</li>
+</ul>
+
+<h2 id="misc-1">Misc</h2>
+<ul>
+  <li>Amylin Analog
+    <ul>
+      <li>Pramlintide (Symlin)
+        <ul>
+          <li>T1DM: 15mcg prior to major meals titrated to 30-60mcg</li>
+          <li>T2DM: 60mcg titrated to 120mcg</li>
+          <li>Titrate after nausea resolves</li>
+          <li>Decrease RA Insulin dose by 50%</li>
+        </ul>
+      </li>
+      <li>Delays gastric emptying and inhibits glucagon secretion</li>
+      <li>Used in combo w/ insulin</li>
+      <li>A1C ↓ 0.4-0.7%, wt ↓ 1.5kg</li>
+      <li>SEs
+        <ul>
+          <li>Anorexia</li>
+          <li>Hypoglycemia w/ insulin</li>
+          <li>N / V</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="oral">Oral</h1>
+<h2 id="sulfonylureas-and-meglitinides">Sulfonylureas and Meglitinides</h2>
+<h3 id="moa">MOA</h3>
+<p>Bind ATP-Gated K channel, forcing it closed, and causing the signalling cascade regardless of BG</p>
+<h3 id="dosing-1">Dosing</h3>
+<ul>
+  <li>Glipizide (Glucotrol)
+    <ul>
+      <li>2.5-5mg QD NTE 40mg</li>
+      <li>2.5-5 QD NTE 20mg XL</li>
+    </ul>
+  </li>
+  <li>Glyburide (Glynase, Diabeta, Micronase)
+    <ul>
+      <li>Diabeta / Micronase: 1.125-5mg QD NTE 20mg</li>
+      <li>Glynase: 1.5-3mg QD NTE 12mg</li>
+    </ul>
+  </li>
+  <li>Glimepiride (Amaryl)
+    <ul>
+      <li>1-2mg QD NTE 8mg</li>
+    </ul>
+  </li>
+  <li>Repaglinide (Prandin)
+    <ul>
+      <li>A1C &lt; 8%: 0.5mg with each meal  NTE 16mg QD (clinical max of 6mg QD)</li>
+      <li>A1C &gt; 8%: 1-2mg with each meal NTE 16mg QD (clinical max of 6mg QD)</li>
+      <li>Adjust weekly</li>
+      <li>Skipped meal = skipped dose</li>
+    </ul>
+  </li>
+  <li>Nateglinide (Starlix)
+    <ul>
+      <li>A1C &lt; 8%: 60mg with each meal  NTE 120mg QD</li>
+      <li>A1C &gt; 8%: 120mg with each meal NTE 120mg QD</li>
+      <li>Adjust weekly</li>
+      <li>Skipped meal = skipped dose
+        <h3 id="efficacy-1">Efficacy</h3>
+      </li>
+    </ul>
+  </li>
+  <li>Sulfonylureas
+    <ul>
+      <li>A1C: ↓ 1.5-2%</li>
+      <li>FBG: ↓ 60-70</li>
+    </ul>
+  </li>
+  <li>Meglitinides
+    <ul>
+      <li>A1C: ↓ 1.5-2%</li>
+      <li>FBG: ↓ 60-70
+        <h3 id="ses-2">SEs</h3>
+      </li>
+    </ul>
+  </li>
+  <li>Sulfonylureas
+    <ul>
+      <li>Hypoglycemia from excessive insulin release</li>
+      <li>Wt gain</li>
+      <li>Leukopenia</li>
+      <li>Thrombocytopenia</li>
+      <li>Aplastic anemia</li>
+      <li>Allergy</li>
+    </ul>
+  </li>
+  <li>Meglitinides
+    <ul>
+      <li>Wt gain (2-3kgs)</li>
+      <li>Hypoglycemia
+        <h3 id="cautions">Cautions</h3>
+      </li>
+    </ul>
+  </li>
+  <li>Elderly</li>
+  <li>Alcoholics</li>
+  <li>Irregular dietary intake</li>
+  <li>Other hypoglycemics
+    <h3 id="treatment-failure">Treatment Failure</h3>
+  </li>
+  <li>25% fail at 6-12wks</li>
+  <li>50-75% fail within 5 years</li>
+</ul>
+
+<h2 id="metformin">Metformin</h2>
+<h3 id="moa-1">MOA</h3>
+<p>Activates AMPK in the liver, adipose tissue, an muscle by inhibiting Complex I in mitochondrial ETC, leading to increased AMP, inhibiting cAMP formation, activating AMPK, and inhibiting gluconeogenesis, also, the decrease in cAMP inhibits the activation of PKA. All of these effects lead to increased glucose utilization.</p>
+<h3 id="dosing-2">Dosing</h3>
+<ul>
+  <li>500mg PO BID titrated to 1000mg PO BID</li>
+  <li>Cautions
+    <ul>
+      <li>SCr &gt; 1.5 (M) or 1.4 (F)</li>
+      <li>CrCl &lt; 60</li>
+      <li>&gt; 80yo</li>
+    </ul>
+  </li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>eGFR</th>
+      <th>Recommendation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>≥ 60</td>
+      <td>SCr Yearly</td>
+    </tr>
+    <tr>
+      <td>[45,60)</td>
+      <td>SCr q3-6mo</td>
+    </tr>
+    <tr>
+      <td>[30,45)</td>
+      <td>Do not initiate<br /> Reduce dose 50%<br /> SCr q3mo</td>
+    </tr>
+    <tr>
+      <td>&lt; 30</td>
+      <td>CI</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="efficacy-2">Efficacy</h3>
+<ul>
+  <li>A1C: ↓ 1.5-2%</li>
+  <li>FBG: ↓ 60-80
+    <h3 id="ses-3">SEs</h3>
+  </li>
+  <li>Decreased B12 absorption</li>
+  <li>N / V / D
+    <ul>
+      <li>Avoid w/ LA, take w/ food, and slow titration</li>
+    </ul>
+  </li>
+  <li>Decreases TG and LDL
+    <h3 id="cis-1">CIs</h3>
+  </li>
+  <li>CHF III and IV</li>
+  <li>Alcoholics</li>
+  <li>Avoid if lactic acidosis risk
+    <ul>
+      <li>Hold 1-2d before and 2d after surgery</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="sglt-2-inhibitors">SGLT-2 Inhibitors</h2>
+<h3 id="moa-2">MOA</h3>
+<p>Inhibition of renal reabsorption of glucose in the PCT by inhibiting SGLT-2</p>
+<h3 id="dosing-3">Dosing</h3>
+<ul>
+  <li>Canagliflozin (Invokana)
+    <ul>
+      <li>100mg QD</li>
+      <li>NTE 300mg QD</li>
+      <li>CrCl 45-60: NTE 100mg QD</li>
+      <li>CrCl &lt; 45: CI</li>
+    </ul>
+  </li>
+  <li>Dapagliflozin (Farxiga)
+    <ul>
+      <li>5mg QD</li>
+      <li>NTE 10mg QD</li>
+      <li>CrCl &lt; 60: CI</li>
+    </ul>
+  </li>
+  <li>Empagliflozin (Jardiance)
+    <ul>
+      <li>10mg QD</li>
+      <li>NTE 25mg QD</li>
+      <li>CrCl &lt; 45: CI
+        <h3 id="efficacy-3">Efficacy</h3>
+      </li>
+    </ul>
+  </li>
+  <li>A1C: ↓ 0.6-1%</li>
+  <li>FBG: ↓ 25-35</li>
+  <li>PPG: ↓ 40-60</li>
+  <li>Wt: ↓ 2.5-3.9kg
+    <h3 id="ses-4">SEs</h3>
+  </li>
+  <li><strong>UTIs</strong></li>
+  <li>Hypoglycemia, especially if used w/ other agents</li>
+  <li>Polyuria</li>
+  <li>Avoid in renal impairment</li>
+  <li>Increased cholesterol</li>
+  <li>Bone fractures (canagliflozin)</li>
+  <li><strong>Euglycemic DKA</strong></li>
+  <li>May increase risk of amputations</li>
+  <li><strong>Dapagliflozin cannot be used in pts w/ bladder cancer</strong></li>
+</ul>
+
+<h2 id="thiazolidinediones">Thiazolidinediones</h2>
+<h3 id="moa-3">MOA</h3>
+<p>Activates Peroxisome Proliferator-Activated Receptor Gamma (PPARγ), which is a transcription factor which increases glucose utilization in adipocytes, the liver, and skeletal muscle</p>
+<h3 id="dosing-4">Dosing</h3>
+<ul>
+  <li>Rosiglitazone (Avandia)
+    <ul>
+      <li>4mg QD or 2mg BID NTE 8mg QD</li>
+    </ul>
+  </li>
+  <li>Pioglitazone (Actos)
+    <ul>
+      <li>15-30mg QD NTE 30-45mg QD</li>
+    </ul>
+  </li>
+  <li>Titrate q12wks</li>
+  <li>Decrease dose by 10-20% if starting insulin
+    <h3 id="efficacy-4">Efficacy</h3>
+  </li>
+  <li>A1C: ↓ 0.5-1.5%</li>
+  <li>FBG: ↓ 60-70
+    <h3 id="ses-5">SEs</h3>
+  </li>
+  <li><strong>CI in CHF</strong></li>
+  <li><strong>Cannot cause hypoglycemia</strong></li>
+  <li>Actos is associated with an increased risk of bladder cancer</li>
+  <li>Hepatotoxicity (moderate)
+    <ul>
+      <li>LFTs periodicaly</li>
+      <li>D/C if LFTs &gt; 3x normal</li>
+    </ul>
+  </li>
+  <li>N / V</li>
+  <li>Abd pain</li>
+  <li>Fatigue</li>
+  <li>anorexia</li>
+  <li>Dark Urine</li>
+  <li>Macular Edema</li>
+  <li>Increased fracture risk</li>
+</ul>
+
+<h2 id="dpp-4-inhibitors">DPP-4 Inhibitors</h2>
+<h3 id="dosing-5">Dosing</h3>
+<ul>
+  <li>Sitagliptin (Januvia)
+    <ul>
+      <li>100mg QD</li>
+      <li>CrCl 30-50: 50mg QD</li>
+      <li>CrCl &lt; 30 or ESRD: 25mg QD</li>
+    </ul>
+  </li>
+  <li>Saxagliptin (Onglyza)
+    <ul>
+      <li>2.5-5mg QD</li>
+      <li>CrCl &lt; 50: 2.5mg QD</li>
+    </ul>
+  </li>
+  <li>Linagliptin (Tradjenta)
+    <ul>
+      <li>5mg QD</li>
+    </ul>
+  </li>
+  <li>Alogliptin (Nesina)
+    <ul>
+      <li>25mg QD</li>
+      <li>CrCl 30-60: 12.5mg QD</li>
+      <li>CrCl &lt; 30 or ESRD: 6.25mg QD
+        <h3 id="efficacy-5">Efficacy</h3>
+      </li>
+    </ul>
+  </li>
+  <li>A1C: ↓ 0.5-1%</li>
+  <li>FBG: ↓ 20</li>
+  <li>PPG: ↓ 20-40</li>
+  <li>Wt: ↓ 0-0.5kg
+    <h3 id="ses-6">SEs</h3>
+  </li>
+  <li>Lower risk of hypoglycemia</li>
+  <li>Nasopharyngitis / URI</li>
+  <li>N / V / C / HA</li>
+  <li>Severe skin reactions</li>
+  <li>Low WBC</li>
+  <li>Joint pain</li>
+  <li>May increase HF exacerbation</li>
+</ul>
+
+<h2 id="α-glucosidase-inhibitors">α-Glucosidase Inhibitors</h2>
+<h3 id="moa-4">MOA</h3>
+<p>Inhibition of complex-carbohydrate decomposition in the gut leading to inhibition of absorption</p>
+<h3 id="dosing-6">Dosing</h3>
+<ul>
+  <li>Acarbose (Precose)
+    <ul>
+      <li>25mg QD x7-14d</li>
+      <li>25 BID wks 3-4</li>
+      <li>25 TID wks 5-12</li>
+      <li>NTE 50mg TID if &lt; 50kgs, otherwise NTE 100mg TID</li>
+    </ul>
+  </li>
+  <li>Miglitol (Glyset)
+    <h3 id="efficacy-6">Efficacy</h3>
+  </li>
+  <li>A1C: ↓ 0.3-1%</li>
+  <li>FBG: ↓ Minimal</li>
+  <li>PPG: ↓ 40-50
+    <h3 id="ses-7">SEs</h3>
+  </li>
+  <li><strong>N / D / Flatulence</strong></li>
+  <li>Acarbose can cause liver damage at ≥ 100 mg TID</li>
+  <li>Rashes
+    <h3 id="cis-2">CIs</h3>
+  </li>
+  <li>DKA</li>
+  <li>IBD / Colonic Ulcers / Intestinal Obstruction</li>
+  <li>Allergy</li>
+</ul>
+
+  </div>
+
+</div>
+
+<div class="credits">
+  <p>Author: Corbin Cox <br>
+  Created: 2018-8-6 <br>
+  Last Updated: 2018-8-6</p>
+</div>
+
+<footer class="footer menus">
+  <nav>
+    <div class="footerLinks">
+      <a href="/peripheral_brain/home.html">Home</a>
+      <a href="/peripheral_brain/index.html">Disclaimer</a>
+    </div>
+  </nav>
+</footer>
+
+
+</body>
+</html>
