@@ -2,7 +2,7 @@
 title: Steroids
 layout: diseases
 author: Corbin Cox
-last-updated: 2018-8-1
+last-updated: 2018-8-17
 created: 2018-8-1
 toc: true
 common: false
@@ -168,3 +168,217 @@ common: false
 * Regulated by RAAS
   * Increased levels of Ang II leads to increased release of Aldosterone from the adrenal cortex
 * Only commonly used drug is fludrocortisone
+
+# Androgens
+
+* Testosterone secreted primarily by the Leydig cells of the testes in response to LH
+* Testosterone promotes spermatogenesis and Sertoli cells activity
+* Testosterone induced feedback inhibition of LH, FSH, and GnRH
+* Activin and Inhibin are secreted by Sertoli cells
+  * Activin stimulates FSH
+  * Inhibin inhibits FSH
+* 5&alpha;-reducaste converts testosterone to DHT in target tissues, which is a more potent androgen
+* Weak androgens (Androstenedione, DHEA, and DHEAS) are produced in the adrenal glands
+
+## Physiologic Effects
+
+* Male secondary sexual characteristics
+* Epiphyseal closure
+* Increased lean body mass
+* Stimulation of erythrocyte production
+* Decrease HDL
+
+## Synthetic Androgens
+
+* Methyltesosterone (PO)
+* Testosterone enanthate (IM)
+* Testosterone cypionate (IM)
+
+## SEs
+
+* In Women:
+  * Hirsutism
+  * Acne
+  * Amenorrhea
+  * Clitoral Enlargment
+  * Deepening of the voice
+* In Men:
+  * Acne
+  * Sleep Apnea
+  * Gynecomastia (due to increase in estrogen via mass-balance of testosterone to estrogen reaction)
+  * Azoospermia
+  * Hypogonadism
+  * Psychosis
+  * Increased agression
+
+## Anti-Androgens
+
+* 5&alpha;-Reductase Inhibitors
+  * Finasteride (Proscar, Propecia)
+    * Used for PCOS, baldness, and BPH
+  * Dutasteride
+    * Used for BPH, hirsutism in women, and PCOS
+* Steroidal Inhibitors
+  * Cyproterone
+    * Used for hirsutism and excessive sexual drive
+  * Spironolactone
+    * Used for acne, hirsutism, and PCOS
+* Non-Steroidal Inhibitors
+  * Flutamide
+    * Used for prostate cancer
+  * Enzalutamide
+    * Used for metastatic, castration-resistant prostate cancer
+
+# Estrogens and Progestins
+
+![Ovarian Cycle]({{ site.baseurl }}/images/ovarianCycle.png)
+
+* Estrogen and progesterone are released from the ovaries in response to FSH and LH, and based upon the concentration of estrogen and progesterone, cause either positive or negative feedback regulating the release of GnRH, LH, and FSH
+* Estrogen and progesterone suppress FSH in the early follicular phase
+* Estrogen and progesterone stimulate the LH and FSH surges leading to ovulation in the late follicular phase
+* Estrogen and progesterone suppress LH and FSH in the luteal phase
+* Successful implantation leads to the production of hCG by the embryo, which acts in a similar manner to LH, increasing the production of progesterone in the first trimester to maintain the endometrium
+* Estrogens are unique among the steroid hormones, as the undergo significant bile excretion and enterohepatic circulation
+
+## Physiologic Effects
+
+* Estrogens
+  * Development and maintenance of breast, ovarian, uterine, and vaginal tissues
+  * Epiphyseal closure
+  * Production of female secondary sexual characteristics
+  * Regulation of CNS including temperature and mood
+  * Increased HDL
+  * Decreased LDL
+  * Enhanced coagulability
+  * Decreases bone resorption
+* Progestins
+  * Development and maintenance of uterine and breast tissue
+  * Maintenance of pregnancy
+  * Increase basal insulin level and insulin responsiveness to glucose
+  * Promotes glycogen storage
+  * Competitive inhibition w/ aldosterone
+  * Depressant and hypnotic effects
+
+## SEs
+
+### Estrogens
+
+* Uterine bleeding
+  * Addition of progestin can help prevent this
+* Endometrial hyperplasia, especially if given continuously instead of cyclically
+  * Risk of endometrial carcinoma if pure estrogen therapy is used
+  * Progestin reduces the risk of endometrial carcinoma
+* Breast cancer
+  * Progesterone does not decrease risk
+* Nausea
+* VTE
+* HA
+* Fluid retention (likely due to cross-reactivity at MC receptors) / Wt gain / HTN
+
+### Progestins
+
+* Increased appetite
+* Fatigue
+* Breast regression
+* Breakthrough bleeding (esp. in progestin only BC)
+* Wt gain, acne, hirsutism (esp. w/ androgenic progesterones)
+* Amenorrhea
+
+## Non-Steroidal Estrogens (SERMs)
+
+### Agonists
+
+* Diethyl stilbestrol
+  * Used for advanced prostate cancer
+  * Risk of adenocarcinomas in women if exposed **in utero**
+* Chlorotrianisene
+  * Used for menopause, prostate cancer, and postpartum breast engorgement
+
+### Partial Agonists
+
+* Tamoxifen (Novaldex)
+  * Used for treatment of breast cancer and prevention in high-risk women
+  * Weak estrogen in endometrial cells, bone, and hematologic activity (increased clot risk), but anti-estrogen in breasts
+* Toremifene (Fareson)
+  * Similar to tamoxifen
+  * Used for advanced breast cancer
+* Ospemifene (Ospena)
+  * Similar to toremifene
+  * Estrogenic effects in vaginal epithelium
+  * Used for dyspareunia in post-menopausal women
+* Raloxefine (Evista)
+  * Estrogen Activities
+    * Prevention of osteoporosis
+    * Decreased LDL
+    * Increased clot risk
+  * Anti-Estrogen Activities
+    * Decreased breast cancer risk
+    * No endometrial stimulation
+    * May cause hot flashes
+* Bazedoxifene
+  * Similar to raloxefine
+* Clomiphene (Clomid)
+  * Increased FSH and LH secretion due to inhibition of estrogen-based inhibition
+  * Used to stimulate ovulation in women with PCOS, amenorrhea, and ovulation
+
+### Antagonists
+
+* Fluvestrant (Faslodex)
+  * Used to treat breast cancer, particularly in its resistant to tamoxifen
+
+## Aromatase Inhibitors
+
+* Used to treat tamoxifen resistant breast cancer
+* Drugs
+  * Anastrazole
+  * Letrozole
+  * Exemastane
+
+## Progestins
+
+* All given as contraceptives
+  * Combinations of estrogens and progestins will inhibit LH and FSH release inhibiting ovulation
+  * Progestin-only do not always inhibit ovulation
+  * Changes cervical mucus and uterine endometrium to decrease likelihood of fertilization and implantation
+* Enlarge breast tissue and suppress lactation (only in combination with estrogens)
+* 1st Generation
+  * Norethindrone
+  * Ethynlodiol diacetate
+  * Medroxyprogesterone Acetate
+    * Depot injection
+* 2nd Generation
+  * Levonorgestrel
+    * Good PO bioavailability
+  * Norgestimate
+    * Prodrug converted into levonorgestrel
+* 3rd Generation
+  * Desorgestrel
+    * Prodrug of etonogestrel
+  * Etonogestrel
+    * Used in Nexplanon and Nuvaring
+    * Similar to levonorgestrel
+* 4th Generation
+  * Drospirenone
+    * Weak activity (10% of levonorgestrel)
+    * Anti-MC and anti-androgen activity
+    * Used to control estrogen SEs in combination therapy
+* SPRM
+  * Ulipristal Acetate (Ella)
+    * Emergency contraceptive
+    * Up to 5d after unprotected sex
+  * Mifepristone
+    * Antagonist used as an abortificant in combination w/ misoprostol during the 1st 7wks of pregnancy
+    * Emergency contraceptive
+  * Danazol
+    * Inhibition of LH, FSH, and ovarian function
+    * Atrophy of the endometrium
+    * Used for endometriosis
+
+|                             | Progestin | Androgen      | Anti-Estrogen |
+| --------------------------- | --------- | ------------- | ------------- |
+| Norethindrone               | +         | ++            | +             |
+| Levonorgestrel              | +++       | +++           | ++            |
+| Norgestimate                | +++       | -             | +++           |
+| Desogestrel                 | +++       | +/-           | +++           |
+| Drospirenone                | +         | Anti-Androgen | -             |
+| Medroxyprogesterone Acetate | ++        | +             | ++            |
