@@ -35,6 +35,10 @@ collections:
     output: true
   calculators:
     output: true
+  diseases_old:
+    output: true
+  drugClasses_old:
+    output: true
 
 plugins:
   - jekyll-admin

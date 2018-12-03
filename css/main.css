@@ -198,6 +198,11 @@ a img {
       max-height: 1000px;
     }
 
+    .caption {
+      text-align: center;
+      font-weight: bold;
+    }
+
     .center {
       text-align: center;
     }

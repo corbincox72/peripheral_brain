@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Diseases and Drugs
+title: Archived Diseases and Drugs
 exclude_from_search: true
 ---
 <div class="twoCol">
@@ -8,7 +8,7 @@ exclude_from_search: true
 <div class="col1">
 <h1>Diseases</h1>
 
-{% assign disease_list = site.diseases | sort: 'title' %}
+{% assign disease_list = site.diseases_old | sort: 'title' %}
 {% for entry in disease_list %}
 <ul class="navList">
   <li><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
@@ -19,7 +19,7 @@ exclude_from_search: true
 <div class="col2">
 <h1>Drug Classes</h1>
 
-{% assign drugClass_list = site.drugClasses | sort: 'title' %}
+{% assign drugClass_list = site.drugClasses_old | sort: 'title' %}
 {% for entry in drugClass_list %}
   <ul class="navList">
     <li><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
@@ -28,5 +28,3 @@ exclude_from_search: true
 
 </div>
 </div>
-
-<a href="{{ site.baseurl }}/disease_list_old.html">Archived Non-Referenced Diseases</a>
