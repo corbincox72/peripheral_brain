@@ -8,13 +8,13 @@ toc: true
 common: true
 ---
 
-# Dx [^1]<sup>,</sup>[^2]
+# Dx [^tintinalli]<sup>,</sup>[^amsterdam2014]
 
 -   **ECG w/i 10min of arrival, then Q15-30min x1hr if not initially
     diagnositc**
 -   CXR / Chest CT to r/o thoracic aortic aneurysm / dissection, PE, pneumothorax, PNA, etc
 -   Serial cTn ASAP then Q3-6hr
--   [TIMI Risk Score](https://qxmd.com/calculate/calculator_168/timi-risk-score-nstemi) for all NSTE-ACS (1pt for each below [^3])
+-   [TIMI Risk Score](https://qxmd.com/calculate/calculator_168/timi-risk-score-nstemi) for all NSTE-ACS (1pt for each below [^dipiro])
     -   &ge; 65yo
     -   Prior Coronary Stenosis &ge; 50%
     -   ST Depression &ge; 0.5mm
@@ -31,30 +31,30 @@ common: true
 
 ## STEMI Dx Criteria
 
--   ESC/ACC/AHA [^4]<sup>,</sup>[^5]
+-   ESC/ACC/AHA [^ogara2013]<sup>,</sup>[^thygesen]
     -   ST Elevation in 2 anatomically contiguous leads &ge; 0.1mV at the J-point except V<sub>2</sub>-V<sub>3</sub> (use the following in V<sub>2</sub>-V<sub>3</sub>
     -   Men &ge; 40: &ge; 0.2 mV
     -   Men &lt; 40: &ge; 0.25 mV
     -   Women: &ge; 0.15 mV
     -   New horizontal / down-sloping ST-depression in 2 contiguous leads &ge; 0.05 mV
-    -   T-wave Inversion in 2 contiguous leads &ge; 0.1 mV with prominent R waves or $\frac{R}{S} > 1$
+    -   T-wave Inversion in 2 contiguous leads &ge; 0.1 mV with prominent R waves or $$\frac{R}{S} > 1$$
     -   Definitively new LBBB
 -   In the presence of existing LBBB consider Smith-Modified Sgarbossa
-    Criteria [^6]
+    Criteria [^smith2012-lbbb-stemi]
     -   &ge; 3 points &rArr; 98% Likelihood of MI
     -   ST-elevation ≥1 mm in a lead with upward QRS complex (concordant) - 5 points
     -   ST-depression ≥1 mm in lead V1, V2, or V3 - 3 points
-    -   $\frac{\text{ST-change}}{\text{S-wave}} \le -0.25$ - 2 points
+    -   $$\frac{\text{ST-change}}{\text{S-wave}} \le -0.25$$ - 2 points
 -   New LAFB and RBBB is concerning for LAD occlusion
 -   ST-elevation with ST-depression in aVL is highly suspicious for STEMI
 -   Local ST-depression in V<sub>1</sub>-V<sub>4</sub> is suspicious for isolated posterior infarct
 -   ST-elevation in aVL with depression in III is suspicious for high lateral MI
--   Subtle LAD occlusion vs EBR [^7]
+-   Subtle LAD occlusion vs EBR [^driver2017]
     -   0.052 x QTc - 0.151 x (QRS voltage in V2) - 0.268 x (R-wave amplitude in V4) + 1.062 x (ST-elevation 60ms after J-point in V3)
     -   &ge; 18.2 &rArr; 88.8% sensitive, 94.7% specific
     -   &ge; 17.75 &rArr; 90.2% sensitive, 90.6% specific
 
-Infarction EKG Patterns [^1]
+Infarction EKG Patterns [^tintinalli]
 {: .caption}
 
 |Location|Electrocardiographic Findings|Artery|
@@ -68,7 +68,7 @@ Infarction EKG Patterns [^1]
 |True posterior|Initial R waves in V1 and V2 &gt; 0.04 s and R/S ratio &ge; 1|LCX|
 |Right ventricular|ST-segment elevations in II, III, and aVF and ST elevation in right-side V4|RCA|
 
-# Tx [^1]<sup>,</sup>[^4]
+# Tx [^tintinalli]<sup>,</sup>[^ogara2013]
 
 -   Empiric ASA 325mg (chew & swallow) for all pts at risk for AMI w/o CIs
 -   Nitrates
@@ -79,7 +79,7 @@ Infarction EKG Patterns [^1]
 -   Supplemental O2 PRN for O2Sat &lt; 90%
 -   Morphine 2-5mg IV Q5-15min PRN is the preferred method of pain control d/t vasodilatory properties
 
-## STEMI [^1]<sup>,</sup>[^4] 
+## STEMI [^tintinalli]<sup>,</sup>[^ogara2013]
 
 ### PCI Management
 
@@ -118,7 +118,7 @@ Infarction EKG Patterns [^1]
     -   &gt; 75yo: 75mg QD x14d-1yr (no load)
 -   Anticoag
     -   UFH
-        -   Target aPTT 1.5-2x ULN ($\approx$ 50-70s) x48hr or until revascularization
+        -   Target aPTT 1.5-2x ULN (&rArr; 50-70s) x48hr or until revascularization
         -   60 U/kg IVB NTE 4000 U then
         -   12 U/kg/hr NTE 1000 U/hr initially titrated to above goal
     -   Enoxaparin
@@ -131,7 +131,7 @@ Infarction EKG Patterns [^1]
         -   CI if CrCl &lt; 30
         -   For duration of stay NTE 8d or until revascularization (unless other indication arises)
 
-## NSTE-ACS [^2]
+## NSTE-ACS [^amsterdam2014]
 
 ### Choosing Strategies
 
@@ -195,7 +195,7 @@ Infarction EKG Patterns [^1]
         -   CrCl &lt; 50: Reduce rate by 50%
         -   Avoid in pts on HD
 
-## Thrombolytic Dosing [^8]
+## Thrombolytic Dosing [^lexi]
 
 -   tPA
     -   15mg IVB over 1-2min then
@@ -211,7 +211,7 @@ Infarction EKG Patterns [^1]
     -   &ge; 80 to &lt;90 kg: 45 mg
     -   &ge; 90 kg: 50 mg
 
-## Thrombolytic CIs [^4]
+## Thrombolytic CIs [^ogara2013]
 
 **Absolute CIs**
 
@@ -242,7 +242,7 @@ Infarction EKG Patterns [^1]
 -   Active peptic ulcer
 -   Oral anticoagulant therapy
 
-## Post-ACS Chronic Therapies 
+## Post-ACS Chronic Therapies
 
 -   Beta-blockers in pts w/o CIs
 -   ACEIs / ARBs, esp in pts w/ LVEF &lt; 40%
@@ -253,12 +253,12 @@ Infarction EKG Patterns [^1]
 
 # References
 
-[^1]: Tintinalli JE, Stapczynski JS, Ma OJ, Cline D, Meckler GD, Yealy DM, eds. *Tintinalli’s Emergency Medicine: A Comprehensive Study Guide*. Eight edition. New York: McGraw-Hill Education; 2016.
+[^tintinalli]: Tintinalli JE, Stapczynski JS, Ma OJ, Cline D, Meckler GD, Yealy DM, eds. *Tintinalli’s Emergency Medicine: A Comprehensive Study Guide*. Eight edition. New York: McGraw-Hill Education; 2016.
 
-[^2]: Amsterdam EA, Wenger NK, Brindis RG, et al. 2014 AHA/ACC Guideline for the Management of Patients With Non–ST-Elevation Acute Coronary Syndromes. *Journal of the American College of Cardiology*. 2014;64(24):e139-e228. doi:[10.1016/j.jacc.2014.09.017](https://doi.org/10.1016/j.jacc.2014.09.017)
-[^3]: DiPiro, JT, ed. Pharmacotherapy: A Pathophysiologic Approach. Tenth edition. New York: McGraw-Hill Education, 2017. 
-[^4]: O’Gara PT, Kushner FG, Ascheim DD, et al. 2013 ACCF/AHA Guideline for the Management of ST-Elevation Myocardial Infarction. *Journal of the American College of Cardiology*. 2013;61(4):e78-e140. doi:[10.1016/j.jacc.2012.11.019](https://doi.org/10.1016/j.jacc.2012.11.019)
-[^5]: Thygesen, K, Alpert, JS, Jaffe, AS, Simoons, ML, Chaitman, BR, and White, HD. Third Universal Definition of Myocardial Infarction.16. 
-[^6]: Smith, SW, Dodd, KW, Henry, TD, Dvorak, DM, and Pearce, LA. Diagnosis of ST-Elevation Myocardial Infarction in the Presence of Left Bundle Branch Block With the ST-Elevation to S-Wave Ratio in a Modified Sgarbossa Rule. *Annals of Emergency Medicine* 2012;60:766–776. 
-[^7]: Driver, BE, Khalil, A, Henry, T, Kazmi, F, Adil, A, and Smith, SW. A New 4-Variable Formula to Differ- entiate Normal Variant ST Segment Elevation in V2-V4 (Early Repolarization) from Subtle Left Anterior Descending Coronary Occlusion - Adding QRS Amplitude of V2 Improves the Model. *Journal of Electrocardiology* 2017;50:561–569. 
-[^8]: Lexi-Drugs. Lexicomp. Wolters Kluwer Health, Inc. Riverwoods, IL.  Available at:  http://online.lexi.com. 
+[^amsterdam2014]: Amsterdam EA, Wenger NK, Brindis RG, et al. 2014 AHA/ACC Guideline for the Management of Patients With Non–ST-Elevation Acute Coronary Syndromes. *Journal of the American College of Cardiology*. 2014;64(24):e139-e228. doi:[10.1016/j.jacc.2014.09.017](https://doi.org/10.1016/j.jacc.2014.09.017)
+[^dipiro]: DiPiro, JT, ed. Pharmacotherapy: A Pathophysiologic Approach. Tenth edition. New York: McGraw-Hill Education, 2017.
+[^ogara2013]: O’Gara PT, Kushner FG, Ascheim DD, et al. 2013 ACCF/AHA Guideline for the Management of ST-Elevation Myocardial Infarction. *Journal of the American College of Cardiology*. 2013;61(4):e78-e140. doi:[10.1016/j.jacc.2012.11.019](https://doi.org/10.1016/j.jacc.2012.11.019)
+[^thygesen]: Thygesen, K, Alpert, JS, Jaffe, AS, Simoons, ML, Chaitman, BR, and White, HD. Third Universal Definition of Myocardial Infarction.16.
+[^smith2012-lbbb-stemi]: Smith, SW, Dodd, KW, Henry, TD, Dvorak, DM, and Pearce, LA. Diagnosis of ST-Elevation Myocardial Infarction in the Presence of Left Bundle Branch Block With the ST-Elevation to S-Wave Ratio in a Modified Sgarbossa Rule. *Annals of Emergency Medicine* 2012;60:766–776.
+[^driver2017]: Driver, BE, Khalil, A, Henry, T, Kazmi, F, Adil, A, and Smith, SW. A New 4-Variable Formula to Differ- entiate Normal Variant ST Segment Elevation in V2-V4 (Early Repolarization) from Subtle Left Anterior Descending Coronary Occlusion - Adding QRS Amplitude of V2 Improves the Model. *Journal of Electrocardiology* 2017;50:561–569.
+[^lexi]: Lexi-Drugs. Lexicomp. Wolters Kluwer Health, Inc. Riverwoods, IL.  Available at:  http://online.lexi.com.
