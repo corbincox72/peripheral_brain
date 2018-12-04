@@ -20,9 +20,12 @@ common: false
 
 ## Admin
 
-0.5-2**mL** (5-20 mcg) Q2-5min PRN of above solution\
-Doses last $\approx$ 10min\
-If mixing not possible, give 0.5mL dose of pure cardiac epi (50mcg)\
+0.5-2**mL** (5-20 mcg) Q2-5min PRN of above solution
+
+Doses last &asymp; 10min
+
+If mixing not possible, give 0.5mL dose of pure cardiac epi (50mcg)
+
 **DO NOT ADMINISTER 1mg EPI TO INDIVIDUALS NOT IN CARDIAC ARREST**
 
 # References
