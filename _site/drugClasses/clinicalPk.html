@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Clinical PK | The Peripheral Brain</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+
+  <link rel="stylesheet" href="/peripheral_brain/css/main.css" />
+  <link rel="stylesheet" href="/peripheral_brain/css/mobile.css" />
+  <link rel="stylesheet" href="/peripheral_brain/css/buttons.css" />
+
+  
+    <link rel="stylesheet" href="/peripheral_brain/css/diseases.css">
+  
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/peripheral_brain/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/peripheral_brain/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/peripheral_brain/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/peripheral_brain/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/peripheral_brain/favicons/safari-pinned-tab.svg" color="#465c8b">
+  <link rel="shortcut icon" href="/peripheral_brain/favicons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="Peripheral Brain">
+  <meta name="application-name" content="Peripheral Brain">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/peripheral_brain/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#cdcdcd">
+
+
+  
+
+</head>
+
+
+<body class="body">
+<header id="myHeader" class="myHeader">
+  <nav>
+    <!-- <a href="/peripheral_brain/home.html"><img src="/peripheral_brain/images/logo_1000x1000.png" alt="Logo"> -->
+    <a href="/peripheral_brain/home.html">Home</a>
+    <a href="/peripheral_brain/disease_list.html">Diseases and Drugs</a>
+    <a href="/peripheral_brain/firstFive">TF5M</a>
+    <a href="/peripheral_brain/lab_values">Lab Values</a>
+    <a href="/peripheral_brain/formulas">Formulas</a>
+    <a href="/peripheral_brain/calculators.html">Calculators</a>
+    <a href="/peripheral_brain/search.html">Search</a>
+    <a href="javascript:void(0);" class="icon" onclick="openMenu()">&#9776;</a>
+  </nav>
+
+  <script>
+  function openMenu() {
+      var x = document.getElementById("myHeader");
+      if (x.className === "myHeader") {
+          x.className += " responsive";
+      } else {
+          x.className = "myHeader";
+      }
+  }
+  </script>
+</header>
+
+
+<h1 class="title">Clinical PK</h1>
+
+<div class="contents twoCol">
+  <div class="toc col1">
+    
+      <ul>
+  <li><a href="#formulas-">Formulas <sup id="fnref:dipiro"><a href="#fn:dipiro" class="footnote">1</a></sup></a>
+    <ul>
+      <li><a href="#general-pk">General PK</a></li>
+      <li><a href="#1-compartment-model">1-Compartment Model</a></li>
+    </ul>
+  </li>
+  <li><a href="#vancomycin----">Vancomycin <sup id="fnref:dipiro:1"><a href="#fn:dipiro" class="footnote">1</a></sup><sup>, </sup><sup id="fnref:rybak2009"><a href="#fn:rybak2009" class="footnote">2</a></sup><sup>, </sup><sup id="fnref:matzkel1984"><a href="#fn:matzkel1984" class="footnote">3</a></sup><sup>, </sup><sup id="fnref:deryke2009"><a href="#fn:deryke2009" class="footnote">4</a></sup></a></li>
+  <li><a href="#aminoglycosides--">Aminoglycosides <sup id="fnref:dipiro:2"><a href="#fn:dipiro" class="footnote">1</a></sup><sup>, </sup><sup id="fnref:nicolau1995"><a href="#fn:nicolau1995" class="footnote">5</a></sup></a>
+    <ul>
+      <li><a href="#traditional-dosing">Traditional Dosing</a></li>
+      <li><a href="#extended-interval-dosing">Extended-Interval Dosing</a></li>
+    </ul>
+  </li>
+  <li><a href="#references">References</a></li>
+</ul>
+
+    
+  </div>
+
+  <div class="content col2">
+    <h1 id="formulas-">Formulas <sup id="fnref:dipiro"><a href="#fn:dipiro" class="footnote">1</a></sup></h1>
+
+<h2 id="general-pk">General PK</h2>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{aligned}
+​    k &= \frac{\ln{2}}{t_{1/2}}\\
+​    C_{ss} &= \frac{F(D/\tau)}{CL}\\
+​    E &= \frac{f_{unbound}CL_{int}}{Q+f_{unbound}CL_{int}}\\
+​    CL &= Q \times E\\
+​    V_d &= V_{blood} + \frac{f_b}{f_t}V_{tissue}\\
+​    F &= \frac{\text{AUC}_{PO}}{\text{Dose}_{PO}} \div \frac{\text{AUC}_{IV}}{\text{Dose}_{IV}} = \frac{D_{IV}\text{AUC}_{PO}}{D_{PO}\text{AUC}_{IV}}
+​    \end{aligned} %]]></script>
+
+<h2 id="1-compartment-model">1-Compartment Model</h2>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{aligned}
+​    \tau_{est} &= \frac{\ln{(C_{max}} / C_{min})}{k} + t_{inf}\\
+​    MD_{est} &= \frac{C_{max} t_{inf} V k \left( 1 - e^{-k\tau} \right)}{\left( 1 - e^{-kt_{inf}} \right)}\\
+​    V &= \frac{MD \left( 1 - e^{-kt_{inf}} \right)}{t_{inf}k\left( C_{max} - C_{min}e^{-kt_{inf}} \right)} \\
+​    C_{max} &= \frac{MD \left( 1 - e^{-kt_{inf}} \right)}{t_{inf} V k \left( 1 - e^{-k\tau} \right)}\\
+​    C_{pk} &= C_{max} e^{-k(t_{pk} - t_{max})}\\
+​    C_{min} &=  C_{max} e^{-k(\tau - t_{inf})}\\
+​    C_{min} &= C_{trough} e^{-k(t_{min} - t_{trough})}\\
+​    C[b] &= C[a] e^{-k (a - b)}
+​    \end{aligned} %]]></script>
+
+<h1 id="vancomycin----">Vancomycin <sup id="fnref:dipiro:1"><a href="#fn:dipiro" class="footnote">1</a></sup><sup>, </sup><sup id="fnref:rybak2009"><a href="#fn:rybak2009" class="footnote">2</a></sup><sup>, </sup><sup id="fnref:matzkel1984"><a href="#fn:matzkel1984" class="footnote">3</a></sup><sup>, </sup><sup id="fnref:deryke2009"><a href="#fn:deryke2009" class="footnote">4</a></sup></h1>
+
+<p><strong>Peak:</strong> 20-40 mg/L</p>
+
+<p><strong>Trough:</strong> 10-15 mg/L (minor infections) or 15-20 mg/L (serious infections or lung penetration)</p>
+
+<p><strong>Loading Dose:</strong> 25-30 mg/kg (Wt)</p>
+
+<p><strong>NTE 15 mg/min</strong></p>
+
+<p>k ≈ 0.00083 × CrCl + 0.0044</p>
+
+<p>V<sub>d</sub> ≈ 0.4-1 L/kg, usually 0.6-0.7 L/kg</p>
+
+<p><script type="math/tex">\text{AUC}_{0-24\text{hr}}/\text{MIC} \ge 400</script> for appropriate effect</p>
+
+<p><script type="math/tex">\text{AUC}_{0-24\text{hr}}/\text{MIC} \le 700</script> to prevent toxicity</p>
+
+<script type="math/tex; mode=display">\text{AUC}_{0-\tau} = \frac{C_{max}+C_{min}}{2}t_{inf} + \frac{(C_{max}-C_{min})(\tau-t_{inf})}{\ln(C_{max}/C_{min})}</script>
+
+<script type="math/tex; mode=display">\text{AUC}_{0-24\text{hr}} = \text{AUC}_{0-\tau} \frac{24}{\tau}</script>
+
+<p><a href="https://globalrph.com/medcalcs/aminoglycosides-and-vancomycin-original-calculator/">Initial Vanc Dosing Calculator</a></p>
+
+<p><a href="https://globalrph.com/medcalcs/vanco-single-advanced/">Level-Based Vanc Dosing Calculator</a></p>
+
+<h1 id="aminoglycosides--">Aminoglycosides <sup id="fnref:dipiro:2"><a href="#fn:dipiro" class="footnote">1</a></sup><sup>, </sup><sup id="fnref:nicolau1995"><a href="#fn:nicolau1995" class="footnote">5</a></sup></h1>
+
+<p>See also: <a href="http://med.stanford.edu/bugsanddrugs/dosing-protocols/_jcr_content/main/panel_builder/panel_0/download_2/file.res/Aminoglycoside%20Dosing%20Guide%202017-08-23.pdf">Stanford Aminoglycoside Dosing Guidelines</a></p>
+
+<p>k ≈ 0.00293 × CrCl + 0.014
+V<sub>d</sub> ≈ 0.26 L/kg × Wt
+V<sub>d</sub> may be closer to 0.3-0.35 L/kg in critically ill pts due to fluid overload
+Use ABW if Wt/IBW &gt; 130%</p>
+
+<h2 id="traditional-dosing">Traditional Dosing</h2>
+
+<p class="caption">Gentamicin / Tobramycin Target Levels <sup id="fnref:dipiro:3"><a href="#fn:dipiro" class="footnote">1</a></sup><sup>, </sup><sup id="fnref:lexi"><a href="#fn:lexi" class="footnote">6</a></sup></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Infection</strong></th>
+      <th><strong>Target Peak (mcg/mL)</strong></th>
+      <th><strong>Target Trough (mcg/mL)</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>General</td>
+      <td>4-10</td>
+      <td>le; 1</td>
+    </tr>
+    <tr>
+      <td>UTI</td>
+      <td>&lt; 5</td>
+      <td>≤ 1</td>
+    </tr>
+    <tr>
+      <td>Bacteremia</td>
+      <td>&gt; 5</td>
+      <td>≤ 1</td>
+    </tr>
+    <tr>
+      <td>Pneumonia</td>
+      <td>&gt; 6</td>
+      <td>≤ 1</td>
+    </tr>
+    <tr>
+      <td>Endocarditis from <em>P. aeruginosa</em></td>
+      <td>&gt; 12</td>
+      <td>≤ 1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="caption">Amikacin Target Levels  <sup id="fnref:dipiro:4"><a href="#fn:dipiro" class="footnote">1</a></sup><sup>, </sup><sup id="fnref:lexi:1"><a href="#fn:lexi" class="footnote">6</a></sup></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Infection</strong></th>
+      <th><strong>Target Peak (mcg/mL)</strong></th>
+      <th><strong>Target Trough (mcg/mL)</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>General</td>
+      <td>15-30</td>
+      <td>4-10</td>
+    </tr>
+    <tr>
+      <td>UTI</td>
+      <td>&gt; 15</td>
+      <td>4-10</td>
+    </tr>
+    <tr>
+      <td>Bacteremia</td>
+      <td>&gt; 20</td>
+      <td>4-10</td>
+    </tr>
+    <tr>
+      <td>Pneumonia /Serious Infections</td>
+      <td>&gt; 24</td>
+      <td>4-10</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Target C<sub>pk</sub> / MIC &gt; 10 for efficacy
+Draw levels 1hr after infusion ends
+Consider target troughs of ≤ 1.5-2 (tob/gent) or ≤ 10 (amikacin)
+for life-threatening infections. Look up specific trough/peak targets
+for given infection site.</p>
+
+<p><a href="https://globalrph.com/medcalcs/aminoglycosides-and-vancomycin-original-calculator/">Initial Aminoglycoside Dosing Calculator</a></p>
+
+<h2 id="extended-interval-dosing">Extended-Interval Dosing</h2>
+
+<ol>
+  <li>Load with 7 mg/kg (15 mg/kg Amikacin)</li>
+  <li>Determine initial dosing frequency from table below</li>
+  <li>Draw level at 6-14hr after 1st or 2nd dose</li>
+  <li>Plot level on Hartford Nomogram (divide level by 2 for Amikacin)
+    <ul>
+      <li>If doses other than those above are used, multiplying the level by (expected)/(given) dose can help adjust properly for the nomogram, although this has less evidence</li>
+    </ul>
+  </li>
+  <li>Adjust interval per nomogram</li>
+  <li>If borderline, go with longer interval</li>
+</ol>
+
+<p class="caption">Initial Aminoglycocide Interval</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>CrCl</th>
+      <th>Interval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>≥ 60</td>
+      <td>Q24H</td>
+    </tr>
+    <tr>
+      <td>40-59</td>
+      <td>Q36H</td>
+    </tr>
+    <tr>
+      <td>20-39</td>
+      <td>Q48H</td>
+    </tr>
+    <tr>
+      <td>&lt; 20</td>
+      <td>Monitor Serial Conc. &amp; Admin when &lt; 1 mcg/mL</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="references">References</h1>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:dipiro">
+      <p>DiPiro JT, ed. <em>Pharmacotherapy: A Pathophysiologic Approach</em>. Tenth edition. New York: McGraw-Hill Education; 2017. <a href="#fnref:dipiro" class="reversefootnote">&#8617;</a> <a href="#fnref:dipiro:1" class="reversefootnote">&#8617;<sup>2</sup></a> <a href="#fnref:dipiro:2" class="reversefootnote">&#8617;<sup>3</sup></a> <a href="#fnref:dipiro:3" class="reversefootnote">&#8617;<sup>4</sup></a> <a href="#fnref:dipiro:4" class="reversefootnote">&#8617;<sup>5</sup></a></p>
+    </li>
+    <li id="fn:rybak2009">
+      <p>Rybak M, Lomaestro B, Rotschafer JC, et al. Therapeutic monitoring of vancomycin in adult patients: A consensus review of the American Society of Health-System Pharmacists, the Infectious Diseases Society of America, and the Society of Infectious Diseases Pharmacists. <em>American Journal of Health-System Pharmacy</em>. 2009;66(1):82-98. doi:<a href="https://doi.org/10.2146/ajhp080434">10.2146/ajhp080434</a> <a href="#fnref:rybak2009" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:matzkel1984">
+      <p>Matzke GR, McGory RW, Halstenson CE, Keane WF. Pharmacokinetics of vancomycin in patients with various degrees of renal function. <em>Antimicrobial Agents and Chemotherapy</em>. 1984;25(4):433-437. doi:<a href="https://doi.org/10.1128/AAC.25.4.433">10.1128/AAC.25.4.433</a> <a href="#fnref:matzkel1984" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:deryke2009">
+      <p>Deryke CA, Alexander DP. Optimizing Vancomycin Dosing through Pharmacodynamic Assessment Targeting Area under the Concentration-Time Curve/Minimum Inhibitory Concentration. <em>Hospital Pharmacy</em>. 2009;44(9):751-765. doi:<a href="https://doi.org/10.1310/hpj4409-751">10.1310/hpj4409-751</a>] <a href="#fnref:deryke2009" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:nicolau1995">
+      <p>Nicolau DP, Freeman CD, Belliveau PP, Nightingale CH, Ross JW, Quintiliani R. Experience with a once-daily aminoglycoside program administered to 2,184 adult patients. <em>Antimicrobial Agents and Chemotherapy</em>. 1995;39(3):650-655. doi:<a href="https://doi.org/10.1128/AAC.39.3.650">10.1128/AAC.39.3.650</a> <a href="#fnref:nicolau1995" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:lexi">
+      <p>Lexi-Drugs. Lexicomp. Wolters Kluwer Health, Inc. Riverwoods, IL. Available at: http://online.lexi.com. <a href="#fnref:lexi" class="reversefootnote">&#8617;</a> <a href="#fnref:lexi:1" class="reversefootnote">&#8617;<sup>2</sup></a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+
+</div>
+
+<div class="credits">
+  <p>Author: Corbin Cox <br>
+  Created: 2018-12-03 <br>
+  Last Updated: 2018-12-03</p>
+</div>
+
+<footer class="footer menus">
+  <nav>
+    <div class="footerLinks">
+      <a href="/peripheral_brain/home.html">Home</a>
+      <a href="/peripheral_brain/index.html">Disclaimer</a>
+    </div>
+  </nav>
+</footer>
+
+
+</body>
+</html>
