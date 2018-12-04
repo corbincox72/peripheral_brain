@@ -32,6 +32,19 @@
     text-align: left;
   }
 
+  footer a, .footerLinks a {
+    font-size: 0.75em;
+    margin: 0.5em 0;
+    padding: 0 0;
+    float: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footerLinks {
+    display: block;
+  }
+
   li, li a, li h1, li h2, li h3, li p, p, li li {
     text-align: left;
   }
