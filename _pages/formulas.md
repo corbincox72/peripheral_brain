@@ -56,3 +56,30 @@ $$
 # EKG Interpretation
 
 $$ QTc=\frac{QT}{\sqrt{60/HR}} $$
+
+# Pharmacokinetics 
+
+## General PK
+
+$$
+C_{ss} = \frac{F(D/\tau)}{CL} \text{ (intermittent)}\\
+C_{ss} = \frac{\text{Rate}}{CL} \text{ (infusions)}\\
+E = \frac{f_{unbound}CL_{int}}{Q+f_{unbound}CL_{int}}\\
+CL = Q \times E\\
+CL = k \times V_d\\
+V_d = V_{blood} + \frac{f_b}{f_t}V_{tissue}\\
+F = \frac{\text{AUC}_{PO}}{\text{Dose}_{PO}} \div \frac{\text{AUC}_{IV}}{\text{Dose}_{IV}} = \frac{D_{IV}\text{AUC}_{PO}}{D_{PO}\text{AUC}_{IV}}
+$$
+
+## 1-Compartment Model
+
+$$
+\tau_{est} = \frac{\ln{(C_{max}} / C_{min})}{k} + t_{inf}\\
+MD_{est} = \frac{C_{max} t_{inf} V k \left( 1 - e^{-k\tau} \right)}{\left( 1 - e^{-kt_{inf}} \right)}\\
+V = \frac{MD \left( 1 - e^{-kt_{inf}} \right)}{t_{inf}k\left( C_{max} - C_{min}e^{-kt_{inf}} \right)} \\
+C_{max} = \frac{MD \left( 1 - e^{-kt_{inf}} \right)}{t_{inf} V k \left( 1 - e^{-k\tau} \right)}\\
+C_{pk} = C_{max} e^{-k(t_{pk} - t_{max})}\\
+C_{min} =  C_{max} e^{-k(\tau - t_{inf})}\\
+C_{min} = C_{trough} e^{-k(t_{min} - t_{trough})}\\
+C[b] = C[a] e^{-k (a - b)}
+$$

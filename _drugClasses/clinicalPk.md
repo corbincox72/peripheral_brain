@@ -13,27 +13,29 @@ common: true
 
 ## General PK
 
-$$\begin{aligned}
-​    k &= \frac{\ln{2}}{t_{1/2}}\\
-​    C_{ss} &= \frac{F(D/\tau)}{CL}\\
-​    E &= \frac{f_{unbound}CL_{int}}{Q+f_{unbound}CL_{int}}\\
-​    CL &= Q \times E\\
-​    V_d &= V_{blood} + \frac{f_b}{f_t}V_{tissue}\\
-​    F &= \frac{\text{AUC}_{PO}}{\text{Dose}_{PO}} \div \frac{\text{AUC}_{IV}}{\text{Dose}_{IV}} = \frac{D_{IV}\text{AUC}_{PO}}{D_{PO}\text{AUC}_{IV}}
-​    \end{aligned}$$
+$$
+C_{ss} = \frac{F(D/\tau)}{CL} \text{ (intermittent)}\\
+C_{ss} = \frac{\text{Rate}}{CL} \text{ (infusions)}\\
+E = \frac{f_{unbound}CL_{int}}{Q+f_{unbound}CL_{int}}\\
+CL = Q \times E\\
+CL = k \times V_d\\
+V_d = V_{blood} + \frac{f_b}{f_t}V_{tissue}\\
+F = \frac{\text{AUC}_{PO}}{\text{Dose}_{PO}} \div \frac{\text{AUC}_{IV}}{\text{Dose}_{IV}} = \frac{D_{IV}\text{AUC}_{PO}}{D_{PO}\text{AUC}_{IV}}
+$$
+
 
 ## 1-Compartment Model
 
-$$\begin{aligned}
-​    \tau_{est} &= \frac{\ln{(C_{max}} / C_{min})}{k} + t_{inf}\\
-​    MD_{est} &= \frac{C_{max} t_{inf} V k \left( 1 - e^{-k\tau} \right)}{\left( 1 - e^{-kt_{inf}} \right)}\\
-​    V &= \frac{MD \left( 1 - e^{-kt_{inf}} \right)}{t_{inf}k\left( C_{max} - C_{min}e^{-kt_{inf}} \right)} \\
-​    C_{max} &= \frac{MD \left( 1 - e^{-kt_{inf}} \right)}{t_{inf} V k \left( 1 - e^{-k\tau} \right)}\\
-​    C_{pk} &= C_{max} e^{-k(t_{pk} - t_{max})}\\
-​    C_{min} &=  C_{max} e^{-k(\tau - t_{inf})}\\
-​    C_{min} &= C_{trough} e^{-k(t_{min} - t_{trough})}\\
-​    C[b] &= C[a] e^{-k (a - b)}
-​    \end{aligned}$$
+$$
+\tau_{est} = \frac{\ln{(C_{max}} / C_{min})}{k} + t_{inf}\\
+MD_{est} = \frac{C_{max} t_{inf} V k \left( 1 - e^{-k\tau} \right)}{\left( 1 - e^{-kt_{inf}} \right)}\\
+V = \frac{MD \left( 1 - e^{-kt_{inf}} \right)}{t_{inf}k\left( C_{max} - C_{min}e^{-kt_{inf}} \right)} \\
+C_{max} = \frac{MD \left( 1 - e^{-kt_{inf}} \right)}{t_{inf} V k \left( 1 - e^{-k\tau} \right)}\\
+C_{pk} = C_{max} e^{-k(t_{pk} - t_{max})}\\
+C_{min} =  C_{max} e^{-k(\tau - t_{inf})}\\
+C_{min} = C_{trough} e^{-k(t_{min} - t_{trough})}\\
+C[b] = C[a] e^{-k (a - b)}
+$$
 
 # Vancomycin [^dipiro]<sup>, </sup>[^rybak2009]<sup>, </sup>[^matzkel1984]<sup>, </sup>[^deryke2009] 
 
@@ -104,17 +106,31 @@ for given infection site.
 ## Extended-Interval Dosing
 
 1. Load with 7 mg/kg (15 mg/kg Amikacin)
+
 2. Determine initial dosing frequency from table below
+
 3. Draw level at 6-14hr after 1st or 2nd dose
+
 4. Plot level on Hartford Nomogram (divide level by 2 for Amikacin)
+
     -   If doses other than those above are used, multiplying the level by (expected)/(given) dose can help adjust properly for the nomogram, although this has less evidence 
+
 5. Adjust interval per nomogram
+
 6. If borderline, go with longer interval
 
-Initial Aminoglycocide Interval
+
+Hartford Nomogram
 {: .caption}
 
 
+
+![Hartford Nomogram]({{ site.baseurl }}/images/hartfordNomogram.png)
+
+
+
+Initial Aminoglycoside Interval
+{: .caption}
 
 |CrCl|Interval|
 |---|---|

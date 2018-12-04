@@ -99,29 +99,24 @@
 
 <h2 id="general-pk">General PK</h2>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{aligned}
-​    k &= \frac{\ln{2}}{t_{1/2}}\\
-​    C_{ss} &= \frac{F(D/\tau)}{CL}\\
-​    E &= \frac{f_{unbound}CL_{int}}{Q+f_{unbound}CL_{int}}\\
-​    CL &= Q \times E\\
-​    V_d &= V_{blood} + \frac{f_b}{f_t}V_{tissue}\\
-​    F &= \frac{\text{AUC}_{PO}}{\text{Dose}_{PO}} \div \frac{\text{AUC}_{IV}}{\text{Dose}_{IV}} = \frac{D_{IV}\text{AUC}_{PO}}{D_{PO}\text{AUC}_{IV}}
-​    \end{aligned} %]]></script>
+<script type="math/tex; mode=display">C_{ss} = \frac{F(D/\tau)}{CL} \text{ (intermittent)}\\
+C_{ss} = \frac{\text{Rate}}{CL} \text{ (infusions)}\\
+E = \frac{f_{unbound}CL_{int}}{Q+f_{unbound}CL_{int}}\\
+CL = Q \times E\\
+CL = k \times V_d\\
+V_d = V_{blood} + \frac{f_b}{f_t}V_{tissue}\\
+F = \frac{\text{AUC}_{PO}}{\text{Dose}_{PO}} \div \frac{\text{AUC}_{IV}}{\text{Dose}_{IV}} = \frac{D_{IV}\text{AUC}_{PO}}{D_{PO}\text{AUC}_{IV}}</script>
 
 <h2 id="1-compartment-model">1-Compartment Model</h2>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{aligned}
-​    \tau_{est} &= \frac{\ln{(C_{max}} / C_{min})}{k} + t_{inf}\\
-​    MD_{est} &= \frac{C_{max} t_{inf} V k \left( 1 - e^{-k\tau} \right)}{\left( 1 - e^{-kt_{inf}} \right)}\\
-​    V &= \frac{MD \left( 1 - e^{-kt_{inf}} \right)}{t_{inf}k\left( C_{max} - C_{min}e^{-kt_{inf}} \right)} \\
-​    C_{max} &= \frac{MD \left( 1 - e^{-kt_{inf}} \right)}{t_{inf} V k \left( 1 - e^{-k\tau} \right)}\\
-​    C_{pk} &= C_{max} e^{-k(t_{pk} - t_{max})}\\
-​    C_{min} &=  C_{max} e^{-k(\tau - t_{inf})}\\
-​    C_{min} &= C_{trough} e^{-k(t_{min} - t_{trough})}\\
-​    C[b] &= C[a] e^{-k (a - b)}
-​    \end{aligned} %]]></script>
+<script type="math/tex; mode=display">\tau_{est} = \frac{\ln{(C_{max}} / C_{min})}{k} + t_{inf}\\
+MD_{est} = \frac{C_{max} t_{inf} V k \left( 1 - e^{-k\tau} \right)}{\left( 1 - e^{-kt_{inf}} \right)}\\
+V = \frac{MD \left( 1 - e^{-kt_{inf}} \right)}{t_{inf}k\left( C_{max} - C_{min}e^{-kt_{inf}} \right)} \\
+C_{max} = \frac{MD \left( 1 - e^{-kt_{inf}} \right)}{t_{inf} V k \left( 1 - e^{-k\tau} \right)}\\
+C_{pk} = C_{max} e^{-k(t_{pk} - t_{max})}\\
+C_{min} =  C_{max} e^{-k(\tau - t_{inf})}\\
+C_{min} = C_{trough} e^{-k(t_{min} - t_{trough})}\\
+C[b] = C[a] e^{-k (a - b)}</script>
 
 <h1 id="vancomycin----">Vancomycin <sup id="fnref:dipiro:1"><a href="#fn:dipiro" class="footnote">1</a></sup><sup>, </sup><sup id="fnref:rybak2009"><a href="#fn:rybak2009" class="footnote">2</a></sup><sup>, </sup><sup id="fnref:matzkel1984"><a href="#fn:matzkel1984" class="footnote">3</a></sup><sup>, </sup><sup id="fnref:deryke2009"><a href="#fn:deryke2009" class="footnote">4</a></sup></h1>
 
@@ -244,19 +239,35 @@ for given infection site.</p>
 <h2 id="extended-interval-dosing">Extended-Interval Dosing</h2>
 
 <ol>
-  <li>Load with 7 mg/kg (15 mg/kg Amikacin)</li>
-  <li>Determine initial dosing frequency from table below</li>
-  <li>Draw level at 6-14hr after 1st or 2nd dose</li>
-  <li>Plot level on Hartford Nomogram (divide level by 2 for Amikacin)
+  <li>
+    <p>Load with 7 mg/kg (15 mg/kg Amikacin)</p>
+  </li>
+  <li>
+    <p>Determine initial dosing frequency from table below</p>
+  </li>
+  <li>
+    <p>Draw level at 6-14hr after 1st or 2nd dose</p>
+  </li>
+  <li>
+    <p>Plot level on Hartford Nomogram (divide level by 2 for Amikacin)</p>
+
     <ul>
       <li>If doses other than those above are used, multiplying the level by (expected)/(given) dose can help adjust properly for the nomogram, although this has less evidence</li>
     </ul>
   </li>
-  <li>Adjust interval per nomogram</li>
-  <li>If borderline, go with longer interval</li>
+  <li>
+    <p>Adjust interval per nomogram</p>
+  </li>
+  <li>
+    <p>If borderline, go with longer interval</p>
+  </li>
 </ol>
 
-<p class="caption">Initial Aminoglycocide Interval</p>
+<p class="caption">Hartford Nomogram</p>
+
+<p><img src="/peripheral_brain/images/hartfordNomogram.png" alt="Hartford Nomogram" /></p>
+
+<p class="caption">Initial Aminoglycoside Interval</p>
 
 <table>
   <thead>
@@ -325,6 +336,7 @@ for given infection site.</p>
     <div class="footerLinks">
       <a href="/peripheral_brain/home.html">Home</a>
       <a href="/peripheral_brain/index.html">Disclaimer</a>
+      <a href="/peripheral_brain/disease_list_old.html">Archived Diseases</a>
     </div>
   </nav>
 </footer>

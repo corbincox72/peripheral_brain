@@ -81,6 +81,12 @@
   <li><a href="#fluids-and-electrolytes">Fluids and Electrolytes</a></li>
   <li><a href="#anticoagulation">Anticoagulation</a></li>
   <li><a href="#ekg-interpretation">EKG Interpretation</a></li>
+  <li><a href="#pharmacokinetics">Pharmacokinetics</a>
+    <ul>
+      <li><a href="#general-pk">General PK</a></li>
+      <li><a href="#1-compartment-model">1-Compartment Model</a></li>
+    </ul>
+  </li>
 </ul>
 
     
@@ -125,6 +131,29 @@
 
 <script type="math/tex; mode=display">QTc=\frac{QT}{\sqrt{60/HR}}</script>
 
+<h1 id="pharmacokinetics">Pharmacokinetics</h1>
+
+<h2 id="general-pk">General PK</h2>
+
+<script type="math/tex; mode=display">C_{ss} = \frac{F(D/\tau)}{CL} \text{ (intermittent)}\\
+C_{ss} = \frac{\text{Rate}}{CL} \text{ (infusions)}\\
+E = \frac{f_{unbound}CL_{int}}{Q+f_{unbound}CL_{int}}\\
+CL = Q \times E\\
+CL = k \times V_d\\
+V_d = V_{blood} + \frac{f_b}{f_t}V_{tissue}\\
+F = \frac{\text{AUC}_{PO}}{\text{Dose}_{PO}} \div \frac{\text{AUC}_{IV}}{\text{Dose}_{IV}} = \frac{D_{IV}\text{AUC}_{PO}}{D_{PO}\text{AUC}_{IV}}</script>
+
+<h2 id="1-compartment-model">1-Compartment Model</h2>
+
+<script type="math/tex; mode=display">\tau_{est} = \frac{\ln{(C_{max}} / C_{min})}{k} + t_{inf}\\
+MD_{est} = \frac{C_{max} t_{inf} V k \left( 1 - e^{-k\tau} \right)}{\left( 1 - e^{-kt_{inf}} \right)}\\
+V = \frac{MD \left( 1 - e^{-kt_{inf}} \right)}{t_{inf}k\left( C_{max} - C_{min}e^{-kt_{inf}} \right)} \\
+C_{max} = \frac{MD \left( 1 - e^{-kt_{inf}} \right)}{t_{inf} V k \left( 1 - e^{-k\tau} \right)}\\
+C_{pk} = C_{max} e^{-k(t_{pk} - t_{max})}\\
+C_{min} =  C_{max} e^{-k(\tau - t_{inf})}\\
+C_{min} = C_{trough} e^{-k(t_{min} - t_{trough})}\\
+C[b] = C[a] e^{-k (a - b)}</script>
+
   </div>
 
 </div>
@@ -140,6 +169,7 @@
     <div class="footerLinks">
       <a href="/peripheral_brain/home.html">Home</a>
       <a href="/peripheral_brain/index.html">Disclaimer</a>
+      <a href="/peripheral_brain/disease_list_old.html">Archived Diseases</a>
     </div>
   </nav>
 </footer>
