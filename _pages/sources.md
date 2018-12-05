@@ -4,7 +4,7 @@ author: Corbin Cox
 permalink: /sources
 layout: diseases
 last-updated: 2018-12-03
-created: 2018-12-03
+created: 2018-12-04
 toc: true
 common: false
 ---
@@ -23,8 +23,6 @@ common: false
 <p>
 [^ogara2013]: O’Gara PT, Kushner FG, Ascheim DD, et al. 2013 ACCF/AHA Guideline for the Management of ST-Elevation Myocardial Infarction. *Journal of the American College of Cardiology*. 2013;61(4):e78-e140. doi:[10.1016/j.jacc.2012.11.019](https://doi.org/10.1016/j.jacc.2012.11.019)
 </p>
-
-
 ### Benign Early Repol vs Subtle LAD STEMI (4-variable)
 <p>
 [^driver2017]: Driver BE, Khalil A, Henry T, Kazmi F, Adil A, Smith SW. A new 4-variable formula to differentiate normal variant ST segment elevation in V2-V4 (early repolarization) from subtle left anterior descending coronary occlusion - Adding QRS amplitude of V2 improves the model. *Journal of Electrocardiology*. 2017;50(5):561-569. doi:[10.1016/j.jelectrocard.2017.04.005](https://doi.org/10.1016/j.jelectrocard.2017.04.005)
@@ -64,6 +62,18 @@ common: false
 ### Push-Dose Pressors
 <p>
 [^weingart2015]: Weingart S. Push-dose pressors for immediate blood pressure control. *Clinical and Experimental Emergency Medicine*. 2015;2(2):131-132. doi:[10.15441/ceem.15.010](https://doi.org/10.15441/ceem.15.010)
+</p>
+
+<p>
+[^hollenberg2011]: Hollenberg SM. Vasoactive Drugs in Circulatory Shock. American Journal of Respiratory and Critical Care Medicine. 2011;183(7):847-855. doi:[10.1164/rccm.201006-0972CI](https://doi.org/10.1164/rccm.201006-0972CI)
+</p>
+
+<p>
+[^jentzer2015]: Jentzer JC, Coons JC, Link CB, Schmidhofer M. Pharmacotherapy Update on the Use of Vasopressors and Inotropes in the Intensive Care Unit. Journal of Cardiovascular Pharmacology and Therapeutics. 2015;20(3):249-260. doi:[10.1177/1074248414559838](https://doi.org/10.1177/1074248414559838)
+</p>
+
+<p>
+[^overgaard2008]: Overgaard CB, Džavík V. Inotropes and Vasopressors: Review of Physiology and Clinical Use in Cardiovascular Disease. Circulation. 2008;118(10):1047-1056. doi:[10.1161/CIRCULATIONAHA.107.728840](https://doi.org/10.1161/CIRCULATIONAHA.107.728840)
 </p>
 
 # ID
