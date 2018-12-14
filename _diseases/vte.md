@@ -38,8 +38,6 @@ PO Dosing[^lexi]
 | Apixaban    | THA or TKA | 2.5mg BID x10-14d NTE 34d starting 12-24hr after surgery     | CrCl &lt; 30: No evidence                                    |                                                             |
 | Dabigatran  | THA        | 110mg x1 dose 1-4hr after surgery OR 220mg on the first day, then 220mg QD 10-14d NTE 35d | CrCl 30-50: Consider 150mg QD instead of 220mg<br />CrCl &lt; 30: No evidence | Times close to 30d recommended<br />Watch w/ PGP inhibitors |
 
-
-
 # DVT Tx[^kearon2016]
 
 * At least 3mo anticoag
@@ -56,6 +54,7 @@ PO Dosing[^lexi]
 * Thrombolysis for hemodynamic instability (SBP &lt; 90) w/o high bleed risk
   * Give thrombolytics if pt deteriorates after anticoag **if low bleed risk**
   * Systemic over catheter directed
+  * Can be used in stable PE when risks outweigh benefits, but off label and not usually recommended
   * Hemodynamically unstable / shock, high bleed risk, or failure of systemic thrombolysis => catheter directed removal
 * No thrombolysis if hemodynamically stable
 
@@ -81,7 +80,26 @@ PO Anticoag[^lexi]
 | Dabigatran  | 150mg PO BID                                     | Initiate after 5d of parenteral anticoagulant<br />Avoid if CrCl &le; 30 (never in trials)<br />Watch w/ PGP inhibitors |
 | Edoxaban    | &gt; 60kg: 60mg PO QD<br />&le; 60kg: 30mg PO QD | Initiate after 5d of parenteral anticoagulant<br />**Do not use if CrCl &gt; 95 or &lt; 15**<br />CrCl 15-50: 30mg QD |
 
+## Thrombolytics
 
+Thrombolytic Dosing[^lexi]
+{: .caption}
+
+| Drug                     | Dose                                            | Notes                                                     |
+| ------------------------ | ----------------------------------------------- | --------------------------------------------------------- |
+| Alteplase                | 100mg IV over 2hr                               | Start heparin near end of infusion or when aPTT is 2x ULN |
+| Tenecteplase (off-label) | Wt based bolus over 5 seconds (See table below) |                                                           |
+
+Tenecteplase Dosing[^lexi]
+{: .caption}
+
+| Wt (kg)   | Dose |
+| --------- | ---- |
+| &lt; 60kg | 30mg |
+| [60,70)   | 35mg |
+| [70,80)   | 40mg |
+| [80,90)   | 45mg |
+| &ge; 90   | 50mg |
 
 # Preferred Agents
 
