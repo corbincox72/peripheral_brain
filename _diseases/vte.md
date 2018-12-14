@@ -85,10 +85,10 @@ PO Anticoag[^lexi]
 Thrombolytic Dosing[^lexi]
 {: .caption}
 
-| Drug                     | Dose                                            | Notes                                                     |
-| ------------------------ | ----------------------------------------------- | --------------------------------------------------------- |
-| Alteplase                | 100mg IV over 2hr                               | Start heparin near end of infusion or when aPTT is 2x ULN |
-| Tenecteplase (off-label) | Wt based bolus over 5 seconds (See table below) |                                                           |
+| Drug                     | Dose                                            | Notes                                                        |
+| ------------------------ | ----------------------------------------------- | ------------------------------------------------------------ |
+| Alteplase                | 100mg IV over 2hr                               | **Check for CIs (below)**<br />Start heparin near end of infusion or when aPTT is 2x ULN |
+| Tenecteplase (off-label) | Wt based bolus over 5 seconds (See table below) | **Check for CIs (below)**                                    |
 
 Tenecteplase Dosing[^lexi]
 {: .caption}
@@ -100,6 +100,32 @@ Tenecteplase Dosing[^lexi]
 | [70,80)   | 40mg |
 | [80,90)   | 45mg |
 | &ge; 90   | 50mg |
+
+### CIs[^kearon2016]
+
+* Major CIs
+  * Structural intracranial disease
+  * Previous intracranial hemorrhage
+  * Ischemic stroke within 3 mo
+  * Active bleeding
+  * Recent brain or spinal surgery
+  * Recent head trauma with fracture or brain injury
+  * Bleeding diathesis 
+* Relative CIs
+  * Systolic BP &gt;180
+  * Diastolic BP &gt;110
+  * Recent bleeding (non-intracranial)
+  * Recent surgery / invasive procedure
+  * Ischemic stroke more than 3 mo previously
+  * Anticoagulated (eg, VKA therapy)
+  * Traumatic CPR
+  * Pericarditis or pericardial fluid
+  * Diabetic retinopathy
+  * Pregnancy
+  * Age &gt;75yr
+  * Low body weight (eg &lt; 60 kg)
+  * Female
+  * Black race
 
 # Preferred Agents
 
