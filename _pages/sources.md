@@ -52,7 +52,19 @@ common: false
 
 ### AHA HTN Guidelines
 <p>
-[whelton2018]: Whelton PK, Carey RM, Aronow WS, et al. 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults. *Journal of the American College of Cardiology*. 2018;71(19):e127-e248. doi:[10.1016/j.jacc.2017.11.006](https://doi.org/10.1016/j.jacc.2017.11.006)
+[^whelton2018]: Whelton PK, Carey RM, Aronow WS, et al. 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults. *Journal of the American College of Cardiology*. 2018;71(19):e127-e248. doi:[10.1016/j.jacc.2017.11.006](https://doi.org/10.1016/j.jacc.2017.11.006)
+</p>
+
+## VTE
+
+### VTE Treatment Guidelines
+<p>
+[^kearon2016]: Kearon C, Akl EA, Ornelas J, et al. Antithrombotic Therapy for VTE Disease. Chest. 2016;149(2):315-352. doi:[10.1016/j.chest.2015.11.026](https://doi.org/10.1016/j.chest.2015.11.026)
+</p>
+
+### VTE Prophylaxis
+<p>
+[^gould2012]: Gould MK, Garcia DA, Wren SM, et al. Prevention of VTE in Nonorthopedic Surgical Patients. Chest. 2012;141(2):e227S-e277S. doi:[10.1378/chest.11-2297](https://doi.org/10.1378/chest.11-2297)
 </p>
 
 # Critical Care
@@ -129,5 +141,5 @@ common: false
 
 ### Lexicomp
 <p>
-[^lexi]: Lexi-Drugs. Lexicomp. Wolters Kluwer Health, Inc. Riverwoods, IL. Available at: http://online.lexi.com.
+[^lexi]: Lexi-Drugs. Lexicomp. Wolters Kluwer Health, Inc. Riverwoods, IL. Available at: [http://online.lexi.com](http://online.lexi.com).
 </p>

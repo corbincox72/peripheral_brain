@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>VTE | The Peripheral Brain</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+
+  <link rel="stylesheet" href="/peripheral_brain/css/main.css" />
+  <link rel="stylesheet" href="/peripheral_brain/css/mobile.css" />
+  <link rel="stylesheet" href="/peripheral_brain/css/buttons.css" />
+
+  
+    <link rel="stylesheet" href="/peripheral_brain/css/diseases.css">
+  
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/peripheral_brain/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/peripheral_brain/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/peripheral_brain/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/peripheral_brain/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/peripheral_brain/favicons/safari-pinned-tab.svg" color="#465c8b">
+  <link rel="shortcut icon" href="/peripheral_brain/favicons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="Peripheral Brain">
+  <meta name="application-name" content="Peripheral Brain">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/peripheral_brain/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#cdcdcd">
+
+
+  
+
+</head>
+
+
+<body class="body">
+<header id="myHeader" class="myHeader">
+  <nav>
+    <!-- <a href="/peripheral_brain/home.html"><img src="/peripheral_brain/images/logo_1000x1000.png" alt="Logo"> -->
+    <a href="/peripheral_brain/home.html">Home</a>
+    <a href="/peripheral_brain/disease_list.html">Diseases and Drugs</a>
+    <a href="/peripheral_brain/firstFive">TF5M</a>
+    <a href="/peripheral_brain/lab_values">Lab Values</a>
+    <a href="/peripheral_brain/formulas">Formulas</a>
+    <a href="/peripheral_brain/calculators.html">Calculators</a>
+    <a href="/peripheral_brain/search.html">Search</a>
+    <a href="javascript:void(0);" class="icon" onclick="openMenu()">&#9776;</a>
+  </nav>
+
+  <script>
+  function openMenu() {
+      var x = document.getElementById("myHeader");
+      if (x.className === "myHeader") {
+          x.className += " responsive";
+      } else {
+          x.className = "myHeader";
+      }
+  }
+  </script>
+</header>
+
+
+<h1 class="title">VTE</h1>
+
+<div class="contents twoCol">
+  <div class="toc col1">
+    
+      <ul>
+  <li><a href="#dx">Dx</a></li>
+  <li><a href="#dvt-prophylaxis">DVT Prophylaxis<sup id="fnref:gould2012"><a href="#fn:gould2012" class="footnote">1</a></sup></a></li>
+  <li><a href="#dvt-tx">DVT Tx<sup id="fnref:kearon2016"><a href="#fn:kearon2016" class="footnote">3</a></sup></a></li>
+  <li><a href="#pe-tx">PE Tx<sup id="fnref:kearon2016:1"><a href="#fn:kearon2016" class="footnote">3</a></sup></a></li>
+  <li><a href="#dvtpe-tx-dosing">DVT/PE Tx Dosing</a></li>
+  <li><a href="#preferred-agents">Preferred Agents</a></li>
+  <li><a href="#references">References</a></li>
+</ul>
+
+    
+  </div>
+
+  <div class="content col2">
+    <h1 id="dx">Dx</h1>
+
+<p><strong>DVT:</strong> <a href="https://www.mdcalc.com/wells-criteria-dvt">Well’s Score</a></p>
+
+<p><strong>PE:</strong> <a href="https://www.mdcalc.com/perc-rule-pulmonary-embolism">PERC Rule</a></p>
+
+<h1 id="dvt-prophylaxis">DVT Prophylaxis<sup id="fnref:gould2012"><a href="#fn:gould2012" class="footnote">1</a></sup></h1>
+
+<ul>
+  <li>Low Risk: Consider ICD or no therapy</li>
+  <li>High bleeding risk: ICD over no therapy</li>
+  <li>Otherwise: LMWH or UFH (low dose)</li>
+</ul>
+
+<p class="caption">Parenteral Dosing<sup id="fnref:lexi"><a href="#fn:lexi" class="footnote">2</a></sup></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Drug</th>
+      <th>Dose</th>
+      <th>Adjustments</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>UFH</td>
+      <td>5000 Units Q8-12H</td>
+      <td>None</td>
+      <td>Higher risk of HIT</td>
+    </tr>
+    <tr>
+      <td>Enoxaparin</td>
+      <td>40mg SubQ QD<br />30mg SubQ BID</td>
+      <td>CrCl &lt; 30: 30mg SubQ QD</td>
+      <td>Low risk of HIT</td>
+    </tr>
+    <tr>
+      <td>Fondaparinux</td>
+      <td>2.5mg SubQ QD</td>
+      <td>CrCl 30-50: Caution<br />CrCl &lt; 30: CI</td>
+      <td><strong>Must be ≥ 50kg</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="caption">PO Dosing<sup id="fnref:lexi:1"><a href="#fn:lexi" class="footnote">2</a></sup></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Drug</th>
+      <th>Indication</th>
+      <th>Dosing</th>
+      <th>Adjustments</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Rivaroxiban</td>
+      <td>THA or TKA</td>
+      <td>10mg QD x10-14d NTE 34d starting 6-10hr after surgery</td>
+      <td>CrCl 30-50: Caution<br />CrCl &lt; 30: CI</td>
+      <td>Use longer interval for THA, shorter end for TKA</td>
+    </tr>
+    <tr>
+      <td>Apixaban</td>
+      <td>THA or TKA</td>
+      <td>2.5mg BID x10-14d NTE 34d starting 12-24hr after surgery</td>
+      <td>CrCl &lt; 30: No evidence</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Dabigatran</td>
+      <td>THA</td>
+      <td>110mg x1 dose 1-4hr after surgery OR 220mg on the first day, then 220mg QD 10-14d NTE 35d</td>
+      <td>CrCl 30-50: Consider 150mg QD instead of 220mg<br />CrCl &lt; 30: No evidence</td>
+      <td>Times close to 30d recommended<br />Watch w/ PGP inhibitors</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="dvt-tx">DVT Tx<sup id="fnref:kearon2016"><a href="#fn:kearon2016" class="footnote">3</a></sup></h1>
+
+<ul>
+  <li>At least 3mo anticoag
+    <ul>
+      <li>PO therapy (DOAC or warfarin) preferred if no cancer</li>
+      <li>LMWH preferred if cancer</li>
+      <li>Generally stick to 3, low-moderate bleed risk unprovoked VTE recommend extended (no scheduled stop date)</li>
+      <li>If DVT recurs while on anticoag, switch to LMWH or increase LMWH by 25-33% if already on LMWH</li>
+    </ul>
+  </li>
+  <li>ASA is not as good as anticoag, but better than nothing</li>
+  <li>Distal DVT w/ serial imaging can forgo anticoag if thrombus does not extend</li>
+</ul>
+
+<h1 id="pe-tx">PE Tx<sup id="fnref:kearon2016:1"><a href="#fn:kearon2016" class="footnote">3</a></sup></h1>
+
+<ul>
+  <li>Low Risk: Tx outpatient</li>
+  <li>Thrombolysis for hemodynamic instability (SBP &lt; 90) w/o high bleed risk
+    <ul>
+      <li>Give thrombolytics if pt deteriorates after anticoag <strong>if low bleed risk</strong></li>
+      <li>Systemic over catheter directed</li>
+      <li>Hemodynamically unstable / shock, high bleed risk, or failure of systemic thrombolysis =&gt; catheter directed removal</li>
+    </ul>
+  </li>
+  <li>No thrombolysis if hemodynamically stable</li>
+</ul>
+
+<h1 id="dvtpe-tx-dosing">DVT/PE Tx Dosing</h1>
+
+<p class="caption">Initial Parenteral Anticoag<sup id="fnref:lexi:2"><a href="#fn:lexi" class="footnote">2</a></sup></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Drug</th>
+      <th>Dose</th>
+      <th>Adjustments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>UFH</td>
+      <td>80 U/kg IVB then 18 U/kg/hr<br />333 U/kg SubQ then 250 U/kg Q12H</td>
+      <td>Monitor aPTT Q4-6H (titration) or Q24H (Wt based) based on protocol<br />Goal 1.5-2x ULN</td>
+    </tr>
+    <tr>
+      <td>Enoxaparin</td>
+      <td>1 mg/kg SubQ Q12H<br />1.5 mg/kg SubQ Q24H</td>
+      <td>CrCl &lt; 30: 1 mg/kg SubQ Q24H</td>
+    </tr>
+    <tr>
+      <td>Fondaparinux</td>
+      <td>&lt; 50kg: 5mg SubQ QD<br />50-100kg: 7.5mg SubQ QD<br />&gt; 100kg: 10mg SubQ QD<br />x5-9d</td>
+      <td>CrCl 30-50: Caution<br />CrCl &lt; 30: CI</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="caption">PO Anticoag<sup id="fnref:lexi:3"><a href="#fn:lexi" class="footnote">2</a></sup></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Drug</th>
+      <th>Dose</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Warfarin</td>
+      <td>2.5-7.5mg PO QD initial</td>
+      <td>Start w/ parenteral anticoag until therapeutic INR<br />Titrate based on INR (Goal 2-3)</td>
+    </tr>
+    <tr>
+      <td>Rivaroxaban</td>
+      <td>15mg PO BID x21d then 20mg PO QD</td>
+      <td><strong>Must be taken w/ food</strong><br />No initial parenteral anticoag needed</td>
+    </tr>
+    <tr>
+      <td>Apixaban</td>
+      <td>10mg PO BID x7d then 5mg PO QD</td>
+      <td>No initial parenteral anticoag needed</td>
+    </tr>
+    <tr>
+      <td>Dabigatran</td>
+      <td>150mg PO BID</td>
+      <td>Initiate after 5d of parenteral anticoagulant<br />Avoid if CrCl ≤ 30 (never in trials)<br />Watch w/ PGP inhibitors</td>
+    </tr>
+    <tr>
+      <td>Edoxaban</td>
+      <td>&gt; 60kg: 60mg PO QD<br />≤ 60kg: 30mg PO QD</td>
+      <td>Initiate after 5d of parenteral anticoagulant<br /><strong>Do not use if CrCl &gt; 95 or &lt; 15</strong><br />CrCl 15-50: 30mg QD</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="preferred-agents">Preferred Agents</h1>
+
+<p class="caption">Preferred Anticoagulants<sup id="fnref:kearon2016:2"><a href="#fn:kearon2016" class="footnote">3</a></sup></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Factor</th>
+      <th>Agent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cancer</td>
+      <td>LMWH</td>
+    </tr>
+    <tr>
+      <td>Parenteral Therapy CI</td>
+      <td>Rivaroxaban or Apixaban<br />(others require bridge)</td>
+    </tr>
+    <tr>
+      <td>QD PO Therapy Preferred</td>
+      <td>Rivaroxaban, Edoxaban, Warfarin</td>
+    </tr>
+    <tr>
+      <td>Liver disease / coagulopathy</td>
+      <td>LMWH</td>
+    </tr>
+    <tr>
+      <td>CrCl &lt; 30</td>
+      <td>Warfarin</td>
+    </tr>
+    <tr>
+      <td>CAD</td>
+      <td>Warfarin, Rivaroxaban, Apixaban, Edoxaban</td>
+    </tr>
+    <tr>
+      <td>Hx of GI Bleeds</td>
+      <td>Apixaban, Warfarin</td>
+    </tr>
+    <tr>
+      <td>Thrombolytic Use</td>
+      <td>UFH Infusion</td>
+    </tr>
+    <tr>
+      <td>Pregnancy</td>
+      <td>LMWH</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="references">References</h1>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:gould2012">
+      <p>Gould MK, Garcia DA, Wren SM, et al. Prevention of VTE in Nonorthopedic Surgical Patients. Chest. 2012;141(2):e227S-e277S. doi:<a href="https://doi.org/10.1378/chest.11-2297">10.1378/chest.11-2297</a> <a href="#fnref:gould2012" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:lexi">
+      <p>Lexi-Drugs. Lexicomp. Wolters Kluwer Health, Inc. Riverwoods, IL. Available at: <a href="http://online.lexi.com">http://online.lexi.com</a>. <a href="#fnref:lexi" class="reversefootnote">&#8617;</a> <a href="#fnref:lexi:1" class="reversefootnote">&#8617;<sup>2</sup></a> <a href="#fnref:lexi:2" class="reversefootnote">&#8617;<sup>3</sup></a> <a href="#fnref:lexi:3" class="reversefootnote">&#8617;<sup>4</sup></a></p>
+    </li>
+    <li id="fn:kearon2016">
+      <p>Kearon C, Akl EA, Ornelas J, et al. Antithrombotic Therapy for VTE Disease. Chest. 2016;149(2):315-352. doi:<a href="https://doi.org/10.1016/j.chest.2015.11.026">10.1016/j.chest.2015.11.026</a> <a href="#fnref:kearon2016" class="reversefootnote">&#8617;</a> <a href="#fnref:kearon2016:1" class="reversefootnote">&#8617;<sup>2</sup></a> <a href="#fnref:kearon2016:2" class="reversefootnote">&#8617;<sup>3</sup></a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+
+</div>
+
+<div class="credits">
+  <p>Author: Corbin Cox <br>
+  Created: 2018-12-14 <br>
+  Last Updated: 2018-12-14</p>
+</div>
+
+<footer class="footer menus">
+  <nav>
+    <div class="footerLinks">
+      <a href="/peripheral_brain/home.html">Home</a>
+      <a href="/peripheral_brain/index.html">Disclaimer</a>
+      <a href="/peripheral_brain/disease_list_old.html">Archived Diseases</a>
+    </div>
+  </nav>
+</footer>
+
+
+</body>
+</html>
