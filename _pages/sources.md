@@ -128,6 +128,13 @@ common: false
 <p>
 [^nicolau1995]: Nicolau DP, Freeman CD, Belliveau PP, Nightingale CH, Ross JW, Quintiliani R. Experience with a once-daily aminoglycoside program administered to 2,184 adult patients. *Antimicrobial Agents and Chemotherapy*. 1995;39(3):650-655. doi:[10.1128/AAC.39.3.650](https://doi.org/10.1128/AAC.39.3.650)
 </p>
+# Pulmononolgy
+
+### GOLD COPD Guidelines 2018
+
+<p>
+[^goldCOPD]: Vogelmeier C, Agusti A, *et al*. Global Initiative for Chronic Obstructive Lung Disease. [Available Here](https://goldcopd.org/wp-content/uploads/2018/02/WMS-GOLD-2018-Feb-Final-to-print-v2.pdf)
+</p>
 
 # Textbooks
 
