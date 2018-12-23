@@ -3,7 +3,7 @@ title: VTE
 layout: diseases
 author: Corbin Cox
 last-updated: 2018-12-14
-created: 2018-12-14
+created: 2018-12-23
 toc: true
 common: false
 ---
@@ -16,6 +16,8 @@ common: false
 
 # DVT Prophylaxis[^gould2012]
 
+* [Padua Score](https://www.mdcalc.com/padua-prediction-score-risk-vte) is somewhat useful in risk stratification
+* [Caprini Score](https://www.mdcalc.com/caprini-score-venous-thromboembolism-2005) for surgical pts
 * Low Risk: Consider ICD or no therapy
 * High bleeding risk: ICD over no therapy
 * Otherwise: LMWH or UFH (low dose)

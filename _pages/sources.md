@@ -76,6 +76,17 @@ common: false
 [^yancy2017]: Yancy CW, Jessup M, Bozkurt B, et al. 2017 ACC/AHA/HFSA Focused Update of the 2013 ACCF/AHA Guideline for the Management of Heart Failure. *Journal of the American College of Cardiology*. 2017;70(6):776-803. doi:[10.1016/j.jacc.2017.04.025
 </p>
 
+## HLD
+
+<p>
+[^grundy2018]: Grundy SM, Stone NJ, Bailey AL, et al. 2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol. *Journal of the American College of Cardiology*. November 2018. doi:[10.1016/j.jacc.2018.11.003](https://doi.org/10.1016/j.jacc.2018.11.003)
+</p>
+<p>
+[^jacobson2015]: Jacobson TA, Ito MK, Maki KC, et al. National Lipid Association Recommendations for Patient-Centered Management of Dyslipidemia: Part 1—Full Report. *Journal of Clinical Lipidology*. 2015;9(2):129-169. doi:[10.1016/j.jacl.2015.02.003](https://doi.org/10.1016/j.jacl.2015.02.003)
+</p>
+<p>
+[^jentzer2015]: Jentzer JC, Coons JC, Link CB, Schmidhofer M. Pharmacotherapy Update on the Use of Vasopressors and Inotropes in the Intensive Care Unit. *Journal of Cardiovascular Pharmacology and Therapeutics*. 2015;20(3):249-260. doi:[10.1177/1074248414559838](https://doi.org/10.1177/1074248414559838)
+</p>
 
 # Critical Care
 
@@ -96,6 +107,15 @@ common: false
 
 <p>
 [^overgaard2008]: Overgaard CB, Džavík V. Inotropes and Vasopressors: Review of Physiology and Clinical Use in Cardiovascular Disease. Circulation. 2008;118(10):1047-1056. doi:[10.1161/CIRCULATIONAHA.107.728840](https://doi.org/10.1161/CIRCULATIONAHA.107.728840)
+</p>
+
+## Stress Ulcer Prophylaxis
+<p>
+[^barletta2016]: Barletta JF, Bruno JJ, Buckley MS, Cook DJ. Stress Ulcer Prophylaxis: *Critical Care Medicine*. 2016;44(7):1395-1405. doi:[10.1097/CCM.0000000000001872](https://doi.org/10.1097/CCM.0000000000001872)
+</p>
+
+<p>
+[^erstad1999]: Erstad BL, et al. ASHP Therapeutic Guidelines on Stress Ulcer Prophylaxis. 1999.
 </p>
 
 # ID

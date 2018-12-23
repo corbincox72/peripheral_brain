@@ -4,7 +4,7 @@ author: Corbin Cox
 permalink: /formulas
 layout: diseases
 last-updated: 2018-3-24
-created: 2018-3-24
+created: 2018-12-23
 toc: true
 common: false
 ---
@@ -37,7 +37,7 @@ $$
 # Fluids and Electrolytes
 
 $$
-\text{Osm} = 2*[\text{Na}]\; (mEq/L)+\frac{\text{BUN}\; (mg/dL)}{2.8} + \frac{\text{BG}\; (mg/dL)}{18} + \frac{\text{EtOH}\; (md/dL)}{3.7}\\
+\text{Osm} = 2[\text{Na}]+\frac{\text{BUN}}{2.8} + \frac{\text{BG}}{18} + \frac{\text{EtOH}\; (md/dL)}{3.7}\\
 \text{Corrected}\; [Na^+] = [Na^+] + 1.6 \left[ \frac{BG}{100}-1 \right]\\
 \text{TBW}_M = 0.6\; (L/kg) * Wt\\
 \text{TBW}_F = 0.5\; (L/kg) * Wt\\
@@ -55,7 +55,9 @@ $$
 
 # EKG Interpretation
 
-$$ QTc=\frac{QT}{\sqrt{60/HR}} $$
+$$
+QTc=\frac{QT}{\sqrt{60/HR}}
+$$
 
 # Pharmacokinetics 
 
