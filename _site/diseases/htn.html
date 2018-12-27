@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>HTN | The Peripheral Brain</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+  <script src="/peripheral_brain/javascript/mermaid.min.js"></script>
+
+  <link rel="stylesheet" href="/peripheral_brain/css/main.css" />
+  <link rel="stylesheet" href="/peripheral_brain/css/mobile.css" />
+  <link rel="stylesheet" href="/peripheral_brain/css/buttons.css" />
+  <link rel="stylesheet" href="/peripheral_brain/css/mermaid.dark.css" />
+
+  
+    <link rel="stylesheet" href="/peripheral_brain/css/diseases.css">
+  
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/peripheral_brain/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/peripheral_brain/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/peripheral_brain/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/peripheral_brain/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/peripheral_brain/favicons/safari-pinned-tab.svg" color="#465c8b">
+  <link rel="shortcut icon" href="/peripheral_brain/favicons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="Peripheral Brain">
+  <meta name="application-name" content="Peripheral Brain">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/peripheral_brain/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#cdcdcd">
+
+
+  
+
+</head>
+
+
+<body class="body">
+<header id="myHeader" class="myHeader">
+  <nav>
+    <!-- <a href="/peripheral_brain/home.html"><img src="/peripheral_brain/images/logo_1000x1000.png" alt="Logo"> -->
+    <a href="/peripheral_brain/home.html">Home</a>
+    <a href="/peripheral_brain/disease_list.html">Diseases and Drugs</a>
+    <a href="/peripheral_brain/firstFive">TF5M</a>
+    <a href="/peripheral_brain/lab_values">Lab Values</a>
+    <a href="/peripheral_brain/formulas">Formulas</a>
+    <a href="/peripheral_brain/calculators.html">Calculators</a>
+    <a href="/peripheral_brain/search.html">Search</a>
+    <a href="javascript:void(0);" class="icon" onclick="openMenu()">&#9776;</a>
+  </nav>
+
+  <script>
+  function openMenu() {
+      var x = document.getElementById("myHeader");
+      if (x.className === "myHeader") {
+          x.className += " responsive";
+      } else {
+          x.className = "myHeader";
+      }
+  }
+  </script>
+</header>
+
+
+<h1 class="title">HTN</h1>
+
+<div class="contents twoCol">
+  <div class="toc col1">
+    
+      <ul>
+  <li><a href="#dx">Dx<sup id="fnref:whelton2018"><a href="#fn:whelton2018" class="footnote">1</a></sup></a></li>
+  <li><a href="#tx">Tx</a></li>
+  <li><a href="#htn-crisis">HTN Crisis<sup id="fnref:whelton2018:1"><a href="#fn:whelton2018" class="footnote">1</a></sup><sup>, </sup><sup id="fnref:benken2018"><a href="#fn:benken2018" class="footnote">2</a></sup></a>
+    <ul>
+      <li><a href="#dx-1">Dx</a></li>
+      <li><a href="#tx-1">Tx</a></li>
+    </ul>
+  </li>
+  <li><a href="#references">References</a></li>
+</ul>
+
+    
+  </div>
+
+  <div class="content col2">
+    <h1 id="dx">Dx<sup id="fnref:whelton2018"><a href="#fn:whelton2018" class="footnote">1</a></sup></h1>
+
+<h1 id="tx">Tx</h1>
+
+<h1 id="htn-crisis">HTN Crisis<sup id="fnref:whelton2018:1"><a href="#fn:whelton2018" class="footnote">1</a></sup><sup>, </sup><sup id="fnref:benken2018"><a href="#fn:benken2018" class="footnote">2</a></sup></h1>
+
+<h2 id="dx-1">Dx</h2>
+
+<div class="mermaid">
+graph TD;
+	start[SBP &gt; 180<br />or<br />DBP &gt; 120] --&gt; uore{End-Organ<br />Damage};
+	uore --&gt;|Yes| emerg[Emergency];
+	uore --&gt;|No| urg(Restart/intensify PO<br /> Therapy and F/U);
+	emerg --&gt; icu(ICU Admit);
+	icu --&gt; cond{Aortic Dissection<br />Pheochromocytoma<br />Pre-/Eclampsia};
+	cond --&gt;|Yes| ycond(Initiate<br />Condition-Specific<br />Therapies);
+	cond --&gt;|No| ncond(IV Therapies<br />Drop by 25% in 1st hr<br />Target 160/110 in 2-6hr<br />Target Normal 24-48hr later);
+</div>
+
+<h2 id="tx-1">Tx</h2>
+
+<h1 id="references">References</h1>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:whelton2018">
+      <p>Whelton PK, Carey RM, Aronow WS, et al. 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults. <em>Journal of the American College of Cardiology</em>. 2018;71(19):e127-e248. doi:<a href="https://doi.org/10.1016/j.jacc.2017.11.006">10.1016/j.jacc.2017.11.006</a> <a href="#fnref:whelton2018" class="reversefootnote">&#8617;</a> <a href="#fnref:whelton2018:1" class="reversefootnote">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:benken2018">
+      <p>Benken ST. ACCP Hypertensive Emergencies. 2018. Available at: https://www.accp.com/docs/bookstore/ccsap/ccsap2018b1_sample.pdf <a href="#fnref:benken2018" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+
+</div>
+
+<div class="credits">
+  <p>Author: Corbin Cox <br>
+  Created: 2018-12-26 <br>
+  Last Updated: 2018-12-26</p>
+</div>
+
+<footer class="footer menus">
+  <nav>
+    <div class="footerLinks">
+      <a href="/peripheral_brain/home.html">Home</a>
+      <a href="/peripheral_brain/index.html">Disclaimer</a>
+      <a href="/peripheral_brain/disease_list_old.html">Archived Diseases</a>
+    </div>
+  </nav>
+</footer>
+
+
+</body>
+</html>

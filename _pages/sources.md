@@ -55,6 +55,10 @@ common: false
 [^whelton2018]: Whelton PK, Carey RM, Aronow WS, et al. 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults. *Journal of the American College of Cardiology*. 2018;71(19):e127-e248. doi:[10.1016/j.jacc.2017.11.006](https://doi.org/10.1016/j.jacc.2017.11.006)
 </p>
 
+### ACCP HTN Emergency
+<p>
+[^benken2018]: Benken ST. ACCP Hypertensive Emergencies. 2018. Available at: https://www.accp.com/docs/bookstore/ccsap/ccsap2018b1_sample.pdf
+</p>
 ## VTE
 
 ### VTE Treatment Guidelines

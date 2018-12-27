@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>HLD | The Peripheral Brain</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+  <script src="/peripheral_brain/javascript/mermaid.min.js"></script>
+
+  <link rel="stylesheet" href="/peripheral_brain/css/main.css" />
+  <link rel="stylesheet" href="/peripheral_brain/css/mobile.css" />
+  <link rel="stylesheet" href="/peripheral_brain/css/buttons.css" />
+  <link rel="stylesheet" href="/peripheral_brain/css/mermaid.dark.css" />
+
+  
+    <link rel="stylesheet" href="/peripheral_brain/css/diseases.css">
+  
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/peripheral_brain/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/peripheral_brain/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/peripheral_brain/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/peripheral_brain/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/peripheral_brain/favicons/safari-pinned-tab.svg" color="#465c8b">
+  <link rel="shortcut icon" href="/peripheral_brain/favicons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="Peripheral Brain">
+  <meta name="application-name" content="Peripheral Brain">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/peripheral_brain/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#cdcdcd">
+
+
+  
+
+</head>
+
+
+<body class="body">
+<header id="myHeader" class="myHeader">
+  <nav>
+    <!-- <a href="/peripheral_brain/home.html"><img src="/peripheral_brain/images/logo_1000x1000.png" alt="Logo"> -->
+    <a href="/peripheral_brain/home.html">Home</a>
+    <a href="/peripheral_brain/disease_list.html">Diseases and Drugs</a>
+    <a href="/peripheral_brain/firstFive">TF5M</a>
+    <a href="/peripheral_brain/lab_values">Lab Values</a>
+    <a href="/peripheral_brain/formulas">Formulas</a>
+    <a href="/peripheral_brain/calculators.html">Calculators</a>
+    <a href="/peripheral_brain/search.html">Search</a>
+    <a href="javascript:void(0);" class="icon" onclick="openMenu()">&#9776;</a>
+  </nav>
+
+  <script>
+  function openMenu() {
+      var x = document.getElementById("myHeader");
+      if (x.className === "myHeader") {
+          x.className += " responsive";
+      } else {
+          x.className = "myHeader";
+      }
+  }
+  </script>
+</header>
+
+
+<h1 class="title">HLD</h1>
+
+<div class="contents twoCol">
+  <div class="toc col1">
+    
+      <ul>
+  <li><a href="#dx-">Dx<sup id="fnref:grundy2018"><a href="#fn:grundy2018" class="footnote">1</a></sup><sup>, </sup><sup id="fnref:jacobson2015"><a href="#fn:jacobson2015" class="footnote">2</a></sup></a></li>
+  <li><a href="#tx">Tx<sup id="fnref:grundy2018:1"><a href="#fn:grundy2018" class="footnote">1</a></sup></a>
+    <ul>
+      <li><a href="#statin-initiation">Statin Initiation</a></li>
+      <li><a href="#statin-adjustment">Statin Adjustment</a></li>
+      <li><a href="#misc-drug-therapies">Misc Drug Therapies</a></li>
+    </ul>
+  </li>
+  <li><a href="#references">References</a></li>
+</ul>
+
+    
+  </div>
+
+  <div class="content col2">
+    <h1 id="dx-">Dx<sup id="fnref:grundy2018"><a href="#fn:grundy2018" class="footnote">1</a></sup><sup>, </sup><sup id="fnref:jacobson2015"><a href="#fn:jacobson2015" class="footnote">2</a></sup></h1>
+
+<script type="math/tex; mode=display">\text{LDL-C} = \text{TC} - \frac{\text{TG}}{5}-\text{HDL}</script>
+
+<p>Calculation is inaccurate if LDL &lt; 70, and adjustments exist in that circumstance.</p>
+
+<p class="caption">Normal Labs</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Lab</th>
+      <th>Normal</th>
+      <th>Abnormal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TG</td>
+      <td>&lt; 150</td>
+      <td>≥ 200</td>
+    </tr>
+    <tr>
+      <td>HDL</td>
+      <td> </td>
+      <td>&lt; 40 (men)<br />&lt; 50 (women)</td>
+    </tr>
+    <tr>
+      <td>LDL</td>
+      <td>&lt; 100</td>
+      <td>≥ 160</td>
+    </tr>
+    <tr>
+      <td>Non-HDL</td>
+      <td>&lt; 130</td>
+      <td>≥ 190</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="tx">Tx<sup id="fnref:grundy2018:1"><a href="#fn:grundy2018" class="footnote">1</a></sup></h1>
+
+<p class="caption">Statin Classification</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Low</th>
+      <th>Medium</th>
+      <th>High</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>&lt; 30% LDL reduction</td>
+      <td>30-49&amp; LDL reduction</td>
+      <td>≥ 50% LDL reduction</td>
+    </tr>
+    <tr>
+      <td>Simvastatin 10mg</td>
+      <td>Atorvastatin 10-20mg</td>
+      <td>Atorvastatin 40-80mg</td>
+    </tr>
+    <tr>
+      <td>Pravastatin 10-20mg</td>
+      <td>Rosuvastatin 5-10mg</td>
+      <td>Rosuvastatin 20-40mg</td>
+    </tr>
+    <tr>
+      <td>Lovastatin 20mg</td>
+      <td>Simvastatin 20-40mg</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Fluvastatin 20-40mg</td>
+      <td>Pravastatin 40mg</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Lovastatin 40mg</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Fluvastatin 40mg BID or 80mg XL QD</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Pitavastatin 1-4mg</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="statin-initiation">Statin Initiation</h2>
+
+<ul>
+  <li>Pt has Clinical ASCVD
+    <ul>
+      <li>Stratify based on risk</li>
+      <li>Clinical ASCVD: ACS, Hx of MI, Stroke, TIA, PAD</li>
+      <li>Major Events
+        <ul>
+          <li>ACS w/i 12mo</li>
+          <li>Hx of MI</li>
+          <li>Hx of ischemic stroke</li>
+          <li>Symptomatic PAD</li>
+        </ul>
+      </li>
+      <li>High-risk Conditions
+        <ul>
+          <li>≥ 65yo</li>
+          <li>Familial hypercholesterolemia</li>
+          <li>Prior CABG or PCI</li>
+          <li>DM</li>
+          <li>HTN</li>
+          <li>eGFR &lt; 60</li>
+          <li>Smoker</li>
+          <li>LDL ≥ 100 despite maximal statin therapy</li>
+          <li>CHF</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Very High ASCVD Risk
+    <ul>
+      <li>Multiple ASCVD events or 1 major event w/ multiple high-risk conditions</li>
+      <li>High-intensity statin</li>
+      <li>Add ezetimibe if LDL ≥ 70</li>
+      <li>Add PCSK9 if LDL ≥ 70 or non-LDL ≥ 100 w/ ezetimibe and statin</li>
+    </ul>
+  </li>
+  <li>All other risk stratification
+    <ul>
+      <li>&gt; 75 yo: Consider moderate or high-intensity statin as tolerated</li>
+      <li>≤ 75 yo: High intensity statin, followed by ezetimibe if LDL-C ≥ 70</li>
+    </ul>
+  </li>
+  <li>All DM pts 40-75yo receive moderate intensity, if not higher</li>
+  <li>All pts 20-75yo w/ LDL ≥ 190 receive high-intensity</li>
+  <li>ASCVD Risk ≥ 7.5% w/ other risk factor or ≥ 20% get high intensity statin</li>
+  <li>All pts 40-75 w/ LDL 70-189 receive intermediate statin</li>
+  <li>Use lower intensity statins if high-intensity not tolerated</li>
+</ul>
+
+<h2 id="statin-adjustment">Statin Adjustment</h2>
+
+<p><strong>NLA Risk Stratification</strong></p>
+
+<ul>
+  <li>Low
+    <ul>
+      <li>0-1 major ASCVD risk factors</li>
+    </ul>
+  </li>
+  <li>Moderate
+    <ul>
+      <li>2 major ASCVD risk factors</li>
+    </ul>
+  </li>
+  <li>High
+    <ul>
+      <li>≥ 3 major ASCVD risk factors</li>
+      <li>DM</li>
+      <li>CKD 3B or 4</li>
+      <li>LDL ≥ 190</li>
+      <li>≥ 15% ASCVD 10-Year Risk</li>
+    </ul>
+  </li>
+  <li>Very High
+    <ul>
+      <li>ASCVD</li>
+      <li>DM w/ ≥ 2 other risk factors or end organ damage</li>
+    </ul>
+  </li>
+  <li>Major Risk Factor
+    <ul>
+      <li>M ≥ 45yo or F ≥ 55yo</li>
+      <li>FHx of Early CHD
+        <ul>
+          <li>&lt; 55yo for M relatives</li>
+          <li>&lt; 65yo for F relatives</li>
+        </ul>
+      </li>
+      <li>Current Smoker</li>
+      <li>BP ≥ 140/90 or currently on BP meds</li>
+      <li>HDL &lt; 40 (M) or &lt; 50 (F)</li>
+    </ul>
+  </li>
+</ul>
+
+<p class="caption">Treatment Goals</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Risk Category</th>
+      <th>Non-HDL</th>
+      <th>LDL</th>
+      <th>Apo B</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Low</td>
+      <td>&lt; 130</td>
+      <td>&lt; 100</td>
+      <td>&lt; 90</td>
+    </tr>
+    <tr>
+      <td>Moderate</td>
+      <td>&lt; 130</td>
+      <td>&lt; 100</td>
+      <td>&lt; 90</td>
+    </tr>
+    <tr>
+      <td>High</td>
+      <td>&lt; 130</td>
+      <td>&lt; 100</td>
+      <td>&lt; 90</td>
+    </tr>
+    <tr>
+      <td>Very High</td>
+      <td>&lt; 130</td>
+      <td>&lt; 70</td>
+      <td>&lt; 80</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>See NLA Part 2 for Special Population Management (Jentzer 2015)</strong><sup id="fnref:jentzer2015"><a href="#fn:jentzer2015" class="footnote">3</a></sup></p>
+
+<h2 id="misc-drug-therapies">Misc Drug Therapies</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Drug</th>
+      <th>ΔLDL</th>
+      <th>ΔNon-HDL</th>
+      <th>ΔHDL</th>
+      <th>ΔTG</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BAS</td>
+      <td>↓ 15-30%</td>
+      <td>↓ 4-16%</td>
+      <td>↑ 3-5%</td>
+      <td>↑ 0-10%</td>
+    </tr>
+    <tr>
+      <td>Nicotinic Acid</td>
+      <td>↓ 5-25%</td>
+      <td>↓ 8-23%</td>
+      <td>↑ 15-35%</td>
+      <td>↓ 20-50%</td>
+    </tr>
+    <tr>
+      <td>Fibrates</td>
+      <td>↓ 5- ↑ 20%</td>
+      <td>↓ 5-19%</td>
+      <td>↑ 10-20%</td>
+      <td>↓ 20-50%</td>
+    </tr>
+    <tr>
+      <td>Omega-3s</td>
+      <td>↓ 6-↑ 25%</td>
+      <td>↓ 5-↑ 14%</td>
+      <td>↓ 5-↑ 7%</td>
+      <td>↓ 19-44%</td>
+    </tr>
+    <tr>
+      <td>Cholesterol Absorption Inhibitors</td>
+      <td>↓ 13-20%</td>
+      <td>↓ 14-19%</td>
+      <td>↑ 3-5%</td>
+      <td>↓ 5-11%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Do not use fibrates with statins</strong></p>
+
+<h1 id="references">References</h1>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:grundy2018">
+      <p>Grundy SM, Stone NJ, Bailey AL, et al. 2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol. <em>Journal of the American College of Cardiology</em>. November 2018. doi:<a href="https://doi.org/10.1016/j.jacc.2018.11.003">10.1016/j.jacc.2018.11.003</a> <a href="#fnref:grundy2018" class="reversefootnote">&#8617;</a> <a href="#fnref:grundy2018:1" class="reversefootnote">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:jacobson2015">
+      <p>Jacobson TA, Ito MK, Maki KC, et al. National Lipid Association Recommendations for Patient-Centered Management of Dyslipidemia: Part 1—Full Report. <em>Journal of Clinical Lipidology</em>. 2015;9(2):129-169. doi:<a href="https://doi.org/10.1016/j.jacl.2015.02.003">10.1016/j.jacl.2015.02.003</a> <a href="#fnref:jacobson2015" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:jentzer2015">
+      <p>Jentzer JC, Coons JC, Link CB, Schmidhofer M. Pharmacotherapy Update on the Use of Vasopressors and Inotropes in the Intensive Care Unit. <em>Journal of Cardiovascular Pharmacology and Therapeutics</em>. 2015;20(3):249-260. doi:<a href="https://doi.org/10.1177/1074248414559838">10.1177/1074248414559838</a> <a href="#fnref:jentzer2015" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+
+</div>
+
+<div class="credits">
+  <p>Author: Corbin Cox <br>
+  Created: 2018-12-23 <br>
+  Last Updated: 2018-12-23</p>
+</div>
+
+<footer class="footer menus">
+  <nav>
+    <div class="footerLinks">
+      <a href="/peripheral_brain/home.html">Home</a>
+      <a href="/peripheral_brain/index.html">Disclaimer</a>
+      <a href="/peripheral_brain/disease_list_old.html">Archived Diseases</a>
+    </div>
+  </nav>
+</footer>
+
+
+</body>
+</html>
