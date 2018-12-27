@@ -142,12 +142,4 @@ Initial Aminoglycoside Interval
 
 
 # References
-
-[^dipiro]: DiPiro JT, ed. *Pharmacotherapy: A Pathophysiologic Approach*. Tenth edition. New York: McGraw-Hill Education; 2017.
-[^rybak2009]: Rybak M, Lomaestro B, Rotschafer JC, et al. Therapeutic monitoring of vancomycin in adult patients: A consensus review of the American Society of Health-System Pharmacists, the Infectious Diseases Society of America, and the Society of Infectious Diseases Pharmacists. *American Journal of Health-System Pharmacy*. 2009;66(1):82-98. doi:[10.2146/ajhp080434](https://doi.org/10.2146/ajhp080434)
-[^matzkel1984]: Matzke GR, McGory RW, Halstenson CE, Keane WF. Pharmacokinetics of vancomycin in patients with various degrees of renal function. *Antimicrobial Agents and Chemotherapy*. 1984;25(4):433-437. doi:[10.1128/AAC.25.4.433](https://doi.org/10.1128/AAC.25.4.433)
-[^deryke2009]: Deryke CA, Alexander DP. Optimizing Vancomycin Dosing through Pharmacodynamic Assessment Targeting Area under the Concentration-Time Curve/Minimum Inhibitory Concentration. *Hospital Pharmacy*. 2009;44(9):751-765. doi:[10.1310/hpj4409-751](https://doi.org/10.1310/hpj4409-751)]
-[^nicolau1995]: Nicolau DP, Freeman CD, Belliveau PP, Nightingale CH, Ross JW, Quintiliani R. Experience with a once-daily aminoglycoside program administered to 2,184 adult patients. *Antimicrobial Agents and Chemotherapy*. 1995;39(3):650-655. doi:[10.1128/AAC.39.3.650](https://doi.org/10.1128/AAC.39.3.650)
-[^lexi]: Lexi-Drugs. Lexicomp. Wolters Kluwer Health, Inc. Riverwoods, IL. Available at: http://online.lexi.com.
-
-
+{% include sources.md %}

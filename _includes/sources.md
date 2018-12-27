@@ -1,317 +1,135 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <title>Sources | The Peripheral Brain</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+{::comment}
+Cardiology
+{:/comment}
 
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
-  <script src="/peripheral_brain/javascript/mermaid.min.js"></script>
+{::comment}
+ACS
+{:/comment}
 
-  <link rel="stylesheet" href="/peripheral_brain/css/main.css" />
-  <link rel="stylesheet" href="/peripheral_brain/css/mobile.css" />
-  <link rel="stylesheet" href="/peripheral_brain/css/buttons.css" />
-  <link rel="stylesheet" href="/peripheral_brain/css/mermaid.dark.css" />
-
-  
-    <link rel="stylesheet" href="/peripheral_brain/css/diseases.css">
-  
-
-
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/peripheral_brain/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/peripheral_brain/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/peripheral_brain/favicons/favicon-16x16.png">
-  <link rel="manifest" href="/peripheral_brain/favicons/site.webmanifest">
-  <link rel="mask-icon" href="/peripheral_brain/favicons/safari-pinned-tab.svg" color="#465c8b">
-  <link rel="shortcut icon" href="/peripheral_brain/favicons/favicon.ico">
-  <meta name="apple-mobile-web-app-title" content="Peripheral Brain">
-  <meta name="application-name" content="Peripheral Brain">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-config" content="/peripheral_brain/favicons/browserconfig.xml">
-  <meta name="theme-color" content="#cdcdcd">
-
-
-  
-
-</head>
-
-
-<body class="body">
-<header id="myHeader" class="myHeader">
-  <nav>
-    <!-- <a href="/peripheral_brain/home.html"><img src="/peripheral_brain/images/logo_1000x1000.png" alt="Logo"> -->
-    <a href="/peripheral_brain/home.html">Home</a>
-    <a href="/peripheral_brain/disease_list.html">Diseases and Drugs</a>
-    <a href="/peripheral_brain/firstFive">TF5M</a>
-    <a href="/peripheral_brain/lab_values">Lab Values</a>
-    <a href="/peripheral_brain/formulas">Formulas</a>
-    <a href="/peripheral_brain/calculators.html">Calculators</a>
-    <a href="/peripheral_brain/search.html">Search</a>
-    <a href="javascript:void(0);" class="icon" onclick="openMenu()">&#9776;</a>
-  </nav>
-
-  <script>
-  function openMenu() {
-      var x = document.getElementById("myHeader");
-      if (x.className === "myHeader") {
-          x.className += " responsive";
-      } else {
-          x.className = "myHeader";
-      }
-  }
-  </script>
-</header>
-
-
-<h1 class="title">Sources</h1>
-
-<div class="contents twoCol">
-  <div class="toc col1">
-    
-      <ul>
-  <li><a href="#cardiology">Cardiology</a>
-    <ul>
-      <li><a href="#acs">ACS</a></li>
-      <li><a href="#htn">HTN</a></li>
-      <li><a href="#vte">VTE</a></li>
-      <li><a href="#chf">CHF</a></li>
-      <li><a href="#hld">HLD</a></li>
-    </ul>
-  </li>
-  <li><a href="#critical-care">Critical Care</a>
-    <ul>
-      <li><a href="#hypotension-management">Hypotension Management</a></li>
-      <li><a href="#stress-ulcer-prophylaxis">Stress Ulcer Prophylaxis</a></li>
-    </ul>
-  </li>
-  <li><a href="#id">ID</a>
-    <ul>
-      <li><a href="#vancomycin-dosing">Vancomycin Dosing</a></li>
-      <li><a href="#aminoglycoside-dosing">Aminoglycoside Dosing</a></li>
-    </ul>
-  </li>
-  <li><a href="#pulmononolgy">Pulmononolgy</a></li>
-  <li><a href="#textbooks">Textbooks</a>
-    <ul>
-      <li><a href="#pharmacology">Pharmacology</a></li>
-      <li><a href="#emergency-medicine">Emergency Medicine</a></li>
-    </ul>
-  </li>
-  <li><a href="#websites">Websites</a>
-    <ul>
-      <li><a href="#drug-resources">Drug Resources</a></li>
-    </ul>
-  </li>
-</ul>
-
-    
-  </div>
-
-  <div class="content col2">
-    <h1 id="cardiology">Cardiology</h1>
-
-<h2 id="acs">ACS</h2>
-
-<h3 id="aha-nste-acs-guidelines-2014">AHA NSTE-ACS Guidelines 2014</h3>
-
-<p>
 [^amsterdam2014]: Amsterdam EA, Wenger NK, Brindis RG, et al. 2014 AHA/ACC Guideline for the Management of Patients With Non–ST-Elevation Acute Coronary Syndromes. Journal of the American College of Cardiology. 2014;64(24):e139-e228. doi:10.1016/j.jacc.2014.09.017
-</p>
 
-<h3 id="aha-stemi-guidelines">AHA STEMI Guidelines</h3>
-<p>
 [^ogara2013]: O’Gara PT, Kushner FG, Ascheim DD, et al. 2013 ACCF/AHA Guideline for the Management of ST-Elevation Myocardial Infarction. *Journal of the American College of Cardiology*. 2013;61(4):e78-e140. doi:[10.1016/j.jacc.2012.11.019](https://doi.org/10.1016/j.jacc.2012.11.019)
-</p>
-<h3 id="benign-early-repol-vs-subtle-lad-stemi-4-variable">Benign Early Repol vs Subtle LAD STEMI (4-variable)</h3>
-<p>
+
 [^driver2017]: Driver BE, Khalil A, Henry T, Kazmi F, Adil A, Smith SW. A new 4-variable formula to differentiate normal variant ST segment elevation in V2-V4 (early repolarization) from subtle left anterior descending coronary occlusion - Adding QRS amplitude of V2 improves the model. *Journal of Electrocardiology*. 2017;50(5):561-569. doi:[10.1016/j.jelectrocard.2017.04.005](https://doi.org/10.1016/j.jelectrocard.2017.04.005)
-</p>
 
-<h3 id="dapt-duration-in-cad">DAPT Duration in CAD</h3>
-<p>
 [^levine2016]: Levine GN, Bates ER, Bittl JA, et al. 2016 ACC/AHA Guideline Focused Update on Duration of Dual Antiplatelet Therapy in Patients With Coronary Artery Disease. *Journal of the American College of Cardiology*. 2016;68(10):1082-1115. doi:[10.1016/j.jacc.2016.03.513](https://doi.org/10.1016/j.jacc.2016.03.513)
-</p>
 
-<h3 id="lbbb-vs-stemi">LBBB vs STEMI</h3>
-<p>
 [^smith2012]: Smith SW, Dodd KW, Henry TD, Dvorak DM, Pearce LA. Diagnosis of ST-Elevation Myocardial Infarction in the Presence of Left Bundle Branch Block With the ST-Elevation to S-Wave Ratio in a Modified Sgarbossa Rule. *Annals of Emergency Medicine*. 2012;60(6):766-776. doi:[10.1016/j.annemergmed.2012.07.119](https://doi.org/10.1016/j.annemergmed.2012.07.119)
-</p>
 
-<h3 id="third-universal-mi-definition">Third Universal MI Definition</h3>
-<p>
 [^thygesen]: Thygesen K, Alpert JS, Jaffe AS, Simoons ML, Chaitman BR, White HD. Third Universal Definition of Myocardial Infarction. :16.
-</p>
 
-<h3 id="stemi-pci-update">STEMI PCI Update</h3>
-<p>
 [^levine2015]: Levine GN, Bates ER, Blankenship JC, et al. 2015 ACC/AHA/SCAI Focused Update on Primary Percutaneous Coronary Intervention for Patients With ST-Elevation Myocardial Infarction. *Journal of the American College of Cardiology*. 2016;67(10):1235-1250. doi:[10.1016/j.jacc.2015.10.005](https://doi.org/10.1016/j.jacc.2015.10.005)
-</p>
 
-<h2 id="htn">HTN</h2>
+{::comment}
+HTN
+{:/comment}
 
-<h3 id="aha-htn-guidelines">AHA HTN Guidelines</h3>
-<p>
 [^whelton2018]: Whelton PK, Carey RM, Aronow WS, et al. 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults. *Journal of the American College of Cardiology*. 2018;71(19):e127-e248. doi:[10.1016/j.jacc.2017.11.006](https://doi.org/10.1016/j.jacc.2017.11.006)
-</p>
 
-<h3 id="accp-htn-emergency">ACCP HTN Emergency</h3>
-<p>
 [^benken2018]: Benken ST. ACCP Hypertensive Emergencies. 2018. Available at: https://www.accp.com/docs/bookstore/ccsap/ccsap2018b1_sample.pdf
-</p>
-<h2 id="vte">VTE</h2>
 
-<h3 id="vte-treatment-guidelines">VTE Treatment Guidelines</h3>
-<p>
+{::comment}
+VTE
+{:/comment}
+
 [^kearon2016]: Kearon C, Akl EA, Ornelas J, et al. Antithrombotic Therapy for VTE Disease. Chest. 2016;149(2):315-352. doi:[10.1016/j.chest.2015.11.026](https://doi.org/10.1016/j.chest.2015.11.026)
-</p>
 
-<h3 id="vte-prophylaxis">VTE Prophylaxis</h3>
-<p>
 [^gould2012]: Gould MK, Garcia DA, Wren SM, et al. Prevention of VTE in Nonorthopedic Surgical Patients. Chest. 2012;141(2):e227S-e277S. doi:[10.1378/chest.11-2297](https://doi.org/10.1378/chest.11-2297)
-</p>
-<h2 id="chf">CHF</h2>
 
-<p>
+{::comment}
+CHF
+{:/comment}
+
 [^yancy2013]: Yancy CW, Jessup M, Bozkurt B, et al. 2013 ACCF/AHA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology Foundation/American Heart Association Task Force on Practice Guidelines. *Circulation*. 2013;128(16). doi:[10.1161/CIR.0b013e31829e8776](https://doi.org/10.1161/CIR.0b013e31829e8776)
-</p>
 
-<p>
 [^yancy2017]: Yancy CW, Jessup M, Bozkurt B, et al. 2017 ACC/AHA/HFSA Focused Update of the 2013 ACCF/AHA Guideline for the Management of Heart Failure. *Journal of the American College of Cardiology*. 2017;70(6):776-803. doi:[10.1016/j.jacc.2017.04.025
-</p>
 
-<h2 id="hld">HLD</h2>
+{::comment}
+HLD
+{:/comment}
 
-<p>
 [^grundy2018]: Grundy SM, Stone NJ, Bailey AL, et al. 2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol. *Journal of the American College of Cardiology*. November 2018. doi:[10.1016/j.jacc.2018.11.003](https://doi.org/10.1016/j.jacc.2018.11.003)
-</p>
-<p>
+
 [^jacobson2015]: Jacobson TA, Ito MK, Maki KC, et al. National Lipid Association Recommendations for Patient-Centered Management of Dyslipidemia: Part 1—Full Report. *Journal of Clinical Lipidology*. 2015;9(2):129-169. doi:[10.1016/j.jacl.2015.02.003](https://doi.org/10.1016/j.jacl.2015.02.003)
-</p>
-<p>
+
 [^jentzer2015]: Jentzer JC, Coons JC, Link CB, Schmidhofer M. Pharmacotherapy Update on the Use of Vasopressors and Inotropes in the Intensive Care Unit. *Journal of Cardiovascular Pharmacology and Therapeutics*. 2015;20(3):249-260. doi:[10.1177/1074248414559838](https://doi.org/10.1177/1074248414559838)
-</p>
 
-<h1 id="critical-care">Critical Care</h1>
+{::comment}
+Critical Care
+{:/comment}
 
-<h2 id="hypotension-management">Hypotension Management</h2>
+{::comment}
+Hypotension Management
+{:/comment}
 
-<h3 id="push-dose-pressors">Push-Dose Pressors</h3>
-<p>
 [^weingart2015]: Weingart S. Push-dose pressors for immediate blood pressure control. *Clinical and Experimental Emergency Medicine*. 2015;2(2):131-132. doi:[10.15441/ceem.15.010](https://doi.org/10.15441/ceem.15.010)
-</p>
 
-<p>
 [^hollenberg2011]: Hollenberg SM. Vasoactive Drugs in Circulatory Shock. American Journal of Respiratory and Critical Care Medicine. 2011;183(7):847-855. doi:[10.1164/rccm.201006-0972CI](https://doi.org/10.1164/rccm.201006-0972CI)
-</p>
 
-<p>
 [^jentzer2015]: Jentzer JC, Coons JC, Link CB, Schmidhofer M. Pharmacotherapy Update on the Use of Vasopressors and Inotropes in the Intensive Care Unit. Journal of Cardiovascular Pharmacology and Therapeutics. 2015;20(3):249-260. doi:[10.1177/1074248414559838](https://doi.org/10.1177/1074248414559838)
-</p>
 
-<p>
 [^overgaard2008]: Overgaard CB, Džavík V. Inotropes and Vasopressors: Review of Physiology and Clinical Use in Cardiovascular Disease. Circulation. 2008;118(10):1047-1056. doi:[10.1161/CIRCULATIONAHA.107.728840](https://doi.org/10.1161/CIRCULATIONAHA.107.728840)
-</p>
 
-<h2 id="stress-ulcer-prophylaxis">Stress Ulcer Prophylaxis</h2>
-<p>
+{::comment}
+Stress Ulcer Prophylaxis
+{:/comment}
+
 [^barletta2016]: Barletta JF, Bruno JJ, Buckley MS, Cook DJ. Stress Ulcer Prophylaxis: *Critical Care Medicine*. 2016;44(7):1395-1405. doi:[10.1097/CCM.0000000000001872](https://doi.org/10.1097/CCM.0000000000001872)
-</p>
 
-<p>
 [^erstad1999]: Erstad BL, et al. ASHP Therapeutic Guidelines on Stress Ulcer Prophylaxis. 1999.
-</p>
 
-<h1 id="id">ID</h1>
 
-<h2 id="vancomycin-dosing">Vancomycin Dosing</h2>
+{::comment}
+ID
+{:/comment}
 
-<h3 id="optimizing-vancomycin-dosing">Optimizing Vancomycin Dosing</h3>
-<p>
+{::comment}
+Vancomycin Dosing
+{:/comment}
+
 [^deryke2009]: Deryke CA, Alexander DP. Optimizing Vancomycin Dosing through Pharmacodynamic Assessment Targeting Area under the Concentration-Time Curve/Minimum Inhibitory Concentration. *Hospital Pharmacy*. 2009;44(9):751-765. doi:[10.1310/hpj4409-751](https://doi.org/10.1310/hpj4409-751)
-</p>
 
-<h3 id="vancomycin-pk-in-renal-dysfunction">Vancomycin PK in Renal Dysfunction</h3>
-<p>
 [^matzkel1984]: Matzke GR, McGory RW, Halstenson CE, Keane WF. Pharmacokinetics of vancomycin in patients with various degrees of renal function. *Antimicrobial Agents and Chemotherapy*. 1984;25(4):433-437. doi:[10.1128/AAC.25.4.433](https://doi.org/10.1128/AAC.25.4.433)
-</p>
 
-<h3 id="ashp-vancomycin-monitoring-recommendations">ASHP Vancomycin Monitoring Recommendations</h3>
-<p>
 [^rybak2009]: Rybak M, Lomaestro B, Rotschafer JC, et al. Therapeutic monitoring of vancomycin in adult patients: A consensus review of the American Society of Health-System Pharmacists, the Infectious Diseases Society of America, and the Society of Infectious Diseases Pharmacists. *American Journal of Health-System Pharmacy*. 2009;66(1):82-98. doi:[10.2146/ajhp080434](https://doi.org/10.2146/ajhp080434)
-</p>
 
-<h2 id="aminoglycoside-dosing">Aminoglycoside Dosing</h2>
+{::comment}
+Aminoglycoside Dosing
+{:/comment}
 
-<h3 id="stanford-health-system-aminoglycoside-dosing-recommendations">Stanford Health System Aminoglycoside Dosing Recommendations</h3>
-<p>
 [^mui2017]: Mui, E. Stanford Health Care Aminoglycoside Dosing Guideline. 2017. [Link](http://med.stanford.edu/bugsanddrugs/dosing-protocols/_jcr_content/main/panel_builder/panel_0/download_2/file.res/Aminoglycoside%20Dosing%20Guide%202017-08-23.pdf)
-</p>
 
-<h3 id="extended-interval-aminoglycosides">Extended Interval Aminoglycosides</h3>
-<p>
 [^nicolau1995]: Nicolau DP, Freeman CD, Belliveau PP, Nightingale CH, Ross JW, Quintiliani R. Experience with a once-daily aminoglycoside program administered to 2,184 adult patients. *Antimicrobial Agents and Chemotherapy*. 1995;39(3):650-655. doi:[10.1128/AAC.39.3.650](https://doi.org/10.1128/AAC.39.3.650)
-</p>
-<h1 id="pulmononolgy">Pulmononolgy</h1>
 
-<h3 id="gold-copd-guidelines-2018">GOLD COPD Guidelines 2018</h3>
+{::comment}
+Pulmononolgy
+{:/comment}
 
-<p>
 [^goldCOPD]: Vogelmeier C, Agusti A, *et al*. Global Initiative for Chronic Obstructive Lung Disease. [Available Here](https://goldcopd.org/wp-content/uploads/2018/02/WMS-GOLD-2018-Feb-Final-to-print-v2.pdf)
-</p>
 
-<h1 id="textbooks">Textbooks</h1>
+{::comment}
+Textbooks
+{:/comment}
 
-<h2 id="pharmacology">Pharmacology</h2>
+{::comment}
+Pharmacology
+{:/comment}
 
-<h3 id="dipiro-pharmacotherapy">DiPiro Pharmacotherapy</h3>
-<p>
 [^dipiro]: DiPiro JT, ed. *Pharmacotherapy: A Pathophysiologic Approach*. Tenth edition. New York: McGraw-Hill Education; 2017.
-</p>
 
-<h2 id="emergency-medicine">Emergency Medicine</h2>
+{::comment}
+Emergency Medicine
+{:/comment}
 
-<h3 id="tintinallis">Tintinalli’s</h3>
-<p>
 [^tintinalli]: Tintinalli JE, Stapczynski JS, Ma OJ, Cline D, Meckler GD, Yealy DM, eds. *Tintinalli’s Emergency Medicine: A Comprehensive Study Guide*. Eight edition. New York: McGraw-Hill Education; 2016.
-</p>
 
-<h1 id="websites">Websites</h1>
+{::comment}
+Websites
+{:/comment}
 
-<h2 id="drug-resources">Drug Resources</h2>
+{::comment}
+Drug Resources
+{:/comment}
 
-<h3 id="lexicomp">Lexicomp</h3>
-<p>
 [^lexi]: Lexi-Drugs. Lexicomp. Wolters Kluwer Health, Inc. Riverwoods, IL. Available at: [http://online.lexi.com](http://online.lexi.com).
-</p>
-
-  </div>
-
-</div>
-
-<div class="credits">
-  <p>Author: Corbin Cox <br>
-  Created: 2018-12-04 <br>
-  Last Updated: 2018-12-03</p>
-</div>
-
-<footer class="footer menus">
-  <nav>
-    <div class="footerLinks">
-      <a href="/peripheral_brain/home.html">Home</a>
-      <a href="/peripheral_brain/index.html">Disclaimer</a>
-      <a href="/peripheral_brain/disease_list_old.html">Archived Diseases</a>
-    </div>
-  </nav>
-</footer>
-
-
-</body>
-</html>

@@ -252,13 +252,4 @@ Infarction EKG Patterns [^tintinalli]
 
 
 # References
-
-[^tintinalli]: Tintinalli JE, Stapczynski JS, Ma OJ, Cline D, Meckler GD, Yealy DM, eds. *Tintinalli’s Emergency Medicine: A Comprehensive Study Guide*. Eight edition. New York: McGraw-Hill Education; 2016.
-
-[^amsterdam2014]: Amsterdam EA, Wenger NK, Brindis RG, et al. 2014 AHA/ACC Guideline for the Management of Patients With Non–ST-Elevation Acute Coronary Syndromes. *Journal of the American College of Cardiology*. 2014;64(24):e139-e228. doi:[10.1016/j.jacc.2014.09.017](https://doi.org/10.1016/j.jacc.2014.09.017)
-[^dipiro]: DiPiro, JT, ed. Pharmacotherapy: A Pathophysiologic Approach. Tenth edition. New York: McGraw-Hill Education, 2017.
-[^ogara2013]: O’Gara PT, Kushner FG, Ascheim DD, et al. 2013 ACCF/AHA Guideline for the Management of ST-Elevation Myocardial Infarction. *Journal of the American College of Cardiology*. 2013;61(4):e78-e140. doi:[10.1016/j.jacc.2012.11.019](https://doi.org/10.1016/j.jacc.2012.11.019)
-[^thygesen]: Thygesen, K, Alpert, JS, Jaffe, AS, Simoons, ML, Chaitman, BR, and White, HD. Third Universal Definition of Myocardial Infarction.16.
-[^smith2012-lbbb-stemi]: Smith, SW, Dodd, KW, Henry, TD, Dvorak, DM, and Pearce, LA. Diagnosis of ST-Elevation Myocardial Infarction in the Presence of Left Bundle Branch Block With the ST-Elevation to S-Wave Ratio in a Modified Sgarbossa Rule. *Annals of Emergency Medicine* 2012;60:766–776.
-[^driver2017]: Driver, BE, Khalil, A, Henry, T, Kazmi, F, Adil, A, and Smith, SW. A New 4-Variable Formula to Differ- entiate Normal Variant ST Segment Elevation in V2-V4 (Early Repolarization) from Subtle Left Anterior Descending Coronary Occlusion - Adding QRS Amplitude of V2 Improves the Model. *Journal of Electrocardiology* 2017;50:561–569.
-[^lexi]: Lexi-Drugs. Lexicomp. Wolters Kluwer Health, Inc. Riverwoods, IL.  Available at:  http://online.lexi.com.
+{% include sources.md %}

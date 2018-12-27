@@ -328,8 +328,4 @@ HF Diuretic Dosing
 
 
 # References
-
-[^yancy2013]: Yancy CW, Jessup M, Bozkurt B, et al. 2013 ACCF/AHA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology Foundation/American Heart Association Task Force on Practice Guidelines. *Circulation*. 2013;128(16). doi:[10.1161/CIR.0b013e31829e8776](https://doi.org/10.1161/CIR.0b013e31829e8776)
-[^yancy2017]: Yancy CW, Jessup M, Bozkurt B, et al. 2017 ACC/AHA/HFSA Focused Update of the 2013 ACCF/AHA Guideline for the Management of Heart Failure. *Journal of the American College of Cardiology*. 2017;70(6):776-803. doi:[10.1016/j.jacc.2017.04.025	
-[^tintinalli]: Tintinalli JE, Stapczynski JS, Ma OJ, Cline D, Meckler GD, Yealy DM, eds. *Tintinalli’s Emergency Medicine: A Comprehensive Study Guide*. Eight edition. New York: McGraw-Hill Education; 2016.
-[^lexi]: Lexi-Drugs. Lexicomp. Wolters Kluwer Health, Inc. Riverwoods, IL. Available at: [http://online.lexi.com](http://online.lexi.com).
+{% include sources.md %}

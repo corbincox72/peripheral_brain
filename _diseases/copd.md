@@ -117,8 +117,4 @@ Group Assignment
   * Coverage of Strep pneumoniae, H. influenzae, and Moraxella catarrhalis 
 
 # References
-
-[^goldCOPD]: Vogelmeier C, Agusti A, *et al*. Global Initiative for Chronic Obstructive Lung Disease. [Available Here](https://goldcopd.org/wp-content/uploads/2018/02/WMS-GOLD-2018-Feb-Final-to-print-v2.pdf)
-
-[^tintinalli]: Tintinalli JE, Stapczynski JS, Ma OJ, Cline D, Meckler GD, Yealy DM, eds. *Tintinalli’s Emergency Medicine: A Comprehensive Study Guide*. Eight edition. New York: McGraw-Hill Education; 2016.
-[^lexi]: Lexi-Drugs. Lexicomp. Wolters Kluwer Health, Inc. Riverwoods, IL. Available at: [http://online.lexi.com](http://online.lexi.com).
+{% include sources.md %}

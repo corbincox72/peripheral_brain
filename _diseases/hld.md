@@ -129,9 +129,4 @@ Treatment Goals
 **Do not use fibrates with statins**
 
 # References
-
-[^grundy2018]: Grundy SM, Stone NJ, Bailey AL, et al. 2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol. *Journal of the American College of Cardiology*. November 2018. doi:[10.1016/j.jacc.2018.11.003](https://doi.org/10.1016/j.jacc.2018.11.003)
-
-[^jacobson2015]: Jacobson TA, Ito MK, Maki KC, et al. National Lipid Association Recommendations for Patient-Centered Management of Dyslipidemia: Part 1—Full Report. *Journal of Clinical Lipidology*. 2015;9(2):129-169. doi:[10.1016/j.jacl.2015.02.003](https://doi.org/10.1016/j.jacl.2015.02.003)
-
-[^jentzer2015]: Jentzer JC, Coons JC, Link CB, Schmidhofer M. Pharmacotherapy Update on the Use of Vasopressors and Inotropes in the Intensive Care Unit. *Journal of Cardiovascular Pharmacology and Therapeutics*. 2015;20(3):249-260. doi:[10.1177/1074248414559838](https://doi.org/10.1177/1074248414559838)
+{% include sources.md %}

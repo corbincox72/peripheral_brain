@@ -60,7 +60,4 @@ APAP Nomogram[^tintinalli]
 ![Nomogram for Toxicity]({{site.baseurl}}/images/rumack-matthew-nomogram.png)
 
 # References
-
-[^lexi]: Lexi-Drugs. Lexicomp. Wolters Kluwer Health, Inc. Riverwoods, IL. Available at: http://online.lexi.com.
-
-[^tintinalli]: Tintinalli JE, Stapczynski JS, Ma OJ, Cline D, Meckler GD, Yealy DM, eds. *Tintinalli’s Emergency Medicine: A Comprehensive Study Guide*. Eight edition. New York: McGraw-Hill Education; 2016.
+{% include sources.md %}

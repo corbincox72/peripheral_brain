@@ -40,6 +40,17 @@ collections:
   drugClasses_old:
     output: true
 
+defaults:
+  -
+    scope:
+      type: "diseases"
+      type: "drugClasses"
+    values:
+      layout: "diseases"
+      author: "Corbin Cox"
+      common: "false"
+      toc: "true"
+
 plugins:
   - jekyll-admin
   - jekyll-autoprefixer

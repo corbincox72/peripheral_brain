@@ -89,7 +89,4 @@ If mixing not possible, give 0.5mL dose of pure cardiac epi (50mcg)
 **DO NOT ADMINISTER 1mg EPI TO INDIVIDUALS NOT IN CARDIAC ARREST**
 
 # References
-[^weingart2015]: Weingart S. Push-dose pressors for immediate blood pressure control. *Clinical and Experimental Emergency Medicine*. 2015;2(2):131-132. doi:[10.15441/ceem.15.010](https://doi.org/10.15441/ceem.15.010)
-[^overgaard2008]: Overgaard CB, Džavík V. Inotropes and Vasopressors: Review of Physiology and Clinical Use in Cardiovascular Disease. Circulation. 2008;118(10):1047-1056. doi:[10.1161/CIRCULATIONAHA.107.728840](https://doi.org/10.1161/CIRCULATIONAHA.107.728840)
-[^jentzer2015]: Jentzer JC, Coons JC, Link CB, Schmidhofer M. Pharmacotherapy Update on the Use of Vasopressors and Inotropes in the Intensive Care Unit. Journal of Cardiovascular Pharmacology and Therapeutics. 2015;20(3):249-260. doi:[10.1177/1074248414559838](https://doi.org/10.1177/1074248414559838)
-[^hollenberg2011]: Hollenberg SM. Vasoactive Drugs in Circulatory Shock. American Journal of Respiratory and Critical Care Medicine. 2011;183(7):847-855. doi:[10.1164/rccm.201006-0972CI](https://doi.org/10.1164/rccm.201006-0972CI)
+{% include sources.md %}

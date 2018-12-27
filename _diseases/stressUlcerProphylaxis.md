@@ -40,6 +40,4 @@ Initial Dosing[^erstad1999]
 
 
 # References
-
-[^barletta2016]: Barletta JF, Bruno JJ, Buckley MS, Cook DJ. Stress Ulcer Prophylaxis: *Critical Care Medicine*. 2016;44(7):1395-1405. doi:[10.1097/CCM.0000000000001872](https://doi.org/10.1097/CCM.0000000000001872)
-[^erstad1999]: Erstad BL, et al. ASHP Therapeutic Guidelines on Stress Ulcer Prophylaxis. 1999.
+{% include sources.md %}
