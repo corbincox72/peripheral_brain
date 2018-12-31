@@ -2,8 +2,8 @@
 title: VTE
 layout: diseases
 author: Corbin Cox
-last-updated: 2018-12-14
-created: 2018-12-23
+last-updated: 2018-12-23
+created: 2018-12-14
 toc: true
 common: false
 ---

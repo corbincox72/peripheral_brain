@@ -108,6 +108,17 @@ Pulmononolgy
 
 [^goldCOPD]: Vogelmeier C, Agusti A, *et al*. Global Initiative for Chronic Obstructive Lung Disease. [Available Here](https://goldcopd.org/wp-content/uploads/2018/02/WMS-GOLD-2018-Feb-Final-to-print-v2.pdf)
 
+
+{::comment}
+Endocrinology
+{:/comment}
+
+[^adaDM2018]: Professional Practice Committee: *Standards of Medical Care in Diabetes—2018*. *Diabetes Care*. 2018;41:S3-S3. doi:[10.2337/dc18-Sppc01](https://doi.org/10.2337/dc18-Sppc01)
+[^acceDM2018]: Garber AJ, Abrahamson MJ, Barzilay JI, et al. CONSENSUS STATEMENT BY THE AMERICAN ASSOCIATION OF CLINICAL ENDOCRINOLOGISTS AND AMERICAN COLLEGE OF ENDOCRINOLOGY ON THE COMPREHENSIVE TYPE 2 DIABETES MANAGEMENT ALGORITHM – *2018 EXECUTIVE SUMMARY*. *Endocrine Practice*. 2018;24(1):91-120. doi:[10.4158/CS-2017-0153](https://doi.org/10.4158/CS-2017-0153)
+
+[^adaHGC2004]: Hyperglycemic Crises in Diabetes. *Diabetes Care*. 2004;27(Supplement 1):S94-S102. doi:[10.2337/diacare.27.2007.S94](https://doi.org/10.2337/diacare.27.2007.S94)
+
+
 {::comment}
 Textbooks
 {:/comment}
