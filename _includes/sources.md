@@ -60,6 +60,12 @@ Critical Care
 {:/comment}
 
 {::comment}
+RSI
+{:/comment}
+
+[^stollings]: Stollings JL, Diedrich DA, Oyen LJ, Brown DR. Rapid-Sequence Intubation: A Review of the Process and Considerations When Choosing Medications. *Annals of Pharmacotherapy*. 2014;48(1):62-76. doi:[10.1177/1060028013510488](https://doi.org/10.1177/1060028013510488)
+
+{::comment}
 Hypotension Management
 {:/comment}
 
