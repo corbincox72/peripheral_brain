@@ -1,0 +1,223 @@
+---
+layout: calculator
+title: Abx Dosing
+author: Corbin Cox
+exclude_from_search: true
+---
+
+<div class="inputCol">
+  <table class="calculator">
+    <tr>
+      <td colspan="2">Pt Demographics
+    </tr>
+    <tr>
+      <td>Ht (in)</td>
+      <td><input type="text" id="htI" onkeyup="updateAll();"></td>
+    </tr>
+    <tr>
+      <td>Wt (kg)</td>
+      <td><input type="text" id="wtI" onkeyup="updateAll();"></td>
+    </tr>
+    <tr>
+      <td>Age</td>
+      <td><input type="text" id="ageI" onkeyup="updateAll();"></td>
+    </tr>
+    <tr>
+      <td>SCr</td>
+      <td><input type="text" id="scrI" onkeyup="updateAll();"></td>
+    </tr>
+    <tr>
+      <td>CrCL</td>
+      <td >
+        <select id="crclI" onchange="updateAll();">
+          <option value="calc" selected>CG-CrCL</option>
+          <option id="enteredCrCl" value="entered">Entered CrCL</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>CrCL</td>
+      <td><input type="text" id="crclEI" onkeyup="changeCrCL();updateAll();"></td>
+    </tr>
+    <tr>
+      <td>Sex</td>
+      <td >
+        <select id="sexI" onchange="updateAll();">
+          <option value="m" selected>Male</option>
+          <option value="f">Female</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Dosing</td>
+      <td >
+        <select id="dosingI" onchange="updateAll();">
+          <option value="aminoI">Aminoglycoside Initial</option>
+          <option value="aminoPT">Aminoglycoside Pk-Tr</option>
+          <option value="vancI">Vancomycin Initial</option>
+          <option selected value="vancPT">Vancomyin Pk-Tr</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"> Dosing Parameters</td>
+    </tr>
+    <tr class="peakTrough">
+      <td>Pt Peak</td>
+      <td><input type="text" id="ptpkI" onkeyup="updateAll();"></td>
+    </tr>
+    <tr class="peakTrough">
+      <td>Pt Trough</td>
+      <td><input type="text" id="pttrI" onkeyup="updateAll();"></td>
+    </tr>
+    <tr class="peakTrough">
+      <td>Max-Pk Interval</td>
+      <td><input type="text" id="mpintI" onkeyup="updateAll();"></td>
+    </tr>
+    <tr class="peakTrough">
+      <td>Tr-Min Interval</td>
+      <td><input type="text" id="tmintI" onkeyup="updateAll();"></td>
+    </tr>
+    <tr class="peakTrough">
+      <td>Pk-Tr Interval</td>
+      <td><input type="text" id="ptintI" onkeyup="updateAll();"></td>
+    </tr>
+    <tr class="peakTrough">
+      <td>Current Dose</td>
+      <td><input type="text" id="currentDoseI" onkeyup="updateAll();"></td>
+    </tr>
+    <tr class="peakTrough">
+      <td>Current &tau;</td>
+      <td><input type="text" id="currentIntervalI" onkeyup="updateAll();"></td>
+    </tr>
+    <tr class="peakTrough">
+      <td>Current t<sub>inf</sub></td>
+      <td><input type="text" id="currenttinfI" onkeyup="updateAll();"></td>
+    </tr>
+    <tr class="initialOnly">
+      <td>Volume</td>
+      <td><input type="text" id="vdI" onkeyup="updateAll();"></td>
+    </tr>
+    <tr>
+      <td>Desired Peak</td>
+      <td><input type="text" id="dpkI" onkeyup="updateAll();"></td>
+    </tr>
+    <tr>
+      <td>Desired Trough</td>
+      <td><input type="text" id="dtrI" onkeyup="updateAll();"></td>
+    </tr>
+    <tr>
+      <td colspan="2">Final Regimen</td>
+    </tr>
+    <tr>
+      <td>t<sub>inf</sub></td>
+      <td><input type="text" id="tinfI" onkeyup="updateAll();"></td>
+    </tr>
+    <tr>
+      <td>&tau;</td>
+      <td><input type="text" id="tauI" onkeyup="updateAll();"></td>
+    </tr>
+    <tr>
+      <td>MD</td>
+      <td><input type="text" id="mdI" onkeyup="updateAll();"></td>
+    </tr>
+  </table>
+
+</div>
+<div class="outputCol">
+
+  <table class="calculator">
+    <tr>
+      <td colspan="2">Wts</td>
+    </tr>
+    <tr>
+      <td>IBW</td>
+      <td id="ibwO"></td>
+    </tr>
+    <tr>
+      <td>AdjBW</td>
+      <td id="adjbwO"></td>
+    </tr>
+    <tr>
+      <td>BMI</td>
+      <td id="bmiO"></td>
+    </tr>
+    <tr>
+      <td>BSA</td>
+      <td id="bsaO"></td>
+    </tr>
+    <tr>
+      <td colspan="2">Renal Fxn</td>
+    </tr>
+    <tr>
+      <td>CG-CrCL</td>
+      <td id="crclCO"></td>
+    </tr>
+    <tr>
+      <td>CrCL (used)</td>
+      <td id="crclUO"></td>
+    </tr>
+    <tr>
+      <td colspan="2">PK Parameters</td>
+    </tr>
+    <tr>
+      <td>k</td>
+      <td id="kO"></td>
+    </tr>
+    <tr class="initialOnly">
+      <td>Vd Range*</td>
+      <td id="vdrO"></td>
+    </tr>
+    <tr>
+      <td>Vd</td>
+      <td id="vdO"></td>
+    </tr>
+    <tr>
+      <td>t<sub>inf</sub></td>
+      <td id="tinfO"></td>
+    </tr>
+    <tr>
+      <td>&tau; Estimate</td>
+      <td id="tauEO"></td>
+    </tr>
+    <tr>
+      <td colspan="2">>Dose Estimates</td>
+    </tr>
+    <tr>
+      <td>MD Estimate</td>
+      <td id="mdEO"></td>
+    </tr>
+    <tr>
+      <td colspan="2">Final Regimen</td>
+    </tr>
+    <tr>
+      <td>&tau;</td>
+      <td id="tauCO"></td>
+    </tr>
+    <tr>
+      <td>MD</td>
+      <td id="mdCO"></td>
+    </tr>
+    <tr>
+      <td colspan="2">Double Check</td>
+    </tr>
+    <tr>
+      <td>C<sub>max</sub></td>
+      <td id="cmaxO"></td>
+    </tr>
+    <tr>
+      <td>C<sub>min</sub></td>
+      <td id="cminO"></td>
+    </tr>
+    <tr class="vancOnly">
+      <td>AUC<sub>0-24</sub></td>
+      <td id="aucO"></td>
+    </tr>
+  </table>
+</div>
+
+<p class="aminoInitialOnly" style="display:none">*Aminoglycoside initial dosing Vd based on 0.3-0.35 L/kg</p>
+<p class="vancInitialOnly">*Vancomycin initial dosing Vd based on 0.6-0.7 L/kg</p>
+<p class="vancOnly">DO NOT EXCEED 15 MG/MIN VANCOMYCIN D/T INFUSION REACTIONS</p>
+
+<script src="{{ site.baseurl }}/javascript/abxCalc.js"></script>

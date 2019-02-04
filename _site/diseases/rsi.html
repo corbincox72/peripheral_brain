@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <link rel="stylesheet" href="/peripheral_brain/css/main.css" />
   <link rel="stylesheet" href="/peripheral_brain/css/mobile.css" />
@@ -51,7 +52,7 @@
     <a href="/peripheral_brain/firstFive">TF5M</a>
     <a href="/peripheral_brain/lab_values">Lab Values</a>
     <a href="/peripheral_brain/formulas">Formulas</a>
-    <a href="/peripheral_brain/calculators.html">Calculators</a>
+    <a href="/peripheral_brain/abxCalc.html">Calculators</a>
     <a href="/peripheral_brain/search.html">Search</a>
     <a href="javascript:void(0);" class="icon" onclick="openMenu()">&#9776;</a>
   </nav>
@@ -79,11 +80,10 @@
   <li><a href="#premedication">Premedication<sup id="fnref:stollings:1"><a href="#fn:stollings" class="footnote">1</a></sup></a></li>
   <li><a href="#induction">Induction</a>
     <ul>
-      <li><a href="#induction-agents">Induction Agents</a></li>
-      <li><a href="#paralytics">Paralytics</a></li>
+      <li><a href="#induction-agents">Induction Agents<sup id="fnref:stollings:2"><a href="#fn:stollings" class="footnote">1</a></sup></a></li>
+      <li><a href="#paralytics">Paralytics<sup id="fnref:stollings:3"><a href="#fn:stollings" class="footnote">1</a></sup></a></li>
     </ul>
   </li>
-  <li><a href="#complication-management">Complication Management</a></li>
   <li><a href="#references">References</a></li>
 </ul>
 
@@ -146,19 +146,104 @@
 
 <h1 id="induction">Induction</h1>
 
-<h2 id="induction-agents">Induction Agents</h2>
+<h2 id="induction-agents">Induction Agents<sup id="fnref:stollings:2"><a href="#fn:stollings" class="footnote">1</a></sup></h2>
 
 <ul>
-  <li>Propofol</li>
-  <li>Etomidate</li>
-  <li>Ketamine</li>
+  <li>Propofol
+    <ul>
+      <li>1.5 mg/kg IV (usually 100-200mg) (Wt)</li>
+      <li>1/2 dose in elderly pts</li>
+      <li>Decreases ICP and sympathetic tone</li>
+      <li>Bronchodilator</li>
+      <li><strong>Drug of choice for pregnancy (Cat. B)</strong></li>
+      <li>Caution in shock d/t hypotension</li>
+    </ul>
+  </li>
+  <li>Etomidate
+    <ul>
+      <li>0.2-0.6 mg/kg IV (usually 20-50mg; 0.3 mg/kg)</li>
+      <li>Minimal CV effects</li>
+      <li>Decreases ICP</li>
+      <li>Causes myoclonus</li>
+      <li>Causes adrenal suppression, clinical relevance is not known</li>
+    </ul>
+  </li>
+  <li>Ketamine
+    <ul>
+      <li>1-2 mg/kg (commonly 100mg) AdjBW</li>
+      <li>Sympathomimetic</li>
+      <li>Bronchodilator</li>
+      <li>Can worsen hypotension in pts who are catecholamine depleted
+        <ul>
+          <li>NTE 1.5 mg/kg in pts w/ prolonged hypotension</li>
+        </ul>
+      </li>
+      <li>Pts w/ severe HF may suffer more from ketamine’s negative inotropic effects than benefit from sympathomimetic activity in vasculature, leading to hypotension</li>
+      <li>Pretreatment with BZDs may prevent emergence phenomenon</li>
+    </ul>
+  </li>
   <li>Ketofol</li>
-  <li>Midazolam</li>
+  <li>Midazolam
+    <ul>
+      <li>0.2-0.3 mg/kg IM</li>
+      <li>Onset: 5min</li>
+      <li>Onset w/ opioids: 90s</li>
+      <li>Dose decrease in hemodynamic instability</li>
+      <li><strong>Useful if no IV / IO access</strong></li>
+    </ul>
+  </li>
 </ul>
 
-<h2 id="paralytics">Paralytics</h2>
+<h2 id="paralytics">Paralytics<sup id="fnref:stollings:3"><a href="#fn:stollings" class="footnote">1</a></sup></h2>
 
-<h1 id="complication-management">Complication Management</h1>
+<ul>
+  <li>Succinylcholine
+    <ul>
+      <li>1-2 mg/kg IV Wt (common 100mg)</li>
+      <li>3-4mg/kg IM Wt (common 300mg)</li>
+      <li><strong>Hyperkalemia</strong>
+        <ul>
+          <li>0.5-1 mEq/L rise</li>
+          <li>5-10 mEq/L rise in pts with ALS, stroke, MS, and spinal cord injury</li>
+        </ul>
+      </li>
+      <li>Onset: &lt; 60s IV / 3-4min IM</li>
+      <li>Duration: ~ 5min</li>
+      <li>Bradycardia common in peds
+        <ul>
+          <li>Most noticeable with propofol</li>
+        </ul>
+      </li>
+      <li>Myasthenia graves may need higher doses</li>
+      <li>Pseudocholinesterase deficiency may last for 6-8hrs</li>
+      <li>Can cause malignant hyperthermia
+        <ul>
+          <li>Give Dantrolene 2.5 mg/kg</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Rocuronium
+    <ul>
+      <li>0.6-1.2 mg/kg</li>
+      <li>Lasts longer than all bolus induction meds, and effects may be prolonged in those with liver failure</li>
+    </ul>
+  </li>
+  <li>Sugammadex
+    <ul>
+      <li>16 mg/kg</li>
+      <li>Reverses rocuornium, vecuronium, and pancuronium</li>
+      <li>Works in ~3min</li>
+    </ul>
+  </li>
+  <li>Neostigmine
+    <ul>
+      <li>0.03-0.07 mg/kg</li>
+      <li>Give with glycopyrrolate to prevent bradycardia</li>
+      <li>Can help to reverse non-depolarizing blockade</li>
+    </ul>
+  </li>
+</ul>
 
 <h1 id="references">References</h1>
 
@@ -205,7 +290,7 @@
 <div class="footnotes">
   <ol>
     <li id="fn:stollings">
-      <p>Stollings JL, Diedrich DA, Oyen LJ, Brown DR. Rapid-Sequence Intubation: A Review of the Process and Considerations When Choosing Medications. <em>Annals of Pharmacotherapy</em>. 2014;48(1):62-76. doi:<a href="https://doi.org/10.1177/1060028013510488">10.1177/1060028013510488</a> <a href="#fnref:stollings" class="reversefootnote">&#8617;</a> <a href="#fnref:stollings:1" class="reversefootnote">&#8617;<sup>2</sup></a></p>
+      <p>Stollings JL, Diedrich DA, Oyen LJ, Brown DR. Rapid-Sequence Intubation: A Review of the Process and Considerations When Choosing Medications. <em>Annals of Pharmacotherapy</em>. 2014;48(1):62-76. doi:<a href="https://doi.org/10.1177/1060028013510488">10.1177/1060028013510488</a> <a href="#fnref:stollings" class="reversefootnote">&#8617;</a> <a href="#fnref:stollings:1" class="reversefootnote">&#8617;<sup>2</sup></a> <a href="#fnref:stollings:2" class="reversefootnote">&#8617;<sup>3</sup></a> <a href="#fnref:stollings:3" class="reversefootnote">&#8617;<sup>4</sup></a></p>
     </li>
     <li id="fn:lexi">
       <p>Lexi-Drugs. Lexicomp. Wolters Kluwer Health, Inc. Riverwoods, IL. Available at: <a href="http://online.lexi.com">http://online.lexi.com</a>. <a href="#fnref:lexi" class="reversefootnote">&#8617;</a></p>
