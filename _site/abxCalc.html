@@ -160,7 +160,7 @@
       <td>Current t<sub>inf</sub></td>
       <td><input type="text" id="currenttinfI" onkeyup="updateAll();"></td>
     </tr>
-    <tr class="initialOnly">
+    <tr class="initialOnly" style="display:none">
       <td>Volume</td>
       <td><input type="text" id="vdI" onkeyup="updateAll();"></td>
     </tr>
@@ -173,11 +173,11 @@
       <td><input type="text" id="dtrI" onkeyup="updateAll();"></td>
     </tr>
     <tr>
-      <td colspan="2">Final Regimen</td>
-    </tr>
-    <tr>
       <td>t<sub>inf</sub></td>
       <td><input type="text" id="tinfI" onkeyup="updateAll();"></td>
+    </tr>
+    <tr>
+      <td colspan="2">Final Regimen</td>
     </tr>
     <tr>
       <td>&tau;</td>
@@ -243,11 +243,11 @@
       <td id="tinfO"></td>
     </tr>
     <tr>
-      <td>&tau; Estimate</td>
-      <td id="tauEO"></td>
+      <td colspan="2">Dose Estimates</td>
     </tr>
     <tr>
-      <td colspan="2">>Dose Estimates</td>
+      <td>&tau; Estimate</td>
+      <td id="tauEO"></td>
     </tr>
     <tr>
       <td>MD Estimate</td>

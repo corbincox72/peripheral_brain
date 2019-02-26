@@ -33,8 +33,6 @@ collections:
     output: true
   drugClasses:
     output: true
-  calculators:
-    output: true
   diseases_old:
     output: true
   drugClasses_old:
@@ -58,4 +56,4 @@ plugins:
 tipue_search:
   include:
     pages: true
-    collections: [calculators, pages, diseases, drugClasses]
+    collections: [pages, diseases, drugClasses]
