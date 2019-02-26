@@ -16,9 +16,13 @@ $$
 \text{IBW}_\text{M} = 50\;(kg)+2.3(Ht\; (in)-60\;(in))\\
 \text{IBW}_\text{F} = 45.5\;(kg)+2.3(Ht\; (in)-60\;(in))\\
 \text{NBW} = \text{IBW} + 0.25(Wt-\text{IBW})\\
-\text{ABW} = \text{IBW} + 0.4(Wt-\text{IBW})\\
-\text{BSA}\; (m^2) = \sqrt \frac{\text{mass} \; (kg) * \text{height}\; (cm)}{3600}
+\text{AdjBW} = \text{IBW} + 0.4(Wt-\text{IBW})\\
+\text{BSA}\; (m^2) = \sqrt \frac{\text{mass} \; (kg) * \text{height}\; (cm)}{3600}\\
+\text{LBW}_\text{M} = \frac{9270\times \text{Wt}}{216\times \text{BMI} + 6680}\\
+\text{LBW}_\text{F} = \frac{9270\times \text{Wt}}{244\times \text{BMI} + 8780}
 $$
+
+For CrCL, use Wt if Wt &lt; IBW, LBW if BMI &ge;  40, IBW or AdjBW otherwise
 
 # Acid-Base
 
@@ -82,7 +86,7 @@ V = \frac{MD \left( 1 - e^{-kt_\text{inf}} \right)}{t_\text{inf}k\left( C_\text{
 C_\text{max} = \frac{MD \left( 1 - e^{-kt_\text{inf}} \right)}{t_\text{inf} V k \left( 1 - e^{-k\tau} \right)}\\
 C_\text{pk} = C_\text{max} e^{-k(t_\text{pk} - t_\text{max})}\\
 C_\text{min} =  C_\text{max} e^{-k(\tau - t_\text{inf})}\\
-C_\text{min} = C_\text{trough} e^{-k(t_\text{min} - t_\text{trough})}\\
+C_\text{min} = C_\text{tr} e^{-k(t_\text{min} - t_\text{tr})}\\
 C[b] = C[a] e^{-k (a - b)}
 $$
 
