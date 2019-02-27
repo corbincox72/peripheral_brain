@@ -5,7 +5,7 @@ var tipuesearch = {"pages": [{
     "url": "/peripheral_brain/firstFive"
   },{
     "title": "Formulas",
-    "text": "Dosing and Body Weights Acid-Base Nitrogen Balance Fluids and Electrolytes Anticoagulation EKG Interpretation Pharmacokinetics General PK 1-Compartment Model",
+    "text": "Dosing and Body Weights For CrCL, use Wt if Wt &lt; IBW, LBW if BMI ≥ 40, IBW or AdjBW otherwise Acid-Base Nitrogen Balance Fluids and Electrolytes Anticoagulation EKG Interpretation Pharmacokinetics General PK 1-Compartment Model",
     "tags": "",
     "url": "/peripheral_brain/formulas"
   },{
@@ -25,7 +25,7 @@ var tipuesearch = {"pages": [{
     "url": "/peripheral_brain/firstFive"
   },{
     "title": "Formulas",
-    "text": "Dosing and Body Weights Acid-Base Nitrogen Balance Fluids and Electrolytes Anticoagulation EKG Interpretation Pharmacokinetics General PK 1-Compartment Model",
+    "text": "Dosing and Body Weights For CrCL, use Wt if Wt &lt; IBW, LBW if BMI ≥ 40, IBW or AdjBW otherwise Acid-Base Nitrogen Balance Fluids and Electrolytes Anticoagulation EKG Interpretation Pharmacokinetics General PK 1-Compartment Model",
     "tags": "",
     "url": "/peripheral_brain/formulas"
   },{

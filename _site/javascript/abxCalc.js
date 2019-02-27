@@ -1,6 +1,7 @@
 function updateAll() {
   hideExtra();
   updateOutputs();
+  updateTable();
 }
 
 function changeCrCL() {
@@ -61,6 +62,7 @@ function updateOutputs() {
   push(cgcrcl(),"crclCO",0);
   push(crcl(),"crclUO",0);
   push(k(),"kO",4);
+  push(halflife(),"t12O",1);
   pushText(vdr(),"vdrO");
   push(vd(),"vdO",1);
   push(tinf(),"tinfO",2)
@@ -71,6 +73,20 @@ function updateOutputs() {
   push(cmaxDC(),"cmaxO",1);
   push(cminDC(),"cminO",1);
   push(auc(),"aucO",1);
+}
+
+function tinfTable(){
+  if (dose() == 1000) {
+    return 1;
+  } else if (dose() == 1250) {
+    return 1.5;
+  } else if (dose() == 1500) {
+    return 1.5;
+  } else if (dose() == 1750) {
+    return 2;
+  } else {
+    return 2;
+  }
 }
 
 //Wts and CrCl
@@ -320,4 +336,85 @@ function md() {
 
 function tinf() {
   return pullText("tinfI");
+}
+
+// Table Functions
+function tinfTable(dose){
+  if (dose == 1000) {
+    return 1;
+  } else if (dose == 1250) {
+    return 1.5;
+  } else if (dose == 1500) {
+    return 1.5;
+  } else if (dose == 1750) {
+    return 2;
+  } else {
+    return 2;
+  }
+}
+
+function cmaxTable(dose,tau) {
+  return dose*(1-Math.exp(-1*k()*tinfTable(dose))) / (tinfTable(dose) * vd() * k() * (1-Math.exp(-1*k()*tau)));
+}
+
+function cminTable(dose,tau) {
+  return cmaxTable(dose,tau) * Math.exp(-1*k()*(tau - tinfTable(dose)));
+}
+
+function aucTable(dose,tau) {
+  return ((24/tau) * ((cmaxTable(dose,tau) + cminTable(dose,tau))*tinfTable(dose)/2 + ((cmaxTable(dose,tau) - cminTable(dose,tau))/k())));
+}
+
+function stitchCell(dose, tau) {
+  var x = cmaxTable(dose,tau).toFixed(1);
+  var y = cminTable(dose,tau).toFixed(1);
+  var z = aucTable(dose,tau).toFixed(0)
+  return x + " / " + y + " <br /> " + z;
+}
+
+function updateTableCell(dose,tau,id) {
+  pushText(stitchCell(dose,tau),id);
+  if (aucTable(dose,tau) >= 400 && aucTable(dose,tau) <= 600) {
+    document.getElementById(id).setAttribute("style", "background-color:rgba(0, 255, 0, 0.3);");
+  } else {
+    document.getElementById(id).setAttribute("style", "background-color:rgba(255, 0, 0, 0.3);");
+  }
+}
+
+function updateTable() {
+  updateTableCell(1000,8,'1q8');
+  updateTableCell(1250,8,'125q8');
+  updateTableCell(1500,8,'15q8');
+  updateTableCell(1750,8,'175q8');
+  updateTableCell(2000,8,'2q8');
+
+  updateTableCell(1000,12,'1q12');
+  updateTableCell(1250,12,'125q12');
+  updateTableCell(1500,12,'15q12');
+  updateTableCell(1750,12,'175q12');
+  updateTableCell(2000,12,'2q12');
+
+  updateTableCell(1000,18,'1q18');
+  updateTableCell(1250,18,'125q18');
+  updateTableCell(1500,18,'15q18');
+  updateTableCell(1750,18,'175q18');
+  updateTableCell(2000,18,'2q18');
+
+  updateTableCell(1000,24,'1q24');
+  updateTableCell(1250,24,'125q24');
+  updateTableCell(1500,24,'15q24');
+  updateTableCell(1750,24,'175q24');
+  updateTableCell(2000,24,'2q24');
+
+  updateTableCell(1000,36,'1q36');
+  updateTableCell(1250,36,'125q36');
+  updateTableCell(1500,36,'15q36');
+  updateTableCell(1750,36,'175q36');
+  updateTableCell(2000,36,'2q36');
+
+  updateTableCell(1000,48,'1q48');
+  updateTableCell(1250,48,'125q48');
+  updateTableCell(1500,48,'15q48');
+  updateTableCell(1750,48,'175q48');
+  updateTableCell(2000,48,'2q48');
 }
