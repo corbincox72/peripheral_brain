@@ -425,6 +425,16 @@ a img {
       align: center;
     }
 
+      /* Remove Incrementers on Numeric Fields */
+      input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+      }
+
+      input[type="number"] {
+          -moz-appearance: textfield;
+      }
+
     .inputCol{
       grid-column: 1/2;
     }
