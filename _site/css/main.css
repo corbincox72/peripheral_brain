@@ -301,7 +301,7 @@ a img {
     padding: 0.5em 0.75em;
     margin: 0;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
 
   header a:link, header a:visited, footer a:link, footer a:visited{
@@ -488,4 +488,15 @@ a img {
     .doseTable tr:first-child td:first-child {
       border-top: none;
       border-left: none;
+    }
+
+    /* Literature */
+    .tagSelection{
+      width: 100%;
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: auto auto auto;
+          grid-template-columns: auto auto auto;
+      grid-auto-flow: column;
+      padding: 0.75em;
     }

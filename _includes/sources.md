@@ -56,6 +56,12 @@ HLD
 [^jentzer2015]: Jentzer JC, Coons JC, Link CB, Schmidhofer M. Pharmacotherapy Update on the Use of Vasopressors and Inotropes in the Intensive Care Unit. *Journal of Cardiovascular Pharmacology and Therapeutics*. 2015;20(3):249-260. doi:[10.1177/1074248414559838](https://doi.org/10.1177/1074248414559838)
 
 {::comment}
+EKG Interpretation
+{:/comment}
+
+[^bmjEKG]: ABCs of Clinical Electrophysiology. BMJ. Section 1-15.
+
+{::comment}
 Critical Care
 {:/comment}
 

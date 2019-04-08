@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>EKG Interpretation | The Peripheral Brain</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="/peripheral_brain/css/main.css" />
+  <link rel="stylesheet" href="/peripheral_brain/css/mobile.css" />
+  <link rel="stylesheet" href="/peripheral_brain/css/buttons.css" />
+
+  
+    <link rel="stylesheet" href="/peripheral_brain/css/diseases.css">
+  
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/peripheral_brain/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/peripheral_brain/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/peripheral_brain/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/peripheral_brain/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/peripheral_brain/favicons/safari-pinned-tab.svg" color="#465c8b">
+  <link rel="shortcut icon" href="/peripheral_brain/favicons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="Peripheral Brain">
+  <meta name="application-name" content="Peripheral Brain">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/peripheral_brain/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#cdcdcd">
+
+
+  
+
+</head>
+
+
+<body class="body">
+<header id="myHeader" class="myHeader">
+  <nav>
+    <!-- <a href="/peripheral_brain/home.html"><img src="/peripheral_brain/images/logo_1000x1000.png" alt="Logo"> -->
+    <a href="/peripheral_brain/home.html">Home</a>
+    <a href="/peripheral_brain/disease_list.html">Diseases and Drugs</a>
+    <a href="/peripheral_brain/firstFive">TF5M</a>
+    <a href="/peripheral_brain/lab_values">Lab Values</a>
+    <a href="/peripheral_brain/formulas">Formulas</a>
+    <a href="/peripheral_brain/literature.html">Literature</a>
+    <a href="/peripheral_brain/abxCalc.html">Calculators</a>
+    <a href="/peripheral_brain/search.html">Search</a>
+    <a href="javascript:void(0);" class="icon" onclick="openMenu()">&#9776;</a>
+  </nav>
+
+  <script>
+  function openMenu() {
+      var x = document.getElementById("myHeader");
+      if (x.className === "myHeader") {
+          x.className += " responsive";
+      } else {
+          x.className = "myHeader";
+      }
+  }
+  </script>
+</header>
+
+
+<h1 class="title">EKG Interpretation</h1>
+
+<div class="contents twoCol">
+  <div class="toc col1">
+    
+      <ul>
+  <li><a href="#axis">Axis</a></li>
+  <li><a href="#rhythm-analysis">Rhythm Analysis<sup id="fnref:bmjEKG"><a href="#fn:bmjEKG" class="footnote">1</a></sup></a>
+    <ul>
+      <li><a href="#av-conduction-delays">AV Conduction Delays</a></li>
+      <li><a href="#bundle-branch-blocks">Bundle Branch Blocks</a></li>
+      <li><a href="#bradycardias">Bradycardias</a></li>
+      <li><a href="#atrial-tachycardias">Atrial Tachycardias</a></li>
+      <li><a href="#junctional-tachycardias">Junctional Tachycardias</a></li>
+      <li><a href="#wide-complex-tachycardias">Wide-Complex Tachycardias</a></li>
+    </ul>
+  </li>
+  <li><a href="#reference">Reference</a></li>
+</ul>
+
+    
+  </div>
+
+  <div class="content col2">
+    <p><img src="/peripheral_brain/images/ekgLayout.png" alt="EKG Layout" /></p>
+
+<h1 id="axis">Axis</h1>
+
+<ul>
+  <li>-30 to 90 is normal</li>
+  <li>Determine Axis
+    <ul>
+      <li>Look at I, II, and aVL QRS</li>
+      <li>I up ⇒ Right of vertical axis</li>
+      <li>II up ⇒ Between -30 and 150</li>
+      <li>aVF up ⇒ Below horizontal axis</li>
+    </ul>
+  </li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>Axis Direction</th>
+      <th>Interpretation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>I: ↑ <br />II: ↑↓<br />aVF: ↑</td>
+      <td>0 - 90</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>I: ↑ <br />II: ↑<br />aVF: ↓</td>
+      <td>-30 - 0</td>
+      <td>Small LAD</td>
+    </tr>
+    <tr>
+      <td>I: ↑ <br />II: ↓<br />aVF: ↓</td>
+      <td>-90 - -30</td>
+      <td>LAD</td>
+    </tr>
+    <tr>
+      <td>I: ↓ <br />II: ↑<br />aVF: ↑</td>
+      <td>90-150</td>
+      <td>RAD</td>
+    </tr>
+    <tr>
+      <td>I: ↓ <br />II: ↓<br />aVF: ↑</td>
+      <td>150 - 180</td>
+      <td>RAD</td>
+    </tr>
+    <tr>
+      <td>I: ↓ <br />II: ↓<br />aVF: ↓</td>
+      <td>-180 - -90</td>
+      <td>Extreme Axis Deviation</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="rhythm-analysis">Rhythm Analysis<sup id="fnref:bmjEKG"><a href="#fn:bmjEKG" class="footnote">1</a></sup></h1>
+
+<ul>
+  <li>Normal Rate: 60-100</li>
+  <li>Normal P-wave: &lt; 0.12s
+    <ul>
+      <li>Often biphasic in V1</li>
+      <li>Slight notch in precordial leads is normal</li>
+      <li>Notch w/ peak-peak interval &gt; 1mm (0.04s) is usually pathological</li>
+    </ul>
+  </li>
+  <li>Normal PR Interval: 0.12-0.2s</li>
+  <li>Normal QRS-complex: &lt; 0.1s
+    <ul>
+      <li>Non-pathological “septal” Q waves often present in I, aVL, V5, V6
+        <ul>
+          <li>Septal Q waves should be &lt; 2 small squares deep and &lt; 25% of R-wave amplitude</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Normal QTc: &lt; 0.5s
+    <ul>
+      <li>Shortcut: If T wave is at or past halfway between the preceding and next QRS complex w/o tachycardia, it is likely prolonged</li>
+      <li>QTc = $\text{QT}/\sqrt{\text{R-R interval (s)}}$</li>
+    </ul>
+  </li>
+  <li>Normal T Wave
+    <ul>
+      <li>Inversion in V1 normal, sometimes in V2</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="av-conduction-delays">AV Conduction Delays</h2>
+
+<ul>
+  <li>1st Degree HB
+    <ul>
+      <li>PR interval &gt; 0.2s</li>
+    </ul>
+  </li>
+  <li>2nd Degree HB
+    <ul>
+      <li>Mobitz Type I (Wenckebach): PR progressively lengthens until QRS is dropped, then returns to normal</li>
+      <li>Mobitz Type II: Intermittent failure, usually in a fixed ration, but PR interval does not change</li>
+    </ul>
+  </li>
+  <li>3rd Degree HB
+    <ul>
+      <li>No correlation between P and QRS, but both can still occur, QRS can be narrow if AV node is firing, or wide if ventricles are pacing</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="bundle-branch-blocks">Bundle Branch Blocks</h2>
+
+<ul>
+  <li>RBBB
+    <ul>
+      <li>QRS ≥ 0.12s</li>
+      <li>R’ in V1 or V2 (looks like a big M)</li>
+      <li>Slurred S wave in I, V5, and V6</li>
+      <li>Optional: ST depression and T wave inversion in right precordial leads</li>
+    </ul>
+  </li>
+  <li>LBBB
+    <ul>
+      <li>QRS &gt; 0.12s</li>
+      <li>Broad, monophonic R wave in I, V5, and V6</li>
+      <li>No Q wave in V5 or V6</li>
+      <li>Optional: ST-T displacement discordant to QRS complex</li>
+      <li>Optional: Poor R-wave progression</li>
+      <li>Optional: RS Complex instead of monophonic complex in V5 and V6</li>
+      <li>Optional: Left Axis Deviation (common, but not required)</li>
+    </ul>
+  </li>
+  <li>Fascicular Block
+    <ul>
+      <li>Anterior Block: Axis &lt; -30</li>
+      <li>Posterior Block: Axis &gt; 90</li>
+      <li>Bifasicular (RBBB and LA or LPBBB): RBBB and LABBB is more common, variable axis, but deviated</li>
+      <li>Trifasicular Block: Bifasicular + 1st Degree block =&gt; Complete heart block</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="bradycardias">Bradycardias</h2>
+
+<ul>
+  <li>Sick Sinus Syndrome
+    <ul>
+      <li>Rate &lt; 60, treat only if SSx</li>
+    </ul>
+  </li>
+  <li>SA Block vs SA Arrest
+    <ul>
+      <li>SA block: Pause length is a multiple of normal P-P interval</li>
+      <li>SA Arrest: Pause is not a multiple of normal P-P interval</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="atrial-tachycardias">Atrial Tachycardias</h2>
+
+<ul>
+  <li>Sinus Tach
+    <ul>
+      <li>Normal morphology and rate &gt; 100, rarely exceeds 200 BPM</li>
+    </ul>
+  </li>
+  <li>Afib
+    <ul>
+      <li>350-600 BPM atrial rate</li>
+      <li>100-180 BPM ventricle rate</li>
+    </ul>
+  </li>
+  <li>Aflutter
+    <ul>
+      <li>300 BPM atrial rate, morphologically distinct, unlike afib</li>
+      <li>Ventricles usually conducted 2:1, so rate is usually 150 BPM</li>
+    </ul>
+  </li>
+  <li>Atrial Tach
+    <ul>
+      <li>Ectopic atrial pulses of 150-250 BPM, notably P waves are abnormal compared to sinus tach</li>
+      <li>Usually 1:1 conduction</li>
+    </ul>
+  </li>
+  <li>Atrial tach w/ AV block is commonly seen w/ digoxin toxicity</li>
+</ul>
+
+<h2 id="junctional-tachycardias">Junctional Tachycardias</h2>
+
+<ul>
+  <li>Normal QRS morphology w/o accessory pathways (WPW)</li>
+  <li>AVNRT
+    <ul>
+      <li>Re-entry is in the node, leads to rapid ventricular rate with normal or absent P waves, and normal, regular QRS complexes</li>
+      <li>P-waves can occur at the end of the QRS (backwards conduction), leading to pseudo-S waves or pseudo-R waves depending on lead</li>
+    </ul>
+  </li>
+  <li>AVRT / WPW
+    <ul>
+      <li>Occur due to accessory pathway</li>
+      <li>WPW is prototypical, and can be conducted “prodromic” (normal direction) or “antidromic” (backwards)
+        <ul>
+          <li>Orthodromic divided into two types: A and B</li>
+          <li>Type A: Large R wave in all leads, may be RR’ in V1, can resemble RBBB, RVH, or posterior MI</li>
+          <li>Type B: Large S in V1-3 and r in V4-V6, can resemble LBBB and anterior MI</li>
+        </ul>
+      </li>
+      <li>Antidromic AVRTs have wide complexes, abnormal looking rhythm</li>
+      <li>Afib and WPW Can resemble vtach, w/ irregular broad complexes and the occasional narrow complex when conducted appropriately</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="wide-complex-tachycardias">Wide-Complex Tachycardias</h2>
+
+<ul>
+  <li>Changes in axis +/- 40 degree when arrhythmia arises ⇒ ventricular arrhythmia</li>
+  <li>Vtach vs SVT w/ BBB
+    <ul>
+      <li>RBBB Morphology: Ventricular if QRS &gt; 0.14s, Axis deviation, QS wave or negative complex in V6, concordance throughout chest leads, R or biphasic R in V1</li>
+      <li>LBBB Morphology: Venctricular if axis deviation, QRS &amp;gr; 0.16s, QD w/ negative complex in V6, concordance through chest leads, rS in V1</li>
+    </ul>
+  </li>
+</ul>
+
+<p>#Ischemia / Infarct</p>
+
+<p>#Hypertrophy</p>
+
+<h1 id="reference">Reference</h1>
+
+<!-- Cardiology -->
+
+<!-- ACS -->
+
+<!-- HTN -->
+
+<!-- VTE -->
+
+<!-- CHF -->
+
+<!-- HLD -->
+
+<!-- EKG Interpretation -->
+
+<!-- Critical Care -->
+
+<!-- RSI -->
+
+<!-- Hypotension Management -->
+
+<!-- Stress Ulcer Prophylaxis -->
+
+<!-- ID -->
+
+<!-- Vancomycin Dosing -->
+
+<!-- Aminoglycoside Dosing -->
+
+<!-- Pulmononolgy -->
+
+<!-- Endocrinology -->
+
+<!-- Textbooks -->
+
+<!-- Pharmacology -->
+
+<!-- Emergency Medicine -->
+
+<!-- Websites -->
+
+<!-- Drug Resources -->
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:bmjEKG">
+      <p>ABCs of Clinical Electrophysiology. BMJ. Section 1-15. <a href="#fnref:bmjEKG" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+
+</div>
+
+<div class="credits">
+  <p>Author: Corbin Cox <br>
+  Created: 2019-03-21 <br>
+  Last Updated: 2019-03-21</p>
+</div>
+
+<footer class="footer menus">
+  <nav>
+    <div class="footerLinks">
+      <a href="/peripheral_brain/home.html">Home</a>
+      <a href="/peripheral_brain/index.html">Disclaimer</a>
+      <a href="/peripheral_brain/disease_list_old.html">Archived Diseases</a>
+    </div>
+  </nav>
+</footer>
+
+
+</body>
+</html>

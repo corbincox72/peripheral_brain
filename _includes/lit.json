@@ -1,0 +1,19 @@
+{
+  "literature":[
+  {
+    "title": "Test 1",
+    "author": "Corbin Cox",
+    "pmid": "1234567",
+    "url": "http://www.google.com",
+    "summary": "This is a test entry created to test the capabilities of JSON.",
+    "tags": ["Intubation", "Airway"]
+  },
+  {
+    "title": "Alphabetic Test",
+    "author": "Corbin Cox",
+    "pmid": "12345678",
+    "url": "http://www.bing.com",
+    "summary": "This is a test entry created to test the capabilities of JSON 2.",
+    "tags": ["Intubation", "Sedation"]
+  }
+]}

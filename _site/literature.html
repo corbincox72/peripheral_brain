@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Diuretics (Incomplete) | The Peripheral Brain</title>
+  <title>Literature | The Peripheral Brain</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,8 +13,6 @@
   <link rel="stylesheet" href="/peripheral_brain/css/mobile.css" />
   <link rel="stylesheet" href="/peripheral_brain/css/buttons.css" />
 
-  
-    <link rel="stylesheet" href="/peripheral_brain/css/diseases.css">
   
 
 
@@ -71,27 +69,46 @@
 </header>
 
 
-<h1 class="title">Diuretics (Incomplete)</h1>
+<h1 class="title">Literature</h1>
 
-<div class="contents twoCol">
-  <div class="toc col1">
-    
-      
+<div class="contents">
+<div class="tagSelection"></div>
 
-    
-  </div>
+<button type="button" name="button" id="searchButton">Search</button>
 
-  <div class="content col2">
-    
-
-  </div>
-
+<div id="articles">
 </div>
 
-<div class="credits">
-  <p>Author: Corbin Cox <br>
-  Created: 2018-6-24 <br>
-  Last Updated: 2018-6-24</p>
+
+
+
+
+
+<script src="/peripheral_brain/javascript/lit.js"></script>
+<script type="text/javascript">
+  var text = `{
+  "literature":[
+  {
+    "title": "Test 1",
+    "author": "Corbin Cox",
+    "pmid": "1234567",
+    "url": "http://www.google.com",
+    "summary": "This is a test entry created to test the capabilities of JSON.",
+    "tags": ["Intubation", "Airway"]
+  },
+  {
+    "title": "Alphabetic Test",
+    "author": "Corbin Cox",
+    "pmid": "12345678",
+    "url": "http://www.bing.com",
+    "summary": "This is a test entry created to test the capabilities of JSON 2.",
+    "tags": ["Intubation", "Sedation"]
+  }
+]}
+`;
+  var lit = JSON.parse(text);
+</script>
+
 </div>
 
 <footer class="footer menus">
@@ -103,7 +120,6 @@
     </div>
   </nav>
 </footer>
-
 
 </body>
 </html>
