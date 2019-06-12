@@ -1,24 +1,16 @@
 ---
 layout: default
 title: Literature
-author: Corbin Cox
 exclude_from_search: true
 ---
 
-<div class="tagSelection"></div>
-
-<button type="button" name="button" id="searchButton">Search</button>
-
-<div id="articles">
-</div>
-
-
-
-
-
-
-<script src="{{ site.baseurl }}/javascript/lit.js"></script>
-<script type="text/javascript">
-  var text = `{% include lit.json %}`;
-  var lit = JSON.parse(text);
-</script>
+{% for post in site.posts %}
+    <h3><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></h3>
+    <p>{{ post.article_author }}</p>
+    <p>{{ post.article_year }}</p>
+    <p>Tags: 
+      {% for x in post.tags %}
+        {{ x }}
+      {% endfor %}
+    </p>
+{% endfor %}
