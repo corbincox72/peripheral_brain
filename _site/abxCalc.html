@@ -78,6 +78,26 @@
       <td colspan="2">Pt Demographics
     </tr>
     <tr>
+      <td>Method</td>
+      <td >
+        <select id="method" onchange="updateAll();">
+          <option value="methodist" selected>Methodist</option>
+          <option id="kayes" value="entered">Kayes</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Dosing</td>
+      <td >
+        <select id="dosingI" onchange="updateAll();">
+          <option value="aminoI">Aminoglycoside Initial</option>
+          <option value="aminoPT">Aminoglycoside Pk-Tr</option>
+          <option value="vancI">Vancomycin Initial</option>
+          <option selected value="vancPT">Vancomyin Pk-Tr</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
       <td>Ht (in)</td>
       <td><input type="number" id="htI" onkeyup="updateAll();"></td>
     </tr>
@@ -112,17 +132,6 @@
         <select id="sexI" onchange="updateAll();">
           <option value="m" selected>Male</option>
           <option value="f">Female</option>
-        </select>
-      </td>
-    </tr>
-    <tr>
-      <td>Dosing</td>
-      <td >
-        <select id="dosingI" onchange="updateAll();">
-          <option value="aminoI">Aminoglycoside Initial</option>
-          <option value="aminoPT">Aminoglycoside Pk-Tr</option>
-          <option value="vancI">Vancomycin Initial</option>
-          <option selected value="vancPT">Vancomyin Pk-Tr</option>
         </select>
       </td>
     </tr>
@@ -287,8 +296,6 @@
   </table>
 </div>
 
-<p class="caption, vancOnly" style="display: block;">Vancomycin Doses<sup>&dagger;</sup></p>
-
 <table class="calculator doseTable vancOnly">
     <tr>
       <td></td>
@@ -350,7 +357,8 @@
 
 <p class="aminoInitialOnly" style="display:none">*Aminoglycoside initial dosing Vd based on 0.3-0.35 L/kg</p>
 <p class="vancInitialOnly">* Vancomycin initial dosing Vd based on 0.6-0.7 L/kg</p>
-<p class="vancOnly"><sup>&dagger;</sup> t<sub>1/2</sub>=1 (1g), 1.5 (1.25, 1.5g), 2 (1.75, 2g)</p>
+<p class="vancOnly methodistOnly"><sup>&dagger;</sup> t<sub>inf</sub>=2hr</p>
+<p class="vancOnly kayesOnly" style="display:none"><sup>&dagger;</sup> t<sub>inf</sub>=1 (1g), 1.5 (1.25, 1.5g), 2 (1.75, 2g)</p>
 <p class="vancOnly">DO NOT EXCEED 15 MG/MIN VANCOMYCIN D/T INFUSION REACTIONS</p>
 
 

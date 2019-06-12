@@ -41,6 +41,13 @@ function hideExtra() {
   } else {
     $('.vancOnly').hide();
   }
+  if (method() == "methodist") {
+    $('.kayesOnly').hide();
+    $('.methodistOnly').show();
+  } else {
+    $('.kayesOnly').show();
+    $('.methodistOnly').hide();
+  }
   if (input == "aminoI") {
     $('.aminoInitialOnly').show();
   } else {
@@ -120,7 +127,11 @@ function lbw() {
 
 function dwt() {
   var x = pullDropdown("dosingI");
-  if (x == "vancI" || x == "vancPT") {
+  if (method() == "methodist" && wt() > ibw() ){
+    return adjbw();
+  } else if (method() == "methodist" && wt <= ibw()){
+    return wt();
+  } else if (x == "vancI" || x == "vancPT") {
     return wt();
   } else {
     if (wt() < ibw()) {
@@ -136,6 +147,8 @@ function dwt() {
 function crclWt(ht,gender) {
   if (wt() < ibw()) {
     return wt();
+  } else if (method() == "methodist") {
+    return adjbw();
   } else if (bmi() > 40){
     return lbw();
   } else {
@@ -254,6 +267,10 @@ function auc() {
 
 //Pulled Parameters
 
+function method(){
+  return pullDropdown("method");
+}
+
 function ht(){
   return pullText("htI");
 }
@@ -340,7 +357,9 @@ function tinf() {
 
 // Table Functions
 function tinfTable(dose){
-  if (dose == 1000) {
+  if (method() == "methodist") {
+    return 2;
+  } else if (dose == 1000) {
     return 1;
   } else if (dose == 1250) {
     return 1.5;
