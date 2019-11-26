@@ -37,7 +37,7 @@ C_{min} = C_{trough} e^{-k(t_{min} - t_{trough})}\\
 C[b] = C[a] e^{-k (a - b)}
 $$
 
-# Vancomycin [^dipiro]<sup>, </sup>[^rybak2009]<sup>, </sup>[^matzkel1984]<sup>, </sup>[^deryke2009] 
+# Vancomycin [^dipiro]<sup>, </sup>[^rybak2009]<sup>, </sup>[^matzkel1984]<sup>, </sup>[^deryke2009]
 
 **Peak:** 20-40 mg/L
 
@@ -67,9 +67,12 @@ $$\text{AUC}_{0-24\text{hr}} = \text{AUC}_{0-\tau} \frac{24}{\tau}$$
 
 See also: [Stanford Aminoglycoside Dosing Guidelines](http://med.stanford.edu/bugsanddrugs/dosing-protocols/_jcr_content/main/panel_builder/panel_0/download_2/file.res/Aminoglycoside%20Dosing%20Guide%202017-08-23.pdf)
 
-k &asymp; 0.00293 &times; CrCl + 0.014
+k &asymp; 0.0024 &times; CrCl + 0.01
+
 V<sub>d</sub> &asymp; 0.26 L/kg &times; Wt
+
 V<sub>d</sub> may be closer to 0.3-0.35 L/kg in critically ill pts due to fluid overload
+
 Use ABW if Wt/IBW &gt; 130%
 
 ## Traditional Dosing
@@ -113,7 +116,7 @@ for given infection site.
 
 4. Plot level on Hartford Nomogram (divide level by 2 for Amikacin)
 
-    -   If doses other than those above are used, multiplying the level by (expected)/(given) dose can help adjust properly for the nomogram, although this has less evidence 
+    -   If doses other than those above are used, multiplying the level by (expected)/(given) dose can help adjust properly for the nomogram, although this has less evidence
 
 5. Adjust interval per nomogram
 
